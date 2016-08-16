@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef ParentName="ExtractSeed">
+    <defName>ExtractSeedCotton</defName>
+    <label>extract cotton seeds</label>
+    <description>Extract seeds from Raw Cotton.</description>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawCotton</li>
+          </thingDefs>
+        </filter>
+        <count>25</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RawCotton</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <SeedCotton>5</SeedCotton>
+    </products>
+  </RecipeDef>
+  
+  <RecipeDef ParentName="ProcessRaw">
+    <defName>ProcessRawCotton</defName>
+    <label>weave cotton cloth</label>
+    <description>Weave Raw Cotton into Cloth.</description>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawCotton</li>
+          </thingDefs>
+        </filter>
+        <count>25</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RawCotton</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Cloth>25</Cloth>
+    </products>
+    <skillRequirements>
+         <li>
+            <skill>Crafting</skill>
+            <minLevel>4</minLevel>
+         </li>
+    </skillRequirements>
+  </RecipeDef>
+  
+  <RecipeDef ParentName="ExtractSeed">
+    <defName>ExtractSeedDevilstrand</defName>
+    <label>extract devilstrand seeds</label>
+    <description>Extract seeds from Raw Devilstrand.</description>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawDevilstrand</li>
+          </thingDefs>
+        </filter>
+        <count>25</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RawDevilstrand</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <SeedDevilstrand>5</SeedDevilstrand>
+    </products>
+  </RecipeDef>
+  
+  <RecipeDef ParentName="ProcessRaw">
+    <defName>ProcessRawDevilstrand</defName>
+    <label>weave devilstrand cloth</label>
+    <description>Weave Raw Devilstrand into Cloth.</description>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawDevilstrand</li>
+          </thingDefs>
+        </filter>
+        <count>25</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RawDevilstrand</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <DevilstrandCloth>25</DevilstrandCloth>
+    </products>
+    <skillRequirements>
+         <li>
+            <skill>Crafting</skill>
+            <minLevel>8</minLevel>
+         </li>
+    </skillRequirements>
+  </RecipeDef>
+</Defs>
