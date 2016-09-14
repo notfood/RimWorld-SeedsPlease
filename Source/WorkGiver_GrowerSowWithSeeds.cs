@@ -1,5 +1,7 @@
-﻿using RimWorld;
-using System;
+﻿using System;
+using System.Collections.Generic;
+
+using RimWorld;
 using Verse;
 using Verse.AI;
 
@@ -16,7 +18,8 @@ namespace SeedsPlease
 					&& PawnLocalAwareness.AnimalAwareOf (pawn, tempThing)
 					&& ReservationUtility.CanReserve (pawn, tempThing, 1);
 
-				Thing bestSeedThingForSowing = GenClosest.ClosestThingReachable (cell, ThingRequest.ForDef (job.plantDefToSow.blueprintDef), 
+				Thing bestSeedThingForSowing = GenClosest.ClosestThingReachable (
+					cell, ThingRequest.ForDef (job.plantDefToSow.blueprintDef), 
 					PathEndMode.ClosestTouch, TraverseParms.For (pawn, Danger.Deadly, TraverseMode.ByPawn, false), 9999,
 	                predicate, null, -1, false);
 				
@@ -28,6 +31,7 @@ namespace SeedsPlease
 				}
 				return null;
 			}
+
 			return job;
 		}
 	}

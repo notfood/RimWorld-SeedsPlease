@@ -38,7 +38,7 @@ namespace SeedsPlease
 				if (workDone >= plant.def.plant.harvestWork) {
 					if (plant.def.plant.harvestedThingDef != null) {
 						if (actor.RaceProps.Humanlike && plant.def.plant.harvestFailable && Rand.Value < actor.GetStatValue (StatDefOf.HarvestFailChance, true)) {
-							MoteThrower.ThrowText ((actor.DrawPos + plant.DrawPos) / 2, "HarvestFailed".Translate (), 220);
+							MoteMaker.ThrowText ((actor.DrawPos + plant.DrawPos) / 2, "HarvestFailed".Translate (), 220);
 						} else {
 							int plantYield = plant.YieldNow ();
 
@@ -93,7 +93,7 @@ namespace SeedsPlease
 
 			toil.WithEffect ("Harvest", TargetIndex.A);
 			toil.WithProgressBar (TargetIndex.A, () => workDone / Plant.def.plant.harvestWork, true, -0.5f);
-			toil.WithSustainer (() => Plant.def.plant.soundHarvesting);
+			toil.PlaySustainerOrSound (() => Plant.def.plant.soundHarvesting);
 
 			return toil;
 		}

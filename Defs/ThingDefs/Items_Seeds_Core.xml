@@ -4,13 +4,11 @@
     <label>potato seeds</label>
     <plant>PlantPotato</plant>
     <statBases>
-      <MarketValue>65</MarketValue>
+      <MarketValue>60</MarketValue>
     </statBases>
     <seed>
-      <harvestFactor>0.9</harvestFactor>
-      <seedFactor>1.3</seedFactor>
-      <baseChance>1.0</baseChance>
-      <extraChance>0.5</extraChance>
+      <baseChance>0.75</baseChance>
+      <extraChance>0.50</extraChance>
     </seed>
   </SeedsPlease.SeedDef>
   
@@ -19,12 +17,10 @@
     <label>corn seeds</label>
     <plant>PlantCorn</plant>
     <statBases>
-      <MarketValue>78</MarketValue>
+      <MarketValue>132</MarketValue>
     </statBases>
     <seed>
-      <harvestFactor>1.1</harvestFactor>
-      <seedFactor>1.2</seedFactor>
-      <baseChance>1.0</baseChance>
+      <baseChance>0.75</baseChance>
       <extraChance>0.25</extraChance>
     </seed>
   </SeedsPlease.SeedDef>
@@ -34,12 +30,11 @@
     <label>rice seeds</label>
     <plant>PlantRice</plant>
     <statBases>
-      <MarketValue>74</MarketValue>
+      <MarketValue>45</MarketValue>
     </statBases>
     <seed>
-      <harvestFactor>1.2</harvestFactor>
-      <seedFactor>1.1</seedFactor>
-      <baseChance>1.0</baseChance>
+      <seedFactor>1.5</seedFactor>
+      <baseChance>0.50</baseChance>
       <extraChance>0.25</extraChance>
     </seed>
   </SeedsPlease.SeedDef>
@@ -49,10 +44,9 @@
     <label>haygrass seeds</label>
     <plant>PlantHaygrass</plant>
     <statBases>
-      <MarketValue>70</MarketValue>
+      <MarketValue>68</MarketValue>
     </statBases>
     <seed>
-      <harvestFactor>1.5</harvestFactor>
       <seedFactor>1.5</seedFactor>
       <baseChance>1.0</baseChance>
       <extraChance>0.5</extraChance>
@@ -64,13 +58,12 @@
     <label>strawberry seeds</label>
     <plant>PlantStrawberry</plant>
     <statBases>
-      <MarketValue>76</MarketValue>
+      <MarketValue>70</MarketValue>
     </statBases>
     <seed>
-      <harvestFactor>1.2</harvestFactor>
-      <seedFactor>0.9</seedFactor>
-      <baseChance>0.9</baseChance>
-      <extraChance>0.2</extraChance>
+      <harvestFactor>1.5</harvestFactor>
+      <baseChance>0.50</baseChance>
+      <extraChance>0.25</extraChance>
     </seed>
   </SeedsPlease.SeedDef>
   
@@ -80,12 +73,11 @@
     <plant>PlantCotton</plant>
     <harvest>RawCotton</harvest>
     <statBases>
-      <MarketValue>90</MarketValue>
+      <MarketValue>76</MarketValue>
     </statBases>
     <seed>
-      <harvestFactor>1.0</harvestFactor>
-      <seedFactor>1.0</seedFactor>
-      <baseChance>1.0</baseChance>
+      <seedFactor>1.50</seedFactor>
+      <baseChance>0.5</baseChance>
       <extraChance>0.5</extraChance>
     </seed>
   </SeedsPlease.SeedDef>
@@ -99,10 +91,8 @@
       <MarketValue>350</MarketValue>
     </statBases>
     <seed>
-      <harvestFactor>1.0</harvestFactor>
-      <seedFactor>3.0</seedFactor>
-      <baseChance>0.25</baseChance>
-      <extraChance>0.5</extraChance>
+      <baseChance>0.5</baseChance>
+      <extraChance>0.25</extraChance>
     </seed>
   </SeedsPlease.SeedDef>
   
@@ -114,9 +104,7 @@
       <MarketValue>400</MarketValue>
     </statBases>
     <seed>
-      <harvestFactor>1.0</harvestFactor>
-      <seedFactor>0.9</seedFactor>
-      <baseChance>0.75</baseChance>
+      <baseChance>0.50</baseChance>
       <extraChance>0.25</extraChance>
     </seed>
   </SeedsPlease.SeedDef>
@@ -126,13 +114,11 @@
     <label>hops seeds</label>
     <plant>PlantHops</plant>
     <statBases>
-      <MarketValue>75</MarketValue>
+      <MarketValue>80</MarketValue>
     </statBases>
     <seed>
-      <harvestFactor>1.1</harvestFactor>
-      <seedFactor>1.1</seedFactor>
-      <baseChance>1.0</baseChance>
-      <extraChance>0.1</extraChance>
+      <baseChance>0.75</baseChance>
+      <extraChance>0.25</extraChance>
     </seed>
   </SeedsPlease.SeedDef>
 
@@ -141,12 +127,11 @@
     <label>treeoak seeds</label>
     <plant>PlantTreeOak</plant>
     <statBases>
-      <MarketValue>80</MarketValue>
+      <MarketValue>70</MarketValue>
     </statBases>
     <seed>
-      <harvestFactor>1.0</harvestFactor>
       <seedFactor>1.5</seedFactor>
-      <baseChance>0.75</baseChance>
+      <baseChance>0.5</baseChance>
       <extraChance>0.25</extraChance>
     </seed>
   </SeedsPlease.SeedDef>
@@ -156,12 +141,11 @@
     <label>treepoplar seeds</label>
     <plant>PlantTreePoplar</plant>
     <statBases>
-      <MarketValue>70</MarketValue>
+      <MarketValue>84</MarketValue>
     </statBases>
     <seed>
-      <harvestFactor>1.0</harvestFactor>
       <seedFactor>1.5</seedFactor>
-      <baseChance>0.75</baseChance>
+      <baseChance>0.5</baseChance>
       <extraChance>0.25</extraChance>
     </seed>
   </SeedsPlease.SeedDef>
@@ -171,10 +155,9 @@
     <label>treepine seeds</label>
     <plant>PlantTreePine</plant>
     <statBases>
-      <MarketValue>85</MarketValue>
+      <MarketValue>84</MarketValue>
     </statBases>
     <seed>
-      <harvestFactor>1.0</harvestFactor>
       <seedFactor>1.5</seedFactor>
       <baseChance>0.75</baseChance>
       <extraChance>0.25</extraChance>
@@ -186,10 +169,9 @@
     <label>treebirch seeds</label>
     <plant>PlantTreeBirch</plant>
     <statBases>
-      <MarketValue>80</MarketValue>
+      <MarketValue>84</MarketValue>
     </statBases>
     <seed>
-      <harvestFactor>1.0</harvestFactor>
       <seedFactor>1.5</seedFactor>
       <baseChance>0.75</baseChance>
       <extraChance>0.25</extraChance>
@@ -201,13 +183,11 @@
     <label>treeteak seeds</label>
     <plant>PlantTreeTeak</plant>
     <statBases>
-      <MarketValue>90</MarketValue>
+      <MarketValue>168</MarketValue>
     </statBases>
     <seed>
-      <harvestFactor>1.0</harvestFactor>
-      <seedFactor>1.5</seedFactor>
       <baseChance>0.75</baseChance>
-      <extraChance>0.25</extraChance>
+      <extraChance>0.5</extraChance>
     </seed>
   </SeedsPlease.SeedDef>
   
@@ -216,13 +196,12 @@
     <label>treececropia seeds</label>
     <plant>PlantTreeCecropia</plant>
     <statBases>
-      <MarketValue>100</MarketValue>
+      <MarketValue>56</MarketValue>
     </statBases>
     <seed>
-      <harvestFactor>1.0</harvestFactor>
-      <seedFactor>1.5</seedFactor>
+      <seedFactor>2.0</seedFactor>
       <baseChance>0.75</baseChance>
-      <extraChance>0.25</extraChance>
+      <extraChance>0.5</extraChance>
     </seed>
   </SeedsPlease.SeedDef>
 </Defs>

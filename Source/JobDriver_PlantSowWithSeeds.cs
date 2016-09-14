@@ -125,7 +125,7 @@ namespace SeedsPlease
 			toil.FailOnDespawnedNullOrForbidden (TargetIndex.A);
 			toil.WithEffect ("Sow", TargetIndex.A);
 			toil.WithProgressBar (TargetIndex.A, () => sowWorkDone / CurJob.plantDefToSow.plant.sowWork, true, -0.5f);
-			toil.WithSustainer (() => SoundDefOf.Interact_Sow);
+			toil.PlaySustainerOrSound (() => SoundDefOf.Interact_Sow);
 			toil.AddFinishAction (delegate {
 				Pawn actor = toil.actor;
 				Job job = actor.jobs.curJob;
