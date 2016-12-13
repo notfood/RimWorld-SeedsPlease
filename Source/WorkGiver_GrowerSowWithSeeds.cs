@@ -19,14 +19,14 @@ namespace SeedsPlease
 					&& ReservationUtility.CanReserve (pawn, tempThing, 1);
 
 				Thing bestSeedThingForSowing = GenClosest.ClosestThingReachable (
-					cell, ThingRequest.ForDef (job.plantDefToSow.blueprintDef), 
+					cell, pawn.Map, ThingRequest.ForDef (job.plantDefToSow.blueprintDef), 
 					PathEndMode.ClosestTouch, TraverseParms.For (pawn, Danger.Deadly, TraverseMode.ByPawn, false), 9999,
 	                predicate, null, -1, false);
 				
 				if (bestSeedThingForSowing != null) {
 					return new Job (LocalJobDefOf.SowWithSeeds, cell, bestSeedThingForSowing) {
 						plantDefToSow = job.plantDefToSow,
-						maxNumToCarry = 25
+						count = 25
 					};
 				}
 				return null;

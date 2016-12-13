@@ -14,11 +14,19 @@ namespace SeedsPlease
 
 		protected override IEnumerable<Toil> MakeNewToils ()
 		{
-			ToilFailConditions.FailOnDestroyedNullOrForbidden<JobDriver_PlantHarvestWithSeeds> (this, TargetIndex.A);
+			yield return Toils_JobTransforms.MoveCurrentTargetIntoQueue (TargetIndex.A);
+			yield return Toils_Reserve.ReserveQueue (TargetIndex.A, 1);
 
-			yield return Toils_Reserve.Reserve (TargetIndex.A, 1);
-			yield return Toils_Goto.GotoThing (TargetIndex.A, PathEndMode.Touch);
+			var init = Toils_JobTransforms.ClearDespawnedNullOrForbiddenQueuedTargets (TargetIndex.A);
+
+			yield return init;
+			yield return Toils_JobTransforms.ExtractNextTargetFromQueue (TargetIndex.A);
+
+			var clear = Toils_JobTransforms.ClearDespawnedNullOrForbiddenQueuedTargets (TargetIndex.A);
+			yield return Toils_Goto.GotoThing (TargetIndex.A, PathEndMode.Touch).JumpIfDespawnedOrNullOrForbidden (TargetIndex.A, clear);
+
 			yield return HarvestSeedsToil();
+			yield return Toils_Jump.JumpIfHaveTargetInQueue (TargetIndex.A, init);
 			yield return Toils_General.RemoveDesignationsOnThing (TargetIndex.A, DesignationDefOf.HarvestPlant);
 			yield break;
 		}
@@ -38,7 +46,7 @@ namespace SeedsPlease
 				if (workDone >= plant.def.plant.harvestWork) {
 					if (plant.def.plant.harvestedThingDef != null) {
 						if (actor.RaceProps.Humanlike && plant.def.plant.harvestFailable && Rand.Value < actor.GetStatValue (StatDefOf.HarvestFailChance, true)) {
-							MoteMaker.ThrowText ((actor.DrawPos + plant.DrawPos) / 2, "HarvestFailed".Translate (), 220);
+							MoteMaker.ThrowText ((actor.DrawPos + plant.DrawPos) / 2, actor.Map, "HarvestFailed".Translate (), 220);
 						} else {
 							int plantYield = plant.YieldNow ();
 
@@ -59,7 +67,7 @@ namespace SeedsPlease
 									Thing seeds = ThingMaker.MakeThing (seedDef, null);
 									seeds.stackCount = Mathf.RoundToInt(seedDef.seed.seedFactor * count);
 
-									GenPlace.TryPlaceThing (seeds, actor.Position, ThingPlaceMode.Near);
+									GenPlace.TryPlaceThing (seeds, actor.Position, actor.Map, ThingPlaceMode.Near);
 								}
 
 								plantYield = Mathf.RoundToInt(plantYield * seedDef.seed.harvestFactor);
@@ -75,7 +83,7 @@ namespace SeedsPlease
 								if (actor.Faction != Faction.OfPlayer) {
 									thing.SetForbidden (true, true);
 								}
-								GenPlace.TryPlaceThing (thing, actor.Position, ThingPlaceMode.Near, null);
+								GenPlace.TryPlaceThing (thing, actor.Position, actor.Map, ThingPlaceMode.Near, null);
 							}
 
 							actor.records.Increment (RecordDefOf.PlantsHarvested);
@@ -90,8 +98,7 @@ namespace SeedsPlease
 			};
 
 			toil.FailOnDespawnedNullOrForbidden (TargetIndex.A);
-
-			toil.WithEffect ("Harvest", TargetIndex.A);
+			toil.WithEffect (EffecterDefOf.Harvest, TargetIndex.A);
 			toil.WithProgressBar (TargetIndex.A, () => workDone / Plant.def.plant.harvestWork, true, -0.5f);
 			toil.PlaySustainerOrSound (() => Plant.def.plant.soundHarvesting);
 

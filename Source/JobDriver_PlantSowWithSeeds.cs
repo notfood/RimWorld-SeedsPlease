@@ -62,13 +62,13 @@ namespace SeedsPlease
 				Job job = CurJob;
 				if ( IsActorCarryingAppropriateSeed (actor, job.plantDefToSow) ) {
 					
-					Plant plant = (Plant) GenSpawn.Spawn (job.plantDefToSow, TargetLocA);
+					Plant plant = (Plant) GenSpawn.Spawn (job.plantDefToSow, TargetLocA, actor.Map);
 					plant.Growth = 0;
 					plant.sown = true;
 
 					job.targetC = plant;
 
-					Find.Reservations.Reserve(actor, job.targetC, 1);
+					actor.Reserve(job.targetC, 1);
 
 					sowWorkDone = 0;
 				} else {
@@ -79,7 +79,7 @@ namespace SeedsPlease
 				Pawn actor = toil.actor;
 				Job job = actor.jobs.curJob;
 
-				TargetInfo target = job.targetC;
+				LocalTargetInfo target = job.targetC;
 
 				Plant plant = (Plant) target.Thing;
 
@@ -101,11 +101,13 @@ namespace SeedsPlease
 						return;
 					}
 
-					if (actor.carrier.CarriedThing.stackCount <= 1) {
-						actor.carrier.CarriedThing.Destroy (DestroyMode.Cancel);
+
+
+					if (actor.carryTracker.CarriedThing.stackCount <= 1) {
+						actor.carryTracker.CarriedThing.Destroy (DestroyMode.Cancel);
 					}
 					else {
-						actor.carrier.CarriedThing.stackCount--;
+						actor.carryTracker.CarriedThing.stackCount--;
 					}
 						
 					if (actor.story.traits.HasTrait (TraitDefOf.GreenThumb)) {
@@ -114,7 +116,7 @@ namespace SeedsPlease
 
 					plant.Growth = 0.05f;
 
-					Find.MapDrawer.MapMeshDirty (plant.Position, MapMeshFlag.Things);
+					plant.Map.mapDrawer.MapMeshDirty (plant.Position, MapMeshFlag.Things);
 
 					actor.records.Increment (RecordDefOf.PlantsSown);
 
@@ -123,7 +125,7 @@ namespace SeedsPlease
 			};
 			toil.defaultCompleteMode = ToilCompleteMode.Never;
 			toil.FailOnDespawnedNullOrForbidden (TargetIndex.A);
-			toil.WithEffect ("Sow", TargetIndex.A);
+			toil.WithEffect (EffecterDefOf.Sow, TargetIndex.A);
 			toil.WithProgressBar (TargetIndex.A, () => sowWorkDone / CurJob.plantDefToSow.plant.sowWork, true, -0.5f);
 			toil.PlaySustainerOrSound (() => SoundDefOf.Interact_Sow);
 			toil.AddFinishAction (delegate {
@@ -137,7 +139,8 @@ namespace SeedsPlease
 						thing.Destroy (DestroyMode.Vanish);
 					}
 
-					Find.Reservations.Release(job.targetC, actor);
+					actor.Map.reservationManager.Release(job.targetC, actor);
+
 					job.targetC = null;
 				}
 			});
@@ -153,7 +156,7 @@ namespace SeedsPlease
 				Job job = actor.jobs.curJob;
 
 				IntVec3 intVec;
-				if ( IsActorCarryingAppropriateSeed (actor, job.plantDefToSow) && GetNearbyPlantingSite (job.GetTarget (TargetIndex.A).Cell, out intVec) ) {
+				if ( IsActorCarryingAppropriateSeed (actor, job.plantDefToSow) && GetNearbyPlantingSite (job.GetTarget (TargetIndex.A).Cell, actor.Map, out intVec) ) {
 					job.SetTarget (TargetIndex.A, intVec);
 
 					return;
@@ -165,17 +168,17 @@ namespace SeedsPlease
 			return toil;
 		}
 
-		private bool GetNearbyPlantingSite (IntVec3 originPos, out IntVec3 newSite)
+		private bool GetNearbyPlantingSite (IntVec3 originPos, Map map, out IntVec3 newSite)
 		{
-			Predicate<IntVec3> validator = (IntVec3 tempCell) => IsCellOpenForSowingPlantOfType (tempCell, CurJob.plantDefToSow) 
+			Predicate<IntVec3> validator = (IntVec3 tempCell) => IsCellOpenForSowingPlantOfType (tempCell, map, CurJob.plantDefToSow) 
 				&& ReservationUtility.CanReserveAndReach (GetActor (), tempCell, PathEndMode.Touch, DangerUtility.NormalMaxDanger (GetActor ()), 1);
 
-			return CellFinder.TryFindRandomCellNear (originPos, 5, validator, out newSite);
+			return CellFinder.TryFindRandomCellNear (originPos, map, 5, validator, out newSite);
 		}
 
-		private static bool IsCellOpenForSowingPlantOfType (IntVec3 cell, ThingDef plantDef)
+		private static bool IsCellOpenForSowingPlantOfType (IntVec3 cell, Map map, ThingDef plantDef)
 		{
-			IPlantToGrowSettable playerSetPlantForCell = GetPlayerSetPlantForCell (cell);
+			IPlantToGrowSettable playerSetPlantForCell = GetPlayerSetPlantForCell (cell, map);
 			if (playerSetPlantForCell == null || !playerSetPlantForCell.CanAcceptSowNow ()) {
 				return false;
 			}
@@ -185,38 +188,38 @@ namespace SeedsPlease
 				return false;
 			}
 
-			if (GridsUtility.GetPlant (cell) != null) {
+			if (GridsUtility.GetPlant (cell, map) != null) {
 				return false;
 			}
 
-			if (GenPlant.AdjacentSowBlocker (plantDefToGrow, cell) != null) {
+			if (GenPlant.AdjacentSowBlocker (plantDefToGrow, cell, map) != null) {
 				return false;
 			}
 
-			foreach (Thing current in Find.ThingGrid.ThingsListAt (cell)) {
+			foreach (Thing current in map.thingGrid.ThingsListAt (cell)) {
 				if (current.def.BlockPlanting) {
 					return false;
 				}
 			}
-			return (GenPlant.CanEverPlantAt (plantDefToGrow, cell) && GenPlant.GrowthSeasonNow (cell));
+			return (GenPlant.CanEverPlantAt (plantDefToGrow, cell, map) && GenPlant.GrowthSeasonNow (cell, map));
 		}
 
-		private static IPlantToGrowSettable GetPlayerSetPlantForCell (IntVec3 cell)
+		private static IPlantToGrowSettable GetPlayerSetPlantForCell (IntVec3 cell, Map map)
 		{
-			IPlantToGrowSettable plantToGrowSettable = GridsUtility.GetEdifice (cell) as IPlantToGrowSettable;
+			IPlantToGrowSettable plantToGrowSettable = GridsUtility.GetEdifice (cell, map) as IPlantToGrowSettable;
 			if (plantToGrowSettable == null) {
-				plantToGrowSettable = (Find.ZoneManager.ZoneAt (cell) as IPlantToGrowSettable);
+				plantToGrowSettable = (map.zoneManager.ZoneAt (cell) as IPlantToGrowSettable);
 			}
 			return plantToGrowSettable;
 		}
 
 		private static bool IsActorCarryingAppropriateSeed (Pawn pawn, ThingDef thingDef)
 		{
-			if (pawn.carrier == null) {
+			if (pawn.carryTracker == null) {
 				return false;
 			}
 
-			Thing carriedThing = pawn.carrier.CarriedThing;
+			Thing carriedThing = pawn.carryTracker.CarriedThing;
 			if (carriedThing == null || carriedThing.stackCount < 1) {
 				return false;
 			}
