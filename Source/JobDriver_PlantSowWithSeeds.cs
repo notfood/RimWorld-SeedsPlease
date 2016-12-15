@@ -34,15 +34,22 @@ namespace SeedsPlease
 
 		protected override IEnumerable<Toil> MakeNewToils ()
 		{
-			ToilFailConditions.FailOnBurningImmobile<JobDriver_PlantSowWithSeeds> (this, TargetIndex.A);
-			ToilFailConditions.FailOnDestroyedOrNull<JobDriver_PlantSowWithSeeds> (this, TargetIndex.B);
-			ToilFailConditions.FailOnForbidden<JobDriver_PlantSowWithSeeds> (this, TargetIndex.B);
+			this.FailOnDespawnedNullOrForbidden (TargetIndex.A);
 
 			yield return Toils_Reserve.Reserve (TargetIndex.A, 1);
-			yield return Toils_Reserve.Reserve (TargetIndex.B, 1);
-			yield return Toils_Reserve.ReserveQueue (TargetIndex.B, 1);
-			yield return Toils_Goto.GotoThing (TargetIndex.B, PathEndMode.ClosestTouch);
-			yield return Toils_Haul.StartCarryThing (TargetIndex.B);
+
+			var reserveSeeds = Toils_Reserve.Reserve (TargetIndex.B, 1);
+			yield return reserveSeeds;
+
+			yield return Toils_Goto.GotoThing (TargetIndex.B, PathEndMode.ClosestTouch)
+				.FailOnDespawnedNullOrForbidden (TargetIndex.B)
+				.FailOnSomeonePhysicallyInteracting (TargetIndex.B);
+
+			yield return Toils_Haul.StartCarryThing (TargetIndex.B, false, false)
+				.FailOnDestroyedNullOrForbidden (TargetIndex.B);
+
+			Toils_Haul.CheckForGetOpportunityDuplicate (reserveSeeds, TargetIndex.B, TargetIndex.None, false, null);
+
 			Toil toil = Toils_Goto.GotoCell (TargetIndex.A, PathEndMode.Touch);
 			yield return toil;
 			yield return SowSeedToil();
