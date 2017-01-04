@@ -1,5 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ThingDefs>
+  <ThingDef Name="BuildingBase" Abstract="True">
+    <category>Building</category>
+    <thingClass>Building</thingClass>
+    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+    <selectable>true</selectable>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <repairEffect>Repair</repairEffect>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <filthLeaving>BuildingRubble</filthLeaving>
+  </ThingDef>
+  
+  <ThingDef Name="BenchBase" ParentName="BuildingBase" Abstract="True">
+    <castEdgeShadows>true</castEdgeShadows>
+    <staticSunShadowHeight>0.20</staticSunShadowHeight>
+    <building>
+      <workSpeedPenaltyOutdoors>true</workSpeedPenaltyOutdoors>
+      <workSpeedPenaltyTemperature>true</workSpeedPenaltyTemperature>
+    </building>
+    <comps>
+      <li>
+        <compClass>CompReportWorkSpeed</compClass>
+      </li>
+    </comps>
+    <placeWorkers>
+      <li>PlaceWorker_ReportWorkSpeedPenalties</li>
+    </placeWorkers>
+  </ThingDef>
+  
   <ThingDef ParentName="BenchBase">
     <defName>PlantProcessingTable</defName>
     <label>Plant Processing Bench</label>

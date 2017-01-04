@@ -3,9 +3,6 @@
     <defName>SeedPotato</defName>
     <label>potato seeds</label>
     <plant>PlantPotato</plant>
-    <statBases>
-      <MarketValue>60</MarketValue>
-    </statBases>
     <seed>
       <baseChance>0.75</baseChance>
       <extraChance>0.50</extraChance>
@@ -16,9 +13,6 @@
     <defName>SeedCorn</defName>
     <label>corn seeds</label>
     <plant>PlantCorn</plant>
-    <statBases>
-      <MarketValue>132</MarketValue>
-    </statBases>
     <seed>
       <baseChance>0.75</baseChance>
       <extraChance>0.25</extraChance>
@@ -29,11 +23,7 @@
     <defName>SeedRice</defName>
     <label>rice seeds</label>
     <plant>PlantRice</plant>
-    <statBases>
-      <MarketValue>45</MarketValue>
-    </statBases>
     <seed>
-      <seedFactor>1.5</seedFactor>
       <baseChance>0.50</baseChance>
       <extraChance>0.25</extraChance>
     </seed>
@@ -43,11 +33,7 @@
     <defName>SeedHaygrass</defName>
     <label>haygrass seeds</label>
     <plant>PlantHaygrass</plant>
-    <statBases>
-      <MarketValue>68</MarketValue>
-    </statBases>
     <seed>
-      <seedFactor>1.5</seedFactor>
       <baseChance>1.0</baseChance>
       <extraChance>0.5</extraChance>
     </seed>
@@ -57,11 +43,7 @@
     <defName>SeedStrawberry</defName>
     <label>strawberry seeds</label>
     <plant>PlantStrawberry</plant>
-    <statBases>
-      <MarketValue>70</MarketValue>
-    </statBases>
     <seed>
-      <harvestFactor>1.5</harvestFactor>
       <baseChance>0.50</baseChance>
       <extraChance>0.25</extraChance>
     </seed>
@@ -73,10 +55,9 @@
     <plant>PlantCotton</plant>
     <harvest>RawCotton</harvest>
     <statBases>
-      <MarketValue>76</MarketValue>
+      <MarketValue>40</MarketValue>
     </statBases>
     <seed>
-      <seedFactor>1.50</seedFactor>
       <baseChance>0.5</baseChance>
       <extraChance>0.5</extraChance>
     </seed>
@@ -88,7 +69,7 @@
     <plant>PlantDevilstrand</plant>
     <harvest>RawDevilstrand</harvest>
     <statBases>
-      <MarketValue>350</MarketValue>
+      <MarketValue>80</MarketValue>
     </statBases>
     <seed>
       <baseChance>0.5</baseChance>
@@ -101,7 +82,7 @@
     <label>healroot seeds</label>
     <plant>PlantHealroot</plant>
     <statBases>
-      <MarketValue>400</MarketValue>
+      <MarketValue>65</MarketValue>
     </statBases>
     <seed>
       <baseChance>0.50</baseChance>
@@ -114,7 +95,7 @@
     <label>hops seeds</label>
     <plant>PlantHops</plant>
     <statBases>
-      <MarketValue>80</MarketValue>
+      <MarketValue>55</MarketValue>
     </statBases>
     <seed>
       <baseChance>0.75</baseChance>
@@ -126,9 +107,6 @@
     <defName>SeedTreeOak</defName>
     <label>treeoak seeds</label>
     <plant>PlantTreeOak</plant>
-    <statBases>
-      <MarketValue>70</MarketValue>
-    </statBases>
     <seed>
       <seedFactor>1.5</seedFactor>
       <baseChance>0.5</baseChance>
@@ -140,9 +118,6 @@
     <defName>SeedTreePoplar</defName>
     <label>treepoplar seeds</label>
     <plant>PlantTreePoplar</plant>
-    <statBases>
-      <MarketValue>84</MarketValue>
-    </statBases>
     <seed>
       <seedFactor>1.5</seedFactor>
       <baseChance>0.5</baseChance>
@@ -154,9 +129,6 @@
     <defName>SeedTreePine</defName>
     <label>treepine seeds</label>
     <plant>PlantTreePine</plant>
-    <statBases>
-      <MarketValue>84</MarketValue>
-    </statBases>
     <seed>
       <seedFactor>1.5</seedFactor>
       <baseChance>0.75</baseChance>
@@ -168,9 +140,6 @@
     <defName>SeedTreeBirch</defName>
     <label>treebirch seeds</label>
     <plant>PlantTreeBirch</plant>
-    <statBases>
-      <MarketValue>84</MarketValue>
-    </statBases>
     <seed>
       <seedFactor>1.5</seedFactor>
       <baseChance>0.75</baseChance>
@@ -182,9 +151,6 @@
     <defName>SeedTreeTeak</defName>
     <label>treeteak seeds</label>
     <plant>PlantTreeTeak</plant>
-    <statBases>
-      <MarketValue>168</MarketValue>
-    </statBases>
     <seed>
       <baseChance>0.75</baseChance>
       <extraChance>0.5</extraChance>
@@ -195,9 +161,6 @@
     <defName>SeedTreeCecropia</defName>
     <label>treececropia seeds</label>
     <plant>PlantTreeCecropia</plant>
-    <statBases>
-      <MarketValue>56</MarketValue>
-    </statBases>
     <seed>
       <seedFactor>2.0</seedFactor>
       <baseChance>0.75</baseChance>

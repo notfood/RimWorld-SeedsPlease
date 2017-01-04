@@ -40,7 +40,7 @@ for file in sys.argv[1:]:
         splant.text = defName.text
         sstatBases = etree.SubElement(sthingDef, 'statBases')
         sMarketValue = etree.SubElement(sstatBases, 'MarketValue')
-        sMarketValue.text = '100'
+        sMarketValue.text = '0'
         sseed = etree.SubElement(sthingDef, 'seed')
         sharvestFactor = etree.SubElement(sseed, 'harvestFactor')
         sharvestFactor.text = '1.0'

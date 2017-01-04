@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
+using UnityEngine;
 using RimWorld;
 using Verse;
 
@@ -9,30 +10,6 @@ namespace SeedsPlease
 {
 	public class SeedDef : ThingDef
 	{
-		/*
-		static SeedDef() {
-			Log.Message ("hmmm");
-
-			var inject = new Dictionary<string, int> () {
-				"Caravan_Outlander_BulkGoods", new StockGenerator_Tag() {tradetag}
-			};
-
-			var traders = (
-				from modpack in LoadedModManager.RunningMods 
-				from trader in modpack.AllDefs
-				where inject.Keys.Contains(trader.defName)
-				select trader
-			);
-
-			foreach (var trader in traders) {
-				Log.Message (">" + x);
-
-
-			}
-
-			Log.Message("! " + DefDatabase<TraderKindDef>.DefCount);
-		}*/
-
 		public SeedProperties seed;
 		public new ThingDef plant;
 		public ThingDef harvest;
@@ -50,74 +27,34 @@ namespace SeedsPlease
 				}
 			}
 
+			if (BaseMarketValue == 0) {
+				var harvestedThingDef = plant.plant.harvestedThingDef;
 
-			//MarketValue = RoundUpToNearestHundredth(BaseMarketValue * UtilityValue) * (harvestYield / growDays) * (SeedsProduced * SeedChance * (1 + ExtraChance)) * (21 - sowMinSkill)
+				var value = harvestedThingDef.BaseMarketValue * plant.plant.harvestYield;
 
-			//UtilityValue = 1 + (IsColonistIngestible * 0.1) + (IsAnimalIngestible * 0.05) + (craftingRecipesCount * 0.01) + (IsMedicinal * 0.1) 
-			/*
-			float utility = 1f;
-			if (plant.plant.harvestedThingDef.ingestible != null) {
-				if (plant.plant.harvestedThingDef.ingestible.HumanEdible) {
-					utility += 0.1f;
+				if (plant.plant.blockAdjacentSow) {
+					value /= 9f;
 				}
-				if (plant.plant.harvestedThingDef.ingestible.nutrition > 0f){
-					utility += 0.05f;
+
+				if (harvestedThingDef == ThingDefOf.WoodLog) {
+					value *= 2f;
+				} else if (harvestedThingDef.IsAddictiveDrug) {
+					value *= 3f;
+				} else if (harvestedThingDef.IsDrug) {
+					value *= 2f;
+				} else if (harvestedThingDef.IsMedicine) {
+					value *= 1.5f;
 				}
+
+				value *= Mathf.Lerp(0.8f, 1.6f, (float) plant.plant.sowMinSkill / 20f);
+
+				BaseMarketValue = Mathf.Ceil(value / 5f) * 5f;
+
+				#if(DEBUG)
+				Log.Message ("\t" + plant + " => " + BaseMarketValue);
+				#endif
 			}
 
-			var recipes = (
-				from recipe in DefDatabase<RecipeDef>.AllDefs
-				where recipe.IsIngredient(plant.plant.harvestedThingDef)
-				select recipe
-			);
-
-			int recipeCount = recipes.Count ();
-
-			utility += recipeCount * 0.01f;
-
-			var medicinalRecipes = (
-				from recipe in recipes
-				where recipe.defName == ""
-				select recipe
-			);
-
-			int medicinalRecipesCount = medicinalRecipes.Count ();
-
-			if (medicinalRecipesCount > 0) {
-				utility += 0.1f;
-			}*/
-			/*
-			float marketValue = plant.plant.harvestedThingDef.BaseMarketValue * utility;
-
-			if (plant.plant.growDays > 0) {
-				marketValue *= plant.plant.harvestYield / plant.plant.growDays;
-			}
-			marketValue *= seed.seedFactor * seed.baseChance * (1 + seed.extraChance) * (21 - plant.plant.sowMinSkill);
-
-			BaseMarketValue = Mathf.Round(marketValue);
-
-			Log.Message ("> " + plant + " has " + BaseMarketValue + " seed value for " + utility + " utility");
-
-
-
-			*/
-
-			/*if (BaseMarketValue == 0) {
-			if (plant.plant.harvestedThingDef.ingestible != null) {
-				BaseMarketValue = 2f;
-			} else {
-				BaseMarketValue = 2.5f;
-			}
-			BaseMarketValue *= plant.plant.harvestedThingDef.BaseMarketValue * plant.plant.harvestYield * seed.harvestFactor;
-			//BaseMarketValue *= (5 - plant.plant.growDays) / 5;
-			BaseMarketValue *= (1 + plant.plant.sowMinSkill) / 5f;
-
-			Log.Message (plant + " Harvest: " + plant.plant.harvestedThingDef.BaseMarketValue);
-			Log.Message (plant + " Yield: " + plant.plant.harvestYield);
-			Log.Message (plant + " Grow: " + plant.plant.growDays);
-			Log.Message (plant + " Skill: " + plant.plant.sowMinSkill);
-			Log.Warning (plant + " " + BaseMarketValue);
-		}*/
 		}
 	}
 }
