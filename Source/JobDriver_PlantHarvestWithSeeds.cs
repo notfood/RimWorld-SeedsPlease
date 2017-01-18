@@ -46,7 +46,7 @@ namespace SeedsPlease
 				if (workDone >= plant.def.plant.harvestWork) {
 					if (plant.def.plant.harvestedThingDef != null) {
 						if (actor.RaceProps.Humanlike && plant.def.plant.harvestFailable && Rand.Value < actor.GetStatValue (StatDefOf.HarvestFailChance, true)) {
-							MoteMaker.ThrowText ((actor.DrawPos + plant.DrawPos) / 2, actor.Map, "HarvestFailed".Translate (), 220);
+							MoteMaker.ThrowText ((actor.DrawPos + plant.DrawPos) / 2, actor.Map, "HarvestFailed".Translate (), 3.65f);
 						} else {
 							int plantYield = plant.YieldNow ();
 

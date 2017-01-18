@@ -30,7 +30,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
-      <MaxHitPoints>50</MaxHitPoints>
+      <MaxHitPoints>15</MaxHitPoints>
       <Mass>0.015</Mass>
       <Flammability>1.0</Flammability>
       <DeteriorationRate>1</DeteriorationRate>

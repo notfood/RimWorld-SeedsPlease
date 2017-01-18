@@ -71,6 +71,11 @@ for file in sys.argv[1:]:
         rproduct = etree.SubElement(rproducts, sdefName.text)
         rproduct.text = '5'
         
+        research = plant.find('sowResearchPrerequisites')
+        if research is None or not len(research):
+          continue
+        rresearch = etree.SubElement(rthingDef, 'researchPrerequisite')
+        rresearch.text = research[0].text
 
 etree.ElementTree(seeds).write('Defs/ThingDefs/output_seeds.xml', pretty_print=True)
 etree.ElementTree(recipes).write('Defs/RecipeDefs/output_recipes.xml', pretty_print=True)

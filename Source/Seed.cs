@@ -17,10 +17,10 @@ namespace SeedsPlease
 				SeedDef seedDef = def as SeedDef;
 				if (seedDef != null) {
 					StatDrawEntry[] extraStats = new StatDrawEntry[] { 
-						new StatDrawEntry (StatCategoryDefOf.StuffStatFactors, "Harvest amount factor", seedDef.seed.harvestFactor.ToString ("F2"), 4),
-						new StatDrawEntry (StatCategoryDefOf.StuffStatFactors, "Seed return factor", seedDef.seed.seedFactor.ToString ("F2"), 3),
-						new StatDrawEntry (StatCategoryDefOf.StuffStatFactors, "Chance for seeds", seedDef.seed.baseChance.ToString ("F2") + " %", 2),
-						new StatDrawEntry (StatCategoryDefOf.StuffStatFactors, "Chance for extra seeds", seedDef.seed.extraChance.ToString ("F2") + " %", 1),
+						new StatDrawEntry (StatCategoryDefOf.StuffStatFactors, ResourceBank.StringHarvestMultiplier , seedDef.seed.harvestFactor.ToString ("F2"), 4),
+						new StatDrawEntry (StatCategoryDefOf.StuffStatFactors, ResourceBank.StringSeedMultiplier, seedDef.seed.seedFactor.ToString ("F2"), 3),
+						new StatDrawEntry (StatCategoryDefOf.StuffStatFactors, ResourceBank.StringSeedBaseChance, seedDef.seed.baseChance.ToString ("F2") + " %", 2),
+						new StatDrawEntry (StatCategoryDefOf.StuffStatFactors, ResourceBank.StringSeedExtraChance, seedDef.seed.extraChance.ToString ("F2") + " %", 1),
 					};
 					return base.SpecialDisplayStats.Concat (extraStats);
 				}

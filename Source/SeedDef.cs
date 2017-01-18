@@ -17,14 +17,16 @@ namespace SeedsPlease
 		public override void ResolveReferences() {
 			base.ResolveReferences ();
 
-			if (plant != null && plant.blueprintDef == null) {
-				plant.blueprintDef = this;
+			if (plant == null || plant.blueprintDef != null) {
+				return;
+			}
 
-				if (harvest != null) {
-					plant.plant.harvestedThingDef = harvest;
-				} else {
-					harvest = plant.plant.harvestedThingDef;
-				}
+			plant.blueprintDef = this;
+
+			if (harvest != null) {
+				plant.plant.harvestedThingDef = harvest;
+			} else {
+				harvest = plant.plant.harvestedThingDef;
 			}
 
 			if (BaseMarketValue == 0) {
@@ -54,7 +56,6 @@ namespace SeedsPlease
 				Log.Message ("\t" + plant + " => " + BaseMarketValue);
 				#endif
 			}
-
 		}
 	}
 }
