@@ -102,6 +102,32 @@
       <extraChance>0.25</extraChance>
     </seed>
   </SeedsPlease.SeedDef>
+  
+  <SeedsPlease.SeedDef ParentName="SeedBase">
+    <defName>SeedPsychoid</defName>
+    <label>psychoid seeds</label>
+    <plant>PlantPsychoid</plant>
+    <statBases>
+      <MarketValue>60</MarketValue>
+    </statBases>
+    <seed>
+      <baseChance>0.75</baseChance>
+      <extraChance>0.25</extraChance>
+    </seed>
+  </SeedsPlease.SeedDef>
+  
+  <SeedsPlease.SeedDef ParentName="SeedBase">
+    <defName>SeedSmokeleaf</defName>
+    <label>smokeleaf seeds</label>
+    <plant>PlantSmokeleaf</plant>
+    <statBases>
+      <MarketValue>60</MarketValue>
+    </statBases>
+    <seed>
+      <baseChance>0.75</baseChance>
+      <extraChance>0.25</extraChance>
+    </seed>
+  </SeedsPlease.SeedDef>
 
   <SeedsPlease.SeedDef ParentName="SeedBase">
     <defName>SeedTreeOak</defName>
