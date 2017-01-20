@@ -24,7 +24,7 @@
     <label>rice seeds</label>
     <plant>PlantRice</plant>
     <seed>
-      <baseChance>0.50</baseChance>
+      <baseChance>0.65</baseChance>
       <extraChance>0.25</extraChance>
     </seed>
   </SeedsPlease.SeedDef>
@@ -44,7 +44,7 @@
     <label>strawberry seeds</label>
     <plant>PlantStrawberry</plant>
     <seed>
-      <baseChance>0.50</baseChance>
+      <baseChance>0.80</baseChance>
       <extraChance>0.25</extraChance>
     </seed>
   </SeedsPlease.SeedDef>
@@ -58,7 +58,7 @@
       <MarketValue>40</MarketValue>
     </statBases>
     <seed>
-      <baseChance>0.5</baseChance>
+      <baseChance>0.65</baseChance>
       <extraChance>0.5</extraChance>
     </seed>
   </SeedsPlease.SeedDef>
@@ -72,7 +72,7 @@
       <MarketValue>80</MarketValue>
     </statBases>
     <seed>
-      <baseChance>0.5</baseChance>
+      <baseChance>0.75</baseChance>
       <extraChance>0.25</extraChance>
     </seed>
   </SeedsPlease.SeedDef>
@@ -85,8 +85,9 @@
       <MarketValue>65</MarketValue>
     </statBases>
     <seed>
-      <baseChance>0.50</baseChance>
-      <extraChance>0.25</extraChance>
+      <harvestFactor>2.0</harvestFactor>
+      <baseChance>0.95</baseChance>
+      <extraChance>0.5</extraChance>
     </seed>
   </SeedsPlease.SeedDef>
   
