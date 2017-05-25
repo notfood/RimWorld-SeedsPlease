@@ -9,8 +9,8 @@
       <li Class="StockGenerator_SingleDef">
         <thingDef>Silver</thingDef>
         <countRange>
-          <min>6000</min>
-          <max>10000</max>
+          <min>2000</min>
+          <max>4000</max>
         </countRange>
       </li>
 	  <li Class="StockGenerator_SingleDef">
@@ -66,8 +66,8 @@
       <li Class="StockGenerator_SingleDef">
         <thingDef>Silver</thingDef>
         <countRange>
-          <min>3500</min>
-          <max>6000</max>
+          <min>750</min>
+          <max>1200</max>
         </countRange>
       </li>
 	  <li Class="StockGenerator_SingleDef">
