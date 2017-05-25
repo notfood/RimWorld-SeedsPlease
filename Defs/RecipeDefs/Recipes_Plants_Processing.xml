@@ -35,7 +35,7 @@
             <li>RawCotton</li>
           </thingDefs>
         </filter>
-        <count>25</count>
+        <count>20</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
@@ -44,7 +44,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <Cloth>25</Cloth>
+      <Cloth>20</Cloth>
     </products>
     <skillRequirements>
          <li>
@@ -89,7 +89,7 @@
             <li>RawDevilstrand</li>
           </thingDefs>
         </filter>
-        <count>25</count>
+        <count>20</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
@@ -98,12 +98,66 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <DevilstrandCloth>25</DevilstrandCloth>
+      <DevilstrandCloth>20</DevilstrandCloth>
     </products>
     <skillRequirements>
          <li>
             <skill>Crafting</skill>
             <minLevel>8</minLevel>
+         </li>
+    </skillRequirements>
+  </RecipeDef>
+  
+  <RecipeDef ParentName="ExtractSeed">
+    <defName>ExtractSeedHealroot</defName>
+    <label>extract healroot seeds</label>
+    <description>Extract seeds from Raw Healroot.</description>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawHealroot</li>
+          </thingDefs>
+        </filter>
+        <count>6</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RawHealroot</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <SeedHealroot>1</SeedHealroot>
+    </products>
+  </RecipeDef>
+  
+  <RecipeDef ParentName="ProcessRaw">
+    <defName>ProcessRawHealroot</defName>
+    <label>make herbal medicine</label>
+    <description>Process Raw Healroot into Herbal Medicine.</description>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawHealroot</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RawHealroot</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <HerbalMedicine>1</HerbalMedicine>
+    </products>
+    <skillRequirements>
+         <li>
+            <skill>Crafting</skill>
+            <minLevel>3</minLevel>
          </li>
     </skillRequirements>
   </RecipeDef>

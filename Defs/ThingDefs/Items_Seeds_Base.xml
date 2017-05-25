@@ -26,8 +26,8 @@
     <label>unspecified seed</label>
     <description>These are genetically engineered seeds capable of thriving in a wide range of alien environments over multiple generations.</description>
     <graphicData>
-      <texPath>Things/Item/Seeds/GenericSeeds</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Item/Seeds/Seeds</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <statBases>
       <MaxHitPoints>15</MaxHitPoints>
@@ -48,9 +48,10 @@
     <seed>
       <harvestFactor>1.0</harvestFactor>
       <seedFactor>1.0</seedFactor>
-      <baseChance>1.0</baseChance>
-      <extraChance>0.1</extraChance>
+      <baseChance>0.95</baseChance>
+      <extraChance>0.15</extraChance>
     </seed>
+    <stackLimit>500</stackLimit>
   </SeedsPlease.SeedDef>
 
 </Defs>

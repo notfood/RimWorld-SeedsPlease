@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>//ThingDef[defName = "PlantWildHealroot"]/plant/harvestedThingDef</xpath>
+    <value>
+      <harvestedThingDef>RawHealroot</harvestedThingDef>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>//ThingDef[defName = "PlantWildHealroot"]/plant/harvestYield</xpath>
+    <value>
+      <harvestYield>5</harvestYield>
+    </value>
+  </Operation>
+  
+</Patch>

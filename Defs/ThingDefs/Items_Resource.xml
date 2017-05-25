@@ -14,7 +14,8 @@
         <stackLimit>75</stackLimit>
         <statBases>
             <MaxHitPoints>75</MaxHitPoints>
-            <MarketValue>1.5</MarketValue>
+            <MarketValue>2.5</MarketValue>
+            <Mass>0.35</Mass>
             <Flammability>3</Flammability>
             <DeteriorationRate>0.3</DeteriorationRate>
         </statBases>
@@ -36,9 +37,33 @@
         <stackLimit>75</stackLimit>
         <statBases>
             <MaxHitPoints>75</MaxHitPoints>
-            <MarketValue>6.4</MarketValue>
+            <MarketValue>4.4</MarketValue>
+            <Mass>0.35</Mass>
             <Flammability>1</Flammability>
             <DeteriorationRate>0.1</DeteriorationRate>
+        </statBases>
+        <thingCategories>
+            <li>ResourcesRaw</li>
+        </thingCategories>
+    </ThingDef>
+    
+    <ThingDef ParentName="ResourceBase">
+        <defName>RawHealroot</defName>
+        <label>Raw Healroot</label>
+        <description>Raw Healroot from a Healroot bush. Processed into Herbal Medicine at a Plant Processing Bench.</description>
+        <graphicData>
+            <texPath>Things/Item/Resource/RawHealroot</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Grain_Drop</soundInteract>
+        <soundDrop>Grain_Drop</soundDrop>
+        <stackLimit>75</stackLimit>
+        <statBases>
+            <MaxHitPoints>75</MaxHitPoints>
+            <MarketValue>2.6</MarketValue>
+            <Mass>0.08</Mass>
+            <Flammability>1</Flammability>
+            <DeteriorationRate>3</DeteriorationRate>
         </statBases>
         <thingCategories>
             <li>ResourcesRaw</li>

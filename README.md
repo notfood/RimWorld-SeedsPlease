@@ -1,9 +1,7 @@
 # RimWorld-SeedsPlease
 
-[![Version](https://img.shields.io/badge/Rimworld-A15-green.svg)]
-(http://rimworldgame.com/)
-[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-blue.svg)]
-(http://creativecommons.org/licenses/by-nc-sa/4.0/)
+[![Version](https://img.shields.io/badge/Rimworld-A17-green.svg)](http://rimworldgame.com/)
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-blue.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 Adds gameplay surrounding planting crops.  For most of the basic crops, you now need seeds. Easy to modify. Comes with the plant processing bench to extract seeds from your favorite fruits. 
 

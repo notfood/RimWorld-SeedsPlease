@@ -27,8 +27,12 @@ for file in sys.argv[1:]:
         
         if plant.find('harvestYield') is None:
             continue
+          
+        parentName = child.get('ParentName')
+        if parentName is None:
+            continue
         
-        print(name + " " + child.get('ParentName'))
+        print(name + " " + parentName)
 
         sthingDef = etree.SubElement(seeds, 'SeedsPlease.SeedDef')
         sthingDef.set('ParentName', 'SeedBase')
@@ -38,18 +42,19 @@ for file in sys.argv[1:]:
         slabel.text = name.lower() + ' seeds'
         splant = etree.SubElement(sthingDef, 'plant')
         splant.text = defName.text
-        sstatBases = etree.SubElement(sthingDef, 'statBases')
-        sMarketValue = etree.SubElement(sstatBases, 'MarketValue')
-        sMarketValue.text = '0'
-        sseed = etree.SubElement(sthingDef, 'seed')
-        sharvestFactor = etree.SubElement(sseed, 'harvestFactor')
-        sharvestFactor.text = '1.0'
-        sseedFactor = etree.SubElement(sseed, 'seedFactor')
-        sseedFactor.text = '1.0'
-        sbaseChance = etree.SubElement(sseed, 'baseChance')
-        sbaseChance.text = '1.0'
-        sextraChance = etree.SubElement(sseed, 'extraChance')
-        sextraChance.text = '0.1'
+        if False:
+            sstatBases = etree.SubElement(sthingDef, 'statBases')
+            sMarketValue = etree.SubElement(sstatBases, 'MarketValue')
+            sMarketValue.text = '0'
+            sseed = etree.SubElement(sthingDef, 'seed')
+            sharvestFactor = etree.SubElement(sseed, 'harvestFactor')
+            sharvestFactor.text = '1.0'
+            sseedFactor = etree.SubElement(sseed, 'seedFactor')
+            sseedFactor.text = '1.0'
+            sbaseChance = etree.SubElement(sseed, 'baseChance')
+            sbaseChance.text = '1.0'
+            sextraChance = etree.SubElement(sseed, 'extraChance')
+            sextraChance.text = '0.1'
         
         harvestedThingDef = plant.find('harvestedThingDef')
         if harvestedThingDef is None:

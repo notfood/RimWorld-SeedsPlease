@@ -15,7 +15,7 @@ namespace SeedsPlease
 		protected override IEnumerable<Toil> MakeNewToils ()
 		{
 			yield return Toils_JobTransforms.MoveCurrentTargetIntoQueue (TargetIndex.A);
-			yield return Toils_Reserve.ReserveQueue (TargetIndex.A, 1);
+			yield return Toils_Reserve.ReserveQueue (TargetIndex.A);
 
 			var init = Toils_JobTransforms.ClearDespawnedNullOrForbiddenQueuedTargets (TargetIndex.A);
 
@@ -39,14 +39,16 @@ namespace SeedsPlease
 				Plant plant = Plant;
 
 				if (actor.skills != null) {
-					actor.skills.Learn (SkillDefOf.Growing, xpPerTick);
+					actor.skills.Learn (SkillDefOf.Growing, xpPerTick, true);
 				}
 
 				workDone += actor.GetStatValue (StatDefOf.PlantWorkSpeed, true);
 				if (workDone >= plant.def.plant.harvestWork) {
 					if (plant.def.plant.harvestedThingDef != null) {
-						if (actor.RaceProps.Humanlike && plant.def.plant.harvestFailable && Rand.Value < actor.GetStatValue (StatDefOf.HarvestFailChance, true)) {
-							MoteMaker.ThrowText ((actor.DrawPos + plant.DrawPos) / 2, actor.Map, "HarvestFailed".Translate (), 3.65f);
+						if (actor.RaceProps.Humanlike && plant.def.plant.harvestFailable && Rand.Value > actor.GetStatValue (StatDefOf.PlantHarvestYield, true)) {
+							MoteMaker.ThrowText ((actor.DrawPos + plant.DrawPos) / 2f, actor.Map, "TextMote_HarvestFailed".Translate (), 3.65f);
+
+
 						} else {
 							int plantYield = plant.YieldNow ();
 
@@ -65,12 +67,12 @@ namespace SeedsPlease
 									}
 
 									Thing seeds = ThingMaker.MakeThing (seedDef, null);
-									seeds.stackCount = Mathf.RoundToInt(seedDef.seed.seedFactor * count);
+									seeds.stackCount = Mathf.RoundToInt (seedDef.seed.seedFactor * count);
 
 									GenPlace.TryPlaceThing (seeds, actor.Position, actor.Map, ThingPlaceMode.Near);
 								}
 
-								plantYield = Mathf.RoundToInt(plantYield * seedDef.seed.harvestFactor);
+								plantYield = Mathf.RoundToInt (plantYield * seedDef.seed.harvestFactor);
 
 								harvestedThingDef = seedDef.harvest;
 							} else {
@@ -84,9 +86,8 @@ namespace SeedsPlease
 									thing.SetForbidden (true, true);
 								}
 								GenPlace.TryPlaceThing (thing, actor.Position, actor.Map, ThingPlaceMode.Near, null);
+								actor.records.Increment (RecordDefOf.PlantsHarvested);
 							}
-
-							actor.records.Increment (RecordDefOf.PlantsHarvested);
 						}
 					}
 					plant.def.plant.soundHarvestFinish.PlayOneShot (actor);

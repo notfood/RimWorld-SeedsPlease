@@ -29,7 +29,7 @@ namespace SeedsPlease
 		public override void ExposeData ()
 		{
 			base.ExposeData ();
-			Scribe_Values.LookValue<float> (ref this.sowWorkDone, "sowWorkDone", 0, false);
+			Scribe_Values.Look<float> (ref this.sowWorkDone, "sowWorkDone", 0f, false);
 		}
 
 		protected override IEnumerable<Toil> MakeNewToils ()
@@ -118,7 +118,7 @@ namespace SeedsPlease
 					}
 						
 					if (actor.story.traits.HasTrait (TraitDefOf.GreenThumb)) {
-						actor.needs.mood.thoughts.memories.TryGainMemoryThought (ThoughtDefOf.GreenThumbHappy, null);
+						actor.needs.mood.thoughts.memories.TryGainMemory (ThoughtDefOf.GreenThumbHappy, null);
 				    }
 
 					plant.Growth = 0.05f;

@@ -14,14 +14,21 @@ namespace SeedsPlease
 		public new ThingDef plant;
 		public ThingDef harvest;
 
-		public override void ResolveReferences() {
+		public override void ResolveReferences ()
+		{
 			base.ResolveReferences ();
 
 			if (plant == null || plant.blueprintDef != null) {
 				return;
 			}
 
-			plant.blueprintDef = this;
+			if (plant.plant.Sowable) {
+				plant.blueprintDef = this;
+			} else {
+				Log.Warning ("SeedsPlease :: " + plant.defName + " is not sowable");
+				plant = null;
+				return;
+			}
 
 			if (harvest != null) {
 				plant.plant.harvestedThingDef = harvest;
@@ -30,32 +37,32 @@ namespace SeedsPlease
 			}
 
 			if (BaseMarketValue == 0) {
-				var harvestedThingDef = plant.plant.harvestedThingDef;
+				var harvestedThingDef = harvest;
 
-				var value = harvestedThingDef.BaseMarketValue * plant.plant.harvestYield;
+				var value = harvestedThingDef.BaseMarketValue * (plant.plant.harvestYield / plant.plant.growDays + plant.plant.growDays / plant.plant.harvestYield) * 2.5f;
 
 				if (plant.plant.blockAdjacentSow) {
-					value /= 9f;
+					value *= 9f;
 				}
 
 				if (harvestedThingDef == ThingDefOf.WoodLog) {
-					value *= 2f;
+					value *= 0.2f;
 				} else if (harvestedThingDef.IsAddictiveDrug) {
-					value *= 3f;
+					value *= 1.3f;
 				} else if (harvestedThingDef.IsDrug) {
-					value *= 2f;
+					value *= 1.2f;
 				} else if (harvestedThingDef.IsMedicine) {
-					value *= 1.5f;
+					value *= 1.1f;
 				}
 
-				value *= Mathf.Lerp(0.8f, 1.6f, (float) plant.plant.sowMinSkill / 20f);
+				value *= Mathf.Lerp (0.8f, 1.6f, (float)plant.plant.sowMinSkill / 20f);
 
-				BaseMarketValue = Mathf.Ceil(value / 5f) * 5f;
-
-				#if(DEBUG)
-				Log.Message ("\t" + plant + " => " + BaseMarketValue);
-				#endif
+				BaseMarketValue = Mathf.Round (value * 100f) / 100f;
 			}
+
+			#if DEBUG
+			Log.Message ("\t" + plant + " => " + BaseMarketValue);
+			#endif
 		}
 	}
 }

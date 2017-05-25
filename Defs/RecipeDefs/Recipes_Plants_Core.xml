@@ -1,5 +1,29 @@
-<?xml version="1.0" encoding="utf-8"?>
 <Defs>
+  
+  <RecipeDef ParentName="ExtractSeed">
+    <defName>ExtractSeedRice</defName>
+    <label>extract rice seeds</label>
+    <description>Extract seeds from Rice.</description>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawRice</li>
+          </thingDefs>
+        </filter>
+        <count>9</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RawRice</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <SeedRice>4</SeedRice>
+    </products>
+  </RecipeDef>
+  
   <RecipeDef ParentName="ExtractSeed">
     <defName>ExtractSeedPotato</defName>
     <label>extract potato seeds</label>
@@ -11,7 +35,7 @@
             <li>RawPotatoes</li>
           </thingDefs>
         </filter>
-        <count>25</count>
+        <count>12</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
@@ -20,7 +44,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <SeedPotato>5</SeedPotato>
+      <SeedPotato>4</SeedPotato>
     </products>
   </RecipeDef>
   
@@ -35,7 +59,7 @@
             <li>RawCorn</li>
           </thingDefs>
         </filter>
-        <count>25</count>
+        <count>40</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
@@ -44,55 +68,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <SeedCorn>5</SeedCorn>
-    </products>
-  </RecipeDef>
-  
-  <RecipeDef ParentName="ExtractSeed">
-    <defName>ExtractSeedRice</defName>
-    <label>extract rice seeds</label>
-    <description>Extract seeds from Rice.</description>
-    <ingredients>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>RawRice</li>
-          </thingDefs>
-        </filter>
-        <count>25</count>
-      </li>
-    </ingredients>
-    <fixedIngredientFilter>
-      <thingDefs>
-        <li>RawRice</li>
-      </thingDefs>
-    </fixedIngredientFilter>
-    <products>
-      <SeedRice>5</SeedRice>
-    </products>
-  </RecipeDef>
-  
-  <RecipeDef ParentName="ExtractSeed">
-    <defName>ExtractSeedHaygrass</defName>
-    <label>extract haygrass seeds</label>
-    <description>Extract seeds from Hay.</description>
-    <ingredients>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>Hay</li>
-          </thingDefs>
-        </filter>
-        <count>25</count>
-      </li>
-    </ingredients>
-    <fixedIngredientFilter>
-      <thingDefs>
-        <li>Hay</li>
-      </thingDefs>
-    </fixedIngredientFilter>
-    <products>
-      <SeedHaygrass>5</SeedHaygrass>
+      <SeedCorn>4</SeedCorn>
     </products>
   </RecipeDef>
   
@@ -107,7 +83,7 @@
             <li>RawBerries</li>
           </thingDefs>
         </filter>
-        <count>25</count>
+        <count>16</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
@@ -116,31 +92,31 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <SeedStrawberry>5</SeedStrawberry>
+      <SeedStrawberry>4</SeedStrawberry>
     </products>
   </RecipeDef>
-
+  
   <RecipeDef ParentName="ExtractSeed">
-    <defName>ExtractSeedHealroot</defName>
-    <label>extract healroot seeds</label>
-    <description>Extract seeds from Herbal Medicine.</description>
+    <defName>ExtractSeedHaygrass</defName>
+    <label>extract haygrass seeds</label>
+    <description>Extract seeds from Hay.</description>
     <ingredients>
       <li>
         <filter>
           <thingDefs>
-            <li>HerbalMedicine</li>
+            <li>Hay</li>
           </thingDefs>
         </filter>
-        <count>25</count>
+        <count>27</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>HerbalMedicine</li>
+        <li>Hay</li>
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <SeedHealroot>5</SeedHealroot>
+      <SeedHaygrass>4</SeedHaygrass>
     </products>
   </RecipeDef>
   
@@ -155,7 +131,7 @@
             <li>RawHops</li>
           </thingDefs>
         </filter>
-        <count>25</count>
+        <count>14</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
@@ -164,7 +140,56 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <SeedHops>5</SeedHops>
+      <SeedHops>4</SeedHops>
     </products>
   </RecipeDef>
+  
+  <RecipeDef ParentName="ExtractSeed">
+    <defName>ExtractSeedSmokeleaf</defName>
+    <label>extract smokeleaf seeds</label>
+    <description>Extract seeds from SmokeleafLeaves.</description>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>SmokeleafLeaves</li>
+          </thingDefs>
+        </filter>
+        <count>24</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>SmokeleafLeaves</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <SeedSmokeleaf>5</SeedSmokeleaf>
+    </products>
+  </RecipeDef>
+  
+  <RecipeDef ParentName="ExtractSeed">
+    <defName>ExtractSeedPsychoid</defName>
+    <label>extract psychoid seeds</label>
+    <description>Extract seeds from Psychoid Leaves.</description>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PsychoidLeaves</li>
+          </thingDefs>
+        </filter>
+        <count>24</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>PsychoidLeaves</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <SeedPsychoid>5</SeedPsychoid>
+    </products>
+  </RecipeDef>
+
 </Defs>
