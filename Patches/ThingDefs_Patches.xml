@@ -2,14 +2,14 @@
 <Patch>
   
   <Operation Class="PatchOperationReplace">
-    <xpath>//ThingDef[defName = "PlantWildHealroot"]/plant/harvestedThingDef</xpath>
+    <xpath>*/ThingDef[defName = "PlantWildHealroot"]/plant/harvestedThingDef</xpath>
     <value>
       <harvestedThingDef>RawHealroot</harvestedThingDef>
     </value>
   </Operation>
   
   <Operation Class="PatchOperationReplace">
-    <xpath>//ThingDef[defName = "PlantWildHealroot"]/plant/harvestYield</xpath>
+    <xpath>*/ThingDef[defName = "PlantWildHealroot"]/plant/harvestYield</xpath>
     <value>
       <harvestYield>5</harvestYield>
     </value>
