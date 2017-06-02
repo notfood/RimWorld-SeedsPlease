@@ -8,11 +8,4 @@
     </value>
   </Operation>
   
-  <Operation Class="PatchOperationReplace">
-    <xpath>*/ThingDef[defName = "PlantWildHealroot"]/plant/harvestYield</xpath>
-    <value>
-      <harvestYield>5</harvestYield>
-    </value>
-  </Operation>
-  
 </Patch>

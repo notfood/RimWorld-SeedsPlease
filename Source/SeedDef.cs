@@ -13,6 +13,7 @@ namespace SeedsPlease
 		public SeedProperties seed;
 		public new ThingDef plant;
 		public ThingDef harvest;
+		public List<ThingDef> sources = new List<ThingDef> ();
 
 		public override void ResolveReferences ()
 		{
@@ -22,10 +23,10 @@ namespace SeedsPlease
 				return;
 			}
 
-			if (plant.plant.Sowable) {
+			if (plant.plant != null && plant.plant.Sowable) {
 				plant.blueprintDef = this;
 			} else {
-				Log.Warning ("SeedsPlease :: " + plant.defName + " is not sowable");
+				Log.Warning ("SeedsPlease :: " + plant.defName + " is not a sowable plant.");
 				plant = null;
 				return;
 			}
@@ -58,6 +59,15 @@ namespace SeedsPlease
 				value *= Mathf.Lerp (0.8f, 1.6f, (float)plant.plant.sowMinSkill / 20f);
 
 				BaseMarketValue = Mathf.Round (value * 100f) / 100f;
+			}
+
+			foreach (var p in sources) {
+				if (p.plant == null) {
+					Log.Warning ("SeedsPlease :: " + p.defName + " is not a plant.");
+					continue;
+				}
+
+				p.blueprintDef = this;
 			}
 
 			#if DEBUG

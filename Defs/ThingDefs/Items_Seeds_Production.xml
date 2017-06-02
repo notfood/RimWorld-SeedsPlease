@@ -24,6 +24,9 @@
     <label>healroot seeds</label>
     <plant>PlantHealroot</plant>
     <harvest>RawHealroot</harvest>
+    <sources>
+      <li>PlantWildHealroot</li>
+    </sources>
     <statBases>
       <MarketValue>14.3</MarketValue>
     </statBases>
