@@ -55,37 +55,37 @@
   
   <SeedsPlease.SeedDef ParentName="SeedBase">
     <defName>SeedTreeOak</defName>
-    <label>treeoak seeds</label>
+    <label>oak seeds</label>
     <plant>PlantTreeOak</plant>
   </SeedsPlease.SeedDef>
   
   <SeedsPlease.SeedDef ParentName="SeedBase">
     <defName>SeedTreePoplar</defName>
-    <label>treepoplar seeds</label>
+    <label>poplar seeds</label>
     <plant>PlantTreePoplar</plant>
   </SeedsPlease.SeedDef>
   
   <SeedsPlease.SeedDef ParentName="SeedBase">
     <defName>SeedTreePine</defName>
-    <label>treepine seeds</label>
+    <label>pine seeds</label>
     <plant>PlantTreePine</plant>
   </SeedsPlease.SeedDef>
   
   <SeedsPlease.SeedDef ParentName="SeedBase">
     <defName>SeedTreeBirch</defName>
-    <label>treebirch seeds</label>
+    <label>birch seeds</label>
     <plant>PlantTreeBirch</plant>
   </SeedsPlease.SeedDef>
   
   <SeedsPlease.SeedDef ParentName="SeedBase">
     <defName>SeedTreeTeak</defName>
-    <label>treeteak seeds</label>
+    <label>teak seeds</label>
     <plant>PlantTreeTeak</plant>
   </SeedsPlease.SeedDef>
   
   <SeedsPlease.SeedDef ParentName="SeedBase">
     <defName>SeedTreeCecropia</defName>
-    <label>treececropia seeds</label>
+    <label>cecropia seeds</label>
     <plant>PlantTreeCecropia</plant>
   </SeedsPlease.SeedDef>
 
