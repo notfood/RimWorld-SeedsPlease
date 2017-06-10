@@ -180,7 +180,7 @@ namespace SeedsPlease
 			Predicate<IntVec3> validator = (IntVec3 tempCell) => IsCellOpenForSowingPlantOfType (tempCell, map, CurJob.plantDefToSow) 
 				&& ReservationUtility.CanReserveAndReach (GetActor (), tempCell, PathEndMode.Touch, DangerUtility.NormalMaxDanger (GetActor ()), 1);
 
-			return CellFinder.TryFindRandomCellNear (originPos, map, 5, validator, out newSite);
+			return CellFinder.TryFindRandomCellNear (originPos, map, 2, validator, out newSite);
 		}
 
 		private static bool IsCellOpenForSowingPlantOfType (IntVec3 cell, Map map, ThingDef plantDef)
