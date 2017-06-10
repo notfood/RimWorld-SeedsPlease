@@ -48,6 +48,7 @@
     <Compile Include="SeedDef.cs" />
     <Compile Include="Seed.cs" />
     <Compile Include="ResourceBank.cs" />
+    <Compile Include="RecipeDef.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
