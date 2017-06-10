@@ -25,7 +25,7 @@ for file in sys.argv[1:]:
         if plant is None:
             continue
         
-        if plant.find('harvestYield') is None:
+        if plant.find('harvestedThingDef') is None:
             continue
           
         parentName = child.get('ParentName')
