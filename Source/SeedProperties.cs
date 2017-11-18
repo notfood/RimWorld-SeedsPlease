@@ -1,18 +1,13 @@
-﻿using System;
-
-using RimWorld;
-using Verse;
-
-namespace SeedsPlease
+﻿namespace SeedsPlease
 {
-	public class SeedProperties
-	{
-		public float harvestFactor;
+    public class SeedProperties
+    {
+        public float harvestFactor;
 
-		public float seedFactor;
+        public float seedFactor;
 
-		public float baseChance;
+        public float baseChance;
 
-		public float extraChance;
-	}
+        public float extraChance;
+    }
 }

@@ -1,8 +1,4 @@
-﻿using System;
-
-using Verse;
-
-namespace SeedsPlease
+﻿namespace SeedsPlease
 {
-	public class RecipeDef : Verse.RecipeDef {}
+    public class RecipeDef : Verse.RecipeDef { }
 }

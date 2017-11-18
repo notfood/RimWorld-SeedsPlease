@@ -41,7 +41,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WorkGiver_GrowerSowWithSeeds.cs" />
-    <Compile Include="JobDriver_PlantHarvestWithSeeds.cs" />
+    <Compile Include="JobDriver_PlantWorkWithSeeds.cs" />
     <Compile Include="JobDriver_PlantSowWithSeeds.cs" />
     <Compile Include="LocalJobDefOf.cs" />
     <Compile Include="SeedProperties.cs" />
@@ -49,6 +49,8 @@
     <Compile Include="Seed.cs" />
     <Compile Include="ResourceBank.cs" />
     <Compile Include="RecipeDef.cs" />
+    <Compile Include="JobDriver_PlantCutWithSeeds.cs" />
+    <Compile Include="JobDriver_PlantHarvestWithSeeds.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

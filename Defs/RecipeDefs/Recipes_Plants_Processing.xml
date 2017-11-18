@@ -47,10 +47,7 @@
       <Cloth>20</Cloth>
     </products>
     <skillRequirements>
-         <li>
-            <skill>Crafting</skill>
-            <minLevel>4</minLevel>
-         </li>
+      <Crafting>4</Crafting>
     </skillRequirements>
   </RecipeDef>
   
@@ -101,10 +98,7 @@
       <DevilstrandCloth>20</DevilstrandCloth>
     </products>
     <skillRequirements>
-         <li>
-            <skill>Crafting</skill>
-            <minLevel>8</minLevel>
-         </li>
+      <Crafting>8</Crafting>
     </skillRequirements>
   </RecipeDef>
   
@@ -155,10 +149,7 @@
       <HerbalMedicine>1</HerbalMedicine>
     </products>
     <skillRequirements>
-         <li>
-            <skill>Crafting</skill>
-            <minLevel>3</minLevel>
-         </li>
+      <Crafting>3</Crafting>
     </skillRequirements>
   </RecipeDef>
 </Defs>

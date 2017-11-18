@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ThingDefs>
+<Defs>
   <ThingDef Name="BuildingBase" Abstract="True">
     <category>Building</category>
     <thingClass>Building</thingClass>
@@ -33,7 +33,7 @@
     <defName>PlantProcessingTable</defName>
     <label>Plant Processing Bench</label>
     <thingClass>Building_WorkTable</thingClass>
-    <Description>Plant processing activities.</Description>
+    <description>Plant processing activities.</description>
     <graphicData>
       <texPath>Things/Building/seedextractor</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
@@ -45,10 +45,10 @@
         <cornerBR>Damage/Corner</cornerBR>
       </damageData>
     </graphicData>
-    <CostList>
+    <costList>
       <WoodLog>60</WoodLog>
-    </CostList>
-    <AltitudeLayer>Building</AltitudeLayer>
+    </costList>
+    <altitudeLayer>Building</altitudeLayer>
     <fillPercent>0.5</fillPercent>
     <useHitPoints>True</useHitPoints>
     <statBases>
@@ -56,9 +56,9 @@
       <MaxHitPoints>180</MaxHitPoints>
       <Flammability>1.0</Flammability>
     </statBases>
-    <Size>(3,1)</Size>
-    <DesignationCategory>Production</DesignationCategory>
-    <Passability>PassThroughOnly</Passability>
+    <size>(3,1)</size>
+    <designationCategory>Production</designationCategory>
+    <passability>PassThroughOnly</passability>
     <pathCost>70</pathCost>
     <hasInteractionCell>True</hasInteractionCell>
     <interactionCellOffset>(0,0,-1)</interactionCellOffset>
@@ -80,4 +80,4 @@
       <li>PlaceWorker_ShowFacilitiesConnections</li>
     </placeWorkers>
   </ThingDef>
-</ThingDefs>
+</Defs>

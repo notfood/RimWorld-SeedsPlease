@@ -28,12 +28,6 @@
     <label>haygrass seeds</label>
     <plant>PlantHaygrass</plant>
   </SeedsPlease.SeedDef>
-
-  <SeedsPlease.SeedDef ParentName="SeedBase">
-    <defName>SeedHealroot</defName>
-    <label>healroot seeds</label>
-    <plant>PlantHealroot</plant>
-  </SeedsPlease.SeedDef>
   
   <SeedsPlease.SeedDef ParentName="SeedBase">
     <defName>SeedHops</defName>
@@ -51,6 +45,30 @@
     <defName>SeedPsychoid</defName>
     <label>psychoid seeds</label>
     <plant>PlantPsychoid</plant>
+  </SeedsPlease.SeedDef>
+  
+  <SeedsPlease.SeedDef ParentName="SeedBase">
+    <defName>SeedTreeDrago</defName>
+    <label>treedrago seeds</label>
+    <plant>PlantTreeDrago</plant>
+  </SeedsPlease.SeedDef>
+  
+  <SeedsPlease.SeedDef ParentName="SeedBase">
+    <defName>SeedTreeWillow</defName>
+    <label>treewillow seeds</label>
+    <plant>PlantTreeWillow</plant>
+  </SeedsPlease.SeedDef>
+  
+  <SeedsPlease.SeedDef ParentName="SeedBase">
+    <defName>SeedTreeCypress</defName>
+    <label>treecypress seeds</label>
+    <plant>PlantTreeCypress</plant>
+  </SeedsPlease.SeedDef>
+  
+  <SeedsPlease.SeedDef ParentName="SeedBase">
+    <defName>SeedTreeMaple</defName>
+    <label>treemaple seeds</label>
+    <plant>PlantTreeMaple</plant>
   </SeedsPlease.SeedDef>
   
   <SeedsPlease.SeedDef ParentName="SeedBase">
@@ -88,5 +106,16 @@
     <label>cecropia seeds</label>
     <plant>PlantTreeCecropia</plant>
   </SeedsPlease.SeedDef>
-
+  
+  <SeedsPlease.SeedDef ParentName="SeedBase">
+    <defName>SeedTreePalm</defName>
+    <label>palm seeds</label>
+    <plant>PlantTreePalm</plant>
+  </SeedsPlease.SeedDef>
+  
+  <SeedsPlease.SeedDef ParentName="SeedBase">
+    <defName>SeedTreeBamboo</defName>
+    <label>bamboo seeds</label>
+    <plant>PlantTreeBamboo</plant>
+  </SeedsPlease.SeedDef>
 </Defs>
