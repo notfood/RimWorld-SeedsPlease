@@ -1,0 +1,128 @@
+<Defs>
+
+  <RecipeDef ParentName="ExtractSeed">
+    <defName>ExtractSeedSteelLeaf</defName>
+    <label>extract steelleaf seeds</label>
+    <description>Extract seeds from SteelLeaf.</description>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawSteelLeaf</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RawSteelLeaf</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <SeedSteelLeaf>3</SeedSteelLeaf>
+    </products>
+    <researchPrerequisite>resourceleafs</researchPrerequisite>
+  </RecipeDef>
+
+  <RecipeDef ParentName="ExtractSeed">
+    <defName>ExtractSeedPlasteelLeaf</defName>
+    <label>extract plasteelleaf seeds</label>
+    <description>Extract seeds from PlasteelLeaf.</description>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawPlasteelLeaf</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RawPlasteelLeaf</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <SeedPlasteelLeaf>3</SeedPlasteelLeaf>
+    </products>
+    <researchPrerequisite>resourceleafs</researchPrerequisite>
+  </RecipeDef>
+
+  <RecipeDef ParentName="ExtractSeed">
+    <defName>ExtractSeedGoldLeaf</defName>
+    <label>extract goldleaf seeds</label>
+    <description>Extract seeds from GoldLeaf.</description>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawGoldLeaf</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RawGoldLeaf</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <SeedGoldLeaf>3</SeedGoldLeaf>
+    </products>
+    <researchPrerequisite>resourceleafs</researchPrerequisite>
+  </RecipeDef>
+
+  <RecipeDef ParentName="ExtractSeed">
+    <defName>ExtractSeedSilverLeaf</defName>
+    <label>extract silverleaf seeds</label>
+    <description>Extract seeds from SilverLeaf.</description>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawSilverLeaf</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RawSilverLeaf</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <SeedSilverLeaf>3</SeedSilverLeaf>
+    </products>
+    <researchPrerequisite>resourceleafs</researchPrerequisite>
+  </RecipeDef>
+
+  <RecipeDef ParentName="ExtractSeed">
+    <defName>ExtractSeedUraniumLeaf</defName>
+    <label>extract uraniumleaf seeds</label>
+    <description>Extract seeds from UraniumLeaf.</description>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawUraniumLeaf</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RawUraniumLeaf</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <SeedUraniumLeaf>3</SeedUraniumLeaf>
+    </products>
+    <researchPrerequisite>resourceleafs</researchPrerequisite>
+  </RecipeDef>
+
+</Defs>

@@ -1,0 +1,77 @@
+<Defs>
+
+  <RecipeDef ParentName="ExtractSeed">
+    <defName>ExtractSeedVG_Ambrosia</defName>
+    <label>extract vg_ambrosia seeds</label>
+    <description>Extract seeds from Ambrosia.</description>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Ambrosia</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Ambrosia</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <SeedVG_Ambrosia>2</SeedVG_Ambrosia>
+    </products>
+    <researchPrerequisite>VG_Ambrosia</researchPrerequisite>
+  </RecipeDef>
+
+  <RecipeDef ParentName="ExtractSeed">
+    <defName>ExtractSeedNeutroFlower</defName>
+    <label>extract neutroflower seeds</label>
+    <description>Extract seeds from NeutroPetals.</description>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>NeutroPetals</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>NeutroPetals</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <SeedNeutroFlower>3</SeedNeutroFlower>
+    </products>
+    <researchPrerequisite>DrugProduction</researchPrerequisite>
+  </RecipeDef>
+
+  <RecipeDef ParentName="ExtractSeed">
+    <defName>ExtractSeedTobacco</defName>
+    <label>extract tobacco seeds</label>
+    <description>Extract seeds from Tobacco.</description>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawTobacco</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RawTobacco</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <SeedTobacco>3</SeedTobacco>
+    </products>
+  </RecipeDef>
+
+</Defs>

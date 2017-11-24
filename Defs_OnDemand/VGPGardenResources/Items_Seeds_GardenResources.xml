@@ -1,0 +1,33 @@
+<Defs>
+
+  <SeedsPlease.SeedDef ParentName="SeedBase">
+    <defName>SeedSteelLeaf</defName>
+    <label>steelleaf seeds</label>
+    <plant>PlantSteelLeaf</plant>
+  </SeedsPlease.SeedDef>
+
+  <SeedsPlease.SeedDef ParentName="SeedBase">
+    <defName>SeedPlasteelLeaf</defName>
+    <label>plasteelleaf seeds</label>
+    <plant>PlantPlasteelLeaf</plant>
+  </SeedsPlease.SeedDef>
+
+  <SeedsPlease.SeedDef ParentName="SeedBase">
+    <defName>SeedGoldLeaf</defName>
+    <label>goldleaf seeds</label>
+    <plant>PlantGoldLeaf</plant>
+  </SeedsPlease.SeedDef>
+
+  <SeedsPlease.SeedDef ParentName="SeedBase">
+    <defName>SeedSilverLeaf</defName>
+    <label>silverleaf seeds</label>
+    <plant>PlantSilverLeaf</plant>
+  </SeedsPlease.SeedDef>
+
+  <SeedsPlease.SeedDef ParentName="SeedBase">
+    <defName>SeedUraniumLeaf</defName>
+    <label>uraniumleaf seeds</label>
+    <plant>PlantUraniumLeaf</plant>
+  </SeedsPlease.SeedDef>
+
+</Defs>

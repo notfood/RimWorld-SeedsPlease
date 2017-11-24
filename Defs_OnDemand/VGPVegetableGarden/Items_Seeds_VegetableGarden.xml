@@ -1,0 +1,94 @@
+<Defs>
+
+  <SeedsPlease.SeedDef ParentName="SeedBase">
+    <defName>SeedVG_Ambrosia</defName>
+    <label>vg_ambrosia seeds</label>
+    <plant>VG_PlantAmbrosia</plant>
+  </SeedsPlease.SeedDef>
+
+  <SeedsPlease.SeedDef ParentName="SeedBase">
+    <defName>SeedVGP_Agarilux</defName>
+    <label>vgp_agarilux seeds</label>
+    <plant>VGP_Agarilux</plant>
+  </SeedsPlease.SeedDef>
+
+  <SeedsPlease.SeedDef ParentName="SeedBase">
+    <defName>Seedgrape</defName>
+    <label>grape seeds</label>
+    <plant>Plantgrape</plant>
+    <graphicData><texPath>Things/Item/Seeds/Grape</texPath></graphicData>
+  </SeedsPlease.SeedDef>
+
+  <SeedsPlease.SeedDef ParentName="SeedBase">
+    <defName>Seedblueberry</defName>
+    <label>blueberry seeds</label>
+    <plant>Plantblueberry</plant>
+    <graphicData><texPath>Things/Item/Seeds/Blueberry</texPath></graphicData>
+  </SeedsPlease.SeedDef>
+
+  <SeedsPlease.SeedDef ParentName="SeedBase">
+    <defName>Seedwatermelon</defName>
+    <label>watermelon seeds</label>
+    <plant>Plantwatermelon</plant>
+    <graphicData><texPath>Things/Item/Seeds/Watermelon</texPath></graphicData>
+  </SeedsPlease.SeedDef>
+
+  <SeedsPlease.SeedDef ParentName="SeedBase">
+    <defName>SeedBarley</defName>
+    <label>barley seeds</label>
+    <plant>PlantBarley</plant>
+  </SeedsPlease.SeedDef>
+
+  <SeedsPlease.SeedDef ParentName="SeedBase">
+    <defName>SeedSnowbeet</defName>
+    <label>snowbeet seeds</label>
+    <plant>PlantSnowbeet</plant>
+  </SeedsPlease.SeedDef>
+
+  <SeedsPlease.SeedDef ParentName="SeedBase">
+    <defName>Seedredlentil</defName>
+    <label>redlentil seeds</label>
+    <plant>Plantredlentil</plant>
+  </SeedsPlease.SeedDef>
+
+  <SeedsPlease.SeedDef ParentName="SeedBase">
+    <defName>Seedbean</defName>
+    <label>bean seeds</label>
+    <plant>Plantbean</plant>
+    <graphicData><texPath>Things/Item/Seeds/Bean</texPath></graphicData>
+  </SeedsPlease.SeedDef>
+
+  <SeedsPlease.SeedDef ParentName="SeedBase">
+    <defName>SeedOlivetree</defName>
+    <label>olive seeds</label>
+    <plant>PlantOlivetree</plant>
+  </SeedsPlease.SeedDef>
+
+  <SeedsPlease.SeedDef ParentName="SeedBase">
+    <defName>SeedTea</defName>
+    <label>tea seeds</label>
+    <plant>PlantTea</plant>
+    <graphicData><texPath>Things/Item/Seeds/Tea</texPath></graphicData>
+  </SeedsPlease.SeedDef>
+
+  <SeedsPlease.SeedDef ParentName="SeedBase">
+    <defName>SeedCoffee</defName>
+    <label>coffee seeds</label>
+    <plant>PlantCoffee</plant>
+    <graphicData><texPath>Things/Item/Seeds/Coffee</texPath></graphicData>
+  </SeedsPlease.SeedDef>
+
+  <SeedsPlease.SeedDef ParentName="SeedBase">
+    <defName>Seedmushroom</defName>
+    <label>mushroom seeds</label>
+    <plant>Plantmushroom</plant>
+    <graphicData><texPath>Things/Item/Seeds/Mushroom</texPath></graphicData>
+  </SeedsPlease.SeedDef>
+
+  <SeedsPlease.SeedDef ParentName="SeedBase">
+    <defName>SeedTreeIronwood</defName>
+    <label>ironwood seeds</label>
+    <plant>PlantTreeIronwood</plant>
+  </SeedsPlease.SeedDef>
+
+</Defs>

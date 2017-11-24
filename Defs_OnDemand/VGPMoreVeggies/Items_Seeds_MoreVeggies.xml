@@ -1,0 +1,37 @@
+<Defs>
+
+  <SeedsPlease.SeedDef ParentName="SeedBase">
+    <defName>Seedeggplant</defName>
+    <label>eggplant seeds</label>
+    <plant>Planteggplant</plant>
+    <graphicData><texPath>Things/Item/Seeds/Eggplant</texPath></graphicData>
+  </SeedsPlease.SeedDef>
+
+  <SeedsPlease.SeedDef ParentName="SeedBase">
+    <defName>Seedpumpkin</defName>
+    <label>pumpkin seeds</label>
+    <plant>Plantpumpkin</plant>
+    <graphicData><texPath>Things/Item/Seeds/Pumpkin</texPath></graphicData>
+  </SeedsPlease.SeedDef>
+
+  <SeedsPlease.SeedDef ParentName="SeedBase">
+    <defName>Seedsquash</defName>
+    <label>squash seeds</label>
+    <plant>Plantsquash</plant>
+  </SeedsPlease.SeedDef>
+
+  <SeedsPlease.SeedDef ParentName="SeedBase">
+    <defName>SeedTomato</defName>
+    <label>tomato seeds</label>
+    <plant>PlantTomato</plant>
+    <graphicData><texPath>Things/Item/Seeds/Tomato</texPath></graphicData>
+  </SeedsPlease.SeedDef>
+
+  <SeedsPlease.SeedDef ParentName="SeedBase">
+    <defName>SeedCarrot</defName>
+    <label>carrot seeds</label>
+    <plant>PlantCarrot</plant>
+    <graphicData><texPath>Things/Item/Seeds/Carrot</texPath></graphicData>
+  </SeedsPlease.SeedDef>
+
+</Defs>

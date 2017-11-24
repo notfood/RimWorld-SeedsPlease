@@ -1,0 +1,348 @@
+<Defs>
+
+  <RecipeDef ParentName="ExtractSeed">
+    <defName>ExtractSeedVG_Ambrosia</defName>
+    <label>extract vg_ambrosia seeds</label>
+    <description>Extract seeds from Ambrosia.</description>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Ambrosia</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Ambrosia</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <SeedVG_Ambrosia>2</SeedVG_Ambrosia>
+    </products>
+    <researchPrerequisite>VG_Ambrosia</researchPrerequisite>
+  </RecipeDef>
+
+  <RecipeDef ParentName="ExtractSeed">
+    <defName>ExtractSeedVGP_Agarilux</defName>
+    <label>extract vgp_agarilux seeds</label>
+    <description>Extract seeds from Fungus.</description>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawFungus</li>
+          </thingDefs>
+        </filter>
+        <count>6</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RawFungus</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <SeedVGP_Agarilux>4</SeedVGP_Agarilux>
+    </products>
+  </RecipeDef>
+
+  <RecipeDef ParentName="ExtractSeed">
+    <defName>ExtractSeedgrape</defName>
+    <label>extract grape seeds</label>
+    <description>Extract seeds from grape.</description>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Rawgrape</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Rawgrape</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Seedgrape>4</Seedgrape>
+    </products>
+    <researchPrerequisite>agricultureII</researchPrerequisite>
+  </RecipeDef>
+
+  <RecipeDef ParentName="ExtractSeed">
+    <defName>ExtractSeedblueberry</defName>
+    <label>extract blueberry seeds</label>
+    <description>Extract seeds from blueberry.</description>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Rawblueberry</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Rawblueberry</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Seedblueberry>4</Seedblueberry>
+    </products>
+    <researchPrerequisite>agricultureII</researchPrerequisite>
+  </RecipeDef>
+
+  <RecipeDef ParentName="ExtractSeed">
+    <defName>ExtractSeedwatermelon</defName>
+    <label>extract watermelon seeds</label>
+    <description>Extract seeds from watermelon.</description>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Rawwatermelon</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Rawwatermelon</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Seedwatermelon>4</Seedwatermelon>
+    </products>
+    <researchPrerequisite>agricultureII</researchPrerequisite>
+  </RecipeDef>
+
+  <RecipeDef ParentName="ExtractSeed">
+    <defName>ExtractSeedBarley</defName>
+    <label>extract barley seeds</label>
+    <description>Extract seeds from Barley.</description>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawBarley</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RawBarley</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <SeedBarley>4</SeedBarley>
+    </products>
+  </RecipeDef>
+
+  <RecipeDef ParentName="ExtractSeed">
+    <defName>ExtractSeedSnowbeet</defName>
+    <label>extract snowbeet seeds</label>
+    <description>Extract seeds from snowbeet.</description>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Rawsnowbeet</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Rawsnowbeet</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <SeedSnowbeet>4</SeedSnowbeet>
+    </products>
+    <researchPrerequisite>agriculture</researchPrerequisite>
+  </RecipeDef>
+
+  <RecipeDef ParentName="ExtractSeed">
+    <defName>ExtractSeedredlentil</defName>
+    <label>extract redlentil seeds</label>
+    <description>Extract seeds from RedLentil.</description>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawRedLentil</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RawRedLentil</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Seedredlentil>4</Seedredlentil>
+    </products>
+    <researchPrerequisite>agriculture</researchPrerequisite>
+  </RecipeDef>
+
+  <RecipeDef ParentName="ExtractSeed">
+    <defName>ExtractSeedbean</defName>
+    <label>extract bean seeds</label>
+    <description>Extract seeds from bean.</description>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Rawbean</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Rawbean</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Seedbean>4</Seedbean>
+    </products>
+    <researchPrerequisite>agriculture</researchPrerequisite>
+  </RecipeDef>
+
+  <RecipeDef ParentName="ExtractSeed">
+    <defName>ExtractSeedOlivetree</defName>
+    <label>extract olive seeds</label>
+    <description>Extract seeds from Olive.</description>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawOlive</li>
+          </thingDefs>
+        </filter>
+        <count>7</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RawOlive</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <SeedOlivetree>4</SeedOlivetree>
+    </products>
+    <researchPrerequisite>agriculture</researchPrerequisite>
+  </RecipeDef>
+
+  <RecipeDef ParentName="ExtractSeed">
+    <defName>ExtractSeedTea</defName>
+    <label>extract tea seeds</label>
+    <description>Extract seeds from tea.</description>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Rawtea</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Rawtea</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <SeedTea>4</SeedTea>
+    </products>
+  </RecipeDef>
+
+  <RecipeDef ParentName="ExtractSeed">
+    <defName>ExtractSeedCoffee</defName>
+    <label>extract coffee seeds</label>
+    <description>Extract seeds from CPD_CoffeeBeans.</description>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>CPD_CoffeeBeans</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>CPD_CoffeeBeans</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <SeedCoffee>4</SeedCoffee>
+    </products>
+  </RecipeDef>
+
+  <RecipeDef ParentName="ExtractSeed">
+    <defName>ExtractSeedmushroom</defName>
+    <label>extract mushroom seeds</label>
+    <description>Extract seeds from mushroom.</description>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Rawmushroom</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Rawmushroom</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Seedmushroom>4</Seedmushroom>
+    </products>
+  </RecipeDef>
+
+  <RecipeDef ParentName="ExtractSeed">
+    <defName>ExtractSeedTreeIronwood</defName>
+    <label>extract ironwood seeds</label>
+    <description>Extract seeds from VG_IronWoodLog.</description>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>VG_IronWoodLog</li>
+          </thingDefs>
+        </filter>
+        <count>18</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>VG_IronWoodLog</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <SeedTreeIronwood>4</SeedTreeIronwood>
+    </products>
+    <researchPrerequisite>flowersandtrees</researchPrerequisite>
+  </RecipeDef>
+
+</Defs>

@@ -24,15 +24,19 @@ for file in sys.argv[1:]:
         plant = child.find('plant')
         if plant is None:
             continue
+          
+        plantYield = plant.find('harvestYield');
         
-        if plant.find('harvestYield') is None:
+        if plantYield is None:
             continue
           
         parentName = child.get('ParentName')
         if parentName is None:
             continue
         
-        print(name + " " + parentName)
+        yieldCount = max(int(round(int(plantYield.text)/3)), 4)
+        
+        print(name + " " + parentName + " " + plantYield.text + " " + str(yieldCount))
 
         sthingDef = etree.SubElement(seeds, 'SeedsPlease.SeedDef')
         sthingDef.set('ParentName', 'SeedBase')
@@ -68,13 +72,13 @@ for file in sys.argv[1:]:
         rlabel.text = 'extract ' + name.lower() + ' seeds'
         rdesc = etree.SubElement(rthingDef, 'description')
         rdesc.text = 'Extract seeds from ' + harvestedThingDef.text.replace('Raw', '') + '.'
-        ringredients = etree.XML('<ingredients><li><filter><thingDefs><li>' + harvestedThingDef.text + '</li></thingDefs></filter><count>25</count></li></ingredients>')
+        ringredients = etree.XML('<ingredients><li><filter><thingDefs><li>' + harvestedThingDef.text + '</li></thingDefs></filter><count>' + str(yieldCount) + '</count></li></ingredients>')
         rthingDef.append(ringredients);
         rfixedIngredientsFilter = etree.XML('<fixedIngredientFilter><thingDefs><li>' + harvestedThingDef.text + '</li></thingDefs></fixedIngredientFilter>')
         rthingDef.append(rfixedIngredientsFilter);
         rproducts = etree.SubElement(rthingDef, 'products')
         rproduct = etree.SubElement(rproducts, sdefName.text)
-        rproduct.text = '5'
+        rproduct.text = '3'
         
         research = plant.find('sowResearchPrerequisites')
         if research is None or not len(research):

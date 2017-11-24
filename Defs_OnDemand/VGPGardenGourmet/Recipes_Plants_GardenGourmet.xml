@@ -1,0 +1,75 @@
+<Defs>
+
+  <RecipeDef ParentName="ExtractSeed">
+    <defName>ExtractSeedwheat</defName>
+    <label>extract wheat seeds</label>
+    <description>Extract seeds from wheat.</description>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Rawwheat</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Rawwheat</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Seedwheat>5</Seedwheat>
+    </products>
+  </RecipeDef>
+
+  <RecipeDef ParentName="ExtractSeed">
+    <defName>ExtractSeedcocoa</defName>
+    <label>extract cocoa seeds</label>
+    <description>Extract seeds from cocoa.</description>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Rawcocoa</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Rawcocoa</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Seedcocoa>5</Seedcocoa>
+    </products>
+  </RecipeDef>
+
+  <RecipeDef ParentName="ExtractSeed">
+    <defName>ExtractSeedsugarcane</defName>
+    <label>extract sugarcane seeds</label>
+    <description>Extract seeds from sugarcane.</description>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Rawsugarcane</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Rawsugarcane</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Seedsugarcane>5</Seedsugarcane>
+    </products>
+  </RecipeDef>
+
+</Defs>

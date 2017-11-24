@@ -3,36 +3,42 @@
     <defName>SeedRice</defName>
     <label>rice seeds</label>
     <plant>PlantRice</plant>
+    <graphicData><texPath>Things/Item/Seeds/Rice</texPath></graphicData>
   </SeedsPlease.SeedDef>
   
   <SeedsPlease.SeedDef ParentName="SeedBase">
     <defName>SeedPotato</defName>
     <label>potato seeds</label>
     <plant>PlantPotato</plant>
+    <graphicData><texPath>Things/Item/Seeds/Potato</texPath></graphicData>
   </SeedsPlease.SeedDef>
   
   <SeedsPlease.SeedDef ParentName="SeedBase">
     <defName>SeedCorn</defName>
     <label>corn seeds</label>
     <plant>PlantCorn</plant>
+    <graphicData><texPath>Things/Item/Seeds/Corn</texPath></graphicData>
   </SeedsPlease.SeedDef>
   
   <SeedsPlease.SeedDef ParentName="SeedBase">
     <defName>SeedStrawberry</defName>
     <label>strawberry seeds</label>
     <plant>PlantStrawberry</plant>
+    <graphicData><texPath>Things/Item/Seeds/Strawberry</texPath></graphicData>
   </SeedsPlease.SeedDef>
   
   <SeedsPlease.SeedDef ParentName="SeedBase">
     <defName>SeedHaygrass</defName>
     <label>haygrass seeds</label>
     <plant>PlantHaygrass</plant>
+    <graphicData><texPath>Things/Item/Seeds/Haygrass</texPath></graphicData>
   </SeedsPlease.SeedDef>
   
   <SeedsPlease.SeedDef ParentName="SeedBase">
     <defName>SeedHops</defName>
     <label>hops seeds</label>
     <plant>PlantHops</plant>
+    <graphicData><texPath>Things/Item/Seeds/Hops</texPath></graphicData>
   </SeedsPlease.SeedDef>
   
   <SeedsPlease.SeedDef ParentName="SeedBase">
@@ -49,25 +55,25 @@
   
   <SeedsPlease.SeedDef ParentName="SeedBase">
     <defName>SeedTreeDrago</defName>
-    <label>treedrago seeds</label>
+    <label>drago seeds</label>
     <plant>PlantTreeDrago</plant>
   </SeedsPlease.SeedDef>
   
   <SeedsPlease.SeedDef ParentName="SeedBase">
     <defName>SeedTreeWillow</defName>
-    <label>treewillow seeds</label>
+    <label>willow seeds</label>
     <plant>PlantTreeWillow</plant>
   </SeedsPlease.SeedDef>
   
   <SeedsPlease.SeedDef ParentName="SeedBase">
     <defName>SeedTreeCypress</defName>
-    <label>treecypress seeds</label>
+    <label>cypress seeds</label>
     <plant>PlantTreeCypress</plant>
   </SeedsPlease.SeedDef>
   
   <SeedsPlease.SeedDef ParentName="SeedBase">
     <defName>SeedTreeMaple</defName>
-    <label>treemaple seeds</label>
+    <label>maple seeds</label>
     <plant>PlantTreeMaple</plant>
   </SeedsPlease.SeedDef>
   
@@ -75,12 +81,14 @@
     <defName>SeedTreeOak</defName>
     <label>oak seeds</label>
     <plant>PlantTreeOak</plant>
+    <graphicData><texPath>Things/Item/Seeds/Oak</texPath></graphicData>
   </SeedsPlease.SeedDef>
   
   <SeedsPlease.SeedDef ParentName="SeedBase">
     <defName>SeedTreePoplar</defName>
     <label>poplar seeds</label>
     <plant>PlantTreePoplar</plant>
+    <graphicData><texPath>Things/Item/Seeds/Poplar</texPath></graphicData>
   </SeedsPlease.SeedDef>
   
   <SeedsPlease.SeedDef ParentName="SeedBase">
@@ -93,12 +101,14 @@
     <defName>SeedTreeBirch</defName>
     <label>birch seeds</label>
     <plant>PlantTreeBirch</plant>
+    <graphicData><texPath>Things/Item/Seeds/Birch</texPath></graphicData>
   </SeedsPlease.SeedDef>
   
   <SeedsPlease.SeedDef ParentName="SeedBase">
     <defName>SeedTreeTeak</defName>
     <label>teak seeds</label>
     <plant>PlantTreeTeak</plant>
+    <graphicData><texPath>Things/Item/Seeds/TreeTeak</texPath></graphicData>
   </SeedsPlease.SeedDef>
   
   <SeedsPlease.SeedDef ParentName="SeedBase">
@@ -117,5 +127,6 @@
     <defName>SeedTreeBamboo</defName>
     <label>bamboo seeds</label>
     <plant>PlantTreeBamboo</plant>
+    <graphicData><texPath>Things/Item/Seeds/Bamboo</texPath></graphicData>
   </SeedsPlease.SeedDef>
 </Defs>

@@ -1,0 +1,28 @@
+<Defs>
+
+  <SeedsPlease.SeedDef ParentName="SeedBase">
+    <defName>SeedVG_Ambrosia</defName>
+    <label>vg_ambrosia seeds</label>
+    <plant>VG_PlantAmbrosia</plant>
+  </SeedsPlease.SeedDef>
+
+  <SeedsPlease.SeedDef ParentName="SeedBase">
+    <defName>SeedHealroot</defName>
+    <label>healroot seeds</label>
+    <plant>PlantHealroot</plant>
+  </SeedsPlease.SeedDef>
+
+  <SeedsPlease.SeedDef ParentName="SeedBase">
+    <defName>SeedNeutroFlower</defName>
+    <label>neutroflower seeds</label>
+    <plant>PlantNeutroFlower</plant>
+  </SeedsPlease.SeedDef>
+
+  <SeedsPlease.SeedDef ParentName="SeedBase">
+    <defName>SeedTobacco</defName>
+    <label>tobacco seeds</label>
+    <plant>PlantTobacco</plant>
+    <graphicData><texPath>Things/Item/Seeds/Tobacco</texPath></graphicData>
+  </SeedsPlease.SeedDef>
+
+</Defs>

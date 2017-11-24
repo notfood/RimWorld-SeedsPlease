@@ -1,0 +1,33 @@
+<Defs>
+
+  <SeedsPlease.SeedDef ParentName="SeedBase">
+    <defName>SeedTreeJapaneseMaple</defName>
+    <label>treejapanesemaple seeds</label>
+    <plant>PlantTreeJapaneseMaple</plant>
+  </SeedsPlease.SeedDef>
+
+  <SeedsPlease.SeedDef ParentName="SeedBase">
+    <defName>SeedTreeCherryBlossom</defName>
+    <label>treecherryblossom seeds</label>
+    <plant>PlantTreeCherryBlossom</plant>
+  </SeedsPlease.SeedDef>
+
+  <SeedsPlease.SeedDef ParentName="SeedBase">
+    <defName>SeedTreeCamellia</defName>
+    <label>treecamellia seeds</label>
+    <plant>PlantTreeCamellia</plant>
+  </SeedsPlease.SeedDef>
+
+  <SeedsPlease.SeedDef ParentName="SeedBase">
+    <defName>SeedTreeAcacia</defName>
+    <label>treeacacia seeds</label>
+    <plant>PlantTreeAcacia</plant>
+  </SeedsPlease.SeedDef>
+
+  <SeedsPlease.SeedDef ParentName="SeedBase">
+    <defName>SeedTreeRedMaple</defName>
+    <label>treeredmaple seeds</label>
+    <plant>PlantTreeRedMaple</plant>
+  </SeedsPlease.SeedDef>
+
+</Defs>
