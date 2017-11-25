@@ -1,0 +1,75 @@
+<Defs>
+  
+  <RecipeDef ParentName="ExtractSeed">
+    <defName>ExtractSeedTomato</defName>
+    <label>extract tomato seeds</label>
+    <description>Extract seeds from Tomatoes.</description>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawTomatoes</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RawTomatoes</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <SeedTomato>3</SeedTomato>
+    </products>
+  </RecipeDef>
+  
+  <RecipeDef ParentName="ExtractSeed">
+    <defName>ExtractSeedLettuce</defName>
+    <label>extract lettuce seeds</label>
+    <description>Extract seeds from Lettuce.</description>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawLettuce</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RawLettuce</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <SeedLettuce>4</SeedLettuce>
+    </products>
+  </RecipeDef>
+  
+  <RecipeDef ParentName="ExtractSeed">
+    <defName>ExtractSeedCarrot</defName>
+    <label>extract carrot seeds</label>
+    <description>Extract seeds from Carrots.</description>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawCarrots</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RawCarrots</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <SeedCarrot>3</SeedCarrot>
+    </products>
+  </RecipeDef>
+  
+</Defs>

@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
   
+  <!-- Vegetable Garden Project -->
+  
   <Operation Class="LoadOnDemand.PatchOperationLoadOnDemand">
     <mods>
       <li>VGP Vegetable Garden</li>
@@ -55,4 +57,26 @@
     </folders>
   </Operation>
 
+  <!-- Exploding Potato Soybeans -->
+  
+  <Operation Class="LoadOnDemand.PatchOperationLoadOnDemand">
+    <mods>
+      <li>Soybeans</li>
+    </mods>
+    <folders>
+      <li>EPSoybeans</li>
+    </folders>
+  </Operation>
+  
+  <!-- Exploding Potato Soybeans -->
+  
+  <Operation Class="LoadOnDemand.PatchOperationLoadOnDemand">
+    <mods>
+      <li>[T] ExpandedCrops</li>
+    </mods>
+    <folders>
+      <li>TExpandedCrops</li>
+    </folders>
+  </Operation>
+  
 </Patch>
