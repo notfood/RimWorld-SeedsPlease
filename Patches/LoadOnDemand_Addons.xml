@@ -68,7 +68,7 @@
     </folders>
   </Operation>
   
-  <!-- Exploding Potato Soybeans -->
+  <!-- Telkir ExpandedCrops -->
   
   <Operation Class="LoadOnDemand.PatchOperationLoadOnDemand">
     <mods>
@@ -76,6 +76,17 @@
     </mods>
     <folders>
       <li>TExpandedCrops</li>
+    </folders>
+  </Operation>
+  
+  <!-- Xeo's Genetically Engineered Plants -->
+  
+  <Operation Class="LoadOnDemand.PatchOperationLoadOnDemand">
+    <mods>
+      <li>Xeo's Genetically Engineered Plants</li>
+    </mods>
+    <folders>
+      <li>XeosGeneticallyEngineeredPlants</li>
     </folders>
   </Operation>
   
