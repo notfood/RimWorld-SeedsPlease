@@ -89,5 +89,38 @@
       <li>XeosGeneticallyEngineeredPlants</li>
     </folders>
   </Operation>
+
+  <!-- Jecrell's Tobacco & Dry Leaves -->
+  
+  <Operation Class="LoadOnDemand.PatchOperationLoadOnDemand">
+    <mods>
+      <li>Dry Leaves</li>
+    </mods>
+    <folders>
+      <li>JecrellsTobaccoDryLeaves</li>
+    </folders>
+  </Operation>
+  
+  <!-- Cupro's Drinks Energy -->
+  
+  <Operation Class="LoadOnDemand.PatchOperationLoadOnDemand">
+    <mods>
+      <li>Cupros-Drinks-Energy</li>
+    </mods>
+    <folders>
+      <li>CuprosDrinksEnergy</li>
+    </folders>
+  </Operation>
+  
+  <!-- Cupro's Drinks Soda -->
+  
+  <Operation Class="LoadOnDemand.PatchOperationLoadOnDemand">
+    <mods>
+      <li>Cupros-Drinks-Soda</li>
+    </mods>
+    <folders>
+      <li>CuprosDrinksSoda</li>
+    </folders>
+  </Operation>
   
 </Patch>
