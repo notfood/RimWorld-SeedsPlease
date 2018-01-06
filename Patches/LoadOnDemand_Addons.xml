@@ -89,18 +89,7 @@
       <li>XeosGeneticallyEngineeredPlants</li>
     </folders>
   </Operation>
-  
-  <!-- Additional Joy Objects -->
-  
-  <Operation Class="LoadOnDemand.PatchOperationLoadOnDemand">
-    <mods>
-      <li>Additional Joy Objects</li>
-    </mods>
-    <folders>
-      <li>AdditionalJoyObjects</li>
-    </folders>
-  </Operation>
-  
+
   <!-- Jecrell's Tobacco & Dry Leaves -->
   
   <Operation Class="LoadOnDemand.PatchOperationLoadOnDemand">

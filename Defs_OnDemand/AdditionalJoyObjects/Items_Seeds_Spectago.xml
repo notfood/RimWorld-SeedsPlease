@@ -1,9 +1,0 @@
-<Defs>
-
-  <SeedsPlease.SeedDef ParentName="SeedBase">
-    <defName>SeedSpectago</defName>
-    <label>spectago seeds</label>
-    <plant>AJO_PlantOutdoorSpectago</plant>
-  </SeedsPlease.SeedDef>
-
-</Defs>
