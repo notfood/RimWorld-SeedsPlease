@@ -1,0 +1,9 @@
+<Defs>
+
+  <SeedsPlease.SeedDef ParentName="SeedBase">
+    <defName>SeedTobacco</defName>
+    <label>tobacco seeds</label>
+    <plant>PlantTobacco</plant>
+  </SeedsPlease.SeedDef>
+
+</Defs>

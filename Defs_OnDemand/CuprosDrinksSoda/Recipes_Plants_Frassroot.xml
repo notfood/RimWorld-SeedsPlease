@@ -1,0 +1,27 @@
+<Defs>
+
+  <RecipeDef ParentName="ExtractSeed">
+    <defName>ExtractSeedFrassRoot</defName>
+    <label>extract frassroot seeds</label>
+    <description>Extract seeds from frassroots.</description>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>CPD_FrassRoot</li>
+          </thingDefs>
+        </filter>
+        <count>6</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>CPD_FrassRoot</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <SeedTobacco>2</SeedTobacco>
+    </products>
+  </RecipeDef>
+
+</Defs>
