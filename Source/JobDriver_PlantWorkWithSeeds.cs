@@ -55,7 +55,17 @@ namespace SeedsPlease
 
                             var seedDef = plant.def.blueprintDef as SeedDef;
                             if (seedDef != null) {
-                                float parameter = Mathf.Min (Mathf.InverseLerp (plant.def.plant.harvestMinGrowth, 0.9f, plant.Growth), 1f);
+                                var minGrowth = plant.def.plant.harvestMinGrowth;
+
+                                float parameter;
+                                if (minGrowth < 0.9f) {
+                                    parameter = Mathf.InverseLerp (minGrowth, 0.9f, plant.Growth);
+                                } else if (minGrowth < plant.Growth) {
+                                    parameter = 1f;
+                                } else {
+                                    parameter = 0f;
+                                }
+                                parameter = Mathf.Min (parameter, 1f);
 
                                 if (seedDef.seed.seedFactor > 0 && Rand.Value < seedDef.seed.baseChance * parameter) {
                                     int count;
