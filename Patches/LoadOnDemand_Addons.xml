@@ -2,7 +2,16 @@
 <Patch>
   
   <!-- Vegetable Garden Project -->
-  
+
+  <Operation Class="LoadOnDemand.PatchOperationLoadOnDemand">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <folders>
+      <li>CombatExtended</li>
+    </folders>
+  </Operation>
+
   <Operation Class="LoadOnDemand.PatchOperationLoadOnDemand">
     <mods>
       <li>VGP Vegetable Garden</li>
