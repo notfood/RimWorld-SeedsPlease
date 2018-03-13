@@ -17,6 +17,12 @@
     <label>goldleaf seeds</label>
     <plant>PlantGoldLeaf</plant>
   </SeedsPlease.SeedDef>
+  
+  <SeedsPlease.SeedDef ParentName="SeedBase">
+    <defName>SeedJadeLeaf</defName>
+    <label>jadeleaf seeds</label>
+    <plant>PlantJadeLeaf</plant>
+  </SeedsPlease.SeedDef>
 
   <SeedsPlease.SeedDef ParentName="SeedBase">
     <defName>SeedSilverLeaf</defName>
