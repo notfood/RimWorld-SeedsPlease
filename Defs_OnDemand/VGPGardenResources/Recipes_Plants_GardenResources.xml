@@ -76,6 +76,31 @@
   </RecipeDef>
 
   <RecipeDef ParentName="ExtractSeed">
+    <defName>ExtractSeedJadeLeaf</defName>
+    <label>extract jadeleaf seeds</label>
+    <description>Extract seeds from JadeLeaf.</description>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawJadeLeaf</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RawJadeLeaf</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <SeedJadeLeaf>3</SeedJadeLeaf>
+    </products>
+    <researchPrerequisite>resourceleafs</researchPrerequisite>
+  </RecipeDef>
+  
+  <RecipeDef ParentName="ExtractSeed">
     <defName>ExtractSeedSilverLeaf</defName>
     <label>extract silverleaf seeds</label>
     <description>Extract seeds from SilverLeaf.</description>
