@@ -10,6 +10,9 @@
 <ExtractSeedGoldLeaf.label>Получить семена золото-листа</ExtractSeedGoldLeaf.label>
 <ExtractSeedGoldLeaf.description>Извлечь семена из золото-листа.</ExtractSeedGoldLeaf.description>
 
+<ExtractSeedJadeLeaf.label>Получить семена нефритового корня</ExtractSeedJadeLeaf.label>
+<ExtractSeedJadeLeaf.description>Извлечь семена из нефритового корня.</ExtractSeedJadeLeaf.description>
+
 <ExtractSeedSilverLeaf.label>Получить семена серебро-листа</ExtractSeedSilverLeaf.label>
 <ExtractSeedSilverLeaf.description>Извлечь семена из серебро-листа.</ExtractSeedSilverLeaf.description>
 
