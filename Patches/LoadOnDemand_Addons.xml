@@ -163,5 +163,16 @@
       <li>TwoskiSynthmeat</li>
     </folders>
   </Operation>
+
+  <!-- Syrchalis' [SYR] Coffee and Tea -->
+  
+  <Operation Class="LoadOnDemand.PatchOperationLoadOnDemand">
+    <mods>
+      <li>[SYR] Coffee and Tea</li>
+    </mods>
+    <folders>
+      <li>SyrchalisCoffeeAndTea</li>
+    </folders>
+  </Operation>
   
 </Patch>
