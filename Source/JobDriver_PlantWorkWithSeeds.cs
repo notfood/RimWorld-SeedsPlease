@@ -40,7 +40,7 @@ namespace SeedsPlease
                 var plant = Plant;
 
                 if (actor.skills != null) {
-                    actor.skills.Learn (SkillDefOf.Growing, xpPerTick, true);
+                    actor.skills.Learn (SkillDefOf.Plants, xpPerTick, true);
                 }
 
                 workDone += actor.GetStatValue (StatDefOf.PlantWorkSpeed, true);

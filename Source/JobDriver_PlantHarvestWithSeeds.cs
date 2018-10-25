@@ -7,7 +7,7 @@ namespace SeedsPlease
     {
         protected override void Init ()
         {
-            xpPerTick = 0.11f;
+            xpPerTick = 0.17f;
         }
 
         protected override Toil PlantWorkDoneToil ()

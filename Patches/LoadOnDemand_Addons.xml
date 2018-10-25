@@ -5,19 +5,28 @@
 
   <Operation Class="LoadOnDemand.PatchOperationLoadOnDemand">
     <mods>
-      <li>Combat Extended</li>
+      <li>VGP Vegetable Garden</li>
     </mods>
     <folders>
-      <li>CombatExtended</li>
+      <li>VGPVegetableGarden</li>
     </folders>
   </Operation>
 
   <Operation Class="LoadOnDemand.PatchOperationLoadOnDemand">
     <mods>
-      <li>VGP Vegetable Garden</li>
+      <li>VGP Garden Drinks</li>
     </mods>
     <folders>
-      <li>VGPVegetableGarden</li>
+      <li>VGPGardenDrinks</li>
+    </folders>
+  </Operation>
+
+  <Operation Class="LoadOnDemand.PatchOperationLoadOnDemand">
+    <mods>
+      <li>VGP Garden Fabrics</li>
+    </mods>
+    <folders>
+      <li>VGPGardenFabrics</li>
     </folders>
   </Operation>
 
@@ -71,9 +80,21 @@
   <Operation Class="LoadOnDemand.PatchOperationLoadOnDemand">
     <mods>
       <li>Soybeans</li>
+      <li>Soybeans [B19]</li>
     </mods>
     <folders>
       <li>EPSoybeans</li>
+    </folders>
+  </Operation>
+  
+  <!-- Combat Extended -->
+  
+  <Operation Class="LoadOnDemand.PatchOperationLoadOnDemand">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <folders>
+      <li>CombatExtended</li>
     </folders>
   </Operation>
   
@@ -92,7 +113,7 @@
   
   <Operation Class="LoadOnDemand.PatchOperationLoadOnDemand">
     <mods>
-      <li>Xeo's Genetically Engineered Plants</li>
+      <li>[XND] Genetically Engineered Plants</li>
     </mods>
     <folders>
       <li>XeosGeneticallyEngineeredPlants</li>
@@ -103,32 +124,43 @@
   
   <Operation Class="LoadOnDemand.PatchOperationLoadOnDemand">
     <mods>
-      <li>Dry Leaves</li>
+      <li>Jecs Tobacco and Cigarettes</li>
     </mods>
     <folders>
-      <li>JecrellsTobaccoDryLeaves</li>
+      <li>JecrellsTobacco</li>
     </folders>
   </Operation>
   
-  <!-- Cupro's Drinks Energy -->
+  <!-- Dismar's n Cupro's Drinks Soda -->
   
   <Operation Class="LoadOnDemand.PatchOperationLoadOnDemand">
     <mods>
-      <li>Cupros-Drinks-Energy</li>
-    </mods>
-    <folders>
-      <li>CuprosDrinksEnergy</li>
-    </folders>
-  </Operation>
-  
-  <!-- Cupro's Drinks Soda -->
-  
-  <Operation Class="LoadOnDemand.PatchOperationLoadOnDemand">
-    <mods>
-      <li>Cupros-Drinks-Soda</li>
+      <li>CuproPanda's Drinks</li>
     </mods>
     <folders>
       <li>CuprosDrinksSoda</li>
+    </folders>
+  </Operation>
+  
+  <!-- CrustyPeanut's RimCousine -->
+
+  <Operation Class="LoadOnDemand.PatchOperationLoadOnDemand">
+    <mods>
+      <li>RimCuisine 1.0</li>
+    </mods>
+    <folders>
+      <li>CrustyPeanutsRimCuisine</li>
+    </folders>
+  </Operation>
+  
+  <!-- Twoski's Synthmeat -->
+  
+  <Operation Class="LoadOnDemand.PatchOperationLoadOnDemand">
+    <mods>
+      <li>Synthmeat</li>
+    </mods>
+    <folders>
+      <li>TwoskiSynthmeat</li>
     </folders>
   </Operation>
   

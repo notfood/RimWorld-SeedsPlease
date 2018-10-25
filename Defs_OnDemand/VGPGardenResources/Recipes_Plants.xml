@@ -1,7 +1,8 @@
 <Defs>
+  <!-- Cultivated_Plants_resource.xml -->
 
   <RecipeDef ParentName="ExtractSeed">
-    <defName>ExtractSeedSteelLeaf</defName>
+    <defName>ExtractSeed_Steelleaf</defName>
     <label>extract steelleaf seeds</label>
     <description>Extract seeds from SteelLeaf.</description>
     <ingredients>
@@ -20,13 +21,13 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <SeedSteelLeaf>3</SeedSteelLeaf>
+      <Seed_Steelleaf>3</Seed_Steelleaf>
     </products>
     <researchPrerequisite>resourceleafs</researchPrerequisite>
   </RecipeDef>
 
   <RecipeDef ParentName="ExtractSeed">
-    <defName>ExtractSeedPlasteelLeaf</defName>
+    <defName>ExtractSeed_Plasteelleaf</defName>
     <label>extract plasteelleaf seeds</label>
     <description>Extract seeds from PlasteelLeaf.</description>
     <ingredients>
@@ -45,13 +46,13 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <SeedPlasteelLeaf>3</SeedPlasteelLeaf>
+      <Seed_Plasteelleaf>3</Seed_Plasteelleaf>
     </products>
     <researchPrerequisite>resourceleafs</researchPrerequisite>
   </RecipeDef>
 
   <RecipeDef ParentName="ExtractSeed">
-    <defName>ExtractSeedGoldLeaf</defName>
+    <defName>ExtractSeed_Goldleaf</defName>
     <label>extract goldleaf seeds</label>
     <description>Extract seeds from GoldLeaf.</description>
     <ingredients>
@@ -70,13 +71,13 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <SeedGoldLeaf>3</SeedGoldLeaf>
+      <Seed_Goldleaf>3</Seed_Goldleaf>
     </products>
     <researchPrerequisite>resourceleafs</researchPrerequisite>
   </RecipeDef>
 
   <RecipeDef ParentName="ExtractSeed">
-    <defName>ExtractSeedJadeLeaf</defName>
+    <defName>ExtractSeed_Jadeleaf</defName>
     <label>extract jadeleaf seeds</label>
     <description>Extract seeds from JadeLeaf.</description>
     <ingredients>
@@ -95,13 +96,13 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <SeedJadeLeaf>3</SeedJadeLeaf>
+      <Seed_Jadeleaf>3</Seed_Jadeleaf>
     </products>
     <researchPrerequisite>resourceleafs</researchPrerequisite>
   </RecipeDef>
-  
+
   <RecipeDef ParentName="ExtractSeed">
-    <defName>ExtractSeedSilverLeaf</defName>
+    <defName>ExtractSeed_Silverleaf</defName>
     <label>extract silverleaf seeds</label>
     <description>Extract seeds from SilverLeaf.</description>
     <ingredients>
@@ -120,13 +121,13 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <SeedSilverLeaf>3</SeedSilverLeaf>
+      <Seed_Silverleaf>3</Seed_Silverleaf>
     </products>
     <researchPrerequisite>resourceleafs</researchPrerequisite>
   </RecipeDef>
 
   <RecipeDef ParentName="ExtractSeed">
-    <defName>ExtractSeedUraniumLeaf</defName>
+    <defName>ExtractSeed_Uraniumleaf</defName>
     <label>extract uraniumleaf seeds</label>
     <description>Extract seeds from UraniumLeaf.</description>
     <ingredients>
@@ -145,7 +146,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <SeedUraniumLeaf>3</SeedUraniumLeaf>
+      <Seed_Uraniumleaf>3</Seed_Uraniumleaf>
     </products>
     <researchPrerequisite>resourceleafs</researchPrerequisite>
   </RecipeDef>

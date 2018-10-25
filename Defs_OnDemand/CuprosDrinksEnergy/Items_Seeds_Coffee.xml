@@ -1,9 +1,0 @@
-<Defs>
-
-  <SeedsPlease.SeedDef ParentName="SeedBase">
-    <defName>SeedCoffee</defName>
-    <label>coffee tree seeds</label>
-    <plant>CPD_PlantCoffee</plant>
-  </SeedsPlease.SeedDef>
-
-</Defs>

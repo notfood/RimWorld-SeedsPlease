@@ -9,7 +9,7 @@ namespace SeedsPlease
         protected override void Init ()
         {
             if (Plant.def.plant.harvestedThingDef != null && Plant.YieldNow () > 0) {
-                xpPerTick = 0.11f;
+                xpPerTick = 0.17f;
             } else {
                 xpPerTick = 0f;
             }

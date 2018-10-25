@@ -1,14 +1,15 @@
 <Defs>
+  <!-- Cultivated_Plants.xml -->
 
   <RecipeDef ParentName="ExtractSeed">
-    <defName>ExtractSeedTobacco</defName>
-    <label>extract tobacco seeds</label>
-    <description>Extract seeds from tobacco leaves.</description>
+    <defName>ExtractSeed_Flax</defName>
+    <label>extract flax seeds</label>
+    <description>Extract seeds from Flax.</description>
     <ingredients>
       <li>
         <filter>
           <thingDefs>
-            <li>TobaccoLeaves</li>
+            <li>RawFlax</li>
           </thingDefs>
         </filter>
         <count>4</count>
@@ -16,11 +17,11 @@
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>TobaccoLeaves</li>
+        <li>RawFlax</li>
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <SeedTobacco>1</SeedTobacco>
+      <Seed_Flax>3</Seed_Flax>
     </products>
   </RecipeDef>
 

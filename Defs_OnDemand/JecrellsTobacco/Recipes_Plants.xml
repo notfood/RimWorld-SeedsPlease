@@ -1,26 +1,27 @@
 <Defs>
+  <!-- Jecrell_Plants_Cultivated_Farm.xml -->
 
   <RecipeDef ParentName="ExtractSeed">
-    <defName>ExtractSeedCoffee</defName>
-    <label>extract coffee tree seeds</label>
-    <description>Extract seeds from coffee beans.</description>
+    <defName>ExtractSeed_Tobacco</defName>
+    <label>extract tobacco seeds</label>
+    <description>Extract seeds from Tobacco leaves.</description>
     <ingredients>
       <li>
         <filter>
           <thingDefs>
-            <li>CPD_RawCoffeeBeans</li>
+            <li>Jecs_TobaccoLeaves</li>
           </thingDefs>
         </filter>
-        <count>8</count>
+        <count>4</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>CPD_RawCoffeeBeans</li>
+        <li>Jecs_TobaccoLeaves</li>
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <SeedTobacco>1</SeedTobacco>
+      <Seed_Tobacco>3</Seed_Tobacco>
     </products>
   </RecipeDef>
 

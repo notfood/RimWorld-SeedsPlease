@@ -1,9 +1,10 @@
 <Defs>
+  <!-- Plants.xml -->
 
   <RecipeDef ParentName="ExtractSeed">
-    <defName>ExtractSeedFrassRoot</defName>
+    <defName>ExtractSeed_Frassroot</defName>
     <label>extract frassroot seeds</label>
-    <description>Extract seeds from frassroots.</description>
+    <description>Extract seeds from FrassRoot.</description>
     <ingredients>
       <li>
         <filter>
@@ -11,7 +12,7 @@
             <li>CPD_FrassRoot</li>
           </thingDefs>
         </filter>
-        <count>6</count>
+        <count>4</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
@@ -20,7 +21,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <SeedTobacco>2</SeedTobacco>
+      <Seed_Frassroot>3</Seed_Frassroot>
     </products>
   </RecipeDef>
 

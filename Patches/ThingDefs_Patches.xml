@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
   
-  <Operation Class="PatchOperationReplace">
-    <xpath>*/ThingDef[defName = "PlantWildHealroot"]/plant/harvestedThingDef</xpath>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName = "Plant_HealrootWild"]/plant</xpath>
     <value>
       <harvestedThingDef>RawHealroot</harvestedThingDef>
     </value>

@@ -20,7 +20,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <SeedRice>4</SeedRice>
+      <Seed_Rice>4</Seed_Rice>
     </products>
   </RecipeDef>
   
@@ -44,7 +44,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <SeedPotato>4</SeedPotato>
+      <Seed_Potato>4</Seed_Potato>
     </products>
   </RecipeDef>
   
@@ -68,7 +68,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <SeedCorn>4</SeedCorn>
+      <Seed_Corn>4</Seed_Corn>
     </products>
   </RecipeDef>
   
@@ -92,7 +92,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <SeedStrawberry>4</SeedStrawberry>
+      <Seed_Strawberry>4</Seed_Strawberry>
     </products>
   </RecipeDef>
   
@@ -116,7 +116,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <SeedHaygrass>4</SeedHaygrass>
+      <Seed_Haygrass>4</Seed_Haygrass>
     </products>
   </RecipeDef>
   
@@ -140,7 +140,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <SeedHops>4</SeedHops>
+      <Seed_Hops>4</Seed_Hops>
     </products>
   </RecipeDef>
   
@@ -164,7 +164,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <SeedSmokeleaf>5</SeedSmokeleaf>
+      <Seed_Smokeleaf>5</Seed_Smokeleaf>
     </products>
   </RecipeDef>
   
@@ -188,7 +188,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <SeedPsychoid>5</SeedPsychoid>
+      <Seed_Psychoid>5</Seed_Psychoid>
     </products>
   </RecipeDef>
 

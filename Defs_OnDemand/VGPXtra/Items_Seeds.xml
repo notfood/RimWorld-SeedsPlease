@@ -1,32 +1,33 @@
 <Defs>
+  <!-- Plants_Extra_Trees.xml -->
 
   <SeedsPlease.SeedDef ParentName="SeedBase">
-    <defName>SeedTreeJapaneseMaple</defName>
-    <label>treejapanesemaple seeds</label>
+    <defName>Seed_Japanesemaple</defName>
+    <label>japanesemaple seeds</label>
     <plant>PlantTreeJapaneseMaple</plant>
   </SeedsPlease.SeedDef>
 
   <SeedsPlease.SeedDef ParentName="SeedBase">
-    <defName>SeedTreeCherryBlossom</defName>
-    <label>treecherryblossom seeds</label>
+    <defName>Seed_Cherryblossom</defName>
+    <label>cherryblossom seeds</label>
     <plant>PlantTreeCherryBlossom</plant>
   </SeedsPlease.SeedDef>
 
   <SeedsPlease.SeedDef ParentName="SeedBase">
-    <defName>SeedTreeCamellia</defName>
-    <label>treecamellia seeds</label>
+    <defName>Seed_Camellia</defName>
+    <label>camellia seeds</label>
     <plant>PlantTreeCamellia</plant>
   </SeedsPlease.SeedDef>
 
   <SeedsPlease.SeedDef ParentName="SeedBase">
-    <defName>SeedTreeAcacia</defName>
-    <label>treeacacia seeds</label>
+    <defName>Seed_Acacia</defName>
+    <label>acacia seeds</label>
     <plant>PlantTreeAcacia</plant>
   </SeedsPlease.SeedDef>
 
   <SeedsPlease.SeedDef ParentName="SeedBase">
-    <defName>SeedTreeRedMaple</defName>
-    <label>treeredmaple seeds</label>
+    <defName>Seed_Redmaple</defName>
+    <label>redmaple seeds</label>
     <plant>PlantTreeRedMaple</plant>
   </SeedsPlease.SeedDef>
 

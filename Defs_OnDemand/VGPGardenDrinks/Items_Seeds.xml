@@ -2,15 +2,6 @@
   <!-- Cultivated_Plants.xml -->
 
   <SeedsPlease.SeedDef ParentName="SeedBase">
-    <defName>Seed_Wheat</defName>
-    <label>wheat seeds</label>
-    <plant>Plantwheat</plant>
-    <graphicData>
-      <texPath>Things/Item/Seeds/Wheat</texPath>
-    </graphicData>
-  </SeedsPlease.SeedDef>
-
-  <SeedsPlease.SeedDef ParentName="SeedBase">
     <defName>Seed_Sugarcane</defName>
     <label>sugarcane seeds</label>
     <plant>Plantsugarcane</plant>

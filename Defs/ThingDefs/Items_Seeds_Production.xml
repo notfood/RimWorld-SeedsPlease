@@ -1,8 +1,8 @@
 <Defs>
   <SeedsPlease.SeedDef ParentName="SeedBase">
-    <defName>SeedCotton</defName>
+    <defName>Seed_Cotton</defName>
     <label>cotton seeds</label>
-    <plant>PlantCotton</plant>
+    <plant>Plant_Cotton</plant>
     <harvest>RawCotton</harvest>
     <statBases>
       <MarketValue>11.2</MarketValue>
@@ -10,9 +10,9 @@
   </SeedsPlease.SeedDef>
   
   <SeedsPlease.SeedDef ParentName="SeedBase">
-    <defName>SeedDevilstrand</defName>
+    <defName>Seed_Devilstrand</defName>
     <label>devilstrand seeds</label>
-    <plant>PlantDevilstrand</plant>
+    <plant>Plant_Devilstrand</plant>
     <harvest>RawDevilstrand</harvest>
     <statBases>
       <MarketValue>19.7</MarketValue>
@@ -20,12 +20,12 @@
   </SeedsPlease.SeedDef>
   
   <SeedsPlease.SeedDef ParentName="SeedBase">
-    <defName>SeedHealroot</defName>
+    <defName>Seed_Healroot</defName>
     <label>healroot seeds</label>
-    <plant>PlantHealroot</plant>
+    <plant>Plant_Healroot</plant>
     <harvest>RawHealroot</harvest>
     <sources>
-      <li>PlantWildHealroot</li>
+      <li>Plant_HealrootWild</li>
     </sources>
     <statBases>
       <MarketValue>14.3</MarketValue>

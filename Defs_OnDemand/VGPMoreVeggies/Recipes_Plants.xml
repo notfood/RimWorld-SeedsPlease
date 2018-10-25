@@ -1,7 +1,8 @@
 <Defs>
+  <!-- Cultivated_Plants.xml -->
 
   <RecipeDef ParentName="ExtractSeed">
-    <defName>ExtractSeedeggplant</defName>
+    <defName>ExtractSeed_Eggplant</defName>
     <label>extract eggplant seeds</label>
     <description>Extract seeds from eggplant.</description>
     <ingredients>
@@ -20,14 +21,14 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <Seedeggplant>3</Seedeggplant>
+      <Seed_Eggplant>3</Seed_Eggplant>
     </products>
   </RecipeDef>
 
   <RecipeDef ParentName="ExtractSeed">
-    <defName>ExtractSeedpumpkin</defName>
+    <defName>ExtractSeed_Pumpkin</defName>
     <label>extract pumpkin seeds</label>
-    <description>Extract seeds from pumpkins.</description>
+    <description>Extract seeds from pumpkin.</description>
     <ingredients>
       <li>
         <filter>
@@ -44,14 +45,14 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <Seedpumpkin>3</Seedpumpkin>
+      <Seed_Pumpkin>3</Seed_Pumpkin>
     </products>
   </RecipeDef>
 
   <RecipeDef ParentName="ExtractSeed">
-    <defName>ExtractSeedsquash</defName>
+    <defName>ExtractSeed_Squash</defName>
     <label>extract squash seeds</label>
-    <description>Extract seeds from squashes.</description>
+    <description>Extract seeds from squash.</description>
     <ingredients>
       <li>
         <filter>
@@ -68,14 +69,14 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <Seedsquash>3</Seedsquash>
+      <Seed_Squash>3</Seed_Squash>
     </products>
   </RecipeDef>
 
   <RecipeDef ParentName="ExtractSeed">
-    <defName>ExtractSeedTomato</defName>
+    <defName>ExtractSeed_Tomato</defName>
     <label>extract tomato seeds</label>
-    <description>Extract seeds from tomatoes.</description>
+    <description>Extract seeds from Tomatoes.</description>
     <ingredients>
       <li>
         <filter>
@@ -92,14 +93,14 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <SeedTomato>3</SeedTomato>
+      <Seed_Tomato>3</Seed_Tomato>
     </products>
   </RecipeDef>
 
   <RecipeDef ParentName="ExtractSeed">
-    <defName>ExtractSeedCarrot</defName>
+    <defName>ExtractSeed_Carrot</defName>
     <label>extract carrot seeds</label>
-    <description>Extract seeds from carrots.</description>
+    <description>Extract seeds from Carrots.</description>
     <ingredients>
       <li>
         <filter>
@@ -116,7 +117,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <SeedCarrot>3</SeedCarrot>
+      <Seed_Carrot>3</Seed_Carrot>
     </products>
   </RecipeDef>
 

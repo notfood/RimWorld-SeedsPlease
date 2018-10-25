@@ -10,9 +10,9 @@ namespace SeedsPlease
     {
         const int SEEDS_TO_CARRY = 25;
 
-        public override Job JobOnCell (Pawn pawn, IntVec3 c)
+    	public override Job JobOnCell(Pawn pawn, IntVec3 c, bool forced = false)
         {
-            var job = base.JobOnCell (pawn, c);
+            var job = base.JobOnCell (pawn, c, forced);
 
             // plant has seeds, if there is a seed return a job, otherwise prevent it.
             if (job != null && job.plantDefToSow != null && job.plantDefToSow.blueprintDef != null) {

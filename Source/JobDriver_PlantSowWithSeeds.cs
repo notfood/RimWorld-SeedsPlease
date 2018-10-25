@@ -106,7 +106,7 @@ namespace SeedsPlease
                 var plant = (Plant)job.targetC.Thing;
 
                 if (actor.skills != null) {
-                    actor.skills.Learn (SkillDefOf.Growing, 0.22f);
+                    actor.skills.Learn (SkillDefOf.Plants, 0.22f);
                 }
 
                 if (plant.LifeStage != PlantLifeStage.Sowing) {
@@ -129,10 +129,6 @@ namespace SeedsPlease
                         actor.carryTracker.CarriedThing.stackCount--;
                     }
 
-                    if (actor.story.traits.HasTrait (TraitDefOf.GreenThumb)) {
-                        actor.needs.mood.thoughts.memories.TryGainMemory (ThoughtDefOf.GreenThumbHappy, null);
-                    }
-
                     plant.Growth = 0.05f;
 
                     plant.Map.mapDrawer.MapMeshDirty (plant.Position, MapMeshFlag.Things);
@@ -144,6 +140,7 @@ namespace SeedsPlease
             };
             toil.defaultCompleteMode = ToilCompleteMode.Never;
             toil.FailOnDespawnedNullOrForbidden (TargetIndex.A);
+            toil.FailOnCannotTouch(TargetIndex.A, PathEndMode.Touch);
             toil.WithEffect (EffecterDefOf.Sow, TargetIndex.A);
             toil.WithProgressBar (TargetIndex.A, () => sowWorkDone / job.plantDefToSow.plant.sowWork, true, -0.5f);
             toil.PlaySustainerOrSound (() => SoundDefOf.Interact_Sow);
@@ -162,6 +159,7 @@ namespace SeedsPlease
                     job.targetC = null;
                 }
             });
+            toil.activeSkill = (() => SkillDefOf.Plants);
             return toil;
         }
 
@@ -209,7 +207,7 @@ namespace SeedsPlease
                 return false;
             }
 
-            if (GenPlant.AdjacentSowBlocker (plantDefToGrow, cell, map) != null) {
+            if (PlantUtility.AdjacentSowBlocker (plantDefToGrow, cell, map) != null) {
                 return false;
             }
 
@@ -218,7 +216,7 @@ namespace SeedsPlease
                     return false;
                 }
             }
-            return (plantDefToGrow.CanEverPlantAt (cell, map) && GenPlant.GrowthSeasonNow (cell, map));
+            return (plantDefToGrow.CanEverPlantAt (cell, map) && PlantUtility.GrowthSeasonNow (cell, map));
         }
 
         static IPlantToGrowSettable GetPlayerSetPlantForCell (IntVec3 cell, Map map)
@@ -248,9 +246,9 @@ namespace SeedsPlease
             return true;
         }
 
-        public override bool TryMakePreToilReservations ()
+        public override bool TryMakePreToilReservations(bool errorOnFailed)
         {
-            return pawn.Reserve (job.targetA, job, 1, -1, null);
+            return pawn.Reserve (job.targetA, job, 1, -1, null, errorOnFailed);
         }
     }
 }
