@@ -51,6 +51,8 @@
     <Compile Include="RecipeDef.cs" />
     <Compile Include="JobDriver_PlantCutWithSeeds.cs" />
     <Compile Include="JobDriver_PlantHarvestWithSeeds.cs" />
+    <Compile Include="JobDriver_PlantCutWithSeeds_Designated.cs" />
+    <Compile Include="JobDriver_PlantHarvestWithSeeds_Designated.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
