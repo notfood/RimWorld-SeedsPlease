@@ -28,10 +28,4 @@ RC_Intermediate_Agriculture_Plants.xml  8
   Tobacco PlantBase 8 4 True
 
 RC_Wild_Plants.xml  7
-  Cactusfruit PlantBase 10 4 False
-  Truffles PlantBase 10 4 False
-  Juniper PlantBase 12 4 False
-  Flax PlantBase 12 4 False
-  Shrooms PlantBase 3 4 False
-  Coconut RC_FruitTreeBase 32 11 False
   Bee DeciduousTreeBase 1 4 False

@@ -4,19 +4,19 @@
   <SeedsPlease.SeedDef ParentName="SeedBase">
     <defName>Seed_Soybean</defName>
     <label>soybean seeds</label>
-    <plant>PlantSoybean</plant>
+    <plant>RC_PlantSoybean</plant>
   </SeedsPlease.SeedDef>
 
   <SeedsPlease.SeedDef ParentName="SeedBase">
     <defName>Seed_Quinoa</defName>
     <label>quinoa seeds</label>
-    <plant>PlantQuinoa</plant>
+    <plant>RC_PlantQuinoa</plant>
   </SeedsPlease.SeedDef>
 
   <SeedsPlease.SeedDef ParentName="SeedBase">
     <defName>Seed_Grapes</defName>
-    <label>grapes seeds</label>
-    <plant>PlantGrapes</plant>
+    <label>grape seeds</label>
+    <plant>RC_PlantGrapes</plant>
   </SeedsPlease.SeedDef>
 
   <!-- RC_Basic_Agriculture_Plants.xml -->
@@ -24,7 +24,7 @@
   <SeedsPlease.SeedDef ParentName="SeedBase">
     <defName>Seed_Wheat</defName>
     <label>wheat seeds</label>
-    <plant>PlantWheat</plant>
+    <plant>RC_PlantWheat</plant>
     <graphicData>
       <texPath>Things/Item/Seeds/Wheat</texPath>
     </graphicData>
@@ -33,7 +33,7 @@
   <SeedsPlease.SeedDef ParentName="SeedBase">
     <defName>Seed_Oats</defName>
     <label>oats seeds</label>
-    <plant>PlantOats</plant>
+    <plant>RC_PlantOats</plant>
     <graphicData>
       <texPath>Things/Item/Seeds/Oats</texPath>
     </graphicData>
@@ -42,7 +42,7 @@
   <SeedsPlease.SeedDef ParentName="SeedBase">
     <defName>Seed_Barley</defName>
     <label>barley seeds</label>
-    <plant>PlantBarley</plant>
+    <plant>RC_PlantBarley</plant>
   </SeedsPlease.SeedDef>
 
   <!-- RC_Forestry_Plants.xml -->
@@ -50,7 +50,7 @@
   <SeedsPlease.SeedDef ParentName="SeedBase">
     <defName>Seed_Ain</defName>
     <label>ain seeds</label>
-    <plant>PlantPlantainTree</plant>
+    <plant>RC_PlantPlantainTree</plant>
   </SeedsPlease.SeedDef>
 
   <SeedsPlease.SeedDef ParentName="SeedBase">
@@ -65,19 +65,19 @@
   <SeedsPlease.SeedDef ParentName="SeedBase">
     <defName>Seed_Fig</defName>
     <label>fig seeds</label>
-    <plant>PlantFigTree</plant>
+    <plant>RC_PlantFigTree</plant>
   </SeedsPlease.SeedDef>
 
   <SeedsPlease.SeedDef ParentName="SeedBase">
     <defName>Seed_Pomegranate</defName>
     <label>pomegranate seeds</label>
-    <plant>PlantPomegranateTree</plant>
+    <plant>RC_PlantPomegranateTree</plant>
   </SeedsPlease.SeedDef>
 
   <SeedsPlease.SeedDef ParentName="SeedBase">
     <defName>Seed_Apple</defName>
     <label>apple seeds</label>
-    <plant>PlantAppletree</plant>
+    <plant>RC_PlantAppletree</plant>
     <graphicData>
       <texPath>Things/Item/Seeds/Apple</texPath>
     </graphicData>
@@ -86,7 +86,7 @@
   <SeedsPlease.SeedDef ParentName="SeedBase">
     <defName>Seed_Sugarmaple</defName>
     <label>sugarmaple seeds</label>
-    <plant>PlantSugarMapleTree</plant>
+    <plant>RC_PlantSugarMapleTree</plant>
   </SeedsPlease.SeedDef>
 
   <!-- RC_Intermediate_Agriculture_Plants.xml -->
@@ -94,7 +94,7 @@
   <SeedsPlease.SeedDef ParentName="SeedBase">
     <defName>Seed_Onion</defName>
     <label>onion seeds</label>
-    <plant>PlantOnion</plant>
+    <plant>RC_PlantOnion</plant>
     <graphicData>
       <texPath>Things/Item/Seeds/Onion</texPath>
     </graphicData>
@@ -103,7 +103,7 @@
   <SeedsPlease.SeedDef ParentName="SeedBase">
     <defName>Seed_Tomato</defName>
     <label>tomato seeds</label>
-    <plant>PlantTomato</plant>
+    <plant>RC_PlantTomato</plant>
     <graphicData>
       <texPath>Things/Item/Seeds/Tomato</texPath>
     </graphicData>
@@ -112,13 +112,13 @@
   <SeedsPlease.SeedDef ParentName="SeedBase">
     <defName>Seed_Chickpeas</defName>
     <label>chickpeas seeds</label>
-    <plant>PlantChickpeas</plant>
+    <plant>RC_PlantChickpeas</plant>
   </SeedsPlease.SeedDef>
 
   <SeedsPlease.SeedDef ParentName="SeedBase">
     <defName>Seed_Sugarcane</defName>
     <label>sugarcane seeds</label>
-    <plant>PlantSugarcane</plant>
+    <plant>RC_PlantSugarcane</plant>
     <graphicData>
       <texPath>Things/Item/Seeds/Sugarcane</texPath>
     </graphicData>
@@ -127,13 +127,13 @@
   <SeedsPlease.SeedDef ParentName="SeedBase">
     <defName>Seed_Dreamflower</defName>
     <label>dreamflower seeds</label>
-    <plant>PlantDreamflower</plant>
+    <plant>RC_PlantDreamflower</plant>
   </SeedsPlease.SeedDef>
 
   <SeedsPlease.SeedDef ParentName="SeedBase">
     <defName>Seed_Coffee</defName>
     <label>coffee seeds</label>
-    <plant>PlantCoffee</plant>
+    <plant>RC_PlantCoffee</plant>
     <graphicData>
       <texPath>Things/Item/Seeds/Coffee</texPath>
     </graphicData>
@@ -142,7 +142,7 @@
   <SeedsPlease.SeedDef ParentName="SeedBase">
     <defName>Seed_Tea</defName>
     <label>tea seeds</label>
-    <plant>PlantTea</plant>
+    <plant>RC_PlantTea</plant>
     <graphicData>
       <texPath>Things/Item/Seeds/Tea</texPath>
     </graphicData>
@@ -151,7 +151,7 @@
   <SeedsPlease.SeedDef ParentName="SeedBase">
     <defName>Seed_Tobacco</defName>
     <label>tobacco seeds</label>
-    <plant>PlantTobacco</plant>
+    <plant>RC_PlantTobacco</plant>
     <graphicData>
       <texPath>Things/Item/Seeds/Tobacco</texPath>
     </graphicData>
