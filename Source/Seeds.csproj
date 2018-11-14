@@ -37,6 +37,10 @@
       <HintPath>..\Dlls\UnityEngine.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="0Harmony">
+      <HintPath>..\Assemblies\0Harmony.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -53,6 +57,7 @@
     <Compile Include="JobDriver_PlantHarvestWithSeeds.cs" />
     <Compile Include="JobDriver_PlantCutWithSeeds_Designated.cs" />
     <Compile Include="JobDriver_PlantHarvestWithSeeds_Designated.cs" />
+    <Compile Include="SeedsPleaseMod.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

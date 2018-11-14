@@ -24,7 +24,6 @@ Global
 		$0.TextStylePolicy = $3
 		$3.FileWidth = 80
 		$3.TabsToSpaces = True
-		$3.IndentWidth = 2
 		$3.NoTabsAfterNonTabs = True
 		$3.scope = text/plain
 	EndGlobalSection
