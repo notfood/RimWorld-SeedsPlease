@@ -175,4 +175,15 @@
     </folders>
   </Operation>
   
+  <!-- Syrchalis' [SYR] Blueberries -->
+  
+  <Operation Class="LoadOnDemand.PatchOperationLoadOnDemand">
+    <mods>
+      <li>[SYR] Blueberries</li>
+    </mods>
+    <folders>
+      <li>SrychalisBlueberries</li>
+    </folders>
+  </Operation>
+  
 </Patch>
