@@ -1,4 +1,5 @@
-﻿using Verse;
+﻿using RimWorld;
+using Verse;
 
 namespace SeedsPlease
 {
@@ -9,5 +10,18 @@ namespace SeedsPlease
         public static readonly string StringSeedMultiplier = "SeedMultiplier".Translate ();
         public static readonly string StringSeedBaseChance = "SeedBaseChance".Translate ();
         public static readonly string StringSeedExtraChance = "SeedExtraChance".Translate ();
+
+        [DefOf]
+        public static class JobDefOf
+        {
+            public static JobDef SowWithSeeds;
+        }
+
+        [DefOf]
+        public static class ThingDefOf
+        {
+            public static ThingDef PlantProcessingTable;
+            public static ThingDef Seed_Potato;
+        }
     }
 }

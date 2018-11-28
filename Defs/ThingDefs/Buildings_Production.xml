@@ -79,5 +79,6 @@
     <placeWorkers>
       <li>PlaceWorker_ShowFacilitiesConnections</li>
     </placeWorkers>
+    <recipes/>
   </ThingDef>
 </Defs>

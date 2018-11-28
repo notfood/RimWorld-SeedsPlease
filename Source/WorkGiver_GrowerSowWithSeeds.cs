@@ -47,7 +47,7 @@ namespace SeedsPlease
                     predicate);
 
                 if (bestSeedThingForSowing != null) {
-                    return new Job (LocalJobDefOf.SowWithSeeds, c, bestSeedThingForSowing) {
+                    return new Job (ResourceBank.JobDefOf.SowWithSeeds, c, bestSeedThingForSowing) {
                         plantDefToSow = job.plantDefToSow,
                         count = SEEDS_TO_CARRY
                     };
