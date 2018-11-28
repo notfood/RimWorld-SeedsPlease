@@ -1,0 +1,55 @@
+<Defs>
+  <!-- Plants_Arid_Biome.xml -->
+  <SeedsPlease.SeedDef ParentName="SeedBase">
+    <defName>Seed_Ocotillo</defName>
+    <label>ocotillo seeds</label>
+    <plant>TKKN_TreeOcotillo</plant>
+  </SeedsPlease.SeedDef>
+  
+  <!-- Plants_Grassland_Biomes.xml -->
+  <SeedsPlease.SeedDef ParentName="SeedBase">
+    <defName>Seed_Baobab</defName>
+    <label>baobab seeds</label>
+    <plant>TKKN_PlantTreeBaobab</plant>
+  </SeedsPlease.SeedDef>
+  
+  <SeedsPlease.SeedDef ParentName="SeedBase">
+    <defName>Seed_TKKN_Acacia</defName>
+    <label>acacia seeds</label>
+    <plant>TKKN_PlantTreeAcacia</plant>
+  </SeedsPlease.SeedDef>
+  
+  <SeedsPlease.SeedDef ParentName="SeedBase">
+    <defName>Seed_Gum</defName>
+    <label>gum seeds</label>
+    <plant>TKKN_PlantTreeGum</plant>
+  </SeedsPlease.SeedDef>
+  
+  <!-- Plants_Misc.xml -->
+  
+  <!-- Plants_Redwood_Biome.xml -->
+  <SeedsPlease.SeedDef ParentName="SeedBase">
+    <defName>Seed_Redwood</defName>
+    <label>redwood seeds</label>
+    <plant>TKKN_PlantTreeRedwood</plant>
+  </SeedsPlease.SeedDef>
+  
+  <SeedsPlease.SeedDef ParentName="SeedBase">
+    <defName>Seed_Hazelnut</defName>
+    <label>hazelnut seeds</label>
+    <plant>TKKN_PlantTreeHazelnut</plant>
+    <sources>
+      <li>TKKN_OldGrowth_PlantTreeHazelnut</li>
+    </sources>
+  </SeedsPlease.SeedDef>
+  
+  <SeedsPlease.SeedDef ParentName="SeedBase">
+    <defName>Seed_Redwooddead</defName>
+    <label>redwooddead seeds</label>
+    <plant>TKKN_PlantTreeRedwoodDead</plant>
+    <sources>
+      <li>TKKN_OldGrowth_PlantTreeOak</li>
+    </sources>
+  </SeedsPlease.SeedDef>
+  
+</Defs>

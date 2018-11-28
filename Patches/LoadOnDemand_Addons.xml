@@ -120,6 +120,17 @@
     </folders>
   </Operation>
 
+  <!-- Jecrell's Call of Cthulhu - Cults -->
+  
+  <Operation Class="LoadOnDemand.PatchOperationLoadOnDemand">
+    <mods>
+      <li>Call of Cthulhu - Cults</li>
+    </mods>
+    <folders>
+      <li>JecrellsCallofCthulhu_Cults</li>
+    </folders>
+  </Operation>
+  
   <!-- Jecrell's Tobacco & Dry Leaves -->
   
   <Operation Class="LoadOnDemand.PatchOperationLoadOnDemand">
@@ -183,6 +194,39 @@
     </mods>
     <folders>
       <li>SrychalisBlueberries</li>
+    </folders>
+  </Operation>
+  
+  <!-- Torann's A RimWorld of Magic -->
+  
+  <Operation Class="LoadOnDemand.PatchOperationLoadOnDemand">
+    <mods>
+      <li>A RimWorld of Magic</li>
+    </mods>
+    <folders>
+      <li>TorannRimworldOfMagic</li>
+    </folders>
+  </Operation>
+  
+   <!-- Tkkntkkn's Nature's Pretty Sweet -->
+  
+  <Operation Class="LoadOnDemand.PatchOperationLoadOnDemand">
+    <mods>
+      <li>Nature's Pretty Sweet</li>
+    </mods>
+    <folders>
+      <li>NaturesPrettySweet</li>
+    </folders>
+  </Operation>
+  
+  <!-- UnlimitedHugs's Remote Tech -->
+  
+  <Operation Class="LoadOnDemand.PatchOperationLoadOnDemand">
+    <mods>
+      <li>Remote Tech</li>
+    </mods>
+    <folders>
+      <li>UnlimitedHugsRemoteTech</li>
     </folders>
   </Operation>
   
