@@ -3,15 +3,22 @@
   <name>SeedsPlease</name>
   <author>notfood</author>
   <url>https://ludeon.com/forums/index.php?topic=24443.0</url>
-  <targetVersion>1.0.0</targetVersion>
+  <targetVersion>1.0.2096</targetVersion>
   <description>Seeds for your immersion pleasure.
 Included support for mods:
+- CombatExtended
 - CrustyPeanutsRimCuisine
 - CuprosDrinksSoda
 - EPSoybeans
+- JecrellsCallofCthulhu_Cults
 - JecrellsTobacco
+- NaturesPrettySweet
+- SrychalisBlueberries
+- SyrchalisCoffeeAndTea
 - TExpandedCrops
+- TorannRimworldOfMagic
 - TwoskiSynthmeat
+- UnlimitedHugsRemoteTech
 - VGPGardenDrinks
 - VGPGardenFabrics
 - VGPGardenGourmet
@@ -21,5 +28,6 @@ Included support for mods:
 - VGPVegetableGarden
 - VGPXtra
 - XeosGeneticallyEngineeredPlants
+
 </description>
 </ModMetaData>
