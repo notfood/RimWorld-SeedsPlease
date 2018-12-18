@@ -192,28 +192,4 @@
     </products>
   </RecipeDef>
 
-  <RecipeDef ParentName="ExtractSeed">
-    <defName>ExtractSeed_Cocoa</defName>
-    <label>extract cocoa seeds</label>
-    <description>Extract seeds from Chocolate</description>
-    <ingredients>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>Chocolate</li>
-          </thingDefs>
-        </filter>
-        <count>7</count>
-      </li>
-    </ingredients>
-    <fixedIngredientFilter>
-      <thingDefs>
-        <li>Chocolate</li>
-      </thingDefs>
-    </fixedIngredientFilter>
-    <products>
-      <Seed_Cocoa>3</Seed_Cocoa>
-    </products>
-  </RecipeDef>
-
 </Defs>

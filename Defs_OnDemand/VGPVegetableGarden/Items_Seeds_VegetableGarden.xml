@@ -196,12 +196,11 @@
     <defName>Seed_Cocoa</defName>
     <label>cocoa seeds</label>
     <plant>Plantcocoa</plant>
-    <graphicData>
-      <texPath>Things/Item/Seeds/Cocoa</texPath>
-    </graphicData>
+    <harvest>RawCocoaBeans</harvest>
     <sources>
       <li>Plant_TreeCocoa</li>
     </sources>
+    <graphicData><texPath>Things/Item/Seeds/Cocoa</texPath></graphicData>
   </SeedsPlease.SeedDef>
 
   <!-- Wild Fruit and Fruit Trees.xml -->

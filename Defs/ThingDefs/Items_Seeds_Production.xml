@@ -7,6 +7,7 @@
     <statBases>
       <MarketValue>11.2</MarketValue>
     </statBases>
+    <graphicData><texPath>Things/Item/Seeds/Cotton</texPath></graphicData>
   </SeedsPlease.SeedDef>
   
   <SeedsPlease.SeedDef ParentName="SeedBase">
@@ -17,6 +18,7 @@
     <statBases>
       <MarketValue>19.7</MarketValue>
     </statBases>
+    <graphicData><texPath>Things/Item/Seeds/Devilstrand</texPath></graphicData>
   </SeedsPlease.SeedDef>
   
   <SeedsPlease.SeedDef ParentName="SeedBase">
@@ -33,5 +35,15 @@
     <seed>
       <harvestFactor>5</harvestFactor>
     </seed>
-  </SeedsPlease.SeedDef> 
+    <graphicData><texPath>Things/Item/Seeds/Healroot</texPath></graphicData>
+  </SeedsPlease.SeedDef>
+  
+  <SeedsPlease.SeedDef ParentName="SeedBase">
+    <defName>Seed_Cocoa</defName>
+    <label>cocoa seeds</label>
+    <plant>Plant_TreeCocoa</plant>
+    <harvest>RawCocoaBeans</harvest>
+    <graphicData><texPath>Things/Item/Seeds/Cocoa</texPath></graphicData>
+  </SeedsPlease.SeedDef>
+  
 </Defs>
