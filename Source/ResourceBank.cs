@@ -21,7 +21,7 @@ namespace SeedsPlease
         public static class ThingDefOf
         {
             public static ThingDef PlantProcessingTable;
-            public static ThingDef Seed_Potato;
+            public static ThingDef Seed_Psychoid;
         }
     }
 }

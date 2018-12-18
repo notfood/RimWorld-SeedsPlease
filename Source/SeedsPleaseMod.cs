@@ -4,6 +4,7 @@ using System.Linq;
 using System.Reflection;
 
 using Harmony;
+using RimWorld;
 using Verse;
 
 namespace SeedsPlease
@@ -19,7 +20,9 @@ namespace SeedsPlease
         {
             HarmonyInstance.Create("rimworld.seedsplease").PatchAll(Assembly.GetExecutingAssembly());
 
-            SeedDef.AddMissingSeeds();
+            if (SeedDef.AddMissingSeeds()) {
+                LongEventHandler.ExecuteWhenFinished(ResourceCounter.ResetDefs);
+            }
         }
     }
 

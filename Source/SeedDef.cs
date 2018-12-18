@@ -4,6 +4,7 @@ using UnityEngine;
 using RimWorld;
 using Verse;
 using System.Xml.Linq;
+using System.Linq;
 
 namespace SeedsPlease
 {
@@ -92,8 +93,9 @@ namespace SeedsPlease
 #endif
         }
 
-        public static void AddMissingSeeds() {
-            foreach (var thingDef in DefDatabase<ThingDef>.AllDefs) {
+        public static bool AddMissingSeeds() {
+            bool isAnyMissing = false;
+            foreach (var thingDef in DefDatabase<ThingDef>.AllDefs.ToList()) {
                 if (thingDef.plant == null) {
                     continue;
                 }
@@ -107,9 +109,10 @@ namespace SeedsPlease
                 if (thingDef.plant.harvestedThingDef == null)  {
                     continue;
                 }
-
+                isAnyMissing = true;
                 AddMissingSeed(thingDef);
             }
+            return isAnyMissing;
         }
 
         static void AddMissingSeed(ThingDef thingDef)
@@ -121,7 +124,7 @@ namespace SeedsPlease
             }
             name = name.CapitalizeFirst();
 
-            var template = ResourceBank.ThingDefOf.Seed_Potato;
+            var template = ResourceBank.ThingDefOf.Seed_Psychoid;
             var seed = new SeedDef()
             {
                 defName = "Seed_" + name,
@@ -148,10 +151,14 @@ namespace SeedsPlease
                 selectable = template.selectable,
                 useHitPoints = template.useHitPoints,
                 resourceReadoutPriority = template.resourceReadoutPriority,
-                category = template.category,
+                category = template.category, 
             };
             seed.ResolveReferences();
             thingDef.blueprintDef = seed;
+            foreach(var category in seed.thingCategories) {
+                category.childThingDefs.Add(seed);
+            }
+            DefDatabase<ThingDef>.Add(seed);
             DefDatabase<SeedDef>.Add(seed);
 
             var stringBuilder = new System.Text.StringBuilder();
