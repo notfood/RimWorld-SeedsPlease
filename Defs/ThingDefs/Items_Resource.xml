@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-    <ThingDef ParentName="ResourceBase">
+    <ThingDef ParentName="ResourceBaseSeeds">
         <defName>RawCotton</defName>
         <label>Raw Cotton</label>
         <description>Raw Cotton from a Cotton Bush. Woven into Cloth at a Plant Processing Bench.</description>
@@ -24,7 +24,7 @@
         </thingCategories>
     </ThingDef>
 
-    <ThingDef ParentName="ResourceBase">
+    <ThingDef ParentName="ResourceBaseSeeds">
         <defName>RawDevilstrand</defName>
         <label>Raw Devilstrand</label>
         <description>Raw Devilstrand from a Devilstrand Mushroom. Woven into Devilstrand Cloth at a Plant Processing Bench.</description>
@@ -47,7 +47,7 @@
         </thingCategories>
     </ThingDef>
     
-    <ThingDef ParentName="ResourceBase">
+    <ThingDef ParentName="ResourceBaseSeeds">
         <defName>RawHealroot</defName>
         <label>Raw Healroot</label>
         <description>Raw Healroot from a Healroot bush. Processed into Herbal Medicine at a Plant Processing Bench.</description>
@@ -70,7 +70,7 @@
         </thingCategories>
     </ThingDef>
     
-    <ThingDef ParentName="ResourceBase">
+    <ThingDef ParentName="ResourceBaseSeeds">
         <defName>RawCocoaBeans</defName>
         <label>cocoa beans</label>
         <description>Raw cocoa beans to cook into chocolate.</description>
