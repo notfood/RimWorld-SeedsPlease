@@ -151,7 +151,9 @@ namespace SeedsPlease
                 selectable = template.selectable,
                 useHitPoints = template.useHitPoints,
                 resourceReadoutPriority = template.resourceReadoutPriority,
-                category = template.category, 
+                category = template.category,
+                uiIcon = template.uiIcon,
+                uiIconColor = template.uiIconColor,
             };
             seed.ResolveReferences();
             thingDef.blueprintDef = seed;
@@ -178,7 +180,7 @@ namespace SeedsPlease
                              new XElement("plant", thingDef.defName));
             stringBuilder.AppendLine(seedXml.ToString());
 
-            if (thingDef.plant.harvestedThingDef == ThingDefOf.WoodLog) {
+            if (thingDef.plant.harvestedThingDef.IsStuff) {
                 Log.Warning(stringBuilder.ToString());
 
                 return;
@@ -205,8 +207,9 @@ namespace SeedsPlease
                 workSkill = SkillDefOf.Cooking,
                 effectWorking = EffecterDefOf.Vomit,
                 workSpeedStat = StatDefOf.EatingSpeed,
-                jobString = "Extracting seeds."
+                jobString = "Extracting seeds.",
             };
+
             DefDatabase<RecipeDef>.Add(recipe);
             ResourceBank.ThingDefOf.PlantProcessingTable.recipes.Add(recipe);
 
