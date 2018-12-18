@@ -129,4 +129,18 @@
     <plant>Plant_TreeBamboo</plant>
     <graphicData><texPath>Things/Item/Seeds/Bamboo</texPath></graphicData>
   </SeedsPlease.SeedDef>
+  
+  <SeedsPlease.SeedDef ParentName="SeedBase">
+    <defName>Seed_Cocoa</defName>
+    <label>cocoa seeds</label>
+    <plant>Plant_TreeCocoa</plant>
+    <graphicData><texPath>Things/Item/Seeds/Cocoa</texPath></graphicData>
+  </SeedsPlease.SeedDef>
+
+  <SeedsPlease.SeedDef ParentName="SeedBase">
+    <defName>Seed_SaguaroCactus</defName>
+    <label>saguarocactus seeds</label>
+    <plant>Plant_SaguaroCactus</plant>
+  </SeedsPlease.SeedDef>
+
 </Defs>

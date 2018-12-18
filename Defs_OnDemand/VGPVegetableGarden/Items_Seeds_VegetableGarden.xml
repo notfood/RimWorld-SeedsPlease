@@ -237,11 +237,5 @@
     <label>pincushioncactus seeds</label>
     <plant>Plant_PincushionCactus</plant>
   </SeedsPlease.SeedDef>
-  
-  <SeedsPlease.SeedDef ParentName="SeedBase">
-    <defName>Seed_SaguaroCactus</defName>
-    <label>saguarocactus seeds</label>
-    <plant>Plant_SaguaroCactus</plant>
-  </SeedsPlease.SeedDef>
 
 </Defs>
