@@ -20,7 +20,7 @@
     <rotatable>false</rotatable>
     <pathCost>15</pathCost>
   </ThingDef>
-
+  
   <SeedsPlease.SeedDef Name="SeedBase" ParentName="ResourceBaseSeeds" Abstract="True">
     <thingClass>SeedsPlease.Seed</thingClass>
     <label>unspecified seed</label>
@@ -53,5 +53,5 @@
     </seed>
     <stackLimit>500</stackLimit>
   </SeedsPlease.SeedDef>
-
+  
 </Defs>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
+  
   <RecipeDef Abstract="True" Name="ExtractSeed">
     <jobString>Extracting seeds.</jobString>
     <workSpeedStat>CookSpeed</workSpeedStat>
@@ -8,7 +8,7 @@
     <workSkill>Cooking</workSkill>
     <workAmount>600</workAmount>
     <recipeUsers>
-        <li>PlantProcessingTable</li>
+      <li>PlantProcessingTable</li>
     </recipeUsers>
   </RecipeDef>
   
@@ -20,8 +20,8 @@
     <workSkill>Crafting</workSkill>
     <workAmount>800</workAmount>
     <recipeUsers>
-        <li>PlantProcessingTable</li>
+      <li>PlantProcessingTable</li>
     </recipeUsers>
   </RecipeDef>
-
+  
 </Defs>
