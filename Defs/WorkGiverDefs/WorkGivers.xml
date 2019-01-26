@@ -5,7 +5,7 @@
     <defName>DoBillsTableSeeds</defName>
     <label>extract seeds</label>
     <giverClass>WorkGiver_DoBill</giverClass>
-    <workType>Crafting</workType>
+    <workType>Cooking</workType>
     <priorityInType>65</priorityInType>
     <fixedBillGiverDefs>
       <li>PlantProcessingTable</li>
