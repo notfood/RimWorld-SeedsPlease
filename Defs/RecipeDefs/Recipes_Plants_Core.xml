@@ -35,7 +35,7 @@
             <li>RawPotatoes</li>
           </thingDefs>
         </filter>
-        <count>12</count>
+        <count>4</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
@@ -44,7 +44,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <Seed_Potato>4</Seed_Potato>
+      <Seed_Potato>3</Seed_Potato>
     </products>
   </RecipeDef>
   
@@ -59,7 +59,7 @@
             <li>RawCorn</li>
           </thingDefs>
         </filter>
-        <count>40</count>
+        <count>7</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
@@ -68,7 +68,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <Seed_Corn>4</Seed_Corn>
+      <Seed_Corn>3</Seed_Corn>
     </products>
   </RecipeDef>
   
@@ -83,7 +83,7 @@
             <li>RawBerries</li>
           </thingDefs>
         </filter>
-        <count>16</count>
+        <count>5</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
@@ -92,7 +92,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <Seed_Strawberry>4</Seed_Strawberry>
+      <Seed_Strawberry>3</Seed_Strawberry>
     </products>
   </RecipeDef>
   
@@ -107,7 +107,7 @@
             <li>Hay</li>
           </thingDefs>
         </filter>
-        <count>27</count>
+        <count>6</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
@@ -116,7 +116,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <Seed_Haygrass>4</Seed_Haygrass>
+      <Seed_Haygrass>3</Seed_Haygrass>
     </products>
   </RecipeDef>
   
@@ -131,7 +131,7 @@
             <li>RawHops</li>
           </thingDefs>
         </filter>
-        <count>14</count>
+        <count>6</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
@@ -140,7 +140,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <Seed_Hops>4</Seed_Hops>
+      <Seed_Hops>3</Seed_Hops>
     </products>
   </RecipeDef>
   
@@ -155,7 +155,7 @@
             <li>SmokeleafLeaves</li>
           </thingDefs>
         </filter>
-        <count>24</count>
+        <count>9</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
@@ -179,7 +179,7 @@
             <li>PsychoidLeaves</li>
           </thingDefs>
         </filter>
-        <count>24</count>
+        <count>9</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>

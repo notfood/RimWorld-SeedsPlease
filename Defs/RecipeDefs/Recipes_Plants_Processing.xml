@@ -11,7 +11,7 @@
             <li>RawCotton</li>
           </thingDefs>
         </filter>
-        <count>25</count>
+        <count>10</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
@@ -44,7 +44,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <Cloth>20</Cloth>
+      <Cloth>40</Cloth>
     </products>
     <skillRequirements>
       <Crafting>4</Crafting>
@@ -62,7 +62,7 @@
             <li>RawDevilstrand</li>
           </thingDefs>
         </filter>
-        <count>25</count>
+        <count>10</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
@@ -95,7 +95,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <DevilstrandCloth>20</DevilstrandCloth>
+      <DevilstrandCloth>40</DevilstrandCloth>
     </products>
     <skillRequirements>
       <Crafting>8</Crafting>
