@@ -26,9 +26,10 @@ namespace SeedsPlease
                             foreach (var thing in pawn.Map.thingGrid.ThingsAt (cell)) {
                                 if (thing.def != job.plantDefToSow && thing.def.BlockPlanting && pawn.CanReserve (thing) && !thing.IsForbidden (pawn)) {
                                     if (thing.def.category == ThingCategory.Plant) {
-                                        return new Job (JobDefOf.CutPlant, thing);
-                                    } else if (thing.def.EverHaulable) {
-                                        return HaulAIUtility.HaulAsideJobFor (pawn, thing);
+                                        return new Job(JobDefOf.CutPlant, thing);
+                                    }
+                                    if (thing.def.EverHaulable) {
+                                        return HaulAIUtility.HaulAsideJobFor(pawn, thing);
                                     }
                                 }
                             }
@@ -38,6 +39,7 @@ namespace SeedsPlease
 
                 Predicate<Thing> predicate = (Thing tempThing) =>
                     !ForbidUtility.IsForbidden (tempThing, pawn.Faction)
+                    && ForbidUtility.InAllowedArea(tempThing.Position, pawn)
                     && PawnLocalAwareness.AnimalAwareOf (pawn, tempThing)
                     && ReservationUtility.CanReserve (pawn, tempThing, 1);
 
