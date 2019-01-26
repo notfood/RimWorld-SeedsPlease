@@ -34,28 +34,28 @@ namespace SeedsPlease
 
         protected override IEnumerable<Toil> MakeNewToils ()
         {
-            this.FailOnDespawnedNullOrForbidden (TargetIndex.A);
+            this.FailOnDespawnedNullOrForbidden (targetCellIndex);
 
-            yield return Toils_Reserve.Reserve (TargetIndex.A, 1);
+            yield return Toils_Reserve.Reserve (targetCellIndex, 1);
 
             var reserveSeeds = ReserveSeedsIfWillPlantWholeStack ();
             yield return reserveSeeds;
 
-            yield return Toils_Goto.GotoThing (TargetIndex.B, PathEndMode.ClosestTouch)
-                .FailOnDespawnedNullOrForbidden (TargetIndex.B)
-                .FailOnSomeonePhysicallyInteracting (TargetIndex.B);
+            yield return Toils_Goto.GotoThing (seedsTargetIndex, PathEndMode.ClosestTouch)
+                                   .FailOnDespawnedNullOrForbidden (seedsTargetIndex)
+                                   .FailOnSomeonePhysicallyInteracting (seedsTargetIndex);
 
-            yield return Toils_Haul.StartCarryThing (TargetIndex.B, false, false)
-                .FailOnDestroyedNullOrForbidden (TargetIndex.B);
+            yield return Toils_Haul.StartCarryThing (seedsTargetIndex, false, false)
+                                   .FailOnDestroyedNullOrForbidden (seedsTargetIndex);
 
-            Toils_Haul.CheckForGetOpportunityDuplicate (reserveSeeds, TargetIndex.B, TargetIndex.None, false, null);
+            Toils_Haul.CheckForGetOpportunityDuplicate (reserveSeeds, seedsTargetIndex, TargetIndex.None, false, null);
 
-            var toil = Toils_Goto.GotoCell (TargetIndex.A, PathEndMode.Touch);
+            var toil = Toils_Goto.GotoCell (targetCellIndex, PathEndMode.Touch);
             yield return toil;
             yield return SowSeedToil ();
-            yield return Toils_Reserve.Release (TargetIndex.A);
+            yield return Toils_Reserve.Release (targetCellIndex);
             yield return TryToSetAdditionalPlantingSite ();
-            yield return Toils_Reserve.Reserve (TargetIndex.A, 1);
+            yield return Toils_Reserve.Reserve (targetCellIndex, 1);
             yield return Toils_Jump.Jump (toil);
         }
 
@@ -66,7 +66,7 @@ namespace SeedsPlease
                     if (pawn.Faction == null) {
                         return;
                     }
-                    var thing = job.GetTarget (TargetIndex.B).Thing;
+                    var thing = job.GetTarget (seedsTargetIndex).Thing;
                     if (pawn.carryTracker.CarriedThing == thing) {
                         return;
                     }
@@ -139,10 +139,10 @@ namespace SeedsPlease
                 }
             };
             toil.defaultCompleteMode = ToilCompleteMode.Never;
-            toil.FailOnDespawnedNullOrForbidden (TargetIndex.A);
-            toil.FailOnCannotTouch(TargetIndex.A, PathEndMode.Touch);
-            toil.WithEffect (EffecterDefOf.Sow, TargetIndex.A);
-            toil.WithProgressBar (TargetIndex.A, () => sowWorkDone / job.plantDefToSow.plant.sowWork, true, -0.5f);
+            toil.FailOnDespawnedNullOrForbidden (targetCellIndex);
+            toil.FailOnCannotTouch(targetCellIndex, PathEndMode.Touch);
+            toil.WithEffect (EffecterDefOf.Sow, targetCellIndex);
+            toil.WithProgressBar (targetCellIndex, () => sowWorkDone / job.plantDefToSow.plant.sowWork, true, -0.5f);
             toil.PlaySustainerOrSound (() => SoundDefOf.Interact_Sow);
             toil.AddFinishAction (delegate {
                 var actor = toil.actor;
@@ -171,8 +171,8 @@ namespace SeedsPlease
                 Pawn actor = toil.actor;
 
                 IntVec3 intVec;
-                if (IsActorCarryingAppropriateSeed (actor, job.plantDefToSow) && GetNearbyPlantingSite (job.GetTarget (TargetIndex.A).Cell, actor.Map, out intVec)) {
-                    job.SetTarget (TargetIndex.A, intVec);
+                if (IsActorCarryingAppropriateSeed (actor, job.plantDefToSow) && GetNearbyPlantingSite (job.GetTarget (targetCellIndex).Cell, actor.Map, out intVec)) {
+                    job.SetTarget (targetCellIndex, intVec);
 
                     return;
                 }

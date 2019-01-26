@@ -10,25 +10,27 @@ namespace SeedsPlease
 {
     public abstract class JobDriver_PlantWorkWithSeeds : JobDriver_PlantHarvest
     {
+        const TargetIndex targetCellIndex = TargetIndex.A;
+
         float workDone;
 
         protected override IEnumerable<Toil> MakeNewToils ()
         {
-            yield return Toils_JobTransforms.MoveCurrentTargetIntoQueue (TargetIndex.A);
-            yield return Toils_Reserve.ReserveQueue (TargetIndex.A);
+            yield return Toils_JobTransforms.MoveCurrentTargetIntoQueue (targetCellIndex);
+            yield return Toils_Reserve.ReserveQueue (targetCellIndex);
 
-            var init = Toils_JobTransforms.ClearDespawnedNullOrForbiddenQueuedTargets (TargetIndex.A);
+            var init = Toils_JobTransforms.ClearDespawnedNullOrForbiddenQueuedTargets (targetCellIndex);
 
             yield return init;
-            yield return Toils_JobTransforms.SucceedOnNoTargetInQueue (TargetIndex.A);
-            yield return Toils_JobTransforms.ExtractNextTargetFromQueue (TargetIndex.A);
+            yield return Toils_JobTransforms.SucceedOnNoTargetInQueue (targetCellIndex);
+            yield return Toils_JobTransforms.ExtractNextTargetFromQueue (targetCellIndex);
 
-            var clear = Toils_JobTransforms.ClearDespawnedNullOrForbiddenQueuedTargets (TargetIndex.A);
-            yield return Toils_Goto.GotoThing (TargetIndex.A, PathEndMode.Touch).JumpIfDespawnedOrNullOrForbidden (TargetIndex.A, clear);
+            var clear = Toils_JobTransforms.ClearDespawnedNullOrForbiddenQueuedTargets (targetCellIndex);
+            yield return Toils_Goto.GotoThing (targetCellIndex, PathEndMode.Touch).JumpIfDespawnedOrNullOrForbidden (targetCellIndex, clear);
 
             yield return HarvestSeedsToil ();
             yield return PlantWorkDoneToil ();
-            yield return Toils_Jump.JumpIfHaveTargetInQueue (TargetIndex.A, init);
+            yield return Toils_Jump.JumpIfHaveTargetInQueue (targetCellIndex, init);
         }
 
         Toil HarvestSeedsToil ()
@@ -107,9 +109,9 @@ namespace SeedsPlease
                 }
             };
 
-            toil.FailOnDespawnedNullOrForbidden (TargetIndex.A);
-            toil.WithEffect (EffecterDefOf.Harvest, TargetIndex.A);
-            toil.WithProgressBar (TargetIndex.A, () => workDone / Plant.def.plant.harvestWork, true, -0.5f);
+            toil.FailOnDespawnedNullOrForbidden (targetCellIndex);
+            toil.WithEffect (EffecterDefOf.Harvest, targetCellIndex);
+            toil.WithProgressBar (targetCellIndex, () => workDone / Plant.def.plant.harvestWork, true, -0.5f);
             toil.PlaySustainerOrSound (() => Plant.def.plant.soundHarvesting);
 
             return toil;
