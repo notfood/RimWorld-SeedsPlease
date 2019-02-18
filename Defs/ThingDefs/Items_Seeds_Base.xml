@@ -54,4 +54,14 @@
     <stackLimit>500</stackLimit>
   </SeedsPlease.SeedDef>
   
+  <SeedsPlease.SeedDef Name="ForbiddenSeedBase" ParentName="SeedBase" Abstract="True">
+    <tradeTags Inherit="False"/>
+    <thingCategories Inherit="False"/>
+    <statBases>
+      <MaxHitPoints>1</MaxHitPoints>
+      <DeteriorationRate>10</DeteriorationRate>
+      <MarketValue>0.01</MarketValue>
+    </statBases>
+  </SeedsPlease.SeedDef>
+  
 </Defs>

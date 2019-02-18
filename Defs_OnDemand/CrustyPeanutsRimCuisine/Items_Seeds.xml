@@ -159,7 +159,7 @@
 
   <!-- RC_Wild_Plants.xml -->
 
-  <SeedsPlease.SeedDef ParentName="SeedBase">
+  <SeedsPlease.SeedDef ParentName="ForbiddenSeedBase">
     <defName>Seed_Bee</defName>
     <label>bee seeds</label>
     <plant>PlantBeeTree</plant>
