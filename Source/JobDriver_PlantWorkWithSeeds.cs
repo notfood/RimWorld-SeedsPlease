@@ -8,7 +8,7 @@ using Verse.Sound;
 
 namespace SeedsPlease
 {
-    public abstract class JobDriver_PlantWorkWithSeeds : JobDriver_PlantHarvest
+    public abstract class JobDriver_PlantWorkWithSeeds : JobDriver_PlantWork
     {
         const TargetIndex targetCellIndex = TargetIndex.A;
 
@@ -37,26 +37,26 @@ namespace SeedsPlease
         {
             var toil = new Toil ();
             toil.defaultCompleteMode = ToilCompleteMode.Never;
+            toil.initAction = Init;
             toil.tickAction = delegate {
                 var actor = toil.actor;
                 var plant = Plant;
 
                 if (actor.skills != null) {
-                    actor.skills.Learn (SkillDefOf.Plants, xpPerTick, true);
+                    actor.skills.Learn (SkillDefOf.Plants, xpPerTick);
                 }
 
                 workDone += actor.GetStatValue (StatDefOf.PlantWorkSpeed, true);
                 if (workDone >= plant.def.plant.harvestWork) {
                     if (plant.def.plant.harvestedThingDef != null) {
                         if (actor.RaceProps.Humanlike && plant.def.plant.harvestFailable && Rand.Value > actor.GetStatValue (StatDefOf.PlantHarvestYield, true)) {
-                            MoteMaker.ThrowText ((actor.DrawPos + plant.DrawPos) / 2f, actor.Map, "TextMote_HarvestFailed".Translate (), 3.65f);
+                            MoteMaker.ThrowText ((actor.DrawPos + plant.DrawPos) / 2f, actor.Map, ResourceBank.StringTextMoteHarvestFailed, 3.65f);
                         } else {
                             int plantYield = plant.YieldNow ();
 
                             ThingDef harvestedThingDef;
 
-                            var seedDef = plant.def.blueprintDef as SeedDef;
-                            if (seedDef != null) {
+                            if (plant.def.blueprintDef is SeedDef seedDef) {
                                 var minGrowth = plant.def.plant.harvestMinGrowth;
 
                                 float parameter;

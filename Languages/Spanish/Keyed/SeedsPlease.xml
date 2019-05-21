@@ -5,5 +5,6 @@
   <SeedMultiplier>Factor retorno de semillas</SeedMultiplier>
   <SeedBaseChance>Posibilidad de semillas</SeedBaseChance>
   <SeedExtraChance>Posibilidad de semillas adicionales</SeedExtraChance>
+  <GrowDays>Periodo de crecimiento</GrowDays>
 
 </LanguageData>
