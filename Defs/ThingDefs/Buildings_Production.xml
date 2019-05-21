@@ -48,6 +48,7 @@
     <graphicData>
       <texPath>Things/Building/seedextractor</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
       <drawSize>(3.4,1.3)</drawSize>
       <damageData>
         <cornerTL>Damage/Corner</cornerTL>
@@ -56,9 +57,11 @@
         <cornerBR>Damage/Corner</cornerBR>
       </damageData>
     </graphicData>
-    <costList>
-      <WoodLog>60</WoodLog>
-    </costList>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+    </stuffCategories>
+    <costStuffCount>60</costStuffCount>
     <altitudeLayer>Building</altitudeLayer>
     <fillPercent>0.5</fillPercent>
     <useHitPoints>True</useHitPoints>
