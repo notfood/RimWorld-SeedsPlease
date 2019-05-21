@@ -15,6 +15,7 @@
     <requiredCapacities>
       <li>Manipulation</li>
     </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
   </WorkGiverDef>
   
   <WorkGiverDef>
@@ -30,6 +31,7 @@
     <requiredCapacities>
       <li>Manipulation</li>
     </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
   </WorkGiverDef>
   
 </Defs>
