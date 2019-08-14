@@ -164,6 +164,26 @@
     </folders>
   </Operation>
   
+  <Operation Class="PatchOperationLoadOnDemand.XML">
+    <mods>
+      <li>[1.0] RimCuisine 2 Core</li>
+    </mods>
+    <folders>
+      <li>CrustyPeanutsRimCuisine2</li>
+    </folders>
+  </Operation>
+
+  <Operation Class="PatchOperationLoadOnDemand.XML">
+    <mods>
+      <li>[1.0] RimCuisine 2: Smokes and Shrooms Expansion</li>
+    </mods>
+    <folders>
+      <li>CrustyPeanutsRimCuisine2Drugs</li>
+    </folders>
+  </Operation>
+
+  
+
   <!-- Twoski's Synthmeat -->
   
   <Operation Class="PatchOperationLoadOnDemand.XML">
