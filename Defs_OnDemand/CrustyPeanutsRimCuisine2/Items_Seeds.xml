@@ -81,7 +81,10 @@
   <SeedsPlease.SeedDef ParentName="SeedBase">
     <defName>Seed_Onion</defName>
     <label>onion seeds</label>
-    <plant>RC2_PlantOnion</plant>
+    <plant>RC2_PlantOnionHydro</plant>
+    <sources>
+      <li>RC2_PlantOnion</li>
+    </sources>
     <graphicData>
       <texPath>Things/Item/Seeds/Onion</texPath>
     </graphicData>
