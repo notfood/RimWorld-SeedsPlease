@@ -35,7 +35,7 @@
       <Flammability>1.0</Flammability>
       <DeteriorationRate>1</DeteriorationRate>
       <MarketValue>0</MarketValue>
-      <SellPriceFactor>0.01</SellPriceFactor>
+      <SellPriceFactor>0.05</SellPriceFactor>
     </statBases>
     <soundInteract>Grain_Drop</soundInteract>
     <soundDrop>Grain_Drop</soundDrop>

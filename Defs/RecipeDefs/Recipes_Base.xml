@@ -14,7 +14,7 @@
   
   <RecipeDef Abstract="True" Name="ProcessRaw">
     <jobString>Processing plants.</jobString>
-    <workSpeedStat>TailoringSpeed</workSpeedStat>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>Tailor</effectWorking>
     <soundWorking>Recipe_Tailor</soundWorking>
     <workSkill>Crafting</workSkill>

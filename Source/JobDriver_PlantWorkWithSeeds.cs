@@ -56,7 +56,7 @@ namespace SeedsPlease
 
                             ThingDef harvestedThingDef;
 
-                            if (plant.def.blueprintDef is SeedDef seedDef) {
+                            if (plant.def.blueprintDef is SeedDef seedDef && !seedDef.thingCategories.NullOrEmpty() ) {
                                 var minGrowth = plant.def.plant.harvestMinGrowth;
 
                                 float parameter;

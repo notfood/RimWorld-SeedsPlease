@@ -14,9 +14,10 @@ namespace SeedsPlease
         {
             var job = base.JobOnCell (pawn, c, forced);
 
-            // plant has seeds, if there is a seed return a job, otherwise prevent it.
-            if (job != null && job.plantDefToSow != null && job.plantDefToSow.blueprintDef != null) {
-
+            // plant has seeds, if there is a seed return a job, otherwise prevent it. Seeds with no category are forbidden.
+            var seed = job?.plantDefToSow?.blueprintDef;
+            if (seed != null && !seed.thingCategories.NullOrEmpty())
+            {
                 // Clear the area some...
                 var zone = c.GetZone (pawn.Map);
                 if (zone != null) {
