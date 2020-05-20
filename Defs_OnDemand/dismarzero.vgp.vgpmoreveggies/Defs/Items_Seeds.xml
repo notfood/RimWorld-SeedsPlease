@@ -7,9 +7,7 @@
     <sources>
       <li>Planteggplant</li>
     </sources>
-    <graphicData>
-      <texPath>Things/Item/Seeds/Eggplant</texPath>
-    </graphicData>
+    <graphicData><texPath>Things/Item/Seeds/Eggplant</texPath></graphicData>
   </SeedsPlease.SeedDef>
 
   <SeedsPlease.SeedDef ParentName="SeedBase">
@@ -18,9 +16,7 @@
     <sources>
       <li>Plantpumpkin</li>
     </sources>
-    <graphicData>
-      <texPath>Things/Item/Seeds/Pumpkin</texPath>
-    </graphicData>
+    <graphicData><texPath>Things/Item/Seeds/Pumpkin</texPath></graphicData>
   </SeedsPlease.SeedDef>
 
   <SeedsPlease.SeedDef ParentName="SeedBase">
@@ -29,6 +25,7 @@
     <sources>
       <li>Plantsquash</li>
     </sources>
+    <graphicData><texPath>Things/Item/Seeds/Squash</texPath></graphicData>
   </SeedsPlease.SeedDef>
 
   <SeedsPlease.SeedDef ParentName="SeedBase">
@@ -37,9 +34,7 @@
     <sources>
       <li>PlantTomato</li>
     </sources>
-    <graphicData>
-      <texPath>Things/Item/Seeds/Tomato</texPath>
-    </graphicData>
+    <graphicData><texPath>Things/Item/Seeds/Tomato</texPath></graphicData>
   </SeedsPlease.SeedDef>
 
   <SeedsPlease.SeedDef ParentName="SeedBase">
@@ -48,9 +43,7 @@
     <sources>
       <li>PlantCarrot</li>
     </sources>
-    <graphicData>
-      <texPath>Things/Item/Seeds/Carrot</texPath>
-    </graphicData>
+    <graphicData><texPath>Things/Item/Seeds/Carrot</texPath></graphicData>
   </SeedsPlease.SeedDef>
   
   <SeedsPlease.SeedDef ParentName="SeedBase">
@@ -59,6 +52,7 @@
     <sources>
       <li>PlantKiwi</li>
     </sources>
+    <graphicData><texPath>Things/Item/Seeds/Kiwi</texPath></graphicData>
   </SeedsPlease.SeedDef>
   
   <SeedsPlease.SeedDef ParentName="SeedBase">
@@ -67,6 +61,7 @@
     <sources>
       <li>PlantMangoTree</li>
     </sources>
+    <graphicData><texPath>Things/Item/Seeds/Mango</texPath></graphicData>
   </SeedsPlease.SeedDef>
 
 </Defs>

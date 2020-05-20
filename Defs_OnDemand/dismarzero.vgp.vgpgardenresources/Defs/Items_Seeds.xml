@@ -7,6 +7,7 @@
     <sources>
       <li>PlantSteelLeaf</li>
     </sources>
+    <graphicData><texPath>Things/Item/Seeds/SteelLeaf</texPath></graphicData>
   </SeedsPlease.SeedDef>
 
   <SeedsPlease.SeedDef ParentName="SeedBase">
@@ -15,6 +16,7 @@
     <sources>
       <li>PlantPlasteelLeaf</li>
     </sources>
+    <graphicData><texPath>Things/Item/Seeds/PlasteelLeaf</texPath></graphicData>
   </SeedsPlease.SeedDef>
 
   <SeedsPlease.SeedDef ParentName="SeedBase">
@@ -23,6 +25,7 @@
     <sources>
       <li>PlantGoldLeaf</li>
     </sources>
+    <graphicData><texPath>Things/Item/Seeds/GoldLeaf</texPath></graphicData>
   </SeedsPlease.SeedDef>
 
   <SeedsPlease.SeedDef ParentName="SeedBase">
@@ -31,6 +34,7 @@
     <sources>
       <li>PlantJadeLeaf</li>
     </sources>
+    <graphicData><texPath>Things/Item/Seeds/JadeLeaf</texPath></graphicData>
   </SeedsPlease.SeedDef>
 
   <SeedsPlease.SeedDef ParentName="SeedBase">
@@ -39,6 +43,7 @@
     <sources>
       <li>PlantSilverLeaf</li>
     </sources>
+    <graphicData><texPath>Things/Item/Seeds/SilverLeaf</texPath></graphicData>
   </SeedsPlease.SeedDef>
 
   <SeedsPlease.SeedDef ParentName="SeedBase">
@@ -47,6 +52,7 @@
     <sources>
       <li>PlantUraniumLeaf</li>
     </sources>
+    <graphicData><texPath>Things/Item/Seeds/UraniumLeaf</texPath></graphicData>
   </SeedsPlease.SeedDef>
 
 </Defs>

@@ -7,6 +7,7 @@
     <sources>
       <li>VG_PlantAmbrosia</li>
     </sources>
+    <graphicData><texPath>Things/Item/Seeds/Ambrosia</texPath></graphicData>
   </SeedsPlease.SeedDef>
 
   <!-- Cultivated_Plants.xml -->
@@ -17,6 +18,7 @@
     <sources>
       <li>PlantNeutroFlower</li>
     </sources>
+    <graphicData><texPath>Things/Item/Seeds/NeutroFlower</texPath></graphicData>
   </SeedsPlease.SeedDef>
 
   <SeedsPlease.SeedDef ParentName="SeedBase">
@@ -25,9 +27,7 @@
     <sources>
       <li>PlantTobacco</li>
     </sources>
-    <graphicData>
-      <texPath>Things/Item/Seeds/Tobacco</texPath>
-    </graphicData>
+    <graphicData><texPath>Things/Item/Seeds/Tobacco</texPath></graphicData>
   </SeedsPlease.SeedDef>
 
 </Defs>

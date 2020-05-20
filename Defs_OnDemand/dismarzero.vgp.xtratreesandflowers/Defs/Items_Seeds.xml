@@ -7,6 +7,7 @@
     <sources>
       <li>PlantTreeJapaneseMaple</li>
     </sources>
+    <graphicData><texPath>Things/Item/Seeds/JapaneseMaple</texPath></graphicData>
   </SeedsPlease.SeedDef>
 
   <SeedsPlease.SeedDef ParentName="SeedBase">
@@ -15,6 +16,7 @@
     <sources>
       <li>PlantTreeCherryBlossom</li>
     </sources>
+    <graphicData><texPath>Things/Item/Seeds/Blossom</texPath></graphicData>
   </SeedsPlease.SeedDef>
 
   <SeedsPlease.SeedDef ParentName="SeedBase">
@@ -23,6 +25,7 @@
     <sources>
       <li>PlantTreeCamellia</li>
     </sources>
+    <graphicData><texPath>Things/Item/Seeds/Camellia</texPath></graphicData>
   </SeedsPlease.SeedDef>
 
   <SeedsPlease.SeedDef ParentName="SeedBase">
@@ -31,6 +34,7 @@
     <sources>
       <li>PlantTreeAcacia</li>
     </sources>
+    <graphicData><texPath>Things/Item/Seeds/Acacia</texPath></graphicData>
   </SeedsPlease.SeedDef>
 
   <SeedsPlease.SeedDef ParentName="SeedBase">
@@ -39,6 +43,7 @@
     <sources>
       <li>PlantTreeRedMaple</li>
     </sources>
+    <graphicData><texPath>Things/Item/Seeds/RedMaple</texPath></graphicData>
   </SeedsPlease.SeedDef>
 
 </Defs>

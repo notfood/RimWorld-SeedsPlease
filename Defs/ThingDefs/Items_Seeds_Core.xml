@@ -59,6 +59,7 @@
     <sources>
       <li>Plant_Smokeleaf</li>
     </sources>
+    <graphicData><texPath>Things/Item/Seeds/Smokeleaf</texPath></graphicData>
   </SeedsPlease.SeedDef>
   
   <SeedsPlease.SeedDef ParentName="SeedBase">
@@ -67,6 +68,7 @@
     <sources>
       <li>Plant_Psychoid</li>
     </sources>
+    <graphicData><texPath>Things/Item/Seeds/Psychoid</texPath></graphicData>
   </SeedsPlease.SeedDef>
   
   <SeedsPlease.SeedDef ParentName="SeedBase">
@@ -75,6 +77,7 @@
     <sources>
       <li>Plant_TreeDrago</li>
     </sources>
+    <graphicData><texPath>Things/Item/Seeds/TreeDrago</texPath></graphicData>
   </SeedsPlease.SeedDef>
   
   <SeedsPlease.SeedDef ParentName="SeedBase">
@@ -91,6 +94,7 @@
     <sources>
       <li>Plant_TreeCypress</li>
     </sources>
+    <graphicData><texPath>Things/Item/Seeds/TreeCypress</texPath></graphicData>
   </SeedsPlease.SeedDef>
   
   <SeedsPlease.SeedDef ParentName="SeedBase">
@@ -99,6 +103,7 @@
     <sources>
       <li>Plant_TreeMaple</li>
     </sources>
+    <graphicData><texPath>Things/Item/Seeds/TreeMaple</texPath></graphicData>
   </SeedsPlease.SeedDef>
   
   <SeedsPlease.SeedDef ParentName="SeedBase">
@@ -125,6 +130,7 @@
     <sources>
       <li>Plant_TreePine</li>
     </sources>
+    <graphicData><texPath>Things/Item/Seeds/TreePine</texPath></graphicData>
   </SeedsPlease.SeedDef>
   
   <SeedsPlease.SeedDef ParentName="SeedBase">
@@ -151,6 +157,7 @@
     <sources>
       <li>Plant_TreeCecropia</li>
     </sources>
+    <graphicData><texPath>Things/Item/Seeds/TreeCecropia</texPath></graphicData>
   </SeedsPlease.SeedDef>
   
   <SeedsPlease.SeedDef ParentName="SeedBase">
@@ -159,6 +166,7 @@
     <sources>
       <li>Plant_TreePalm</li>
     </sources>
+    <graphicData><texPath>Things/Item/Seeds/TreePalm</texPath></graphicData>
   </SeedsPlease.SeedDef>
   
   <SeedsPlease.SeedDef ParentName="SeedBase">
@@ -176,6 +184,7 @@
     <sources>
       <li>Plant_SaguaroCactus</li>
     </sources>
+    <graphicData><texPath>Things/Item/Seeds/SaguaroCactus</texPath></graphicData>
   </SeedsPlease.SeedDef>
   
 </Defs>

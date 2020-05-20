@@ -8,6 +8,7 @@
     <sources>
       <li>VG_PlantAmbrosia</li>
     </sources>
+    <graphicData><texPath>Things/Item/Seeds/Ambrosia</texPath></graphicData>
   </SeedsPlease.SeedDef>
 
   <SeedsPlease.SeedDef ParentName="SeedBase">
@@ -16,6 +17,7 @@
     <sources>
       <li>VGP_Agarilux</li>
     </sources>
+    <graphicData><texPath>Things/Item/Seeds/Agarilux</texPath></graphicData>
   </SeedsPlease.SeedDef>
 
   <!-- Cultivated_Plants_Fruit.xml -->
@@ -26,9 +28,7 @@
     <sources>
       <li>PlantAppletree</li>
     </sources>
-    <graphicData>
-      <texPath>Things/Item/Seeds/Apple</texPath>
-    </graphicData>
+    <graphicData><texPath>Things/Item/Seeds/Apple</texPath></graphicData>
   </SeedsPlease.SeedDef>
 
   <SeedsPlease.SeedDef ParentName="SeedBase">
@@ -37,9 +37,7 @@
     <sources>
       <li>PlantBananaTree</li>
     </sources>
-    <graphicData>
-      <texPath>Things/Item/Seeds/Banana</texPath>
-    </graphicData>
+    <graphicData><texPath>Things/Item/Seeds/Banana</texPath></graphicData>
   </SeedsPlease.SeedDef>
 
   <SeedsPlease.SeedDef ParentName="SeedBase">
@@ -48,9 +46,7 @@
     <sources>
       <li>PlantorangeTree</li>
     </sources>
-    <graphicData>
-      <texPath>Things/Item/Seeds/Orange</texPath>
-    </graphicData>
+    <graphicData><texPath>Things/Item/Seeds/Orange</texPath></graphicData>
   </SeedsPlease.SeedDef>
 
   <SeedsPlease.SeedDef ParentName="SeedBase">
@@ -59,9 +55,7 @@
     <sources>
       <li>PlantPeachTree</li>
     </sources>
-    <graphicData>
-      <texPath>Things/Item/Seeds/Peach</texPath>
-    </graphicData>
+    <graphicData><texPath>Things/Item/Seeds/Peach</texPath></graphicData>
   </SeedsPlease.SeedDef>
 
   <SeedsPlease.SeedDef ParentName="SeedBase">
@@ -70,6 +64,7 @@
     <sources>
       <li>DateTree</li>
     </sources>
+    <graphicData><texPath>Things/Item/Seeds/Date</texPath></graphicData>
   </SeedsPlease.SeedDef>
 
   <SeedsPlease.SeedDef ParentName="SeedBase">
@@ -78,6 +73,7 @@
     <sources>
       <li>FigTree</li>
     </sources>
+    <graphicData><texPath>Things/Item/Seeds/Fig</texPath></graphicData>
   </SeedsPlease.SeedDef>
 
   <SeedsPlease.SeedDef ParentName="SeedBase">
@@ -86,6 +82,7 @@
     <sources>
       <li>Coconuttree</li>
     </sources>
+    <graphicData><texPath>Things/Item/Seeds/Coconut</texPath></graphicData>
   </SeedsPlease.SeedDef>
 
   <SeedsPlease.SeedDef ParentName="SeedBase">
@@ -94,6 +91,7 @@
     <sources>
       <li>PlantCherrytree</li>
     </sources>
+    <graphicData><texPath>Things/Item/Seeds/Cherry</texPath></graphicData>
   </SeedsPlease.SeedDef>
 
   <SeedsPlease.SeedDef ParentName="SeedBase">
@@ -102,9 +100,7 @@
     <sources>
       <li>Plantpineapple</li>
     </sources>
-    <graphicData>
-      <texPath>Things/Item/Seeds/Pineapple</texPath>
-    </graphicData>
+    <graphicData><texPath>Things/Item/Seeds/Pineapple</texPath></graphicData>
   </SeedsPlease.SeedDef>
 
   <SeedsPlease.SeedDef ParentName="SeedBase">
@@ -113,9 +109,7 @@
     <sources>
       <li>Plantcloudberry</li>
     </sources>
-    <graphicData>
-      <texPath>Things/Item/Seeds/Cloudberry</texPath>
-    </graphicData>
+    <graphicData><texPath>Things/Item/Seeds/Cloudberry</texPath></graphicData>
   </SeedsPlease.SeedDef>
 
   <SeedsPlease.SeedDef ParentName="SeedBase">
@@ -124,9 +118,7 @@
     <sources>
       <li>Plantgooseberry</li>
     </sources>
-    <graphicData>
-      <texPath>Things/Item/Seeds/Gooseberry</texPath>
-    </graphicData>
+    <graphicData><texPath>Things/Item/Seeds/Gooseberry</texPath></graphicData>
   </SeedsPlease.SeedDef>
 
   <SeedsPlease.SeedDef ParentName="SeedBase">
@@ -135,9 +127,7 @@
     <sources>
       <li>Plantgrape</li>
     </sources>
-    <graphicData>
-      <texPath>Things/Item/Seeds/Grape</texPath>
-    </graphicData>
+    <graphicData><texPath>Things/Item/Seeds/Grape</texPath></graphicData>
   </SeedsPlease.SeedDef>
 
   <SeedsPlease.SeedDef ParentName="SeedBase">
@@ -146,9 +136,7 @@
     <sources>
       <li>Plantblueberry</li>
     </sources>
-    <graphicData>
-      <texPath>Things/Item/Seeds/Blueberry</texPath>
-    </graphicData>
+    <graphicData><texPath>Things/Item/Seeds/Blueberry</texPath></graphicData>
   </SeedsPlease.SeedDef>
 
   <SeedsPlease.SeedDef ParentName="SeedBase">
@@ -157,9 +145,7 @@
     <sources>
       <li>Plantwatermelon</li>
     </sources>
-    <graphicData>
-      <texPath>Things/Item/Seeds/Watermelon</texPath>
-    </graphicData>
+    <graphicData><texPath>Things/Item/Seeds/Watermelon</texPath></graphicData>
   </SeedsPlease.SeedDef>
 
   <!-- Cultivated_Plants.xml -->
@@ -170,6 +156,7 @@
     <sources>
       <li>Plant_Barley</li>
     </sources>
+    <graphicData><texPath>Things/Item/Seeds/Barley</texPath></graphicData>
   </SeedsPlease.SeedDef>
 
   <SeedsPlease.SeedDef ParentName="SeedBase">
@@ -178,6 +165,7 @@
     <sources>
       <li>Plant_Snowbeet</li>
     </sources>
+    <graphicData><texPath>Things/Item/Seeds/Snowbeet</texPath></graphicData>
   </SeedsPlease.SeedDef>
 
   <SeedsPlease.SeedDef ParentName="SeedBase">
@@ -186,6 +174,7 @@
     <sources>
       <li>Plant_redlentil</li>
     </sources>
+    <graphicData><texPath>Things/Item/Seeds/Redlentil</texPath></graphicData>
   </SeedsPlease.SeedDef>
 
   <SeedsPlease.SeedDef ParentName="SeedBase">
@@ -194,9 +183,7 @@
     <sources>
       <li>Plant_bean</li>
     </sources>
-    <graphicData>
-      <texPath>Things/Item/Seeds/Bean</texPath>
-    </graphicData>
+    <graphicData><texPath>Things/Item/Seeds/Bean</texPath></graphicData>
   </SeedsPlease.SeedDef>
 
   <SeedsPlease.SeedDef ParentName="SeedBase">
@@ -205,6 +192,7 @@
     <sources>
       <li>Plant_Olivetree</li>
     </sources>
+    <graphicData><texPath>Things/Item/Seeds/Olive</texPath></graphicData>
   </SeedsPlease.SeedDef>
 
   <SeedsPlease.SeedDef ParentName="SeedBase">
@@ -213,9 +201,7 @@
     <sources>
       <li>Plant_Tea</li>
     </sources>
-    <graphicData>
-      <texPath>Things/Item/Seeds/Tea</texPath>
-    </graphicData>
+    <graphicData><texPath>Things/Item/Seeds/Tea</texPath></graphicData>
   </SeedsPlease.SeedDef>
 
   <SeedsPlease.SeedDef ParentName="SeedBase">
@@ -224,9 +210,7 @@
     <sources>
       <li>Plant_Coffee</li>
     </sources>
-    <graphicData>
-      <texPath>Things/Item/Seeds/Coffee</texPath>
-    </graphicData>
+    <graphicData><texPath>Things/Item/Seeds/Coffee</texPath></graphicData>
   </SeedsPlease.SeedDef>
 
   <SeedsPlease.SeedDef ParentName="SeedBase">
@@ -235,9 +219,7 @@
     <sources>
       <li>Plant_TreeBamboo</li>
     </sources>
-    <graphicData>
-      <texPath>Things/Item/Seeds/Bamboo</texPath>
-    </graphicData>
+    <graphicData><texPath>Things/Item/Seeds/Bamboo</texPath></graphicData>
   </SeedsPlease.SeedDef>
   
   <SeedsPlease.SeedDef ParentName="SeedBase">
@@ -259,9 +241,7 @@
     <sources>
       <li>Plantmushroom</li>
     </sources>
-    <graphicData>
-      <texPath>Things/Item/Seeds/Mushroom</texPath>
-    </graphicData>
+    <graphicData><texPath>Things/Item/Seeds/Mushroom</texPath></graphicData>
   </SeedsPlease.SeedDef>
 
   <!-- Xtra_Flowers.xml -->
@@ -274,6 +254,7 @@
     <sources>
       <li>PlantTreeIronwood</li>
     </sources>
+    <graphicData><texPath>Things/Item/Seeds/Ironwood</texPath></graphicData>
   </SeedsPlease.SeedDef>
   
   <!-- Patched -->
@@ -283,6 +264,7 @@
     <sources>
       <li>Plant_Agave</li>
     </sources>
+    <graphicData><texPath>Things/Item/Seeds/Agave</texPath></graphicData>
   </SeedsPlease.SeedDef>
   
   <SeedsPlease.SeedDef ParentName="SeedBase">
@@ -291,6 +273,7 @@
     <sources>
       <li>Plant_PincushionCactus</li>
     </sources>
+    <graphicData><texPath>Things/Item/Seeds/PincushionCactus</texPath></graphicData>
   </SeedsPlease.SeedDef>
 
 </Defs>
