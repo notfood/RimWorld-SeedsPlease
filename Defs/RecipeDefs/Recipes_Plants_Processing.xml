@@ -153,6 +153,42 @@
     </skillRequirements>
   </RecipeDef>
   
+  <RecipeDef>
+    <defName>ProcessRawHealrootBulk</defName>
+    <label>make herbal medicine x5</label>
+    <description>Process Raw Healroot into Herbal Medicine.</description>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawHealroot</li>
+          </thingDefs>
+        </filter>
+        <count>25</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RawHealroot</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <MedicineHerbal>5</MedicineHerbal>
+    </products>
+    <skillRequirements>
+      <Crafting>6</Crafting>
+    </skillRequirements>
+    <jobString>Processing plants.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Tailor</effectWorking>
+    <soundWorking>Recipe_Tailor</soundWorking>
+    <workSkill>Crafting</workSkill>
+    <workAmount>1600</workAmount>
+    <recipeUsers>
+      <li>DrugLab</li>
+    </recipeUsers>
+  </RecipeDef>
+  
   <RecipeDef ParentName="ExtractSeed">
     <defName>ExtractSeed_Cocoa</defName>
     <label>extract cocoa seeds</label>
