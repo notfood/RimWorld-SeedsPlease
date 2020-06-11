@@ -93,8 +93,9 @@ namespace SeedsPlease
                             if (plantYield > 0) {
                                 var thing = ThingMaker.MakeThing (harvestedThingDef, null);
                                 thing.stackCount = plantYield;
-                                if (actor.Faction != Faction.OfPlayer) {
-                                    thing.SetForbidden (true, true);
+                                if (actor.Faction != Faction.OfPlayer && !actor.IsPrisonerOfColony)
+                                {
+                                    thing.SetForbidden(true, true);
                                 }
                                 GenPlace.TryPlaceThing (thing, actor.Position, actor.Map, ThingPlaceMode.Near, null);
                                 actor.records.Increment (RecordDefOf.PlantsHarvested);
