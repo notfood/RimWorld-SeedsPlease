@@ -25,7 +25,7 @@ namespace SeedsPlease
                         var cell = c + corner;
                         if (zone.ContainsCell (cell)) {
                             foreach (var thing in pawn.Map.thingGrid.ThingsAt (cell)) {
-                                if (thing.def != job.plantDefToSow && thing.def.BlockPlanting && pawn.CanReserve (thing) && !thing.IsForbidden (pawn)) {
+                                if (thing.def != job.plantDefToSow && thing.def.BlocksPlanting(true) && pawn.CanReserve (thing) && !thing.IsForbidden (pawn)) {
                                     if (thing.def.category == ThingCategory.Plant) {
                                         return new Job(JobDefOf.CutPlant, thing);
                                     }

@@ -212,7 +212,7 @@ namespace SeedsPlease
             }
 
             foreach (Thing current in map.thingGrid.ThingsListAt (cell)) {
-                if (current.def.BlockPlanting) {
+                if (current.def.BlocksPlanting(true)) {
                     return false;
                 }
             }
