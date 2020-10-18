@@ -6,6 +6,7 @@ using System.Reflection;
 using HarmonyLib;
 using RimWorld;
 using Verse;
+using Verse.AI;
 
 namespace SeedsPlease
 {
@@ -134,6 +135,27 @@ namespace SeedsPlease
         static bool Prefix()
         {
             return false;
+        }
+    }
+
+    [HarmonyPatch(typeof(JobDriver_HaulToCell), "MakeNewToils")]
+    public static class JobDriver_HaulToCell_PatchUnloadSeeds
+    {
+        // If hauling something, try to also unload any seeds in inventory
+        public static void Postfix(JobDriver_HaulToCell __instance)
+        {
+            if (__instance.job.haulMode == HaulMode.ToCellStorage)
+                JobDriver_PlantWorkWithSeeds.TryUnloadSeeds(__instance.pawn);
+        }
+    }
+
+    [HarmonyPatch(typeof(JobGiver_Idle), "TryGiveJob")]
+    public static class JobGiver_Idle_PatchUnloadSeeds
+    {
+        // If idle, try to unload any seeds in inventory
+        public static void Postfix(Pawn pawn)
+        {
+            JobDriver_PlantWorkWithSeeds.TryUnloadSeeds(pawn);
         }
     }
 }

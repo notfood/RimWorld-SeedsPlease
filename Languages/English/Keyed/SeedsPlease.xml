@@ -7,4 +7,8 @@
   <SeedExtraChance>Chance of extra seeds</SeedExtraChance>
   <GrowDays>Growth period</GrowDays>
 
+  <SeedsPlease.SettingsCategory>SeedsPlease!</SeedsPlease.SettingsCategory>
+  <SeedsPlease.Settings.PlaceSeedsInInventory>Place seeds in pawn's inventory</SeedsPlease.Settings.PlaceSeedsInInventory>
+  <SeedsPlease.Settings.PlaceSeedsInInventory.Tooltip>When enabled, after harvesting plants pawns will place the seeds from the plant in their inventory directly instead of dropping the seeds on the ground. At the next opportunity, they will unload the seeds. This can help with lots of time consuming extra hauling.</SeedsPlease.Settings.PlaceSeedsInInventory.Tooltip>
+
 </LanguageData>

@@ -31,5 +31,11 @@
     <reportString>cutting TargetA.</reportString>
     <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
   </JobDef>
+  <JobDef>
+    <defName>UnloadSeeds</defName>
+    <driverClass>SeedsPlease.JobDriver_UnloadSeeds</driverClass>
+    <reportString>unloading seeds</reportString>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+  </JobDef>
   
 </Defs>

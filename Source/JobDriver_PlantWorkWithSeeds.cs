@@ -1,5 +1,5 @@
-﻿using System.Collections.Generic;
-
+using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using RimWorld;
 using Verse;
@@ -49,73 +49,97 @@ namespace SeedsPlease
                 workDone += actor.GetStatValue (StatDefOf.PlantWorkSpeed, true);
                 if (workDone >= plant.def.plant.harvestWork) {
                     if (plant.def.plant.harvestedThingDef != null) {
-                        if (actor.RaceProps.Humanlike && plant.def.plant.harvestFailable && Rand.Value > actor.GetStatValue (StatDefOf.PlantHarvestYield, true)) {
+                        if (actor.RaceProps.Humanlike && plant.def.plant.harvestFailable && Rand.Value > actor.GetStatValue(StatDefOf.PlantHarvestYield)) {
                             MoteMaker.ThrowText ((actor.DrawPos + plant.DrawPos) / 2f, actor.Map, ResourceBank.StringTextMoteHarvestFailed, 3.65f);
                         } else {
-                            int plantYield = plant.YieldNow ();
+                            int plantYield = plant.YieldNow();
 
-                            ThingDef harvestedThingDef;
+                            var harvestedThingDef = MakeSeedsAndGetHarvestedThing(plant, actor, ref plantYield);
 
-                            if (plant.def.blueprintDef is SeedDef seedDef && !seedDef.thingCategories.NullOrEmpty() ) {
-                                var minGrowth = plant.def.plant.harvestMinGrowth;
-
-                                float parameter;
-                                if (minGrowth < 0.9f) {
-                                    parameter = Mathf.InverseLerp (minGrowth, 0.9f, plant.Growth);
-                                } else if (minGrowth < plant.Growth) {
-                                    parameter = 1f;
-                                } else {
-                                    parameter = 0f;
-                                }
-                                parameter = Mathf.Min (parameter, 1f);
-
-                                if (seedDef.seed.seedFactor > 0 && Rand.Value < seedDef.seed.baseChance * parameter) {
-                                    int count;
-                                    if (Rand.Value < seedDef.seed.extraChance) {
-                                        count = 2;
-                                    } else {
-                                        count = 1;
-                                    }
-
-                                    Thing seeds = ThingMaker.MakeThing (seedDef, null);
-                                    seeds.stackCount = Mathf.RoundToInt (seedDef.seed.seedFactor * count);
-
-                                    GenPlace.TryPlaceThing (seeds, actor.Position, actor.Map, ThingPlaceMode.Near);
-                                }
-
-                                plantYield = Mathf.RoundToInt (plantYield * seedDef.seed.harvestFactor);
-
-                                harvestedThingDef = seedDef.harvest;
-                            } else {
-                                harvestedThingDef = plant.def.plant.harvestedThingDef;
-                            }
-
-                            if (plantYield > 0) {
-                                var thing = ThingMaker.MakeThing (harvestedThingDef, null);
+                            if (plantYield > 0)
+                            {
+                                var thing = ThingMaker.MakeThing(harvestedThingDef);
                                 thing.stackCount = plantYield;
                                 if (actor.Faction != Faction.OfPlayer && !actor.IsPrisonerOfColony)
                                 {
-                                    thing.SetForbidden(true, true);
+                                    thing.SetForbidden(true);
                                 }
-                                GenPlace.TryPlaceThing (thing, actor.Position, actor.Map, ThingPlaceMode.Near, null);
-                                actor.records.Increment (RecordDefOf.PlantsHarvested);
+
+                                GenPlace.TryPlaceThing(thing, actor.Position, actor.Map, ThingPlaceMode.Near);
+                                actor.records.Increment(RecordDefOf.PlantsHarvested);
                             }
                         }
                     }
-                    plant.def.plant.soundHarvestFinish.PlayOneShot (actor);
-                    plant.PlantCollected ();
+
+                    plant.def.plant.soundHarvestFinish.PlayOneShot(actor);
+                    plant.PlantCollected();
                     workDone = 0;
-                    ReadyForNextToil ();
-                    return;
+                    ReadyForNextToil();
                 }
             };
 
             toil.FailOnDespawnedNullOrForbidden (targetCellIndex);
             toil.WithEffect (EffecterDefOf.Harvest, targetCellIndex);
-            toil.WithProgressBar (targetCellIndex, () => workDone / Plant.def.plant.harvestWork, true, -0.5f);
+            toil.WithProgressBar (targetCellIndex, () => workDone / Plant.def.plant.harvestWork, true);
             toil.PlaySustainerOrSound (() => Plant.def.plant.soundHarvesting);
 
             return toil;
+        }
+
+        private static ThingDef MakeSeedsAndGetHarvestedThing(Plant plant, Pawn actor, ref int plantYield)
+        {
+            if (!(plant.def.blueprintDef is SeedDef seedDef) || seedDef.thingCategories.NullOrEmpty())
+                return plant.def.plant.harvestedThingDef;
+
+            var minGrowth = plant.def.plant.harvestMinGrowth;
+
+            float parameter = minGrowth < 0.9f ? Mathf.InverseLerp(minGrowth, 0.9f, plant.Growth)
+                : minGrowth < plant.Growth ? 1f : 0f;
+
+            parameter = Mathf.Min(parameter, 1f);
+
+            if (seedDef.seed.seedFactor > 0 && Rand.Value < seedDef.seed.baseChance * parameter)
+            {
+                var count = Rand.Value < seedDef.seed.extraChance ? 2 : 1;
+                MakeSeeds(seedDef, count, actor);
+            }
+
+            plantYield = Mathf.RoundToInt(plantYield * seedDef.seed.harvestFactor);
+
+            return seedDef.harvest;
+        }
+
+        private static void MakeSeeds(SeedDef seedDef, int count, Pawn actor)
+        {
+            Thing seeds = ThingMaker.MakeThing(seedDef);
+            seeds.stackCount = Mathf.RoundToInt(seedDef.seed.seedFactor * count);
+
+            if (!SeedsPleaseSettings.placeSeedsInInventory || actor.WorkTypeIsDisabled(WorkTypeDefOf.Hauling))
+            {
+                GenPlace.TryPlaceThing(seeds, actor.Position, actor.Map, ThingPlaceMode.Near);
+                return;
+            }
+
+            var addedToInventory = actor.inventory.innerContainer.TryAdd(seeds);
+            if (!addedToInventory)
+            {
+                GenPlace.TryPlaceThing(seeds, actor.Position, actor.Map, ThingPlaceMode.Near);
+            }
+        }
+
+        public static void TryUnloadSeeds(Pawn pawn)
+        {
+            var hauledSeeds = pawn.inventory.innerContainer.Where(thing => thing.def is SeedDef);
+
+            if (pawn.Faction != Faction.OfPlayerSilentFail || !pawn.RaceProps.Humanlike
+                || pawn.carryTracker.CarriedThing is Corpse
+                || !hauledSeeds.Any())
+            {
+                return;
+            }
+
+            var job = new Job(ResourceBank.JobDefOf.UnloadSeeds, pawn);
+            pawn.jobs.jobQueue.EnqueueFirst(job, JobTag.Misc);
         }
     }
 }

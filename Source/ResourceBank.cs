@@ -15,10 +15,15 @@ namespace SeedsPlease
 
         public static readonly string StringTextMoteHarvestFailed = "TextMote_HarvestFailed".Translate();
 
+        public static readonly string StringSettingsCategory = "SeedsPlease.SettingsCategory".Translate();
+        public static readonly string StringSettingsPlaceSeedsInInventory = "SeedsPlease.Settings.PlaceSeedsInInventory".Translate();
+        public static readonly string StringSettingsPlaceSeedsInInventoryTooltip = "SeedsPlease.Settings.PlaceSeedsInInventory.Tooltip".Translate();
+
         [DefOf]
         public static class JobDefOf
         {
             public static JobDef SowWithSeeds;
+            public static JobDef UnloadSeeds;
         }
 
         [DefOf]
