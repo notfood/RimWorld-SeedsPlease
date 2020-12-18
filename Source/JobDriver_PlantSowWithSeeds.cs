@@ -170,11 +170,21 @@ namespace SeedsPlease
             toil.initAction = delegate {
                 Pawn actor = toil.actor;
 
-                IntVec3 intVec;
-                if (IsActorCarryingAppropriateSeed (actor, job.plantDefToSow) && GetNearbyPlantingSite (job.GetTarget (targetCellIndex).Cell, actor.Map, out intVec)) {
-                    job.SetTarget (targetCellIndex, intVec);
+                if (IsActorCarryingAppropriateSeed(actor, job.plantDefToSow))
+                {
+                    IntVec3 intVec;
+                    if (GetNearbyPlantingSite(job.GetTarget(targetCellIndex).Cell, actor.Map, out intVec))
+                    {
+                        job.SetTarget(targetCellIndex, intVec);
 
-                    return;
+                        return;
+                    }
+
+                    Job job = new WorkGiver_HaulGeneral().JobOnThing(actor, actor.carryTracker.CarriedThing);
+                    if (job != null && job.TryMakePreToilReservations(actor, true))
+                    {
+                        actor.jobs.jobQueue.EnqueueFirst(job);
+                    }
                 }
 
                 EndJobWith (JobCondition.Incompletable);
