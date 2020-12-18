@@ -180,10 +180,10 @@ namespace SeedsPlease
                         return;
                     }
 
-                    Job job = new WorkGiver_HaulGeneral().JobOnThing(actor, actor.carryTracker.CarriedThing);
-                    if (job != null && job.TryMakePreToilReservations(actor, true))
+                    Job haulJob = new WorkGiver_HaulGeneral().JobOnThing(actor, actor.carryTracker.CarriedThing);
+                    if (haulJob != null && haulJob.TryMakePreToilReservations(actor, true))
                     {
-                        actor.jobs.jobQueue.EnqueueFirst(job);
+                        actor.jobs.jobQueue.EnqueueFirst(haulJob);
                     }
                 }
 
