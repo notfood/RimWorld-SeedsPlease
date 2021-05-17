@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <HarvestMultiplier>Multiplicateur de rendement</HarvestMultiplier>
+  <SeedMultiplier>Multiplicateur pour les graines</SeedMultiplier>
+  <SeedBaseChance>Chance de graines</SeedBaseChance>
+  <SeedExtraChance>Possibilité de graines supplémentaires</SeedExtraChance>
+  <GrowDays>Période de croissance</GrowDays>
+
+</LanguageData>

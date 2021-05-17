@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <DoBillsTableSeeds.label>Extraire les graines</DoBillsTableSeeds.label>
+  <DoBillsTableSeeds.verb>Extraire les graines
+  <DoBillsTableSeeds.gerund>Extrait les graines</DoBillsTableSeeds.gerund>
+
+  <GrowerSow.label>semer des graines</GrowerSow.label>
+  <GrowerSow.verb>semer</GrowerSow.verb>
+  <GrowerSow.gerund>sème</GrowerSow.gerund>
+
+
+</LanguageData>

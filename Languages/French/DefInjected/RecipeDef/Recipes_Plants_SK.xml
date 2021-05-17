@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ExtractSeedStrawberry.label>Extraire les graines de fraise</ExtractSeedStrawberry.label>
+  <ExtractSeedStrawberry.description>Extraire les graines de fraise.</ExtractSeedStrawberry.description>
+  <ExtractSeedStrawberry.jobString>Extrait les graines.</ExtractSeedStrawberry.jobString>
+
+  <ExtractSeedblueberry.label>Extraire les graines de myrtilles</ExtractSeedblueberry.label>
+  <ExtractSeedblueberry.description>Extraire les graines de myrtilles.</ExtractSeedblueberry.description>
+  <ExtractSeedblueberry.jobString>Extrait les graines.</ExtractSeedblueberry.jobString>
+
+  <ExtractSeedcloudberry.label>Extraire les graines de baies des nuages</ExtractSeedcloudberry.label>
+  <ExtractSeedcloudberry.description>Extraire les graines de baies des nuages.</ExtractSeedcloudberry.description>
+  <ExtractSeedcloudberry.jobString>Extrait les graines.</ExtractSeedcloudberry.jobString>
+
+  <ExtractSeedgooseberry.label>Extraire les graines de groseilles</ExtractSeedgooseberry.label>
+  <ExtractSeedgooseberry.description>Extraire les graines de groseilles.</ExtractSeedgooseberry.description>
+  <ExtractSeedgooseberry.jobString>Extrait les graines.</ExtractSeedgooseberry.jobString>
+
+  <ExtractSeedcocoa.label>Extrait de fèves de cacao</ExtractSeedcocoa.label>
+  <ExtractSeedcocoa.description>Extrait de fèves de cacao.</ExtractSeedcocoa.description>
+  <ExtractSeedcocoa.jobString>Extrait les graines.</ExtractSeedcocoa.jobString>
+
+  <ExtractSeedAppletree.label>Extraire les graines de pommier</ExtractSeedAppletree.label>
+  <ExtractSeedAppletree.description>Extraire les graines de pommier.</ExtractSeedAppletree.description>
+  <ExtractSeedAppletree.jobString>Extrait les graines.</ExtractSeedAppletree.jobString>
+
+  <ExtractSeedBananaTree.label>Extraire les graines de banane</ExtractSeedBananaTree.label>
+  <ExtractSeedBananaTree.description>Extraire les graines de banane.</ExtractSeedBananaTree.description>
+  <ExtractSeedBananaTree.jobString>Extrait les graines.</ExtractSeedBananaTree.jobString>
+
+  <ExtractSeedorangeTree.label>Extraire les graines d'orange</ExtractSeedorangeTree.label>
+  <ExtractSeedorangeTree.description>Extraire les graines d'orange.</ExtractSeedorangeTree.description>
+  <ExtractSeedorangeTree.jobString>Extrait les graines.</ExtractSeedorangeTree.jobString>
+
+  <ExtractSeedPeachTree.label>Extraire les graines de pêche</ExtractSeedPeachTree.label>
+  <ExtractSeedPeachTree.description>Extraire les graines de pêche.</ExtractSeedPeachTree.description>
+  <ExtractSeedPeachTree.jobString>Extrait les graines.</ExtractSeedPeachTree.jobString>
+
+  <ExtractSeedgrape.label>Extraire les grains de raisin/ExtractSeedgrape.label>
+  <ExtractSeedgrape.description>Extraire les grains de raisin.</ExtractSeedgrape.description>
+  <ExtractSeedgrape.jobString>Extrait les graines.</ExtractSeedgrape.jobString>
+
+  <ExtractSeedCotton.label>Extraire les graines de coton</ExtractSeedCotton.label>
+  <ExtractSeedCotton.description>Extraire les graines de coton.</ExtractSeedCotton.description>
+  <ExtractSeedCotton.jobString>Extrait les graines.</ExtractSeedCotton.jobString>
+
+  <ExtractSeedFlax.label>Extraire les graines de lin</ExtractSeedFlax.label>
+  <ExtractSeedFlax.description>Extraire les graines de lin.</ExtractSeedFlax.description>
+  <ExtractSeedFlax.jobString>Extrait les graines.</ExtractSeedFlax.jobString>
+
+  <ExtractSeedDevilstrand.label>Extraire les graines de Devilstrand</ExtractSeedDevilstrand.label>
+  <ExtractSeedDevilstrand.description>Extraire les graines de Devilstrand.</ExtractSeedDevilstrand.description>
+  <ExtractSeedDevilstrand.jobString>Extrait les graines.</ExtractSeedDevilstrand.jobString>
+
+  <ExtractSeedHops.label>Extraire les graines de houblon</ExtractSeedHops.label>
+  <ExtractSeedHops.description>Extraire les graines de houblon.</ExtractSeedHops.description>
+  <ExtractSeedHops.jobString>Extrait les graines.</ExtractSeedHops.jobString>
+
+  <ExtractSeedsugarcane.label>Extraire les graines de la canne à sucre</ExtractSeedsugarcane.label>
+  <ExtractSeedsugarcane.description>Extraire les graines de la canne à sucre.</ExtractSeedsugarcane.description>
+  <ExtractSeedsugarcane.jobString>Extrait les graines.</ExtractSeedsugarcane.jobString>
+
+  <ExtractSeedbamboo.label>Extraire les graines de bambou</ExtractSeedbamboo.label>
+  <ExtractSeedbamboo.description>Extraire les graines de bambou.</ExtractSeedbamboo.description>
+  <ExtractSeedbamboo.jobString>Extrait les graines.</ExtractSeedbamboo.jobString>
+
+  <ExtractSeedoats.label>Extrait de graines d'avoine</ExtractSeedoats.label>
+  <ExtractSeedoats.description>Extrait de graines d'avoine.</ExtractSeedoats.description>
+  <ExtractSeedoats.jobString>Extrait les graines.</ExtractSeedoats.jobString>
+
+  <ExtractSeedPsychoid.label>Extraire les graines de psychoïde</ExtractSeedPsychoid.label>
+  <ExtractSeedPsychoid.description>Extraire les graines de psychoïde.</ExtractSeedPsychoid.description>
+  <ExtractSeedPsychoid.jobString>Extrait les graines.</ExtractSeedPsychoid.jobString>
+
+  <ExtractSeedwheat.label>Extraire les graines de blé</ExtractSeedwheat.label>
+  <ExtractSeedwheat.description>Extraire les graines de blé.</ExtractSeedwheat.description>
+  <ExtractSeedwheat.jobString>Extrait les graines.</ExtractSeedwheat.jobString>
+
+  <ExtractSeedSmokeleaf.label>Extraire les graines de feuille de cannabis</ExtractSeedSmokeleaf.label>
+  <ExtractSeedSmokeleaf.description>Extraire les graines de feuille de cannabis.</ExtractSeedSmokeleaf.description>
+  <ExtractSeedSmokeleaf.jobString>Extrait les graines.</ExtractSeedSmokeleaf.jobString>
+
+  <ExtractSeedCoffee.label>Extraire les graines de café</ExtractSeedCoffee.label>
+  <ExtractSeedCoffee.description>Extraire les graines de café.</ExtractSeedCoffee.description>
+  <ExtractSeedCoffee.jobString>Extrait les graines.</ExtractSeedCoffee.jobString>
+
+  <ExtractSeedTobacco.label>Extraire les graines de tabac</ExtractSeedTobacco.label>
+  <ExtractSeedTobacco.description>Extraire les graines de tabac.</ExtractSeedTobacco.description>
+  <ExtractSeedTobacco.jobString>Extrait les graines.</ExtractSeedTobacco.jobString>
+
+  <ExtractSeedTea.label>Extraire les graines de thé</ExtractSeedTea.label>
+  <ExtractSeedTea.description>Extraire les graines de thé.</ExtractSeedTea.description>
+  <ExtractSeedTea.jobString>Extrait les graines.</ExtractSeedTea.jobString>
+
+  <ExtractSeedHeveaTree.label>Extrait des graines d'arbre d'hévéa</ExtractSeedHeveaTree.label>
+  <ExtractSeedHeveaTree.description>Extrait des graines d'arbre d'hévéa.</ExtractSeedHeveaTree.description>
+  <ExtractSeedHeveaTree.jobString>Extrait les graines.</ExtractSeedHeveaTree.jobString>
+
+  <ExtractSeedHealroot.label>Extraire les graines de racine de vie</ExtractSeedHealroot.label>
+  <ExtractSeedHealroot.description>Extraire les graines de racine de vie.</ExtractSeedHealroot.description>
+  <ExtractSeedHealroot.jobString>Extrait les graines.</ExtractSeedHealroot.jobString>
+
+  <ExtractSeedaloe.label>Extraire les graines d'aloès</ExtractSeedaloe.label>
+  <ExtractSeedaloe.description>Extraire les graines d'aloès.</ExtractSeedaloe.description>
+  <ExtractSeedaloe.jobString>Extrait les graines.</ExtractSeedaloe.jobString>
+
+  <ExtractSeedNeutroFlower.label>Extraire les graines de neutrofleurs</ExtractSeedNeutroFlower.label>
+  <ExtractSeedNeutroFlower.description>Extraire les graines de neutrofleurs.</ExtractSeedNeutroFlower.description>
+  <ExtractSeedNeutroFlower.jobString>Extrait les graines.</ExtractSeedNeutroFlower.jobString>
+
+  <ExtractSeedPotato.label>Extraire les graines de pommes de terre</ExtractSeedPotato.label>
+  <ExtractSeedPotato.description>Extraire les graines de pommes de terre.</ExtractSeedPotato.description>
+  <ExtractSeedPotato.jobString>Extrait les graines.</ExtractSeedPotato.jobString>
+
+  <ExtractSeedCorn.label>Extraire les graines de maïs</ExtractSeedCorn.label>
+  <ExtractSeedCorn.description>Extraire les graines de maïs.</ExtractSeedCorn.description>
+  <ExtractSeedCorn.jobString>Extrait les graines.</ExtractSeedCorn.jobString>
+
+  <ExtractSeedRice.label>Extraire les graines de riz</ExtractSeedRice.label>
+  <ExtractSeedRice.description>Extraire les graines de riz.</ExtractSeedRice.description>
+  <ExtractSeedRice.jobString>Extrait les graines.</ExtractSeedRice.jobString>
+
+  <ExtractSeedeggplant.label>Extraire les graines d'aubergine</ExtractSeedeggplant.label>
+  <ExtractSeedeggplant.description>Extraire les graines d'aubergine.</ExtractSeedeggplant.description>
+  <ExtractSeedeggplant.jobString>Extrait les graines.</ExtractSeedeggplant.jobString>
+
+  <ExtractSeedbean.label>Extraire les graines de haricots</ExtractSeedbean.label>
+  <ExtractSeedbean.description>Extraire les graines de haricots.</ExtractSeedbean.description>
+  <ExtractSeedbean.jobString>Extrait les graines.</ExtractSeedbean.jobString>
+
+  <ExtractSeedTomato.label>Extraire les graines de tomates</ExtractSeedTomato.label>
+  <ExtractSeedTomato.description>Extraire les graines de tomates.</ExtractSeedTomato.description>
+  <ExtractSeedTomato.jobString>Extrait les graines.</ExtractSeedTomato.jobString>
+
+  <ExtractSeedCarrot.label>Extraire les graines de carottes</ExtractSeedCarrot.label>
+  <ExtractSeedCarrot.description>Extraire les graines de carottes.</ExtractSeedCarrot.description>
+  <ExtractSeedCarrot.jobString>Extrait les graines.</ExtractSeedCarrot.jobString>
+
+  <ExtractSeedLettuce.label>Extraire les graines de chou</ExtractSeedLettuce.label>
+  <ExtractSeedLettuce.description>Extraire les graines de chou.</ExtractSeedLettuce.description>
+  <ExtractSeedLettuce.jobString>Extrait les graines.</ExtractSeedLettuce.jobString>
+
+  <ExtractSeedmushroom.label>Extraire les graines de champignons</ExtractSeedmushroom.label>
+  <ExtractSeedmushroom.description>Extraire les graines de champignons.</ExtractSeedmushroom.description>
+  <ExtractSeedmushroom.jobString>Extrait les graines.</ExtractSeedmushroom.jobString>
+
+  <ExtractSeedHaygrass.label>Extraire les graines de l'herbe à foin</ExtractSeedHaygrass.label>
+  <ExtractSeedHaygrass.description>Extraire les graines de l'herbe à foin.</ExtractSeedHaygrass.description>
+  <ExtractSeedHaygrass.jobString>Extrait les graines.</ExtractSeedHaygrass.jobString>
+
+  <ExtractSeedWildRose.label>Extraire les graines de rose sauvage</ExtractSeedWildRose.label>
+  <ExtractSeedWildRose.description>Extraire les graines de rose sauvage.</ExtractSeedWildRose.description>
+  <ExtractSeedWildRose.jobString>Extrait les graines.</ExtractSeedWildRose.jobString>
+
+  <ExtractSeedHypericum.label>Extraire les graines d'hypericum</ExtractSeedHypericum.label>
+  <ExtractSeedHypericum.description>Extraire les graines d'hypericum.</ExtractSeedHypericum.description>
+  <ExtractSeedHypericum.jobString>Extrait les graines.</ExtractSeedHypericum.jobString>
+
+  <ExtractSeedMint.label>Extraire les graines de menthe</ExtractSeedMint.label>
+  <ExtractSeedMint.description>Extraire les graines de menthe.</ExtractSeedMint.description>
+  <ExtractSeedMint.jobString>Extrait les graines.</ExtractSeedMint.jobString>
+
+  <ExtractSeedonion.label>Extraire les graines d'oignon</ExtractSeedonion.label>
+  <ExtractSeedonion.description>Extraire les graines d'oignon.</ExtractSeedonion.description>
+  <ExtractSeedonion.jobString>Extrait les graines.</ExtractSeedonion.jobString>
+
+  <ExtractSeedBush.label>Extraire les graines d'arbuste</ExtractSeedBush.label>
+  <ExtractSeedBush.description>Extraire les graines d'arbuste.</ExtractSeedBush.description>
+  <ExtractSeedBush.jobString>Extrait les graines.</ExtractSeedBush.jobString>
+
+  <ExtractSeedWildBanana.label>Extraire les graines de noix de coco</ExtractSeedWildBanana.label>
+  <ExtractSeedWildBanana.description>Extraire les graines de noix de coco.</ExtractSeedWildBanana.description>
+  <ExtractSeedWildBanana.jobString>Extrait les graines.</ExtractSeedWildBanana.jobString>
+
+
+</LanguageData>

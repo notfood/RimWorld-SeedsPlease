@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <SeedStrawberry.label>Graines de fraise</SeedStrawberry.label>
+  <SeedStrawberry.description>Ce sont des graines génétiquement modifiées capables de prospérer dans un large éventail d'environnements extraterrestres sur plusieurs générations.</SeedStrawberry.description>
+
+  <Seedblueberry.label>Graines de myrtille</Seedblueberry.label>
+  <Seedblueberry.description>Ce sont des graines génétiquement modifiées capables de prospérer dans un large éventail d'environnements extraterrestres sur plusieurs générations.</Seedblueberry.description>
+
+  <Seedcloudberry.label>Graines de baie des nuages</Seedcloudberry.label>
+  <Seedcloudberry.description>Ce sont des graines génétiquement modifiées capables de prospérer dans un large éventail d'environnements extraterrestres sur plusieurs générations.</Seedcloudberry.description>
+
+  <Seedgooseberry.label>Graines de groseilles</Seedgooseberry.label>
+  <Seedgooseberry.description>Ce sont des graines génétiquement modifiées capables de prospérer dans un large éventail d'environnements extraterrestres sur plusieurs générations.</Seedgooseberry.description>
+
+  <Seedcocoa.label>Graines de cacao</Seedcocoa.label>
+  <Seedcocoa.description>Ce sont des graines génétiquement modifiées capables de prospérer dans un large éventail d'environnements extraterrestres sur plusieurs générations.</Seedcocoa.description>
+
+  <SeedAppletree.label>Graines de pommier</SeedAppletree.label>
+  <SeedAppletree.description>Ce sont des graines génétiquement modifiées capables de prospérer dans un large éventail d'environnements extraterrestres sur plusieurs générations.</SeedAppletree.description>
+
+  <SeedBananaTree.label>Graines de bananes</SeedBananaTree.label>
+  <SeedBananaTree.description>Ce sont des graines génétiquement modifiées capables de prospérer dans un large éventail d'environnements extraterrestres sur plusieurs générations.</SeedBananaTree.description>
+
+  <SeedorangeTree.label>Graines d'orange</SeedorangeTree.label>
+  <SeedorangeTree.description>Ce sont des graines génétiquement modifiées capables de prospérer dans un large éventail d'environnements extraterrestres sur plusieurs générations.</SeedorangeTree.description>
+
+  <SeedPeachTree.label>Graines de pêche</SeedPeachTree.label>
+  <SeedPeachTree.description>Ce sont des graines génétiquement modifiées capables de prospérer dans un large éventail d'environnements extraterrestres sur plusieurs générations.</SeedPeachTree.description>
+
+  <Seedgrape.label>Graines de raisin</Seedgrape.label>
+  <Seedgrape.description>Ce sont des graines génétiquement modifiées capables de prospérer dans un large éventail d'environnements extraterrestres sur plusieurs générations.</Seedgrape.description>
+
+  <SeedFlax.label>Graines de lin</SeedFlax.label>
+  <SeedFlax.description>Ce sont des graines génétiquement modifiées capables de prospérer dans un large éventail d'environnements extraterrestres sur plusieurs générations.</SeedFlax.description>
+
+  <SeedHops.label>Graines de houblon</SeedHops.label>
+  <SeedHops.description>Ce sont des graines génétiquement modifiées capables de prospérer dans un large éventail d'environnements extraterrestres sur plusieurs générations.</SeedHops.description>
+
+  <Seedsugarcane.label>Graines de canne à sucre</Seedsugarcane.label>
+  <Seedsugarcane.description>Ce sont des graines génétiquement modifiées capables de prospérer dans un large éventail d'environnements extraterrestres sur plusieurs générations.</Seedsugarcane.description>
+
+  <Seedbamboo.label>Graines de bambou</Seedbamboo.label>
+  <Seedbamboo.description>Ce sont des graines génétiquement modifiées capables de prospérer dans un large éventail d'environnements extraterrestres sur plusieurs générations.</Seedbamboo.description>
+
+  <Seedoats.label>Graines d'avoine</Seedoats.label>
+  <Seedoats.description>Ce sont des graines génétiquement modifiées capables de prospérer dans un large éventail d'environnements extraterrestres sur plusieurs générations.</Seedoats.description>
+
+  <SeedPsychoid.label>Graines de psychoïde</SeedPsychoid.label>
+  <SeedPsychoid.description>Ce sont des graines génétiquement modifiées capables de prospérer dans un large éventail d'environnements extraterrestres sur plusieurs générations.</SeedPsychoid.description>
+
+  <Seedwheat.label>Graines de blé</Seedwheat.label>
+  <Seedwheat.description>Ce sont des graines génétiquement modifiées capables de prospérer dans un large éventail d'environnements extraterrestres sur plusieurs générations.</Seedwheat.description>
+
+  <SeedSmokeleaf.label>Graines de feuille de cannabis</SeedSmokeleaf.label>
+  <SeedSmokeleaf.description>Ce sont des graines génétiquement modifiées capables de prospérer dans un large éventail d'environnements extraterrestres sur plusieurs générations.</SeedSmokeleaf.description>
+
+  <SeedCoffee.label>Graines de café</SeedCoffee.label>
+  <SeedCoffee.description>Ce sont des graines génétiquement modifiées capables de prospérer dans un large éventail d'environnements extraterrestres sur plusieurs générations.</SeedCoffee.description>
+
+  <SeedTobacco.label>Graines de tabac</SeedTobacco.label>
+  <SeedTobacco.description>Ce sont des graines génétiquement modifiées capables de prospérer dans un large éventail d'environnements extraterrestres sur plusieurs générations.</SeedTobacco.description>
+
+  <SeedTea.label>Graines de thé</SeedTea.label>
+  <SeedTea.description>Ce sont des graines génétiquement modifiées capables de prospérer dans un large éventail d'environnements extraterrestres sur plusieurs générations.</SeedTea.description>
+
+  <SeedHeveaTree.label>Graines d'arbre hévéa</SeedHeveaTree.label>
+  <SeedHeveaTree.description>Ce sont des graines génétiquement modifiées capables de prospérer dans un large éventail d'environnements extraterrestres sur plusieurs générations.</SeedHeveaTree.description>
+
+  <SeedHealroot.label>Graines de racine de vie</SeedHealroot.label>
+  <SeedHealroot.description>Ce sont des graines génétiquement modifiées capables de prospérer dans un large éventail d'environnements extraterrestres sur plusieurs générations.</SeedHealroot.description>
+
+  <Seedaloe.label>Graines d'aloès</Seedaloe.label>
+  <Seedaloe.description>Ce sont des graines génétiquement modifiées capables de prospérer dans un large éventail d'environnements extraterrestres sur plusieurs générations.</Seedaloe.description>
+
+  <SeedNeutroFlower.label>Graines de neutrofleur</SeedNeutroFlower.label>
+  <SeedNeutroFlower.description>Ce sont des graines génétiquement modifiées capables de prospérer dans un large éventail d'environnements extraterrestres sur plusieurs générations.</SeedNeutroFlower.description>
+
+  <SeedPotato.label>Graines de pommes de terre</SeedPotato.label>
+  <SeedPotato.description>Ce sont des graines génétiquement modifiées capables de prospérer dans un large éventail d'environnements extraterrestres sur plusieurs générations.</SeedPotato.description>
+
+  <SeedCorn.label>Graines de maïs</SeedCorn.label>
+  <SeedCorn.description>Ce sont des graines génétiquement modifiées capables de prospérer dans un large éventail d'environnements extraterrestres sur plusieurs générations.</SeedCorn.description>
+
+  <SeedRice.label>Graines de riz</SeedRice.label>
+  <SeedRice.description>Ce sont des graines génétiquement modifiées capables de prospérer dans un large éventail d'environnements extraterrestres sur plusieurs générations.</SeedRice.description>
+
+  <Seedeggplant.label>Graines d'aubergine</Seedeggplant.label>
+  <Seedeggplant.description>Ce sont des graines génétiquement modifiées capables de prospérer dans un large éventail d'environnements extraterrestres sur plusieurs générations.</Seedeggplant.description>
+
+  <Seedbean.label>Graines d'haricot</Seedbean.label>
+  <Seedbean.description>Ce sont des graines génétiquement modifiées capables de prospérer dans un large éventail d'environnements extraterrestres sur plusieurs générations.</Seedbean.description>
+
+  <SeedTomato.label>Graines de tomate</SeedTomato.label>
+  <SeedTomato.description>Ce sont des graines génétiquement modifiées capables de prospérer dans un large éventail d'environnements extraterrestres sur plusieurs générations.</SeedTomato.description>
+
+  <SeedCarrot.label>Graines de carotte</SeedCarrot.label>
+  <SeedCarrot.description>Ce sont des graines génétiquement modifiées capables de prospérer dans un large éventail d'environnements extraterrestres sur plusieurs générations.</SeedCarrot.description>
+
+  <SeedLettuce.label>Graines de chou</SeedLettuce.label>
+  <SeedLettuce.description>Ce sont des graines génétiquement modifiées capables de prospérer dans un large éventail d'environnements extraterrestres sur plusieurs générations.</SeedLettuce.description>
+
+  <Seedmushroom.label>Graines de champignon</Seedmushroom.label>
+  <Seedmushroom.description>Ce sont des graines génétiquement modifiées capables de prospérer dans un large éventail d'environnements extraterrestres sur plusieurs générations.</Seedmushroom.description>
+
+  <SeedHaygrass.label>Graines d'herbe à foin</SeedHaygrass.label>
+  <SeedHaygrass.description>Ce sont des graines génétiquement modifiées capables de prospérer dans un large éventail d'environnements extraterrestres sur plusieurs générations.</SeedHaygrass.description>
+
+  <SeedWildRose.label>Graines de rose sauvage</SeedWildRose.label>
+  <SeedWildRose.description>Ce sont des graines génétiquement modifiées capables de prospérer dans un large éventail d'environnements extraterrestres sur plusieurs générations.</SeedWildRose.description>
+
+  <SeedHypericum.label>Graines de hipericum</SeedHypericum.label>
+  <SeedHypericum.description>Ce sont des graines génétiquement modifiées capables de prospérer dans un large éventail d'environnements extraterrestres sur plusieurs générations.</SeedHypericum.description>
+
+  <SeedMint.label>Graines de menthe</SeedMint.label>
+  <SeedMint.description>Ce sont des graines génétiquement modifiées capables de prospérer dans un large éventail d'environnements extraterrestres sur plusieurs générations.</SeedMint.description>
+
+  <Seedonion.label>Graines de'oignon</Seedonion.label>
+  <Seedonion.description>Ce sont des graines génétiquement modifiées capables de prospérer dans un large éventail d'environnements extraterrestres sur plusieurs générations.</Seedonion.description>
+
+  <SeedBush.label>Graines d'arbuste</SeedBush.label>
+  <SeedBush.description>Ce sont des graines génétiquement modifiées capables de prospérer dans un large éventail d'environnements extraterrestres sur plusieurs générations.</SeedBush.description>
+
+  <SeedMangrove.label>Graines de mangrove</SeedMangrove.label>
+  <SeedMangrove.description>Ce sont des graines génétiquement modifiées capables de prospérer dans un large éventail d'environnements extraterrestres sur plusieurs générations.</SeedMangrove.description>
+
+  <SeedWildBanana.label>Graines de noix de coco</SeedWildBanana.label>
+  <SeedWildBanana.description>Ce sont des graines génétiquement modifiées capables de prospérer dans un large éventail d'environnements extraterrestres sur plusieurs générations.</SeedWildBanana.description>
+
+  <SeedTreeOak.label>Graines de chêene</SeedTreeOak.label>
+  <SeedTreeOak.description>Ce sont des graines génétiquement modifiées capables de prospérer dans un large éventail d'environnements extraterrestres sur plusieurs générations.</SeedTreeOak.description>
+
+  <SeedTreePoplar.label>Graines de peuplier</SeedTreePoplar.label>
+  <SeedTreePoplar.description>Ce sont des graines génétiquement modifiées capables de prospérer dans un large éventail d'environnements extraterrestres sur plusieurs générations.</SeedTreePoplar.description>
+
+  <SeedTreePine.label>Graines de pin</SeedTreePine.label>
+  <SeedTreePine.description>Ce sont des graines génétiquement modifiées capables de prospérer dans un large éventail d'environnements extraterrestres sur plusieurs générations.</SeedTreePine.description>
+
+  <SeedTreeBirch.label>Graines de bouleau</SeedTreeBirch.label>
+  <SeedTreeBirch.description>Ce sont des graines génétiquement modifiées capables de prospérer dans un large éventail d'environnements extraterrestres sur plusieurs générations.</SeedTreeBirch.description>
+
+  <SeedTreeTeak.label>Graines de teck</SeedTreeTeak.label>
+  <SeedTreeTeak.description>Ce sont des graines génétiquement modifiées capables de prospérer dans un large éventail d'environnements extraterrestres sur plusieurs générations.</SeedTreeTeak.description>
+
+  <SeedTreeCecropia.label>Graines de cécropia</SeedTreeCecropia.label>
+  <SeedTreeCecropia.description>Ce sont des graines génétiquement modifiées capables de prospérer dans un large éventail d'environnements extraterrestres sur plusieurs générations.</SeedTreeCecropia.description>
+
+
+</LanguageData>

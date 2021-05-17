@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PlantProcessingTable.label>Table de botaniste</PlantProcessingTable.label>
+  <PlantProcessingTable.description>Table utilisée pour traiter les plantes brutes.</PlantProcessingTable.description>
+
+
+  <!--<PlantProcessingTable_Blueprint.label>Table de botaniste (plan)</PlantProcessingTable_Blueprint.label>-->
+  <!--<PlantProcessingTable_Frame.label>Table de botaniste (construction)</PlantProcessingTable_Frame.label>-->
+  <!--<PlantProcessingTable_Frame.description>Table utilisée pour traiter les plantes brutes.</PlantProcessingTable_Frame.description>-->
+
+</LanguageData>
