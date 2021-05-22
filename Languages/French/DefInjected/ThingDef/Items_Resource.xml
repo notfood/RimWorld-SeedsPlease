@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<RawCotton.label>Fibre de coton</RawCotton.label>
+<RawCotton.description>Coton brut coupé à partir de buissons de coton. Recyclé en tissu sur la table de l'agronome.</RawCotton.description>
+
+<RawDevilstrand.label>Diable brut</RawDevilstrand.label>
+<RawDevilstrand.description>Devilstrand brut fabriqué à partir de mycélium Devil Eater. Recyclé en tissu diable sur la table de l'agronomeа.</RawDevilstrand.description>
+
+<RawHealroot.label>Racine médicinale</RawHealroot.label>
+<RawHealroot.description>Racine médicinale coupée de buissons de racines médicinales. Transformé en herbes médicinales sur la table de l'agronome.</RawHealroot.description>
+
+</LanguageData>

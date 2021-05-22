@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<SeedRice.label>graines de riz</SeedRice.label>
+
+<SeedPotato.label>graines de pommes de terre</SeedPotato.label>
+
+<SeedCorn.label>graines de maïs</SeedCorn.label>
+
+<SeedStrawberry.label>Graines de fraises</SeedStrawberry.label>
+
+<SeedHaygrass.label>graines d'herbe de cénot</SeedHaygrass.label>
+
+<SeedHops.label>graines de houblon</SeedHops.label>
+
+<SeedSmokeleaf.label>graines de feuilles de cannabis</SeedSmokeleaf.label>
+
+<SeedPsychoid.label>Graines psychoïdes</SeedPsychoid.label>
+
+<SeedTreeDrago.label>graines de dragon</SeedTreeDrago.label>
+
+<SeedTreeWillow.label>graines de saule</SeedTreeWillow.label>
+
+<SeedTreeCypress.label>graines de cyprès</SeedTreeCypress.label>
+
+<SeedTreeMaple.label>graines d'érable</SeedTreeMaple.label>
+
+<SeedTreeOak.label>graines de chêne</SeedTreeOak.label>
+
+<SeedTreePoplar.label>graines de peuplier</SeedTreePoplar.label>
+
+<SeedTreePine.label>graines de pin</SeedTreePine.label>
+
+<SeedTreeBirch.label>graines de bouleau</SeedTreeBirch.label>
+
+<SeedTreeTeak.label>graines de teck</SeedTreeTeak.label>
+
+<SeedTreeCecropia.label>graines de cecropia</SeedTreeCecropia.label>
+
+<SeedTreePalm.label>graines de palmier</SeedTreePalm.label>
+
+<SeedTreeBamboo.label>graines de bambou</SeedTreeBamboo.label>
+
+</LanguageData>
