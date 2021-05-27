@@ -19,7 +19,7 @@
             <li>SyrRawCoffee</li>
           </thingDefs>
         </filter>
-        <count>4</count>
+        <count>5</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
@@ -28,7 +28,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <Seed_SyrCoffee>3</Seed_SyrCoffee>
+      <Seed_SyrCoffee>1</Seed_SyrCoffee>
     </products>
   </RecipeDef>
 
