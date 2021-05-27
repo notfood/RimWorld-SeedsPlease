@@ -19,7 +19,7 @@
             <li>VFEM_RawGrapes</li>
           </thingDefs>
         </filter>
-        <count>2</count>
+        <count>6</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
@@ -28,7 +28,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <Seed_VFEM_Grape>3</Seed_VFEM_Grape>
+      <Seed_VFEM_Grape>1</Seed_VFEM_Grape>
     </products>
   </RecipeDef>
 </Defs>
