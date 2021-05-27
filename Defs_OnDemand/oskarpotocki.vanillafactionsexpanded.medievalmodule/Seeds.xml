@@ -5,6 +5,7 @@
     <sources>
       <li>VFEM_Plant_Grape</li>
     </sources>
+    <graphicData><texPath>Things/Item/Seeds/Grape</texPath></graphicData>
   </SeedsPlease.SeedDef>
   
   <RecipeDef ParentName="ExtractSeed">
