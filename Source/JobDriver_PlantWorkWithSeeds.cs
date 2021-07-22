@@ -103,7 +103,7 @@ namespace SeedsPlease
                         }
                     }
                     plant.def.plant.soundHarvestFinish.PlayOneShot (actor);
-                    plant.PlantCollected ();
+                    plant.PlantCollected (actor);
                     workDone = 0;
                     ReadyForNextToil ();
                     return;
@@ -111,7 +111,7 @@ namespace SeedsPlease
             };
 
             toil.FailOnDespawnedNullOrForbidden (targetCellIndex);
-            toil.WithEffect (EffecterDefOf.Harvest, targetCellIndex);
+            toil.WithEffect (EffecterDefOf.Harvest_Plant, targetCellIndex);
             toil.WithProgressBar (targetCellIndex, () => workDone / Plant.def.plant.harvestWork, true, -0.5f);
             toil.PlaySustainerOrSound (() => Plant.def.plant.soundHarvesting);
 

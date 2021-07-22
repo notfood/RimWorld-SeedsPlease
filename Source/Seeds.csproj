@@ -10,12 +10,9 @@
     <DebugType>None</DebugType>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Lib.Harmony" Version="2.0.2">
+    <PackageReference Include="Lib.Harmony" Version="2.1.0">
       <ExcludeAssets>runtime</ExcludeAssets>
     </PackageReference>
-    <Reference Include="RimWorld.PatchOperationLoadOnDemand" Version="1.2" >
-      <ExcludeAssets>runtime</ExcludeAssets>
-    </Reference>
     <Reference Include="Assembly-CSharp">
       <HintPath>..\..\..\RimWorldWin64_Data\Managed\Assembly-CSharp.dll</HintPath>
       <Private>False</Private>
