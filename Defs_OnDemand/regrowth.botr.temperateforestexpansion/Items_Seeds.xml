@@ -7,11 +7,11 @@
       <li>RG-TF_Plant_Cibarius</li>
     </sources>
     <graphicData>
-      <texPath>Regrowth - BOTR/TemperateForestExpansion/CibariusSeeds</texPath>
-	  <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Item/Seeds/Mod/Regrowth/TemperateForestExpansion/CibariusSeeds</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
   </SeedsPlease.SeedDef>
-  
+
   <SeedsPlease.SeedDef ParentName="SeedBase">
     <defName>Seed_RG-TFCornish</defName>
     <label>Cornish tree seeds</label>
@@ -19,8 +19,9 @@
       <li>RG-TF_Plant_TreeCornish</li>
     </sources>
     <graphicData>
-      <texPath>Regrowth - BOTR/TemperateForestExpansion/CornishSeeds</texPath>
-	  <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Item/Seeds/Mod/Regrowth/TemperateForestExpansion/CornishSeeds</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
   </SeedsPlease.SeedDef>
+
 </Defs>

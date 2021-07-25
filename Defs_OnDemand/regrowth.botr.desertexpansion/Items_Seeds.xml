@@ -6,7 +6,7 @@
       <li>RG-D_Plant_AngelWingsCactus</li>
     </sources>
     <graphicData>
-      <texPath>Regrowth - BOTR/DesertExpansion/AngelWingsCactusSeed</texPath>
+      <texPath>Things/Item/Seeds/Mod/Regrowth/DesertExpansion/AngelWingsCactusSeed</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
   </SeedsPlease.SeedDef>
@@ -17,5 +17,9 @@
     <sources>
       <li>RG-D_Plant_DesertPalmTree</li>
     </sources>
+    <graphicData>
+      <texPath>Things/Item/Seeds/Mod/Regrowth/DesertExpansion/PalmSeed</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
   </SeedsPlease.SeedDef>
 </Defs>

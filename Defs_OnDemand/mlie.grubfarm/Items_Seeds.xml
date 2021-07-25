@@ -7,9 +7,9 @@
       <li>Plant_GrubFarm</li>
     </sources>
     <graphicData>
-      <texPath>GrubFarm/GrubSeed</texPath>
-	  <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Item/Seeds/Mod/GrubFarm/GrubSeed</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-  </SeedsPlease.SeedDef> 
+  </SeedsPlease.SeedDef>
 
 </Defs>

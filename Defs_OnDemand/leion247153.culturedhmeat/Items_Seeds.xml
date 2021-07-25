@@ -1,4 +1,5 @@
 <Defs>
+
   <SeedsPlease.SeedDef ParentName="SeedBase">
     <defName>Seed_CMeatChicken</defName>
     <label>Synthetic chicken seeds</label>
@@ -6,10 +7,10 @@
       <li>CMeatChicken</li>
     </sources>
     <graphicData>
-      <texPath>CulturedMeat/CMeatChickenSeed</texPath>
-	  <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Item/Seeds/Mod/CulturedMeat/CMeatChickenSeed</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-  </SeedsPlease.SeedDef> 
+  </SeedsPlease.SeedDef>
 
   <SeedsPlease.SeedDef ParentName="SeedBase">
     <defName>Seed_CMeatPig</defName>
@@ -18,20 +19,21 @@
       <li>CMeatPig</li>
     </sources>
     <graphicData>
-      <texPath>CulturedMeat/CMeatPigBeefSeed</texPath>
-	  <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Item/Seeds/Mod/CulturedMeat/CMeatPigBeefSeed</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-  </SeedsPlease.SeedDef> 
-  
-    <SeedsPlease.SeedDef ParentName="SeedBase">
+  </SeedsPlease.SeedDef>
+
+  <SeedsPlease.SeedDef ParentName="SeedBase">
     <defName>Seed_CMeatBeef</defName>
     <label>Synthetic beef seeds</label>
     <sources>
       <li>CMeatBeef</li>
     </sources>
     <graphicData>
-      <texPath>CulturedMeat/CMeatPigBeefSeed</texPath>
-	  <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Item/Seeds/Mod/CulturedMeat/CMeatPigBeefSeed</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-  </SeedsPlease.SeedDef> 
+  </SeedsPlease.SeedDef>
+
 </Defs>

@@ -7,21 +7,21 @@
       <li>RG-W_Plant_DryTreePine</li>
     </sources>
     <graphicData>
-      <texPath>Regrowth - BOTR/Wastelands/DryPineSeed</texPath>
-	  <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Item/Seeds/Mod/Regrowth/Wastelands/DryPineSeed</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
   </SeedsPlease.SeedDef>
-  
-    <SeedsPlease.SeedDef ParentName="SeedBase">
+
+  <SeedsPlease.SeedDef ParentName="SeedBase">
     <defName>Seed_RG-W_MutatedDryPine</defName>
     <label>Mutated dry pine seeds</label>
     <sources>
       <li>RG-W_Plant_TreeMutatedDryPine</li>
     </sources>
     <graphicData>
-      <texPath>Regrowth - BOTR/Wastelands/MutatedDryPineSeed</texPath>
-	  <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Item/Seeds/Mod/Regrowth/Wastelands/MutatedDryPineSeed</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-  </SeedsPlease.SeedDef> 
+  </SeedsPlease.SeedDef>
 
 </Defs>

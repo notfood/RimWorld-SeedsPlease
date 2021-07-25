@@ -7,8 +7,8 @@
       <li>Plant_KnotRoot</li>
     </sources>
     <graphicData>
-      <texPath>KnotRoot/KnotRootSeed</texPath>
-	  <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Item/Seeds/Mod/KnotRoot/KnotRootSeed</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
   </SeedsPlease.SeedDef> 
 

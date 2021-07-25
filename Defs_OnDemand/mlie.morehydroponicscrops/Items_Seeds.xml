@@ -1,6 +1,5 @@
 <Defs>
 
-
   <SeedsPlease.SeedDef ParentName="SeedBase">
     <defName>Seed_MHCCocoaBush</defName>
     <label>Cocoa bush seeds</label>
@@ -8,9 +7,9 @@
       <li>Plant_CocoaBush</li>
     </sources>
     <graphicData>
-      <texPath>MoreHydroponicCrops/CocoaBushSeed</texPath>
-	  <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Item/Seeds/Mod/MoreHydroponicCrops/CocoaBushSeed</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-  </SeedsPlease.SeedDef> 
+  </SeedsPlease.SeedDef>
 
 </Defs>

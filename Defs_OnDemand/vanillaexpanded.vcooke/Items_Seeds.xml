@@ -1,4 +1,5 @@
 <Defs>
+
   <SeedsPlease.SeedDef ParentName="SeedBase">
     <defName>Seed_VCEAllspice</defName>
     <label>Allspice seeds</label>
@@ -6,32 +7,33 @@
       <li>VCE_Allspice</li>
     </sources>
     <graphicData>
-      <texPath>VCE/AllspiceSeed</texPath>
-	  <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Item/Seeds/Mod/VCE/AllspiceSeed</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-  </SeedsPlease.SeedDef> 
-  
-    <SeedsPlease.SeedDef ParentName="SeedBase">
+  </SeedsPlease.SeedDef>
+
+  <SeedsPlease.SeedDef ParentName="SeedBase">
     <defName>Seed_VCESugarcane</defName>
     <label>Sugarcane seeds</label>
     <sources>
       <li>VCE_Sugarcane</li>
     </sources>
     <graphicData>
-      <texPath>VCE/SugarcaneSeed</texPath>
-	  <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Item/Seeds/Mod/VCE/SugarcaneSeed</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-  </SeedsPlease.SeedDef> 
-  
-    <SeedsPlease.SeedDef ParentName="SeedBase">
+  </SeedsPlease.SeedDef>
+
+  <SeedsPlease.SeedDef ParentName="SeedBase">
     <defName>Seed_VCEWheat</defName>
     <label>Wheat seeds</label>
     <sources>
       <li>VCE_Wheat</li>
     </sources>
     <graphicData>
-      <texPath>VCE/WheatSeed</texPath>
-	  <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Item/Seeds/Mod/VCE/WheatSeed</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-  </SeedsPlease.SeedDef> 
+  </SeedsPlease.SeedDef>
+
 </Defs>

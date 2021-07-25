@@ -7,11 +7,11 @@
       <li>Glowstool</li>
     </sources>
     <graphicData>
-      <texPath>FSFGrowableMushrooms/GlowstoolSeed</texPath>
-	  <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Item/Seeds/Mod/FSFGrowableMushrooms/GlowstoolSeed</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
   </SeedsPlease.SeedDef>  
-  
+
   <SeedsPlease.SeedDef ParentName="SeedBase">
     <defName>Seed_Agarilux</defName>
     <label>Agarilux spores</label>
@@ -19,9 +19,9 @@
       <li>Agarilux</li>
     </sources>
     <graphicData>
-      <texPath>FSFGrowableMushrooms/AgariluxSeed</texPath>
-	  <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Item/Seeds/Mod/FSFGrowableMushrooms/AgariluxSeed</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
   </SeedsPlease.SeedDef>
-  
+
 </Defs>

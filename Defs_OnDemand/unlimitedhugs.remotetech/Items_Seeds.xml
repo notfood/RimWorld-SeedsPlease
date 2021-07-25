@@ -1,4 +1,5 @@
 <Defs>
+
   <SeedsPlease.SeedDef ParentName="SeedBase">
     <defName>Seed_RTSparkweed</defName>
     <label>Sparkweed seeds</label>
@@ -6,8 +7,9 @@
       <li>rxPlantSparkweed</li>
     </sources>
     <graphicData>
-      <texPath>RemoteTech/SparkweedSeed</texPath>
-	  <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Item/Seeds/Mod/RemoteTech/SparkweedSeed</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-  </SeedsPlease.SeedDef> 
+  </SeedsPlease.SeedDef>
+
 </Defs>

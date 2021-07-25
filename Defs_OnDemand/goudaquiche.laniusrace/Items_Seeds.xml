@@ -4,12 +4,12 @@
     <defName>Seed_LaniusAloenius</defName>
     <label>Aloenius seeds</label>
     <sources>
-        <li>Plant_LaniusCactus</li>
+      <li>Plant_LaniusCactus</li>
     </sources>
     <graphicData>
-      <texPath>LaniusRace/AloeniusSeed</texPath>
-	  <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Item/Seeds/Mod/LaniusRace/AloeniusSeed</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-  </SeedsPlease.SeedDef> 
+  </SeedsPlease.SeedDef>
 
 </Defs>

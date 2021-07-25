@@ -7,7 +7,7 @@
       <li>PlantRagadast</li>
     </sources>
     <graphicData>
-      <texPath>Forsakens/RagadastSeed</texPath>
+      <texPath>Things/Item/Seeds/Mod/Forsakens/RagadastSeed</texPath>
 	  <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
   </SeedsPlease.SeedDef>
@@ -19,7 +19,7 @@
       <li>PlantStikehr</li>
     </sources>
     <graphicData>
-      <texPath>Forsakens/StikehrSeed</texPath>
+      <texPath>Things/Item/Seeds/Mod/Forsakens/StikehrSeed</texPath>
 	  <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
   </SeedsPlease.SeedDef>
@@ -31,7 +31,7 @@
       <li>PlantKaleidos</li>
     </sources>
     <graphicData>
-      <texPath>Forsakens/KaleidosSeed</texPath>
+      <texPath>Things/Item/Seeds/Mod/Forsakens/KaleidosSeed</texPath>
 	  <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
   </SeedsPlease.SeedDef>
@@ -43,7 +43,7 @@
       <li>PlantUltraviolett</li>
     </sources>
     <graphicData>
-      <texPath>Forsakens/UltraviolettSeed</texPath>
+      <texPath>Things/Item/Seeds/Mod/Forsakens/UltraviolettSeed</texPath>
 	  <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
   </SeedsPlease.SeedDef>
@@ -55,7 +55,7 @@
       <li>Septimum</li>
     </sources>
     <graphicData>
-      <texPath>Forsakens/SeptimumSeed</texPath>
+      <texPath>Things/Item/Seeds/Mod/Forsakens/SeptimumSeed</texPath>
 	  <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
   </SeedsPlease.SeedDef>

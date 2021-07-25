@@ -1,4 +1,5 @@
 <Defs>
+
   <SeedsPlease.SeedDef ParentName="SeedBase">
     <defName>Seed_Neutroamine</defName>
     <label>Neutroamine seeds</label>
@@ -6,8 +7,9 @@
       <li>NeutroaminePlant</li>
     </sources>
     <graphicData>
-      <texPath>GrowableNeutroamine/NeutroamineSeed</texPath>
-	  <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Item/Seeds/Mod/GrowableNeutroamine/NeutroamineSeed</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-  </SeedsPlease.SeedDef> 
+  </SeedsPlease.SeedDef>
+
 </Defs>

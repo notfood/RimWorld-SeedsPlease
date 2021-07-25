@@ -1,4 +1,5 @@
 <Defs>
+
   <SeedsPlease.SeedDef ParentName="SeedBase">
     <defName>Seed_RG-B_Volopus</defName>
     <label>Volopus spores</label>
@@ -6,7 +7,7 @@
       <li>RG-B_Plant_Volopus</li>
     </sources>
     <graphicData>
-      <texPath>Regrowth - BOTR/ColdBogExpansion/VolopusSeed</texPath>
+      <texPath>Things/Item/Seeds/Mod/Regrowth/ColdBogExpansion/VolopusSeed</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
   </SeedsPlease.SeedDef>
@@ -18,7 +19,7 @@
       <li>RG-CB_Plant_SpruceTreePine</li>
     </sources>
     <graphicData>
-      <texPath>Regrowth - BOTR/ColdBogExpansion/SprucePineSeed</texPath>
+      <texPath>Things/Item/Seeds/Mod/Regrowth/ColdBogExpansion/SprucePineSeed</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
   </SeedsPlease.SeedDef>
@@ -30,8 +31,9 @@
       <li>RG-CB_Plant_KarimTree</li>
     </sources>
     <graphicData>
-      <texPath>Regrowth - BOTR/ColdBogExpansion/KarimSeed</texPath>
+      <texPath>Things/Item/Seeds/Mod/Regrowth/ColdBogExpansion/KarimSeed</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
   </SeedsPlease.SeedDef>
+
 </Defs>

@@ -7,9 +7,9 @@
       <li>PlantBlazebulb</li>
     </sources>
     <graphicData>
-      <texPath>CombatExtended/BlazebulbSeed</texPath>
-	  <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Item/Seeds/Mod/CombatExtended/BlazebulbSeed</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-  </SeedsPlease.SeedDef>  
-  
+  </SeedsPlease.SeedDef>
+
 </Defs>
