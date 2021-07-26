@@ -6,6 +6,7 @@
     <sources>
       <li>Nutrifungus</li>
     </sources>
+    <graphicData><texPath>Things/Item/Seeds/Nutrifungus</texPath></graphicData>
   </SeedsPlease.SeedDef>
   
   <RecipeDef ParentName="ExtractSeed">
@@ -46,6 +47,7 @@
     <sources>
       <li>Plant_Fibercorn</li>
     </sources>
+    <graphicData><texPath>Things/Item/Seeds/Fibercorn</texPath></graphicData>
   </SeedsPlease.SeedDef>
   
   <SeedsPlease.SeedDef ParentName="SeedBase">
@@ -54,6 +56,7 @@
     <sources>
       <li>Plant_Timbershroom</li>
     </sources>
+    <graphicData><texPath>Things/Item/Seeds/Timbershroom</texPath></graphicData>
   </SeedsPlease.SeedDef>
   
   <SeedsPlease.SeedDef ParentName="SeedBase">
@@ -62,6 +65,7 @@
     <sources>
       <li>Plant_Tinctoria</li>
     </sources>
+    <graphicData><texPath>Things/Item/Seeds/Tinctoria</texPath></graphicData>
   </SeedsPlease.SeedDef>
   
   <RecipeDef ParentName="ExtractSeed">
