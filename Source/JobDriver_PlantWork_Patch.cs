@@ -76,6 +76,10 @@ namespace SeedsPlease
 
                     Thing seeds = ThingMaker.MakeThing (seedDef, null);
                     seeds.stackCount = Mathf.RoundToInt (seedDef.seed.seedFactor * count);
+                    if (actor.Faction != Faction.OfPlayer)
+                    {
+                        seeds.SetForbidden(true);
+                    }
 
                     GenPlace.TryPlaceThing (seeds, actor.Position, actor.Map, ThingPlaceMode.Near);
                 }
@@ -88,7 +92,7 @@ namespace SeedsPlease
 
         static ThingDef MakeOtherThing(ThingDef def, ThingDef stuff, Plant plant)
         {
-            if (plant.def.blueprintDef is SeedDef seedDef) {
+            if (plant.def.blueprintDef is SeedDef seedDef && seedDef.harvest != null) {
                 return seedDef.harvest;
             }
 
