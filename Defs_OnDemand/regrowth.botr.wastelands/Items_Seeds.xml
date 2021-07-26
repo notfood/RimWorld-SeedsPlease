@@ -7,7 +7,7 @@
       <li>RG-W_Plant_DryTreePine</li>
     </sources>
     <graphicData>
-      <texPath>Things/Item/Seeds/Mod/Regrowth/Wastelands/DryPineSeed</texPath>
+      <texPath>Things/Item/Seeds/Mod/Regrowth/WastelandExpansion/DryPineSeed</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
   </SeedsPlease.SeedDef>
@@ -19,7 +19,7 @@
       <li>RG-W_Plant_TreeMutatedDryPine</li>
     </sources>
     <graphicData>
-      <texPath>Things/Item/Seeds/Mod/Regrowth/Wastelands/MutatedDryPineSeed</texPath>
+      <texPath>Things/Item/Seeds/Mod/Regrowth/WastelandExpansion/MutatedDryPineSeed</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
   </SeedsPlease.SeedDef>
