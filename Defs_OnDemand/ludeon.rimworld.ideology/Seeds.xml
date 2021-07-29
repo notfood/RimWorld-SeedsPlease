@@ -4,7 +4,7 @@
     <defName>Seed_Nutrifungus</defName>
     <label>nutrifungus seeds</label>
     <sources>
-      <li>Nutrifungus</li>
+      <li>Plant_Nutrifungus</li>
     </sources>
     <graphicData><texPath>Things/Item/Seeds/Nutrifungus</texPath></graphicData>
   </SeedsPlease.SeedDef>
