@@ -1,0 +1,12 @@
+<Defs>
+	<SeedsPlease.SeedDef ParentName="SeedBase">
+		<defName>Seed_RRPAcaciaTree</defName>
+		<label>Acacia tree seeds</label>
+		<sources>
+			<li>RRP_TreeAcacia</li>
+		</sources>
+		<graphicData>
+			<texPath>Seeds/AcaciaTree</texPath>
+		</graphicData>
+	</SeedsPlease.SeedDef>
+</Defs>

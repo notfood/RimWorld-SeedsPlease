@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<RecipeDef Abstract="True" Name="ProcessRaw">
+		<jobString>Processing fabrics.</jobString>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>Tailor</effectWorking>
+		<soundWorking>Recipe_Tailor</soundWorking>
+		<requiredGiverWorkType>Tailoring</requiredGiverWorkType>
+		<workSkill>Crafting</workSkill>
+		<workAmount>800</workAmount>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>ExtractSeeds</defName>
+		<label>extract seeds</label>
+		<description>Extract seeds from produce.</description>
+		<jobString>Extracting seeds.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<requiredGiverWorkType>Cooking</requiredGiverWorkType>
+		<workSkill>Cooking</workSkill>
+		<workAmount>500</workAmount>
+		<recipeUsers>
+			<li>SeedExtractionSpot</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SeedExtractable</li>
+					</categories>
+				</filter>
+				<count>8</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SeedExtractable</li>
+			</categories>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<categories>
+				<li>SeedExtractable</li>
+			</categories>
+		</defaultIngredientFilter>
+		<specialProducts>
+			<li>Butchery</li>
+		</specialProducts>
+		<workerCounterClass>RecipeWorkerCounter_ExtractSeeds</workerCounterClass>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="ProcessRaw">
+		<defName>ProcessRawCotton</defName>
+		<label>weave cotton cloth</label>
+		<description>Weave Raw Cotton into Cloth.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawCotton</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>RawCotton</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Cloth>20</Cloth>
+		</products>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
+		<recipeUsers>
+			<li>HandTailoringBench</li>
+			<li>ElectricTailoringBench</li>
+		</recipeUsers>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="ProcessRaw">
+		<defName>ProcessRawDevilstrand</defName>
+		<label>weave devilstrand cloth</label>
+		<description>Weave Raw Devilstrand into Cloth.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawDevilstrand</li>
+					</thingDefs>
+				</filter>
+				<count>12</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>RawDevilstrand</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<DevilstrandCloth>12</DevilstrandCloth>
+		</products>
+		<skillRequirements>
+			<Crafting>8</Crafting>
+		</skillRequirements>
+		<recipeUsers>
+			<li>HandTailoringBench</li>
+			<li>ElectricTailoringBench</li>
+		</recipeUsers>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="ProcessRaw">
+		<defName>ProcessRawHealroot</defName>
+		<label>make herbal medicine</label>
+		<description>Process Raw Healroot into Herbal Medicine.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawHealroot</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>RawHealroot</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<MedicineHerbal>1</MedicineHerbal>
+		</products>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
+		<jobString>Processing herbs.</jobString>
+		<requiredGiverWorkType>Crafting</requiredGiverWorkType>
+		<workAmount>400</workAmount>
+		<recipeUsers>
+			<li>CraftingSpot</li>
+			<li>DrugLab</li>
+		</recipeUsers>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="ProcessRaw">
+		<defName>ProcessRawHealrootBulk</defName>
+		<label>make herbal medicine x4</label>
+		<description>Process Raw Healroot into Herbal Medicine.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawHealroot</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>RawHealroot</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<MedicineHerbal>4</MedicineHerbal>
+		</products>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
+		<jobString>Processing herbs.</jobString>
+		<requiredGiverWorkType>Crafting</requiredGiverWorkType>
+		<workAmount>1600</workAmount>
+		<recipeUsers>
+			<li>DrugLab</li>
+		</recipeUsers>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>ProcessRawCocoa</defName>
+		<label>make chocolate</label>
+		<description>Cocoa Beans grinded with sweeteners and cooked into Chocolate.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawCocoaBeans</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>RawCocoaBeans</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Chocolate>10</Chocolate>
+		</products>
+		<workAmount>400</workAmount>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<workSkill>Cooking</workSkill>
+		<skillRequirements>
+			<Cooking>4</Cooking>
+		</skillRequirements>
+		<recipeUsers>
+			<li>FueledStove</li>
+			<li>ElectricStove</li>
+		</recipeUsers>
+	</RecipeDef>
+</Defs>

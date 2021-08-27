@@ -1,0 +1,12 @@
+<Defs>
+	<!-- Cultivated_Plants.xml -->
+	
+	<SeedsPlease.SeedDef ParentName="SeedBase">
+		<defName>Seed_Flax</defName>
+		<label>flax seeds</label>
+		<sources>
+			<li>PlantFlax</li>
+		</sources>
+		<graphicData><texPath>Seeds/Flax</texPath></graphicData>
+	</SeedsPlease.SeedDef>
+</Defs>

@@ -1,0 +1,41 @@
+<Defs>
+	<SeedsPlease.SeedDef ParentName="SeedBase">
+		<defName>Seed_BiomesIslands_Orange</defName>
+		<label>orange seeds</label>
+		<sources>
+			<li>BiomesIslands_OrangeTree</li>
+		</sources>
+	</SeedsPlease.SeedDef>
+
+	<SeedsPlease.SeedDef ParentName="SeedBase">
+		<defName>Seed_BiomesIslands_Pineappleplant</defName>
+		<label>pineapple seeds</label>
+		<sources>
+			<li>BiomesIslands_Pineappleplant</li>
+		</sources>
+	</SeedsPlease.SeedDef>
+	
+	<SeedsPlease.SeedDef ParentName="SeedBase">
+		<defName>Seed_Coconut</defName>
+		<label>coconut seeds</label>
+		<sources>
+			<li>BiomesIslands_CoconutPalm</li>
+		</sources>
+	</SeedsPlease.SeedDef>
+	
+	<SeedsPlease.SeedDef ParentName="SeedBase">
+		<defName>Seed_Banana</defName>
+		<label>banana seeds</label>
+		<sources>
+			<li>BiomesIslands_BananaPlant</li>
+		</sources>
+	</SeedsPlease.SeedDef>
+	
+	<SeedsPlease.SeedDef ParentName="SeedBase">
+		<defName>Seed_DevilsClaw</defName>
+		<label>devilsclaw seeds</label>
+		<sources>
+			<li>BiomesIslands_DevilsClawTree</li>
+		</sources>
+	</SeedsPlease.SeedDef>
+</Defs>

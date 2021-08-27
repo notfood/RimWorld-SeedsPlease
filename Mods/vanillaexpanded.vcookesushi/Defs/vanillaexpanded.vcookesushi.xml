@@ -1,0 +1,29 @@
+<Defs>
+	<SeedsPlease.SeedDef ParentName="SeedBase">
+		<defName>Seed_VCESSoybean</defName>
+		<label>Soybean seeds</label>
+		<sources>
+			<li>VCE_Soybean</li>
+		</sources>
+		<graphicData>
+			<texPath>Seeds/Soybean</texPath>
+		</graphicData>
+		<descriptionHyperlinks>
+			<ThingDef>VCE_Soybean</ThingDef>
+		</descriptionHyperlinks>
+	</SeedsPlease.SeedDef> 
+	
+    <SeedsPlease.SeedDef ParentName="SeedBase">
+		<defName>Seed_VCESWasabi</defName>
+		<label>Wasabi seeds</label>
+		<sources>
+			<li>VCE_Wasabi</li>
+		</sources>
+		<graphicData>
+			<texPath>Seeds/Wasabi</texPath>
+		</graphicData>
+		<descriptionHyperlinks>
+			<ThingDef>VCE_Wasabi</ThingDef>
+		</descriptionHyperlinks>
+	</SeedsPlease.SeedDef> 
+</Defs>

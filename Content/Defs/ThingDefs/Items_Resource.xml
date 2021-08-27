@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef Name="OrganicProductBaseSeeds" ParentName="ResourceBase" Abstract="True">
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>60</MaxHitPoints>
+		</statBases>
+		<stackLimit>75</stackLimit>
+		<soundInteract>Grain_Drop</soundInteract>
+		<soundDrop>Grain_Drop</soundDrop>
+		<thingCategories>
+			<li>PlantMatter</li>
+		</thingCategories>
+		<tickerType>Rare</tickerType>
+	</ThingDef>
+	
+	<ThingDef ParentName="OrganicProductBaseSeeds">
+		<defName>RawCotton</defName>
+		<label>raw cotton</label>
+		<description>Raw Cotton from a Cotton Bush. Woven into Cloth at a Plant Processing Bench.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/RawCotton</texPath>
+		</graphicData>
+		<statBases>
+			<MarketValue>2.5</MarketValue>
+			<Mass>0.1</Mass>
+			<Flammability>3</Flammability>
+			<DeteriorationRate>0.3</DeteriorationRate>
+		</statBases>
+		<devNote>extractable</devNote>
+	</ThingDef>
+	
+	<ThingDef ParentName="OrganicProductBaseSeeds">
+		<defName>RawDevilstrand</defName>
+		<label>raw devilstrand</label>
+		<description>Raw Devilstrand from a Devilstrand Mushroom. Woven into Devilstrand Cloth at a Plant Processing Bench.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/RawDevilstrand</texPath>
+		</graphicData>
+		<statBases>
+			<MarketValue>4.4</MarketValue>
+			<Mass>0.1</Mass>
+			<Flammability>1</Flammability>
+			<DeteriorationRate>0.1</DeteriorationRate>
+		</statBases>
+		<devNote>extractable</devNote>
+	</ThingDef>
+	
+	<ThingDef ParentName="OrganicProductBaseSeeds">
+		<defName>RawHealroot</defName>
+		<label>raw healroot</label>
+		<description>Raw Healroot from a Healroot bush. Processed into Herbal Medicine at a Plant Processing Bench.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/RawHealroot</texPath>
+		</graphicData>
+		<statBases>
+			<MarketValue>2.6</MarketValue>
+			<Mass>0.08</Mass>
+			<Flammability>1.3</Flammability>
+			<DeteriorationRate>3</DeteriorationRate>
+			<Nutrition>0.01</Nutrition>
+		</statBases>
+		<ingestible>
+			<foodType>Plant</foodType>
+			<preferability>DesperateOnly</preferability>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>90</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="OrganicProductBaseSeeds">
+		<defName>RawCocoaBeans</defName>
+		<label>cocoa beans</label>
+		<description>Raw cocoa beans to cook into chocolate.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/RawCocoa</texPath>
+		</graphicData>
+		<statBases>
+			<MarketValue>1.6</MarketValue>
+			<Mass>0.08</Mass>
+			<Flammability>2</Flammability>
+			<DeteriorationRate>0.6</DeteriorationRate>
+			<Nutrition>0.05</Nutrition>
+			<FoodPoisonChanceFixedHuman>0.02</FoodPoisonChanceFixedHuman>
+		</statBases>
+		<ingestible>
+			<foodType>Seed</foodType>
+			<preferability>DesperateOnly</preferability>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>30</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+</Defs>

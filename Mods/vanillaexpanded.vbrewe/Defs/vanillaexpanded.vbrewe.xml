@@ -1,0 +1,43 @@
+<Defs>
+	<SeedsPlease.SeedDef ParentName="SeedBase">
+		<defName>Seed_VBE_Coffee</defName>
+		<label>Coffee plant seeds</label>
+		<sources>
+			<li>VBE_Plant_Coffee</li>
+		</sources>
+		<graphicData>
+			<texPath>Seeds/Coffee</texPath>
+		</graphicData>
+		<descriptionHyperlinks>
+			<ThingDef>VBE_Plant_Coffee</ThingDef>
+		</descriptionHyperlinks>
+	</SeedsPlease.SeedDef>
+	
+	<SeedsPlease.SeedDef ParentName="SeedBase">
+		<defName>Seed_VBE_Tea</defName>
+		<label>Tea plant seeds</label>
+		<sources>
+			<li>VBE_Plant_Tea</li>
+		</sources>
+		<graphicData>
+			<texPath>Seeds/Tea</texPath>
+		</graphicData>
+		<descriptionHyperlinks>
+			<ThingDef>VBE_Plant_Tea</ThingDef>
+		</descriptionHyperlinks>
+	</SeedsPlease.SeedDef>
+	
+	<SeedsPlease.SeedDef ParentName="SeedBase">
+		<defName>Seed_VBE_Tobacco</defName>
+		<label>Tobacco plant seeds</label>
+		<sources>
+			<li>VBE_Plant_Tobacco</li>
+		</sources>
+		<graphicData>
+			<texPath>Seeds/Tobacco</texPath>
+		</graphicData>
+		<descriptionHyperlinks>
+			<ThingDef>VBE_Plant_Tobacco</ThingDef>
+		</descriptionHyperlinks>
+	</SeedsPlease.SeedDef>
+</Defs>

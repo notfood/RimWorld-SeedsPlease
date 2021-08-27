@@ -9,5 +9,7 @@
         public float baseChance;
 
         public float extraChance;
+
+        public int extractionValue;
     }
 }

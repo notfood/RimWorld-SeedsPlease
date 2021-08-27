@@ -1,0 +1,14 @@
+<Defs>
+	<SeedsPlease.SeedDef ParentName="SeedBase">
+		<defName>Seed_AnimaGrass</defName>
+		<label>AnimaGrass seeds</label>
+		<sources>
+			<li>Plant_DomesticatedAnimaGrass</li>
+			<li>Plant_GrassAnima</li>
+		</sources>
+		<graphicData>
+			<texPath>Seeds/Animagrass</texPath>
+		</graphicData>
+	</SeedsPlease.SeedDef>
+</Defs>
+

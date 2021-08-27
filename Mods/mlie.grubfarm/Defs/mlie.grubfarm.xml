@@ -1,0 +1,12 @@
+<Defs>
+	<SeedsPlease.SeedDef ParentName="SeedBase">
+		<defName>Seed_GrubMeat</defName>
+		<label>Grub larvas</label>
+		<sources>
+			<li>Plant_GrubFarm</li>
+		</sources>
+		<graphicData>
+			<texPath>Seeds/Grub</texPath>
+		</graphicData>
+	</SeedsPlease.SeedDef>
+</Defs>

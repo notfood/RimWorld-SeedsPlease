@@ -34,6 +34,7 @@ namespace SeedsPlease
                 	" share the generated xml for proper support.\n\n" +
                      report);
             }
+            SeedDef.AddButchery();
         }
     }
 

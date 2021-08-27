@@ -1,0 +1,12 @@
+<Defs>
+	<SeedsPlease.SeedDef ParentName="SeedBase">
+		<defName>Seed_RTSparkweed</defName>
+		<label>Sparkweed seeds</label>
+		<sources>
+			<li>rxPlantSparkweed</li>
+		</sources>
+		<graphicData>
+			<texPath>Seeds/Sparkweed</texPath>
+		</graphicData>
+	</SeedsPlease.SeedDef>
+</Defs>

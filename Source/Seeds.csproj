@@ -1,18 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Project Sdk="Microsoft.NET.Sdk">
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <TargetFramework>net472</TargetFramework>
-    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
-    <AssemblyName>Seeds</AssemblyName>
-    <OutputPath>..\Assemblies\</OutputPath>
-    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
-    <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
-    <DebugType>None</DebugType>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2411013D-A7DF-47B3-807D-38F2FF356714}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>SeedsPlease</RootNamespace>
+    <AssemblyName>BirdSeedsPlease</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseMSBuildEngine>false</UseMSBuildEngine>
+    <ReleaseVersion>1.3.0</ReleaseVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Optimize>true</Optimize>
+    <OutputPath>..\Content\Assemblies</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Lib.Harmony" Version="2.1.0">
-      <ExcludeAssets>runtime</ExcludeAssets>
-    </PackageReference>
+    <Reference Include="0Harmony, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\0Harmony.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Assembly-CSharp">
       <HintPath>..\..\..\RimWorldWin64_Data\Managed\Assembly-CSharp.dll</HintPath>
       <Private>False</Private>
@@ -21,6 +30,21 @@
       <HintPath>..\..\..\RimWorldWin64_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="System" />
     <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Include="JobDriver_PlantSowWithSeeds.cs" />
+    <Compile Include="JobDriver_PlantWork_Patch.cs" />
+    <Compile Include="ResourceBank.cs" />
+    <Compile Include="Seed.cs" />
+    <Compile Include="SeedDef.cs" />
+    <Compile Include="SeedProperties.cs" />
+    <Compile Include="SeedsPleaseMod.cs" />
+    <Compile Include="WorkGiver_GrowerSowWithSeeds.cs" />
+    <Compile Include="RecipeWorkerCounter_ExtractSeeds.cs" />
+    <Compile Include="WorkPlacer_OnlyOnBench.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

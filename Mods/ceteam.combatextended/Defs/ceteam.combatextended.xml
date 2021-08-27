@@ -1,0 +1,12 @@
+<Defs>
+	<SeedsPlease.SeedDef ParentName="SeedBase">
+		<defName>Seed_CEBlazebulb</defName>
+		<label>Blazebulb seeds</label>
+		<sources>
+			<li>PlantBlazebulb</li>
+		</sources>
+		<graphicData>
+			<texPath>Seeds/Blazebulb</texPath>
+		</graphicData>
+	</SeedsPlease.SeedDef>
+</Defs>

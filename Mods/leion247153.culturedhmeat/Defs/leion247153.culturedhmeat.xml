@@ -1,0 +1,37 @@
+<Defs>
+	<SeedsPlease.SeedDef ParentName="SeedBase">
+		<defName>Seed_CMeatChicken</defName>
+		<label>Synthetic chicken seeds</label>
+		<sources>
+			<li>CMeatChicken</li>
+		</sources>
+		<graphicData>
+			<texPath>Seeds/CMeatChicken</texPath>
+		</graphicData>
+		<extractable>false</extractable>
+	</SeedsPlease.SeedDef>
+	
+	<SeedsPlease.SeedDef ParentName="SeedBase">
+		<defName>Seed_CMeatPig</defName>
+		<label>Synthetic pork seeds</label>
+		<sources>
+			<li>CMeatPig</li>
+		</sources>
+		<graphicData>
+			<texPath>Seeds/CMeatPigBeef</texPath>
+		</graphicData>
+		<extractable>false</extractable>
+	</SeedsPlease.SeedDef>
+	
+	<SeedsPlease.SeedDef ParentName="SeedBase">
+		<defName>Seed_CMeatBeef</defName>
+		<label>Synthetic beef seeds</label>
+		<sources>
+			<li>CMeatBeef</li>
+		</sources>
+		<graphicData>
+			<texPath>Seeds/CMeatPigBeef</texPath>
+		</graphicData>
+		<extractable>false</extractable>
+	</SeedsPlease.SeedDef>
+</Defs>

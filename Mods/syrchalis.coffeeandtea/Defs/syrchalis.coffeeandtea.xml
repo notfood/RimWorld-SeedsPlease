@@ -1,0 +1,19 @@
+<Defs>
+	<SeedsPlease.SeedDef ParentName="SeedBase">
+		<defName>Seed_SyrCoffee</defName>
+		<label>coffee seeds</label>
+		<sources>
+			<li>Plant_SyrCoffee</li>
+		</sources>
+		<graphicData><texPath>Seeds/Coffee</texPath></graphicData>
+	</SeedsPlease.SeedDef>
+	
+	<SeedsPlease.SeedDef ParentName="SeedBase">
+		<defName>Seed_SyrTea</defName>
+		<label>tea seeds</label>
+		<sources>
+			<li>Plant_SyrTea</li>
+		</sources>
+		<graphicData><texPath>Seeds/Tea</texPath></graphicData>
+	</SeedsPlease.SeedDef>
+</Defs>

@@ -1,0 +1,12 @@
+<Defs>
+	<SeedsPlease.SeedDef ParentName="SeedBase">
+		<defName>Seed_KnotRoot</defName>
+		<label>Knot root parasytes</label>
+		<sources>
+			<li>Plant_KnotRoot</li>
+		</sources>
+		<graphicData>
+			<texPath>Seeds/KnotRoot</texPath>
+		</graphicData>
+	</SeedsPlease.SeedDef> 
+</Defs>

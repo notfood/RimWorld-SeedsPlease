@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<WorkGiverDef>
+		<defName>GrowerSow</defName>
+		<label>sow crops</label>
+		<giverClass>SeedsPlease.WorkGiver_GrowerSowWithSeeds</giverClass>
+		<workType>Growing</workType>
+		<priorityInType>50</priorityInType>
+		<verb>sow</verb>
+		<gerund>sowing</gerund>
+		<scanThings>false</scanThings>
+		<scanCells>true</scanCells>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+		<prioritizeSustains>true</prioritizeSustains>
+	</WorkGiverDef>
+</Defs>

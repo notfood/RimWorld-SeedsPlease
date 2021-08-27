@@ -1,0 +1,12 @@
+<Defs>
+	<SeedsPlease.SeedDef ParentName="SeedBase">
+		<defName>Seed_MHCCocoaBush</defName>
+		<label>Cocoa bush seeds</label>
+		<sources>
+			<li>Plant_CocoaBush</li>
+		</sources>
+		<graphicData>
+			<texPath>Seeds/CocoaBush</texPath>
+		</graphicData>
+	</SeedsPlease.SeedDef>
+</Defs>

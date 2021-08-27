@@ -1,0 +1,23 @@
+<Defs>
+	<SeedsPlease.SeedDef ParentName="SeedBase">
+		<defName>Seed_RG-TFCibarius</defName>
+		<label>Cibarius seeds</label>
+		<sources>
+			<li>RG-TF_Plant_Cibarius</li>
+		</sources>
+		<graphicData>
+			<texPath>Seeds/CibariusSeeds</texPath>
+		</graphicData>
+	</SeedsPlease.SeedDef>
+	
+	<SeedsPlease.SeedDef ParentName="SeedBase">
+		<defName>Seed_RG-TFCornish</defName>
+		<label>Cornish tree seeds</label>
+		<sources>
+			<li>RG-TF_Plant_TreeCornish</li>
+		</sources>
+		<graphicData>
+			<texPath>Seeds/CornishSeeds</texPath>
+		</graphicData>
+	</SeedsPlease.SeedDef>
+</Defs>

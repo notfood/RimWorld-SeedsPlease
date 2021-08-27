@@ -1,0 +1,12 @@
+<Defs>
+	<SeedsPlease.SeedDef ParentName="SeedBase">
+		<defName>Seed_LaniusAloenius</defName>
+		<label>Aloenius seeds</label>
+		<sources>
+			<li>Plant_LaniusCactus</li>
+		</sources>
+		<graphicData>
+			<texPath>Seeds/Aloenius</texPath>
+		</graphicData>
+	</SeedsPlease.SeedDef>
+</Defs>

@@ -1,0 +1,13 @@
+<Defs>
+	<SeedsPlease.SeedDef ParentName="SeedBase">
+		<defName>Seed_Ambrosia</defName>
+		<label>Ambrosia seeds</label>
+		<sources>
+			<li>Plant_Ambrosia</li>
+		</sources>
+		<graphicData>
+			<texPath>Seeds/Ambrosia</texPath>
+		</graphicData>
+		<extractable>false</extractable>
+	</SeedsPlease.SeedDef> 
+</Defs>

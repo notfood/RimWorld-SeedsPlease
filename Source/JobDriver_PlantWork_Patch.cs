@@ -13,7 +13,7 @@ namespace SeedsPlease
     {
         static MethodBase TargetMethod()
         {
-            string inner = "<>c__DisplayClass8_0";
+            string inner = "<>c__DisplayClass9_0";
             string method = "<MakeNewToils>b__1";
             
             return AccessTools.Method(AccessTools.Inner(typeof(JobDriver_PlantWork), inner), method);

@@ -1,0 +1,280 @@
+<Defs>
+	<SeedsPlease.SeedDef ParentName="SeedBase">
+		<defName>Seed_Ambrosia</defName>
+		<label>ambrosia seeds</label>
+		<sources>
+			<li>VG_PlantAmbrosia</li>
+		</sources>
+		<graphicData><texPath>Seeds/Ambrosia</texPath></graphicData>
+		<extractable>false</extractable>
+	</SeedsPlease.SeedDef>
+	
+	<SeedsPlease.SeedDef ParentName="SeedBase">
+		<defName>Seed_Agarilux</defName>
+		<label>agarilux seeds</label>
+		<sources>
+			<li>VGP_Agarilux</li>
+		</sources>
+		<graphicData><texPath>Seeds/Agarilux</texPath></graphicData>
+		<extractable>false</extractable>
+	</SeedsPlease.SeedDef>
+	
+	<SeedsPlease.SeedDef ParentName="SeedBase">
+		<defName>Seed_Apple</defName>
+		<label>apple seeds</label>
+		<sources>
+			<li>PlantAppletree</li>
+		</sources>
+		<graphicData><texPath>Seeds/Apple</texPath></graphicData>
+	</SeedsPlease.SeedDef>
+	
+	<SeedsPlease.SeedDef ParentName="SeedBase">
+		<defName>Seed_Banana</defName>
+		<label>banana seeds</label>
+		<sources>
+			<li>PlantBananaTree</li>
+		</sources>
+		<graphicData><texPath>Seeds/Banana</texPath></graphicData>
+	</SeedsPlease.SeedDef>
+	
+	<SeedsPlease.SeedDef ParentName="SeedBase">
+		<defName>Seed_Orange</defName>
+		<label>orange seeds</label>
+		<sources>
+			<li>PlantorangeTree</li>
+		</sources>
+		<graphicData><texPath>Seeds/Orange</texPath></graphicData>
+	</SeedsPlease.SeedDef>
+	
+	<SeedsPlease.SeedDef ParentName="SeedBase">
+		<defName>Seed_Peach</defName>
+		<label>peach seeds</label>
+		<sources>
+			<li>PlantPeachTree</li>
+		</sources>
+		<graphicData><texPath>Seeds/Peach</texPath></graphicData>
+	</SeedsPlease.SeedDef>
+	
+	<SeedsPlease.SeedDef ParentName="SeedBase">
+		<defName>Seed_Date</defName>
+		<label>date seeds</label>
+		<sources>
+			<li>DateTree</li>
+		</sources>
+		<graphicData><texPath>Seeds/Date</texPath></graphicData>
+	</SeedsPlease.SeedDef>
+	
+	<SeedsPlease.SeedDef ParentName="SeedBase">
+		<defName>Seed_Fig</defName>
+		<label>fig seeds</label>
+		<sources>
+			<li>FigTree</li>
+		</sources>
+		<graphicData><texPath>Seeds/Fig</texPath></graphicData>
+	</SeedsPlease.SeedDef>
+	
+	<SeedsPlease.SeedDef ParentName="SeedBase">
+		<defName>Seed_Coconut</defName>
+		<label>coconut seeds</label>
+		<sources>
+			<li>Coconuttree</li>
+		</sources>
+		<graphicData><texPath>Seeds/Coconut</texPath></graphicData>
+	</SeedsPlease.SeedDef>
+	
+	<SeedsPlease.SeedDef ParentName="SeedBase">
+		<defName>Seed_Cherry</defName>
+		<label>cherry seeds</label>
+		<sources>
+			<li>PlantCherrytree</li>
+		</sources>
+		<graphicData><texPath>Seeds/Cherry</texPath></graphicData>
+	</SeedsPlease.SeedDef>
+	
+	<SeedsPlease.SeedDef ParentName="SeedBase">
+		<defName>Seed_PineappleVG</defName>
+		<label>pineapple seeds</label>
+		<sources>
+			<li>Plantpineapple</li>
+		</sources>
+		<graphicData><texPath>Seeds/Pineapple</texPath></graphicData>
+	</SeedsPlease.SeedDef>
+	
+	<SeedsPlease.SeedDef ParentName="SeedBase">
+		<defName>Seed_Cloudberry</defName>
+		<label>cloudberry seeds</label>
+		<sources>
+			<li>Plantcloudberry</li>
+		</sources>
+		<graphicData><texPath>Seeds/Cloudberry</texPath></graphicData>
+	</SeedsPlease.SeedDef>
+	
+	<SeedsPlease.SeedDef ParentName="SeedBase">
+		<defName>Seed_Gooseberry</defName>
+		<label>gooseberry seeds</label>
+		<sources>
+			<li>Plantgooseberry</li>
+		</sources>
+		<graphicData><texPath>Seeds/Gooseberry</texPath></graphicData>
+	</SeedsPlease.SeedDef>
+	
+	<SeedsPlease.SeedDef ParentName="SeedBase">
+		<defName>Seed_Blueberry</defName>
+		<label>blueberry seeds</label>
+		<sources>
+			<li>Plantblueberry</li>
+		</sources>
+		<graphicData><texPath>Seeds/Blueberry</texPath></graphicData>
+	</SeedsPlease.SeedDef>
+	
+	<SeedsPlease.SeedDef ParentName="SeedBase">
+		<defName>Seed_Watermelon</defName>
+		<label>watermelon seeds</label>
+		<sources>
+			<li>Plantwatermelon</li>
+		</sources>
+		<graphicData><texPath>Seeds/Watermelon</texPath></graphicData>
+	</SeedsPlease.SeedDef>
+	
+	<SeedsPlease.SeedDef ParentName="SeedBase">
+		<defName>Seed_BarleyVG</defName>
+		<label>barley seeds</label>
+		<sources>
+			<li>Plant_Barley</li>
+		</sources>
+		<graphicData><texPath>Seeds/Barley</texPath></graphicData>
+	</SeedsPlease.SeedDef>
+	
+	<SeedsPlease.SeedDef ParentName="SeedBase">
+		<defName>Seed_Snowbeet</defName>
+		<label>snowbeet seeds</label>
+		<sources>
+			<li>Plant_Snowbeet</li>
+		</sources>
+		<graphicData><texPath>Seeds/Snowbeet</texPath></graphicData>
+	</SeedsPlease.SeedDef>
+	
+	<SeedsPlease.SeedDef ParentName="SeedBase">
+		<defName>Seed_Redlentil</defName>
+		<label>redlentil seeds</label>
+		<sources>
+			<li>Plant_redlentil</li>
+		</sources>
+		<graphicData><texPath>Seeds/Redlentil</texPath></graphicData>
+	</SeedsPlease.SeedDef>
+	
+	<SeedsPlease.SeedDef ParentName="SeedBase">
+		<defName>Seed_Bean</defName>
+		<label>bean seeds</label>
+		<sources>
+			<li>Plant_bean</li>
+		</sources>
+		<graphicData><texPath>Seeds/Bean</texPath></graphicData>
+	</SeedsPlease.SeedDef>
+	
+	<SeedsPlease.SeedDef ParentName="SeedBase">
+		<defName>Seed_Olive</defName>
+		<label>olive seeds</label>
+		<sources>
+			<li>Plant_Olivetree</li>
+		</sources>
+		<graphicData><texPath>Seeds/Olive</texPath></graphicData>
+	</SeedsPlease.SeedDef>
+	
+	<SeedsPlease.SeedDef ParentName="SeedBase">
+		<defName>Seed_Tea</defName>
+		<label>tea seeds</label>
+		<sources>
+			<li>Plant_Tea</li>
+		</sources>
+		<graphicData><texPath>Seeds/Tea</texPath></graphicData>
+	</SeedsPlease.SeedDef>
+	
+	<SeedsPlease.SeedDef ParentName="SeedBase">
+		<defName>Seed_Coffee</defName>
+		<label>coffee seeds</label>
+		<sources>
+			<li>Plant_Coffee</li>
+		</sources>
+		<graphicData><texPath>Seeds/Coffee</texPath></graphicData>
+	</SeedsPlease.SeedDef>
+	
+	<SeedsPlease.SeedDef ParentName="SeedBase">
+		<defName>Seed_Bamboo</defName>
+		<label>bamboo seeds</label>
+		<sources>
+			<li>Plant_TreeBamboo</li>
+		</sources>
+		<graphicData><texPath>Seeds/Bamboo</texPath></graphicData>
+	</SeedsPlease.SeedDef>
+	
+	<SeedsPlease.SeedDef ParentName="SeedBase">
+		<defName>Seed_CocoaVG</defName>
+		<label>cocoa seeds</label>
+		<harvest>RawCocoaBeans</harvest>
+		<sources>
+			<li>Plantcocoa</li>
+			<li>Plant_TreeCocoa</li>
+		</sources>
+		<graphicData><texPath>Seeds/Cocoa</texPath></graphicData>
+		<extractable>false</extractable>
+	</SeedsPlease.SeedDef>
+	
+	<SeedsPlease.SeedDef ParentName="SeedBase">
+		<defName>Seed_Mushroom</defName>
+		<label>mushroom seeds</label>
+		<sources>
+			<li>Plantmushroom</li>
+		</sources>
+		<graphicData><texPath>Seeds/Mushroom</texPath></graphicData>
+	</SeedsPlease.SeedDef>
+	
+	<SeedsPlease.SeedDef ParentName="SeedBase">
+		<defName>Seed_Ironwood</defName>
+		<label>ironwood seeds</label>
+		<sources>
+			<li>PlantTreeIronwood</li>
+		</sources>
+		<graphicData><texPath>Seeds/Ironwood</texPath></graphicData>
+	</SeedsPlease.SeedDef>
+	
+	<SeedsPlease.SeedDef ParentName="SeedBase">
+		<defName>Seed_Bee</defName>
+		<label>tree bee seeds</label>
+		<descriptionHyperlinks>
+			<ThingDef>Plant_TreeBee</ThingDef>
+		</descriptionHyperlinks>
+		<sources>
+			<li>Plant_TreeBee</li>
+		</sources>
+		<extractable>false</extractable>
+	</SeedsPlease.SeedDef>
+	
+	<!-- SeedsPlease :: Plant_VGPincushionCactus (dismarzero.vgp.vgpvegetablegarden) Autogenerated as Seed_VGPincushionCactus-->
+	
+	<SeedsPlease.SeedDef ParentName="SeedBase">
+		<defName>Seed_VGPincushionCactus</defName>
+		<label>pincushion cactus seeds</label>
+		<descriptionHyperlinks>
+			<ThingDef>Plant_VGPincushionCactus</ThingDef>
+		</descriptionHyperlinks>
+		<sources>
+			<li>Plant_VGPincushionCactus</li>
+		</sources>
+		<extractable>false</extractable>
+	</SeedsPlease.SeedDef>
+	
+	<!-- SeedsPlease :: VG_Plant_Agave (dismarzero.vgp.vgpvegetablegarden) Autogenerated as Seed__Agave-->
+	
+	<SeedsPlease.SeedDef ParentName="SeedBase">
+		<defName>Seed__Agave</defName>
+		<label>agave seeds</label>
+		<descriptionHyperlinks>
+			<ThingDef>VG_Plant_Agave</ThingDef>
+		</descriptionHyperlinks>
+		<sources>
+			<li>VG_Plant_Agave</li>
+		</sources>
+		<extractable>false</extractable>
+	</SeedsPlease.SeedDef>
+</Defs>
