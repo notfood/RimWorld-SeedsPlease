@@ -34,12 +34,12 @@ namespace SeedsPlease
                 {
                     yield return inst;
                     yield return new CodeInstruction(OpCodes.Ldloc_0);
-                    yield return new CodeInstruction(OpCodes.Ldloc_2);
+                    yield return new CodeInstruction(OpCodes.Ldloc_1);
                     yield return new CodeInstruction(OpCodes.Call, yieldSeeds);
                 }
                 else if (object.Equals(makeThing, inst.operand))
                 {
-                    yield return new CodeInstruction(OpCodes.Ldloc_2);
+                    yield return new CodeInstruction(OpCodes.Ldloc_1);
                     yield return new CodeInstruction(OpCodes.Call, makeOtherThing);
                     yield return new CodeInstruction(OpCodes.Ldnull);
                     yield return inst;
