@@ -2,7 +2,7 @@ using Verse;
 using RimWorld;
 using System.Collections.Generic;
 
-namespace SeedsPlease
+namespace SeedsPleaseLite
 {
 	public class WorkPlacer_OnlyOnBench : PlaceWorker
 	{

@@ -1,9 +1,13 @@
 <Defs>
-  <SeedsPlease.SeedDef>
-    <defName>SeedPlantSoybean</defName>
-    <label>Soybean seeds</label>
-    <sources>
-      <li>JLDrzbPQzy</li>
-    </sources>
-  </SeedsPlease.SeedDef>
+	<ThingDef>
+		<defName>SeedPlantSoybean</defName>
+		<label>Soybean seeds</label>
+		<comps>
+			<li Class="SeedsPleaseLite.CompProperties_Seed">
+				<sources>
+					<li>JLDrzbPQzy</li>
+				</sources>
+			</li>
+		</comps>
+	</ThingDef>
 </Defs>

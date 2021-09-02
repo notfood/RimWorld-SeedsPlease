@@ -52,7 +52,7 @@
 			<li>PlaceWorker_ShowFacilitiesConnections</li>
 			<li>PlaceWorker_ReportWorkSpeedPenalties</li>
 			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
-			<li>SeedsPlease.WorkPlacer_OnlyOnBench</li>
+			<li>SeedsPleaseLite.WorkPlacer_OnlyOnBench</li>
 		</placeWorkers>
 	</ThingDef>
 </Defs>

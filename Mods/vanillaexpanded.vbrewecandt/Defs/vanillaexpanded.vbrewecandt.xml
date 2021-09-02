@@ -1,29 +1,37 @@
 <Defs>
-	<SeedsPlease.SeedDef ParentName="SeedBase">
+	<ThingDef ParentName="SeedBase">
 		<defName>Seed_VBE_Mint</defName>
 		<label>Mint plant seeds</label>
-		<sources>
-			<li>VBE_MintPlant</li>
-		</sources> 
+		<comps>
+			<li Class="SeedsPleaseLite.CompProperties_Seed">
+				<sources>
+					<li>VBE_MintPlant</li>
+				</sources>
+			</li>
+		</comps> 
 		<graphicData>
 			<texPath>Seeds/Mint</texPath>
 		</graphicData>
 		<descriptionHyperlinks>
 			<ThingDef>VBE_MintPlant</ThingDef>
 		</descriptionHyperlinks>
-	</SeedsPlease.SeedDef>
+	</ThingDef>
 	
-	<SeedsPlease.SeedDef ParentName="SeedBase">
+	<ThingDef ParentName="SeedBase">
 		<defName>Seed_VBE_Lemon</defName>
 		<label>Lemon plant seeds</label>
-		<sources>
-			<li>VBE_LemonTree</li>
-		</sources>
+		<comps>
+			<li Class="SeedsPleaseLite.CompProperties_Seed">
+				<sources>
+					<li>VBE_LemonTree</li>
+				</sources>
+			</li>
+		</comps>
 		<graphicData>
 			<texPath>Seeds/LemonTree</texPath>
 		</graphicData>
 		<descriptionHyperlinks>
 			<ThingDef>VBE_LemonTree</ThingDef>
 		</descriptionHyperlinks>
-	</SeedsPlease.SeedDef>
+	</ThingDef>
 </Defs>

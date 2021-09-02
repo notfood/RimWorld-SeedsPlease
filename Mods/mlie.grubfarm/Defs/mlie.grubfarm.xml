@@ -1,12 +1,16 @@
 <Defs>
-	<SeedsPlease.SeedDef ParentName="SeedBase">
+	<ThingDef ParentName="SeedBase">
 		<defName>Seed_GrubMeat</defName>
 		<label>Grub larvas</label>
-		<sources>
-			<li>Plant_GrubFarm</li>
-		</sources>
+		<comps>
+			<li Class="SeedsPleaseLite.CompProperties_Seed">
+				<sources>
+					<li>Plant_GrubFarm</li>
+				</sources>
+			</li>
+		</comps>
 		<graphicData>
 			<texPath>Seeds/Grub</texPath>
 		</graphicData>
-	</SeedsPlease.SeedDef>
+	</ThingDef>
 </Defs>

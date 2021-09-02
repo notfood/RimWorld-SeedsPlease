@@ -29,7 +29,6 @@
 			<Flammability>3</Flammability>
 			<DeteriorationRate>0.3</DeteriorationRate>
 		</statBases>
-		<devNote>extractable</devNote>
 	</ThingDef>
 	
 	<ThingDef ParentName="OrganicProductBaseSeeds">
@@ -45,7 +44,6 @@
 			<Flammability>1</Flammability>
 			<DeteriorationRate>0.1</DeteriorationRate>
 		</statBases>
-		<devNote>extractable</devNote>
 	</ThingDef>
 	
 	<ThingDef ParentName="OrganicProductBaseSeeds">

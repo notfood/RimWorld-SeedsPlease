@@ -1,56 +1,76 @@
 <Defs>
-	<SeedsPlease.SeedDef ParentName="SeedBase">
+	<ThingDef ParentName="SeedBase">
 		<defName>Seed_ForsakensRagadast</defName>
 		<label>Ragadast seeds</label>
-		<sources>
-			<li>PlantRagadast</li>
-		</sources>
+		<comps>
+			<li Class="SeedsPleaseLite.CompProperties_Seed">
+				<sources>
+					<li>PlantRagadast</li>
+				</sources>
+			</li>
+		</comps>
 		<graphicData>
 			<texPath>Seeds/Ragadast</texPath>
 		</graphicData>
-	</SeedsPlease.SeedDef>
+	</ThingDef>
 	
-    <SeedsPlease.SeedDef ParentName="SeedBase">
+    <ThingDef ParentName="SeedBase">
 		<defName>Seed_ForsakensStikehr</defName>
 		<label>Stikehr seeds</label>
-		<sources>
-			<li>PlantStikehr</li>
-		</sources>
+		<comps>
+			<li Class="SeedsPleaseLite.CompProperties_Seed">
+				<sources>
+					<li>PlantStikehr</li>
+				</sources>
+			</li>
+		</comps>
 		<graphicData>
 			<texPath>Seeds/Stikehr</texPath>
 		</graphicData>
-	</SeedsPlease.SeedDef>
+	</ThingDef>
 	
-	<SeedsPlease.SeedDef ParentName="SeedBase">
+	<ThingDef ParentName="SeedBase">
 		<defName>Seed_ForsakensKaleidos</defName>
 		<label>Kaleidos seeds</label>
-		<sources>
-			<li>PlantKaleidos</li>
-		</sources>
+		<comps>
+			<li Class="SeedsPleaseLite.CompProperties_Seed">
+				<sources>
+					<li>PlantKaleidos</li>
+				</sources>
+			</li>
+		</comps>
 		<graphicData>
 			<texPath>Seeds/Kaleidos</texPath>
 		</graphicData>
-	</SeedsPlease.SeedDef>
+	</ThingDef>
 	
-	<SeedsPlease.SeedDef ParentName="SeedBase">
+	<ThingDef ParentName="SeedBase">
 		<defName>Seed_ForsakensUltraviolett</defName>
 		<label>Ultraviolett seeds</label>
-		<sources>
-			<li>PlantUltraviolett</li>
-		</sources>
+		<comps>
+			<li Class="SeedsPleaseLite.CompProperties_Seed">
+				<sources>
+					<li>PlantUltraviolett</li>
+				</sources>
+			</li>
+		</comps>
 		<graphicData>
 			<texPath>Seeds/Ultraviolett</texPath>
 		</graphicData>
-	</SeedsPlease.SeedDef>
+	</ThingDef>
 	
-    <SeedsPlease.SeedDef ParentName="SeedBase">
+    <ThingDef ParentName="SeedBase">
 		<defName>Seed_ForsakensSeptimum</defName>
 		<label>Septimum seeds</label>
-		<sources>
-			<li>Septimum</li>
-		</sources>
+		<comps>
+			<li Class="SeedsPleaseLite.CompProperties_Seed">
+				<sources>
+					<li>Septimum</li>
+				</sources>
+			</li>
+		</comps>
 		<graphicData>
 			<texPath>Seeds/Septimum</texPath>
 		</graphicData>
-	</SeedsPlease.SeedDef>
+	</ThingDef>
 </Defs>

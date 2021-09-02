@@ -1,23 +1,31 @@
 <Defs>
-	<SeedsPlease.SeedDef ParentName="SeedBase">
+	<ThingDef ParentName="SeedBase">
 		<defName>Seed_RG-W_DryPine</defName>
 		<label>Dry pine seeds</label>
-		<sources>
-			<li>RG-W_Plant_DryTreePine</li>
-		</sources>
+		<comps>
+			<li Class="SeedsPleaseLite.CompProperties_Seed">
+				<sources>
+					<li>RG-W_Plant_DryTreePine</li>
+				</sources>
+			</li>
+		</comps>
 		<graphicData>
 			<texPath>Seeds/DryPine</texPath>
 		</graphicData>
-	</SeedsPlease.SeedDef>
+	</ThingDef>
 	
-	<SeedsPlease.SeedDef ParentName="SeedBase">
+	<ThingDef ParentName="SeedBase">
 		<defName>Seed_RG-W_MutatedDryPine</defName>
 		<label>Mutated dry pine seeds</label>
-		<sources>
-			<li>RG-W_Plant_TreeMutatedDryPine</li>
-		</sources>
+		<comps>
+			<li Class="SeedsPleaseLite.CompProperties_Seed">
+				<sources>
+					<li>RG-W_Plant_TreeMutatedDryPine</li>
+				</sources>
+			</li>
+		</comps>
 		<graphicData>
 			<texPath>Seeds/MutatedDryPine</texPath>
 		</graphicData>
-	</SeedsPlease.SeedDef>
+	</ThingDef>
 </Defs>

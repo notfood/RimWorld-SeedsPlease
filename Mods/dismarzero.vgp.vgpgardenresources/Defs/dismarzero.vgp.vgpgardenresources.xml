@@ -1,64 +1,88 @@
 <Defs>
 	<!-- Cultivated_Plants_resource.xml -->
 	
-	<SeedsPlease.SeedDef ParentName="SeedBase">
+	<ThingDef ParentName="SeedBase">
 		<defName>Seed_Steelleaf</defName>
 		<label>steelleaf seeds</label>
-		<sources>
-			<li>PlantSteelLeaf</li>
-		</sources>
-		<extractable>false</extractable>
+		<comps>
+			<li Class="SeedsPleaseLite.CompProperties_Seed">
+				<sources>
+					<li>PlantSteelLeaf</li>
+				</sources>
+				<extractable>False</extractable>
+			</li>
+		</comps>
 		<graphicData><texPath>Seeds/SteelLeaf</texPath></graphicData>
-	</SeedsPlease.SeedDef>
+	</ThingDef>
 	
-	<SeedsPlease.SeedDef ParentName="SeedBase">
+	<ThingDef ParentName="SeedBase">
 		<defName>Seed_Plasteelleaf</defName>
 		<label>plasteelleaf seeds</label>
-		<sources>
-			<li>PlantPlasteelLeaf</li>
-		</sources>
-		<extractable>false</extractable>
+		<comps>
+			<li Class="SeedsPleaseLite.CompProperties_Seed">
+				<sources>
+					<li>PlantPlasteelLeaf</li>
+				</sources>
+				<extractable>False</extractable>
+			</li>
+		</comps>
 		<graphicData><texPath>Seeds/PlasteelLeaf</texPath></graphicData>
-	</SeedsPlease.SeedDef>
+	</ThingDef>
 	
-	<SeedsPlease.SeedDef ParentName="SeedBase">
+	<ThingDef ParentName="SeedBase">
 		<defName>Seed_Goldleaf</defName>
 		<label>goldleaf seeds</label>
-		<sources>
-			<li>PlantGoldLeaf</li>
-		</sources>
-		<extractable>false</extractable>
+		<comps>
+			<li Class="SeedsPleaseLite.CompProperties_Seed">
+				<sources>
+					<li>PlantGoldLeaf</li>
+				</sources>
+				<extractable>False</extractable>
+			</li>
+		</comps>
 		<graphicData><texPath>Seeds/GoldLeaf</texPath></graphicData>
-	</SeedsPlease.SeedDef>
+	</ThingDef>
 	
-	<SeedsPlease.SeedDef ParentName="SeedBase">
+	<ThingDef ParentName="SeedBase">
 		<defName>Seed_Jadeleaf</defName>
-		<label>jadeleaf seeds</label>
-		<sources>
-			<li>PlantJadeLeaf</li>
-		</sources>
-		<extractable>false</extractable>
-		<graphicData><texPath>Seeds/JadeLeaf</texPath></graphicData>
-	</SeedsPlease.SeedDef>
-	
-	<SeedsPlease.SeedDef ParentName="SeedBase">
-		<defName>Seed_Silverleaf</defName>
-		<label>silverleaf seeds</label>
-		<sources>
-			<li>PlantSilverLeaf</li>
-		</sources>
-		<extractable>false</extractable>
-		<graphicData><texPath>Seeds/SilverLeaf</texPath></graphicData>
-	</SeedsPlease.SeedDef>
-	
-	<SeedsPlease.SeedDef ParentName="SeedBase">
-		<defName>Seed_Uraniumleaf</defName>
-		<label>uraniumleaf seeds</label>
-		<sources>
-			<li>PlantUraniumLeaf</li>
-		</sources>
-		<extractable>false</extractable>
-		<graphicData><texPath>Seeds/UraniumLeaf</texPath></graphicData>
-	</SeedsPlease.SeedDef>
-	
+	<label>jadeleaf seeds</label>
+	<comps>
+		<li Class="SeedsPleaseLite.CompProperties_Seed">
+			<sources>
+				<li>PlantJadeLeaf</li>
+			</sources>
+			<extractable>False</extractable>
+		</li>
+	</comps>
+	<graphicData><texPath>Seeds/JadeLeaf</texPath></graphicData>
+</ThingDef>
+
+<ThingDef ParentName="SeedBase">
+	<defName>Seed_Silverleaf</defName>
+	<label>silverleaf seeds</label>
+	<comps>
+		<li Class="SeedsPleaseLite.CompProperties_Seed">
+			<sources>
+				<li>PlantSilverLeaf</li>
+			</sources>
+			<extractable>False</extractable>
+		</li>
+	</comps>
+	<graphicData><texPath>Seeds/SilverLeaf</texPath></graphicData>
+</ThingDef>
+
+<ThingDef ParentName="SeedBase">
+	<defName>Seed_Uraniumleaf</defName>
+	<label>uraniumleaf seeds</label>
+	<comps>
+		<li Class="SeedsPleaseLite.CompProperties_Seed">
+			<sources>
+				<li>PlantUraniumLeaf</li>
+			</sources>
+			<extractable>False</extractable>
+		</li>
+	</comps>
+	<graphicData><texPath>Seeds/UraniumLeaf</texPath></graphicData>
+</ThingDef>
+
 </Defs>

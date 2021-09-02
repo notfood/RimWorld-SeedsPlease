@@ -1,16 +1,20 @@
 <Defs>
-	<SeedsPlease.SeedDef ParentName="SeedBase">
+	<ThingDef ParentName="SeedBase">
 		<defName>Seed_VFEIArmillarix</defName>
 		<label>Armillarix seeds</label>
-		<extractable>false</extractable>
-		<sources>
-			<li>VFEI_Plant_Armillarix</li>
-		</sources>
+		<comps>
+			<li Class="SeedsPleaseLite.CompProperties_Seed">
+				<sources>
+					<li>VFEI_Plant_Armillarix</li>
+				</sources>
+				<extractable>False</extractable>
+			</li>
+		</comps>
 		<graphicData>
 			<texPath>Seeds/Armillarix</texPath>
 		</graphicData>
 		<descriptionHyperlinks>
 			<ThingDef>VFEI_Plant_Armillarix</ThingDef>
 		</descriptionHyperlinks>
-	</SeedsPlease.SeedDef>
+	</ThingDef>
 </Defs>

@@ -4,7 +4,7 @@ using RimWorld;
 using Verse;
 using Verse.AI;
 
-namespace SeedsPlease
+namespace SeedsPleaseLite
 {
     public class WorkGiver_GrowerSowWithSeeds : WorkGiver_GrowerSow
     {

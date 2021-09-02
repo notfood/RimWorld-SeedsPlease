@@ -1,0 +1,91 @@
+<Defs>
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_Nutrifungus</defName>
+		<label>nutrifungus seeds</label>
+		<graphicData>
+			<texPath>Seeds/Nutrifungus</texPath>
+		</graphicData>
+		<descriptionHyperlinks>
+			<ThingDef>Plant_Nutrifungus</ThingDef>
+		</descriptionHyperlinks>
+		<comps>
+			<li Class="SeedsPleaseLite.CompProperties_Seed">
+				<sources>
+					<li>Plant_Nutrifungus</li>
+				</sources>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_Bonsai</defName>
+		<label>bonsai seeds</label>
+		<graphicData>
+			<texPath>Seeds/Bonsai</texPath>
+		</graphicData>
+		<descriptionHyperlinks>
+			<ThingDef>Plant_TreeBonsai</ThingDef>
+		</descriptionHyperlinks>
+		<comps>
+			<li Class="SeedsPleaseLite.CompProperties_Seed">
+				<sources>
+					<li>Plant_TreeBonsai</li>
+				</sources>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_Fibercorn</defName>
+		<label>fibercorn seeds</label>
+		<graphicData>
+			<texPath>Seeds/Fibercorn</texPath>
+		</graphicData>
+		<descriptionHyperlinks>
+			<ThingDef>Plant_Fibercorn</ThingDef>
+		</descriptionHyperlinks>
+		<comps>
+			<li Class="SeedsPleaseLite.CompProperties_Seed">
+				<sources>
+					<li>Plant_Fibercorn</li>
+				</sources>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_Timbershroom</defName>
+		<label>timbershroom seeds</label>
+		<graphicData>
+			<texPath>Seeds/Timbershroom</texPath>
+		</graphicData>
+		<descriptionHyperlinks>
+			<ThingDef>Plant_Timbershroom</ThingDef>
+		</descriptionHyperlinks>
+		<comps>
+			<li Class="SeedsPleaseLite.CompProperties_Seed">
+				<sources>
+					<li>Plant_Timbershroom</li>
+				</sources>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_Tinctoria</defName>
+		<label>tinctoria seeds</label>
+		<graphicData>
+			<texPath>Seeds/Tinctoria</texPath>
+		</graphicData>
+		<descriptionHyperlinks>
+			<ThingDef>Plant_Tinctoria</ThingDef>
+		</descriptionHyperlinks>
+		<comps>
+			<li Class="SeedsPleaseLite.CompProperties_Seed">
+				<sources>
+					<li>Plant_Tinctoria</li>
+				</sources>
+			</li>
+		</comps>
+	</ThingDef>
+</Defs>

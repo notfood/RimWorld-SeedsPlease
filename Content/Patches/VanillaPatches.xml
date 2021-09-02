@@ -3,6 +3,12 @@
 	<Operation Class="PatchOperationSequence">
         <success>Always</success>
         <operations>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/WorkGiverDef[defName="DoBillsCook"]/fixedBillGiverDefs</xpath>
+				<value>
+					<li>SeedExtractionSpot</li>
+				</value>
+			</li>
 			<!-- Comms console for traders -->
             <li Class="PatchOperationAdd">
 				<success>Always</success>
@@ -68,6 +74,20 @@
 					<thingCategories>
 						<li>SeedsCategory</li>
 					</thingCategories>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Plant_Haygrass"][not(comps)]</xpath>
+				<value>
+					<comps />
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Plant_Haygrass"]/comps</xpath>
+				<value>
+					<li>
+						<compClass>SeedsPleaseLite.CompSeedless</compClass>
+					</li>
 				</value>
 			</li>
 		</operations>

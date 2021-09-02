@@ -1,43 +1,55 @@
 <Defs>
-	<SeedsPlease.SeedDef ParentName="SeedBase">
+	<ThingDef ParentName="SeedBase">
 		<defName>Seed_VCEAllspice</defName>
 		<label>Allspice seeds</label>
-		<sources>
-			<li>VCE_Allspice</li>
-		</sources>
+		<comps>
+			<li Class="SeedsPleaseLite.CompProperties_Seed">
+				<sources>
+					<li>VCE_Allspice</li>
+				</sources>
+			</li>
+		</comps>
 		<graphicData>
 			<texPath>Seeds/Allspice</texPath>
 		</graphicData>
 		<descriptionHyperlinks>
 			<ThingDef>VCE_Allspice</ThingDef>
 		</descriptionHyperlinks>
-	</SeedsPlease.SeedDef>
+	</ThingDef>
 	
-	<SeedsPlease.SeedDef ParentName="SeedBase">
+	<ThingDef ParentName="SeedBase">
 		<defName>Seed_VCESugarcane</defName>
 		<label>Sugarcane seeds</label>
-		<sources>
-			<li>VCE_Sugarcane</li>
-		</sources>
+		<comps>
+			<li Class="SeedsPleaseLite.CompProperties_Seed">
+				<sources>
+					<li>VCE_Sugarcane</li>
+				</sources>
+			</li>
+		</comps>
 		<graphicData>
 			<texPath>Seeds/Sugarcane</texPath>
 		</graphicData>
 		<descriptionHyperlinks>
 			<ThingDef>VCE_Sugarcane</ThingDef>
 		</descriptionHyperlinks>
-	</SeedsPlease.SeedDef>
+	</ThingDef>
 	
-	<SeedsPlease.SeedDef ParentName="SeedBase">
+	<ThingDef ParentName="SeedBase">
 		<defName>Seed_VCEWheat</defName>
 		<label>Wheat seeds</label>
-		<sources>
-			<li>VCE_Wheat</li>
-		</sources>
+		<comps>
+			<li Class="SeedsPleaseLite.CompProperties_Seed">
+				<sources>
+					<li>VCE_Wheat</li>
+				</sources>
+			</li>
+		</comps>
 		<graphicData>
 			<texPath>Seeds/Wheat</texPath>
 		</graphicData>
 		<descriptionHyperlinks>
 			<ThingDef>VCE_Wheat</ThingDef>
 		</descriptionHyperlinks>
-	</SeedsPlease.SeedDef>
+	</ThingDef>
 </Defs>

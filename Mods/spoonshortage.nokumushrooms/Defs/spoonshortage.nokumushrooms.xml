@@ -1,0 +1,35 @@
+<Defs>
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_Noku</defName>
+		<comps>
+			<li Class="SeedsPleaseLite.CompProperties_Seed">
+				<sources>
+					<li>PlantNoku</li>
+				</sources>
+			</li>
+		</comps>
+		<label>noku spores</label>
+		<description>Spores from noku.</description>
+		<descriptionHyperlinks>
+			<ThingDef>PlantNoku</ThingDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Seeds/Noku</texPath>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>15</MaxHitPoints>
+			<Mass>0.01</Mass>
+			<Flammability>0.8</Flammability>
+			<DeteriorationRate>1</DeteriorationRate>
+			<MarketValue>5</MarketValue>
+			<SellPriceFactor>0.05</SellPriceFactor>
+			<Beauty>-2</Beauty>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Glower">
+				<glowRadius>1</glowRadius>
+				<glowColor>(242,66,178,0)</glowColor>
+			</li>
+		</comps>
+	</ThingDef>
+</Defs>

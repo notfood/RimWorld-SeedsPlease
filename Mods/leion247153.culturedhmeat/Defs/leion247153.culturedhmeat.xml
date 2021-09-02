@@ -1,37 +1,49 @@
 <Defs>
-	<SeedsPlease.SeedDef ParentName="SeedBase">
+	<ThingDef ParentName="SeedBase">
 		<defName>Seed_CMeatChicken</defName>
 		<label>Synthetic chicken seeds</label>
-		<sources>
-			<li>CMeatChicken</li>
-		</sources>
+		<comps>
+			<li Class="SeedsPleaseLite.CompProperties_Seed">
+				<sources>
+					<li>CMeatChicken</li>
+				</sources>
+				<extractable>False</extractable>
+			</li>
+		</comps>
 		<graphicData>
 			<texPath>Seeds/CMeatChicken</texPath>
 		</graphicData>
-		<extractable>false</extractable>
-	</SeedsPlease.SeedDef>
+	</ThingDef>
 	
-	<SeedsPlease.SeedDef ParentName="SeedBase">
+	<ThingDef ParentName="SeedBase">
 		<defName>Seed_CMeatPig</defName>
 		<label>Synthetic pork seeds</label>
-		<sources>
-			<li>CMeatPig</li>
-		</sources>
+		<comps>
+			<li Class="SeedsPleaseLite.CompProperties_Seed">
+				<sources>
+					<li>CMeatPig</li>
+				</sources>
+				<extractable>False</extractable>
+			</li>
+		</comps>
 		<graphicData>
 			<texPath>Seeds/CMeatPigBeef</texPath>
 		</graphicData>
-		<extractable>false</extractable>
-	</SeedsPlease.SeedDef>
+	</ThingDef>
 	
-	<SeedsPlease.SeedDef ParentName="SeedBase">
+	<ThingDef ParentName="SeedBase">
 		<defName>Seed_CMeatBeef</defName>
 		<label>Synthetic beef seeds</label>
-		<sources>
-			<li>CMeatBeef</li>
-		</sources>
+		<comps>
+			<li Class="SeedsPleaseLite.CompProperties_Seed">
+				<sources>
+					<li>CMeatBeef</li>
+				</sources>
+				<extractable>False</extractable>
+			</li>
+		</comps>
 		<graphicData>
 			<texPath>Seeds/CMeatPigBeef</texPath>
 		</graphicData>
-		<extractable>false</extractable>
-	</SeedsPlease.SeedDef>
+	</ThingDef>
 </Defs>

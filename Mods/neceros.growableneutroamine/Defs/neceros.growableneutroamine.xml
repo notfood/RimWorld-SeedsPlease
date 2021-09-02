@@ -1,13 +1,17 @@
 <Defs>
-	<SeedsPlease.SeedDef ParentName="SeedBase">
+	<ThingDef ParentName="SeedBase">
 		<defName>Seed_Neutroamine</defName>
 		<label>Neutroamine seeds</label>
-		<sources>
-			<li>NeutroaminePlant</li>
-		</sources>
+		<comps>
+			<li Class="SeedsPleaseLite.CompProperties_Seed">
+				<sources>
+					<li>NeutroaminePlant</li>
+				</sources>
+				<extractable>False</extractable>
+			</li>
+		</comps>
 		<graphicData>
 			<texPath>Seeds/Neutroamine</texPath>
 		</graphicData>
-		<extractable>false</extractable>
-	</SeedsPlease.SeedDef>
+	</ThingDef>
 </Defs>

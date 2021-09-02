@@ -2,6 +2,7 @@
 <loadFolders>
 	<v1.3>
 		<li>Content</li>
+		<li IfModActive="ludeon.rimworld.ideology">Mods/__ludeon.rimworld.ideology</li>
 		<li IfModActive="atlas.materialsplus.at">Mods/atlas.materialsplus.at</li>
 		<li IfModActive="biomesteam.biomesislands">Mods/biomesteam.biomesislands</li>
 		<li IfModActive="ceteam.combatextended">Mods/ceteam.combatextended</li>
@@ -22,7 +23,6 @@
 		<li IfModActive="kikohi.forsakens">Mods/kikohi.forsakens</li>
 		<li IfModActive="knight.medicalivs">Mods/knight.medicalivs</li>
 		<li IfModActive="leion247153.culturedhmeat">Mods/leion247153.culturedhmeat</li>
-		<li IfModActive="ludeon.rimworld.ideology">Mods/ludeon.rimworld.ideology</li>
 		<li IfModActive="mantrasong.survadd.1">Mods/mantrasong.survadd.1</li>
 		<li IfModActive="mlie.grubfarm">Mods/mlie.grubfarm</li>
 		<li IfModActive="mlie.knotroot">Mods/mlie.knotroot</li>
@@ -53,5 +53,19 @@
 		<li IfModActive="vanillaexpanded.vplantse">Mods/vanillaexpanded.vplantse</li>
 		<li IfModActive="xrushha.animagear">Mods/xrushha.animagear</li>
 		<li IfModActive="kentington.saveourship2">Mods/kentington.saveourship2</li>
+		<li IfModActive="kit.powerprotein">Mods/kit.powerprotein</li>
+		<li IfModActive="argon.tribalmed">Mods/argon.tribalmed</li>
+		<li IfModActive="fluffysminion.itw.caveworldfloraunleashed">Mods/fluffysminion.itw.caveworldfloraunleashed</li>
+		<li IfModActive="fcp.fp">Mods/fcp.fp</li>
+		<li IfModActive="regrowth.botr.aspenforest">Mods/regrowth.botr.aspenforest</li>
+		<li IfModActive="windowsxp.realisticplanets">Mods/windowsxp.realisticplanets</li>
+		<li IfModActive="freefolk.remedies">Mods/freefolk.remedies</li>
+		<li IfModActive="spoonshortage.nokumushrooms">Mods/spoonshortage.nokumushrooms</li>
+		<li IfModActive="torann.arimworldofmagic">Mods/torann.arimworldofmagic</li>
+		<li IfModActive="trickity.samurai.faction">Mods/trickity.samurai.faction</li>
+		<li IfModActive="rim.job.world">Mods/rim.job.world</li>
+		<li IfModActive="jelly.wildcultivation">Mods/jelly.wildcultivation</li>
+		<li IfModActive="biomesteam.oasis">Mods/biomesteam.oasis</li>
+		<li IfModActive="mlie.vegetablegardenlite">Mods/mlie.vegetablegardenlite</li>
 	</v1.3>
 </loadFolders>

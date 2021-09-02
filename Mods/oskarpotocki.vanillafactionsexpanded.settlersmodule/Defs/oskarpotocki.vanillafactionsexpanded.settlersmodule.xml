@@ -1,16 +1,20 @@
 <Defs>
-	<SeedsPlease.SeedDef ParentName="SeedBase">
+	<ThingDef ParentName="SeedBase">
 		<defName>Seed_VFE-SChemroot</defName>
 		<label>Chemroot seeds</label>
-		<sources>
-			<li>Plant_Chemroot</li>
-		</sources>
+		<comps>
+			<li Class="SeedsPleaseLite.CompProperties_Seed">
+				<sources>
+					<li>Plant_Chemroot</li>
+				</sources>
+				<extractable>False</extractable>
+			</li>
+		</comps>
 		<graphicData>
 			<texPath>Seeds/Chemroot</texPath>
 		</graphicData>
-		<extractable>false</extractable>
 		<descriptionHyperlinks>
 			<ThingDef>Plant_Chemroot</ThingDef>
 		</descriptionHyperlinks>
-	</SeedsPlease.SeedDef>
+	</ThingDef>
 </Defs>

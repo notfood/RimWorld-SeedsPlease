@@ -3,7 +3,7 @@
 	<WorkGiverDef>
 		<defName>GrowerSow</defName>
 		<label>sow crops</label>
-		<giverClass>SeedsPlease.WorkGiver_GrowerSowWithSeeds</giverClass>
+		<giverClass>SeedsPleaseLite.WorkGiver_GrowerSowWithSeeds</giverClass>
 		<workType>Growing</workType>
 		<priorityInType>50</priorityInType>
 		<verb>sow</verb>

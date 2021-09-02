@@ -1,49 +1,66 @@
-<Defs>
-	<!-- Plants_Extra_Trees.xml -->
-	
-	<SeedsPlease.SeedDef ParentName="SeedBase">
+<Defs>	
+	<ThingDef ParentName="SeedBase">
 		<defName>Seed_Japanesemaple</defName>
 		<label>japanesemaple seeds</label>
-		<sources>
-			<li>PlantTreeJapaneseMaple</li>
-		</sources>
+		<comps>
+			<li Class="SeedsPleaseLite.CompProperties_Seed">
+				<sources>
+					<li>PlantTreeJapaneseMaple</li>
+				</sources>
+			</li>
+		</comps>
 		<graphicData><texPath>Seeds/JapaneseMaple</texPath></graphicData>
-	</SeedsPlease.SeedDef>
+	</ThingDef>
 	
-	<SeedsPlease.SeedDef ParentName="SeedBase">
+	<ThingDef ParentName="SeedBase">
 		<defName>Seed_Cherryblossom</defName>
 		<label>cherryblossom seeds</label>
-		<sources>
-			<li>PlantTreeCherryBlossom</li>
-		</sources>
+		<comps>
+			<li Class="SeedsPleaseLite.CompProperties_Seed">
+				<sources>
+					<li>PlantTreeCherryBlossom</li>
+				</sources>
+			</li>
+		</comps>
 		<graphicData><texPath>Seeds/Blossom</texPath></graphicData>
-	</SeedsPlease.SeedDef>
+	</ThingDef>
 	
-	<SeedsPlease.SeedDef ParentName="SeedBase">
+	<ThingDef ParentName="SeedBase">
 		<defName>Seed_Camellia</defName>
 		<label>camellia seeds</label>
-		<sources>
-			<li>PlantTreeCamellia</li>
-		</sources>
+		<comps>
+			<li Class="SeedsPleaseLite.CompProperties_Seed">
+				<sources>
+					<li>PlantTreeCamellia</li>
+				</sources>
+			</li>
+		</comps>
 		<graphicData><texPath>Seeds/Camellia</texPath></graphicData>
-	</SeedsPlease.SeedDef>
+	</ThingDef>
 	
-	<SeedsPlease.SeedDef ParentName="SeedBase">
+	<ThingDef ParentName="SeedBase">
 		<defName>Seed_Acacia</defName>
 		<label>acacia seeds</label>
-		<sources>
-			<li>PlantTreeAcacia</li>
-		</sources>
+		<comps>
+			<li Class="SeedsPleaseLite.CompProperties_Seed">
+				<sources>
+					<li>PlantTreeAcacia</li>
+				</sources>
+			</li>
+		</comps>
 		<graphicData><texPath>Seeds/Acacia</texPath></graphicData>
-	</SeedsPlease.SeedDef>
+	</ThingDef>
 	
-	<SeedsPlease.SeedDef ParentName="SeedBase">
+	<ThingDef ParentName="SeedBase">
 		<defName>Seed_Redmaple</defName>
 		<label>redmaple seeds</label>
-		<sources>
-			<li>PlantTreeRedMaple</li>
-		</sources>
+		<comps>
+			<li Class="SeedsPleaseLite.CompProperties_Seed">
+				<sources>
+					<li>PlantTreeRedMaple</li>
+				</sources>
+			</li>
+		</comps>
 		<graphicData><texPath>Seeds/RedMaple</texPath></graphicData>
-	</SeedsPlease.SeedDef>
-	
+	</ThingDef>
 </Defs>

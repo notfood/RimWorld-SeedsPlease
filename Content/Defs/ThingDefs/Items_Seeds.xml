@@ -1,0 +1,484 @@
+<Defs>
+	<ThingDef Name="SeedBase" ParentName="ResourceBase" Abstract="True">
+		<label>unspecified seed</label>
+		<description>These are genetically engineered seeds capable of thriving in a wide range of alien environments over multiple generations.</description>
+		<graphicData>
+			<texPath>Seeds/Seeds</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<Beauty>-4</Beauty>
+			<Nutrition>0.02</Nutrition>
+			<MaxHitPoints>15</MaxHitPoints>
+			<Mass>0.015</Mass>
+			<Flammability>1.0</Flammability>
+			<DeteriorationRate>1</DeteriorationRate>
+			<MarketValue>0</MarketValue>
+			<SellPriceFactor>0.05</SellPriceFactor>
+		</statBases>
+		<soundInteract>Grain_Drop</soundInteract>
+		<soundDrop>Grain_Drop</soundDrop>
+		<thingCategories>
+			<li>SeedsCategory</li>
+		</thingCategories>
+		<tradeTags>
+			<li>Seeds</li>
+		</tradeTags>
+		<comps />
+		<ingestible>
+			<preferability>DesperateOnlyForHumanlikes</preferability>
+			<foodType>Plant</foodType>
+		</ingestible>
+	</ThingDef>
+	
+	<!-- Food plants -->
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_Rice</defName>
+		<label>rice seeds</label>
+		<graphicData>
+			<texPath>Seeds/Rice</texPath>
+		</graphicData>
+		<descriptionHyperlinks>
+			<ThingDef>Plant_Rice</ThingDef>
+		</descriptionHyperlinks>
+		<comps>
+			<li Class="SeedsPleaseLite.CompProperties_Seed">
+				<sources>
+					<li>Plant_Rice</li>
+				</sources>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_Potato</defName>
+		<label>potato seeds</label>
+		<graphicData>
+			<texPath>Seeds/Potato</texPath>
+		</graphicData>
+		<descriptionHyperlinks>
+			<ThingDef>Plant_Potato</ThingDef>
+		</descriptionHyperlinks>
+		<comps>
+			<li Class="SeedsPleaseLite.CompProperties_Seed">
+				<sources>
+					<li>Plant_Potato</li>
+				</sources>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_Corn</defName>
+		<label>corn seeds</label>
+		<graphicData>
+			<texPath>Seeds/Corn</texPath>
+		</graphicData>
+		<descriptionHyperlinks>
+			<ThingDef>Plant_Corn</ThingDef>
+		</descriptionHyperlinks>
+		<comps>
+			<li Class="SeedsPleaseLite.CompProperties_Seed">
+				<sources>
+					<li>Plant_Corn</li>
+				</sources>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_Strawberry</defName>
+		<label>strawberry seeds</label>
+		<graphicData>
+			<texPath>Seeds/Strawberry</texPath>
+		</graphicData>
+		<descriptionHyperlinks>
+			<ThingDef>Plant_Strawberry</ThingDef>
+		</descriptionHyperlinks>
+		<comps>
+			<li Class="SeedsPleaseLite.CompProperties_Seed">
+				<sources>
+					<li>Plant_Strawberry</li>
+				</sources>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_Hops</defName>
+		<label>hops seeds</label>
+		<graphicData>
+			<texPath>Seeds/Hops</texPath>
+		</graphicData>
+		<descriptionHyperlinks>
+			<ThingDef>Plant_Hops</ThingDef>
+		</descriptionHyperlinks>
+		<comps>
+			<li Class="SeedsPleaseLite.CompProperties_Seed">
+				<sources>
+					<li>Plant_Hops</li>
+				</sources>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_Smokeleaf</defName>
+		<label>smokeleaf seeds</label>
+		<graphicData>
+			<texPath>Seeds/Smokeleaf</texPath>
+		</graphicData>
+		<descriptionHyperlinks>
+			<ThingDef>Plant_Smokeleaf</ThingDef>
+		</descriptionHyperlinks>
+		<comps>
+			<li Class="SeedsPleaseLite.CompProperties_Seed">
+				<sources>
+					<li>Plant_Smokeleaf</li>
+				</sources>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_Psychoid</defName>
+		<label>psychoid seeds</label>
+		<graphicData>
+			<texPath>Seeds/Psychoid</texPath>
+		</graphicData>
+		<descriptionHyperlinks>
+			<ThingDef>Plant_Psychoid</ThingDef>
+		</descriptionHyperlinks>
+		<comps>
+			<li Class="SeedsPleaseLite.CompProperties_Seed">
+				<sources>
+					<li>Plant_Psychoid</li>
+				</sources>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_TreeDrago</defName>
+		<label>drago seeds</label>
+		<graphicData>
+			<texPath>Seeds/TreeDrago</texPath>
+		</graphicData>
+		<descriptionHyperlinks>
+			<ThingDef>Plant_TreeDrago</ThingDef>
+		</descriptionHyperlinks>
+		<comps>
+			<li Class="SeedsPleaseLite.CompProperties_Seed">
+				<sources>
+					<li>Plant_TreeDrago</li>
+				</sources>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_TreeWillow</defName>
+		<label>willow seeds</label>
+		<descriptionHyperlinks>
+			<ThingDef>Plant_TreeWillow</ThingDef>
+		</descriptionHyperlinks>
+		<comps>
+			<li Class="SeedsPleaseLite.CompProperties_Seed">
+				<sources>
+					<li>Plant_TreeWillow</li>
+				</sources>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_TreeCypress</defName>
+		<label>cypress seeds</label>
+		<graphicData>
+			<texPath>Seeds/TreeCypress</texPath>
+		</graphicData>
+		<descriptionHyperlinks>
+			<ThingDef>Plant_TreeCypress</ThingDef>
+		</descriptionHyperlinks>
+		<comps>
+			<li Class="SeedsPleaseLite.CompProperties_Seed">
+				<sources>
+					<li>Plant_TreeCypress</li>
+				</sources>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_TreeMaple</defName>
+		<label>maple seeds</label>
+		<graphicData>
+			<texPath>Seeds/TreeMaple</texPath>
+		</graphicData>
+		<descriptionHyperlinks>
+			<ThingDef>Plant_TreeMaple</ThingDef>
+		</descriptionHyperlinks>
+		<comps>
+			<li Class="SeedsPleaseLite.CompProperties_Seed">
+				<sources>
+					<li>Plant_TreeMaple</li>
+				</sources>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_TreeOak</defName>
+		<label>oak seeds</label>
+		<graphicData>
+			<texPath>Seeds/Oak</texPath>
+		</graphicData>
+		<descriptionHyperlinks>
+			<ThingDef>Plant_TreeOak</ThingDef>
+		</descriptionHyperlinks>
+		<comps>
+			<li Class="SeedsPleaseLite.CompProperties_Seed">
+				<sources>
+					<li>Plant_TreeOak</li>
+				</sources>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_TreePoplar</defName>
+		<label>poplar seeds</label>
+		<graphicData>
+			<texPath>Seeds/Poplar</texPath>
+		</graphicData>
+		<descriptionHyperlinks>
+			<ThingDef>Plant_TreePoplar</ThingDef>
+		</descriptionHyperlinks>
+		<comps>
+			<li Class="SeedsPleaseLite.CompProperties_Seed">
+				<sources>
+					<li>Plant_TreePoplar</li>
+				</sources>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_TreePine</defName>
+		<label>pine seeds</label>
+		<graphicData>
+			<texPath>Seeds/TreePine</texPath>
+		</graphicData>
+		<descriptionHyperlinks>
+			<ThingDef>Plant_TreePine</ThingDef>
+		</descriptionHyperlinks>
+		<comps>
+			<li Class="SeedsPleaseLite.CompProperties_Seed">
+				<sources>
+					<li>Plant_TreePine</li>
+				</sources>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_TreeBirch</defName>
+		<label>birch seeds</label>
+		<graphicData>
+			<texPath>Seeds/Birch</texPath>
+		</graphicData>
+		<descriptionHyperlinks>
+			<ThingDef>Plant_TreeBirch</ThingDef>
+		</descriptionHyperlinks>
+		<comps>
+			<li Class="SeedsPleaseLite.CompProperties_Seed">
+				<sources>
+					<li>Plant_TreeBirch</li>
+				</sources>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_TreeTeak</defName>
+		<label>teak seeds</label>
+		<graphicData>
+			<texPath>Seeds/TreeTeak</texPath>
+		</graphicData>
+		<descriptionHyperlinks>
+			<ThingDef>Plant_TreeTeak</ThingDef>
+		</descriptionHyperlinks>
+		<comps>
+			<li Class="SeedsPleaseLite.CompProperties_Seed">
+				<sources>
+					<li>Plant_TreeTeak</li>
+				</sources>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_TreeCecropia</defName>
+		<label>cecropia seeds</label>
+		<graphicData>
+			<texPath>Seeds/TreeCecropia</texPath>
+		</graphicData>
+		<descriptionHyperlinks>
+			<ThingDef>Plant_TreeCecropia</ThingDef>
+		</descriptionHyperlinks>
+		<comps>
+			<li Class="SeedsPleaseLite.CompProperties_Seed">
+				<sources>
+					<li>Plant_TreeCecropia</li>
+				</sources>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_TreePalm</defName>
+		<label>palm seeds</label>
+		<graphicData>
+			<texPath>Seeds/TreePalm</texPath>
+		</graphicData>
+		<descriptionHyperlinks>
+			<ThingDef>Plant_TreePalm</ThingDef>
+		</descriptionHyperlinks>
+		<comps>
+			<li Class="SeedsPleaseLite.CompProperties_Seed">
+				<sources>
+					<li>Plant_TreePalm</li>
+				</sources>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_TreeBamboo</defName>
+		<label>bamboo seeds</label>
+		<graphicData>
+			<texPath>Seeds/Bamboo</texPath>
+		</graphicData>
+		<descriptionHyperlinks>
+			<ThingDef>Plant_TreeBamboo</ThingDef>
+		</descriptionHyperlinks>
+		<comps>
+			<li Class="SeedsPleaseLite.CompProperties_Seed">
+				<sources>
+					<li>Plant_TreeBamboo</li>
+				</sources>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_SaguaroCactus</defName>
+		<label>saguarocactus seeds</label>
+		<graphicData>
+			<texPath>Seeds/SaguaroCactus</texPath>
+		</graphicData>
+		<descriptionHyperlinks>
+			<ThingDef>Plant_SaguaroCactus</ThingDef>
+		</descriptionHyperlinks>
+		<comps>
+			<li Class="SeedsPleaseLite.CompProperties_Seed">
+				<sources>
+					<li>Plant_SaguaroCactus</li>
+				</sources>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<!-- Production plants -->
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_Cotton</defName>
+		<label>cotton seeds</label>
+		<statBases>
+			<MarketValue>11.2</MarketValue>
+		</statBases>
+		<graphicData>
+			<texPath>Seeds/Cotton</texPath>
+		</graphicData>
+		<descriptionHyperlinks>
+			<ThingDef>Plant_Cotton</ThingDef>
+		</descriptionHyperlinks>
+		<comps>
+			<li Class="SeedsPleaseLite.CompProperties_Seed">
+				<harvestOverride>RawCotton</harvestOverride>
+				<sources>
+					<li>Plant_Cotton</li>
+				</sources>
+				<extractable>True</extractable>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_Devilstrand</defName>
+		<label>devilstrand seeds</label>
+		<statBases>
+			<MarketValue>19.7</MarketValue>
+		</statBases>
+		<graphicData>
+			<texPath>Seeds/Devilstrand</texPath>
+		</graphicData>
+		<descriptionHyperlinks>
+			<ThingDef>Plant_Devilstrand</ThingDef>
+		</descriptionHyperlinks>
+		<comps>
+			<li Class="SeedsPleaseLite.CompProperties_Seed">
+				<harvestOverride>RawDevilstrand</harvestOverride>
+				<sources>
+					<li>Plant_Devilstrand</li>
+				</sources>
+				<extractable>True</extractable>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_Healroot</defName>
+		<label>healroot seeds</label>
+		<statBases>
+			<MarketValue>14.3</MarketValue>
+		</statBases>
+		<graphicData>
+			<texPath>Seeds/Healroot</texPath>
+		</graphicData>
+		<descriptionHyperlinks>
+			<ThingDef>Plant_Healroot</ThingDef>
+			<ThingDef>Plant_HealrootWild</ThingDef>
+		</descriptionHyperlinks>
+		<comps>
+			<li Class="SeedsPleaseLite.CompProperties_Seed">
+				<harvestFactor>5</harvestFactor>
+				<harvestOverride>RawHealroot</harvestOverride>
+				<sources>
+					<li>Plant_Healroot</li>
+					<li>Plant_HealrootWild</li>
+				</sources>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_Cocoa</defName>
+		<label>cocoa seeds</label>
+		<graphicData>
+			<texPath>Seeds/Cocoa</texPath>
+		</graphicData>
+		<descriptionHyperlinks>
+			<ThingDef>Plant_TreeCocoa</ThingDef>
+		</descriptionHyperlinks>
+		<comps>
+			<li Class="SeedsPleaseLite.CompProperties_Seed">
+				<harvestOverride>RawCocoaBeans</harvestOverride>
+				<sources>
+					<li>Plant_TreeCocoa</li>
+				</sources>
+			</li>
+		</comps>
+	</ThingDef>
+</Defs>

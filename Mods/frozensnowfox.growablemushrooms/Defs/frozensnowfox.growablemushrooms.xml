@@ -1,25 +1,31 @@
 <Defs>
-
-  <SeedsPlease.SeedDef ParentName="SeedBase">
-    <defName>Seed_Glowstool</defName>
-    <label>Glowstool spores</label>
-    <sources>
-      <li>Glowstool</li>
-    </sources>
-    <graphicData>
-      <texPath>Seeds/Glowstool</texPath>
-    </graphicData>
-  </SeedsPlease.SeedDef>  
-
-  <SeedsPlease.SeedDef ParentName="SeedBase">
-    <defName>Seed_Agarilux</defName>
-    <label>Agarilux spores</label>
-    <sources>
-      <li>Agarilux</li>
-    </sources>
-    <graphicData>
-      <texPath>Seeds/Agarilux</texPath>
-    </graphicData>
-  </SeedsPlease.SeedDef>
-
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_Glowstool</defName>
+		<label>Glowstool spores</label>
+		<comps>
+			<li Class="SeedsPleaseLite.CompProperties_Seed">
+				<sources>
+					<li>Glowstool</li>
+				</sources>
+			</li>
+		</comps>
+		<graphicData>
+			<texPath>Seeds/Glowstool</texPath>
+		</graphicData>
+	</ThingDef>  
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_Agarilux</defName>
+		<label>Agarilux spores</label>
+		<comps>
+			<li Class="SeedsPleaseLite.CompProperties_Seed">
+				<sources>
+					<li>Agarilux</li>
+				</sources>
+			</li>
+		</comps>
+		<graphicData>
+			<texPath>Seeds/Agarilux</texPath>
+		</graphicData>
+	</ThingDef>
 </Defs>

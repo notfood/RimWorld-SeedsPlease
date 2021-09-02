@@ -1,14 +1,18 @@
 <Defs>
-	<SeedsPlease.SeedDef ParentName="SeedBase">
+	<ThingDef ParentName="SeedBase">
 		<defName>Seed_AnimaGrass</defName>
 		<label>AnimaGrass seeds</label>
-		<sources>
-			<li>Plant_DomesticatedAnimaGrass</li>
-			<li>Plant_GrassAnima</li>
-		</sources>
+		<comps>
+			<li Class="SeedsPleaseLite.CompProperties_Seed">
+				<sources>
+					<li>Plant_DomesticatedAnimaGrass</li>
+					<li>Plant_GrassAnima</li>
+				</sources>
+			</li>
+		</comps>
 		<graphicData>
 			<texPath>Seeds/Animagrass</texPath>
 		</graphicData>
-	</SeedsPlease.SeedDef>
+	</ThingDef>
 </Defs>
 
