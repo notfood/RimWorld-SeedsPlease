@@ -10,9 +10,9 @@ namespace SeedsPleaseLite
 		{		
 			//Try to determine if this is a workbench that deals with food
 			IEnumerable<Thing> building = map.thingGrid.ThingsAt(loc);
-			foreach (Thing thinghere in building)
+			foreach (var thinghere in building)
 			{
-				if (thinghere?.def.thingClass == typeof(Building_WorkTable_HeatPush) && thinghere.def.building.isMealSource) return true;
+				if (thinghere.def.building != null && thinghere.def.building.isMealSource && thinghere.def.thingClass != typeof(Building_NutrientPasteDispenser)) return true;
 			}
 
 			return new AcceptanceReport("Must be placed on a stove's surface.");

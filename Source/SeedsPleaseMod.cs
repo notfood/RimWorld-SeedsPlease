@@ -20,7 +20,7 @@ namespace SeedsPleaseLite
 
         public SeedsPleaseMod(ModContentPack content) : base(content)
         {
-            new Harmony("rimworld.seedsplease").PatchAll();
+            new Harmony(this.Content.PackageIdPlayerFacing).PatchAll();
         }
 
         public static float AssignMarketValueFromHarvest(ThingDef thingDef)
@@ -185,13 +185,20 @@ namespace SeedsPleaseLite
                     //Make the produce drop this seed when processed
                     if (thisProduce.butcherProducts.Count == 0){
                         thisProduce.butcherProducts.Add(seedToAdd);
-                    
                     }
 
                     //Give warning, or ignore if the seed is the same (which would happen if an alt plant exists like for example wild healroot)
-                    else if (thisProduce.butcherProducts[0].thingDef != seed) Log.Warning("Warning: the seed " + seed.defName + " wants to be extracted from "
+                    else if (thisProduce.butcherProducts[0].thingDef != seed) 
+                    {
+                        var priorityCurrent = thisProduce.butcherProducts[0].thingDef.GetCompProperties<CompProperties_Seed>()?.priority;
+                        var priorityNew = seedComp.priority;
+
+                        //Compare priorioty to determine winner
+                        if (priorityNew > priorityCurrent) thisProduce.butcherProducts[0] = seedToAdd;
+                        else if (priorityNew == priorityCurrent) Log.Warning("Warning: the seed " + seed.defName + " wants to be extracted from "
                      + thisProduce.defName + " but this produce already contains seeds for " + thisProduce.butcherProducts[0].thingDef.defName + 
                      ". This will need to be resolved manually, please report.");
+                    }
 
                     //Add category
                     if (!thisProduce.thingCategories.Contains(se)) {

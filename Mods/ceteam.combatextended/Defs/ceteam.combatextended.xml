@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_CEBlazebulb</defName>
@@ -9,7 +8,6 @@
 					<li>PlantBlazebulb</li>
 				</sources>
 			</li>
-			<extraChance>0.33</extraChance>
 		</comps>
 		<graphicData>
 			<texPath>Seeds/Blazebulb</texPath>

@@ -14,6 +14,7 @@ namespace SeedsPleaseLite
             public float harvestFactor = 1f; //Multiply the usual yield, usually used with harvestOverride
             public List<ThingDef> sources = new List<ThingDef> (); //List of plants this seed may come from
             public ThingDef plant = null; //??
+            public int priority = 10;
             public CompProperties_Seed()
             {
                this.compClass = typeof(CompSeed);

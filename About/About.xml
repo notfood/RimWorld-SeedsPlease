@@ -8,4 +8,11 @@
 		<li>1.3</li>
 	</supportedVersions>
 	<description>This is a forked version of Charlotte's SeedsPlease mod. A single, universal bill replaces all the single extraction bills, seeds can be eaten by animals, new seed textures by CitizenKanye, and a number of other changes. For the original mod, see: https://steamcommunity.com/sharedfiles/filedetails/?id=935732834</description>
+	<modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+		</li>
+	</modDependencies>
 </ModMetaData>

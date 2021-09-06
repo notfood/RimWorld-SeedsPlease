@@ -115,6 +115,7 @@
 				<sources>
 					<li>VCE_Beet</li>
 				</sources>
+				<priority>20</priority>
 			</li>
 		</comps>
 		<graphicData>
@@ -151,6 +152,7 @@
 				<sources>
 					<li>VCE_AppleTree</li>
 				</sources>
+				<priority>20</priority>
 			</li>
 		</comps>
 		<graphicData>
@@ -169,6 +171,7 @@
 				<sources>
 					<li>VCE_PeachTree</li>
 				</sources>
+				<priority>20</priority>
 			</li>
 		</comps>
 		<graphicData>
@@ -187,6 +190,7 @@
 				<sources>
 					<li>VCE_CherryTree</li>
 				</sources>
+				<priority>20</priority>
 			</li>
 		</comps>
 		<graphicData>
@@ -277,6 +281,7 @@
 				<sources>
 					<li>VCE_BananaTree</li>
 				</sources>
+				<priority>20</priority>
 			</li>
 		</comps>
 		<graphicData>
@@ -295,6 +300,7 @@
 				<sources>
 					<li>VCE_OrangeTree</li>
 				</sources>
+				<priority>20</priority>
 			</li>
 		</comps>
 		<graphicData>

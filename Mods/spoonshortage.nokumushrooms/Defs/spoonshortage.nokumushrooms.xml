@@ -1,13 +1,6 @@
 <Defs>
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_Noku</defName>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
-				<sources>
-					<li>PlantNoku</li>
-				</sources>
-			</li>
-		</comps>
 		<label>noku spores</label>
 		<description>Spores from noku.</description>
 		<descriptionHyperlinks>
@@ -29,6 +22,11 @@
 			<li Class="CompProperties_Glower">
 				<glowRadius>1</glowRadius>
 				<glowColor>(242,66,178,0)</glowColor>
+			</li>
+			<li Class="SeedsPleaseLite.CompProperties_Seed">
+				<sources>
+					<li>PlantNoku</li>
+				</sources>
 			</li>
 		</comps>
 	</ThingDef>

@@ -14,5 +14,8 @@
 				</sources>
 			</li>
 		</comps>
+		<graphicData>
+			<texPath>Seeds/TreeAcacia</texPath>
+		</graphicData>
 	</ThingDef>
 </Defs>

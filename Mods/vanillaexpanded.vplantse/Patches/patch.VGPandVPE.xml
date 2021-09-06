@@ -6,31 +6,31 @@
 				<operations>
 					<!--Change seed names-->
 					<li Class="PatchOperationReplace">
-						<xpath>/Defs/SeedsPlease.SeedDef[defName="Seed_VCEEggplant"]/label</xpath>
+						<xpath>/Defs/ThingDef[defName="Seed_VCEEggplant"]/label</xpath>
 						<value><label>Black beauty aubergine seeds</label></value>
 					</li>
 					<li Class="PatchOperationReplace">
-						<xpath>/Defs/SeedsPlease.SeedDef[defName="Seed_VCEPumpkin"]/label</xpath>
+						<xpath>/Defs/ThingDef[defName="Seed_VCEPumpkin"]/label</xpath>
 						<value><label>Mammoth gold pumpkin seeds</label></value>
 					</li>
 					<li Class="PatchOperationReplace">
-						<xpath>/Defs/SeedsPlease.SeedDef[defName="Seed_VCETomato"]/label</xpath>
+						<xpath>/Defs/ThingDef[defName="Seed_VCETomato"]/label</xpath>
 						<value><label>Red beefsteak tomato seeds</label></value>
 					</li>
 					<li Class="PatchOperationReplace">
-						<xpath>/Defs/SeedsPlease.SeedDef[defName="Seed_VCEAppleTree"]/label</xpath>
+						<xpath>/Defs/ThingDef[defName="Seed_VCEAppleTree"]/label</xpath>
 						<value><label>Granny smith apple seeds</label></value>
 					</li>
 					<li Class="PatchOperationReplace">
-						<xpath>/Defs/SeedsPlease.SeedDef[defName="Seed_VCEPeachTree"]/label</xpath>
+						<xpath>/Defs/ThingDef[defName="Seed_VCEPeachTree"]/label</xpath>
 						<value><label>Apricot seeds</label></value>
 					</li>
 					<li Class="PatchOperationReplace">
-						<xpath>/Defs/SeedsPlease.SeedDef[defName="Seed_VCEBananaTree"]/label</xpath>
+						<xpath>/Defs/ThingDef[defName="Seed_VCEBananaTree"]/label</xpath>
 						<value><label>Gros michel banana seeds</label></value>
 					</li>
 					<li Class="PatchOperationReplace">
-						<xpath>/Defs/SeedsPlease.SeedDef[defName="Seed_VCEOrangeTree"]/label</xpath>
+						<xpath>/Defs/ThingDef[defName="Seed_VCEOrangeTree"]/label</xpath>
 						<value><label>Mandarin seeds</label></value>
 					</li>
 				</operations>

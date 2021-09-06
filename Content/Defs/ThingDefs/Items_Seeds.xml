@@ -65,6 +65,7 @@
 				<sources>
 					<li>Plant_Potato</li>
 				</sources>
+				<priority>20</priority>
 			</li>
 		</comps>
 	</ThingDef>
@@ -83,6 +84,7 @@
 				<sources>
 					<li>Plant_Corn</li>
 				</sources>
+				<priority>20</priority>
 			</li>
 		</comps>
 	</ThingDef>
@@ -101,6 +103,7 @@
 				<sources>
 					<li>Plant_Strawberry</li>
 				</sources>
+				<priority>20</priority>
 			</li>
 		</comps>
 	</ThingDef>
@@ -119,6 +122,7 @@
 				<sources>
 					<li>Plant_Hops</li>
 				</sources>
+				<priority>20</priority>
 			</li>
 		</comps>
 	</ThingDef>
@@ -137,6 +141,7 @@
 				<sources>
 					<li>Plant_Smokeleaf</li>
 				</sources>
+				<priority>20</priority>
 			</li>
 		</comps>
 	</ThingDef>
@@ -411,6 +416,7 @@
 					<li>Plant_Cotton</li>
 				</sources>
 				<extractable>True</extractable>
+				<priority>20</priority>
 			</li>
 		</comps>
 	</ThingDef>
@@ -434,6 +440,7 @@
 					<li>Plant_Devilstrand</li>
 				</sources>
 				<extractable>True</extractable>
+				<priority>20</priority>
 			</li>
 		</comps>
 	</ThingDef>
@@ -459,6 +466,7 @@
 					<li>Plant_Healroot</li>
 					<li>Plant_HealrootWild</li>
 				</sources>
+				<priority>20</priority>
 			</li>
 		</comps>
 	</ThingDef>
@@ -478,6 +486,7 @@
 				<sources>
 					<li>Plant_TreeCocoa</li>
 				</sources>
+				<priority>20</priority>
 			</li>
 		</comps>
 	</ThingDef>

@@ -14,5 +14,8 @@
 				</sources>
 			</li>
 		</comps>
+		<graphicData>
+			<texPath>Seeds/HumpShroom</texPath>
+		</graphicData>
 	</ThingDef>
 </Defs>

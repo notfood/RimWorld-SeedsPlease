@@ -9,6 +9,9 @@
 				</sources>
 			</li>
 		</comps>
+		<graphicData>
+			<texPath>Seeds/GiantSeptimum</texPath>
+		</graphicData>
 	</ThingDef>
 	
 	<ThingDef ParentName="SeedBase">
@@ -21,11 +24,14 @@
 				</sources>
 			</li>
 		</comps>
+		<graphicData>
+			<texPath>Seeds/DeadBowerTree</texPath>
+		</graphicData>
 	</ThingDef>
 	
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_AB_Jungle</defName>
-		<label>jungle seeds</label>
+		<label>jungle tree seeds</label>
 		<comps>
 			<li Class="SeedsPleaseLite.CompProperties_Seed">
 				<sources>
@@ -33,6 +39,9 @@
 				</sources>
 			</li>
 		</comps>
+		<graphicData>
+			<texPath>Seeds/JungleTree</texPath>
+		</graphicData>
 	</ThingDef>
 	
 	<ThingDef ParentName="SeedBase">
@@ -45,6 +54,9 @@
 				</sources>
 			</li>
 		</comps>
+		<graphicData>
+			<texPath>Seeds/SessileMechanoid</texPath>
+		</graphicData>
 	</ThingDef>
 	
 	<ThingDef ParentName="SeedBase">
@@ -58,6 +70,9 @@
 				<extractable>False</extractable>
 			</li>
 		</comps>
+		<graphicData>
+			<texPath>Seeds/Glowstool</texPath>
+		</graphicData>
 	</ThingDef>
 	
 	<ThingDef ParentName="SeedBase">
@@ -71,6 +86,9 @@
 				<extractable>False</extractable>
 			</li>
 		</comps>
+		<graphicData>
+			<texPath>Seeds/LilacBeacon</texPath>
+		</graphicData>
 	</ThingDef>
 	
 	<ThingDef ParentName="SeedBase">
@@ -83,11 +101,14 @@
 				</sources>
 			</li>
 		</comps>
+		<graphicData>
+			<texPath>Seeds/WitchesOyster</texPath>
+		</graphicData>
 	</ThingDef>
 	
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_AB_AgaricusDomeCap</defName>
-		<label>agaricusdomecap seeds</label>
+		<label>agaricus domecap seeds</label>
 		<comps>
 			<li Class="SeedsPleaseLite.CompProperties_Seed">
 				<sources>
@@ -96,6 +117,9 @@
 				<extractable>False</extractable>
 			</li>
 		</comps>
+		<graphicData>
+			<texPath>Seeds/AgaricusDomeCap</texPath>
+		</graphicData>
 	</ThingDef>
 	
 	<ThingDef ParentName="SeedBase">
@@ -108,6 +132,9 @@
 				</sources>
 			</li>
 		</comps>
+		<graphicData>
+			<texPath>Seeds/Agarilux</texPath>
+		</graphicData>
 	</ThingDef>
 	
 	<ThingDef ParentName="SeedBase">
@@ -120,6 +147,9 @@
 				</sources>
 			</li>
 		</comps>
+		<graphicData>
+			<texPath>Seeds/GiantAgarilux</texPath>
+		</graphicData>
 	</ThingDef>
 	
 	<ThingDef ParentName="SeedBase">
@@ -132,6 +162,9 @@
 				</sources>
 			</li>
 		</comps>
+		<graphicData>
+			<texPath>Seeds/ArbuscularMycorrhiza</texPath>
+		</graphicData>
 	</ThingDef>
 	
 	<ThingDef ParentName="SeedBase">
@@ -144,6 +177,9 @@
 				</sources>
 			</li>
 		</comps>
+		<graphicData>
+			<texPath>Seeds/DribblingCap</texPath>
+		</graphicData>
 	</ThingDef>
 	
 	<ThingDef ParentName="SeedBase">
@@ -156,6 +192,9 @@
 				</sources>
 			</li>
 		</comps>
+		<graphicData>
+			<texPath>Seeds/RecurvedStropharia</texPath>
+		</graphicData>
 	</ThingDef>
 	
 	<ThingDef ParentName="SeedBase">
@@ -168,6 +207,9 @@
 				</sources>
 			</li>
 		</comps>
+		<graphicData>
+			<texPath>Seeds/SlimyPholiota</texPath>
+		</graphicData>
 	</ThingDef>
 	
 	<ThingDef ParentName="SeedBase">
@@ -181,6 +223,9 @@
 				<extractable>False</extractable>
 			</li>
 		</comps>
+		<graphicData>
+			<texPath>Seeds/SlimyTree</texPath>
+		</graphicData>
 	</ThingDef>
 	
 	<ThingDef ParentName="SeedBase">
@@ -193,6 +238,9 @@
 				</sources>
 			</li>
 		</comps>
+		<graphicData>
+			<texPath>Seeds/LargeSlimyTree</texPath>
+		</graphicData>
 	</ThingDef>
 	
 	<ThingDef ParentName="SeedBase">
@@ -205,6 +253,9 @@
 				</sources>
 			</li>
 		</comps>
+		<graphicData>
+			<texPath>Seeds/FanPalm</texPath>
+		</graphicData>
 	</ThingDef>
 	
 	<ThingDef ParentName="SeedBase">
@@ -217,6 +268,9 @@
 				</sources>
 			</li>
 		</comps>
+		<graphicData>
+			<texPath>Seeds/KeeningCordax</texPath>
+		</graphicData>
 	</ThingDef>
 	
 	<ThingDef ParentName="SeedBase">

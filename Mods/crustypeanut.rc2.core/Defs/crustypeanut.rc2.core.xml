@@ -9,6 +9,9 @@
 				</sources>
 			</li>
 		</comps>
+		<graphicData>
+			<texPath>Seeds/RC_Quinoa</texPath>
+		</graphicData>
 	</ThingDef>
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_Soybean</defName>
@@ -22,7 +25,7 @@
 			</li>
 		</comps>
 		<graphicData>
-			<texPath>Seeds/Bean</texPath>
+			<texPath>Seeds/RC_Bean</texPath>
 		</graphicData>
 	</ThingDef>
 	<ThingDef ParentName="SeedBase">
@@ -36,6 +39,9 @@
 				</sources>
 			</li>
 		</comps>
+		<graphicData>
+			<texPath>Seeds/RC_Pepper</texPath>
+		</graphicData>
 	</ThingDef>
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_Grapevine</defName>
@@ -48,7 +54,7 @@
 			</li>
 		</comps>
 		<graphicData>
-			<texPath>Seeds/Grape</texPath>
+			<texPath>Seeds/RC_Grape</texPath>
 		</graphicData>
 	</ThingDef>
 	<ThingDef ParentName="SeedBase">
@@ -61,6 +67,9 @@
 				</sources>
 			</li>
 		</comps>
+		<graphicData>
+			<texPath>Seeds/RC_PricklyPear</texPath>
+		</graphicData>
 	</ThingDef>
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_JuniperBush</defName>
@@ -72,6 +81,9 @@
 				</sources>
 			</li>
 		</comps>
+		<graphicData>
+			<texPath>Seeds/RC_Juniper</texPath>
+		</graphicData>
 	</ThingDef>
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_Pineapple</defName>
@@ -85,7 +97,7 @@
 			</li>
 		</comps>
 		<graphicData>
-			<texPath>Seeds/Pineapple</texPath>
+			<texPath>Seeds/RC_Pineapple</texPath>
 		</graphicData>
 	</ThingDef>
 	<ThingDef ParentName="SeedBase">
@@ -99,7 +111,7 @@
 			</li>
 		</comps>
 		<graphicData>
-			<texPath>Seeds/Wheat</texPath>
+			<texPath>Seeds/RC_Wheat</texPath>
 		</graphicData>
 	</ThingDef>
 	<ThingDef ParentName="SeedBase">
@@ -113,7 +125,7 @@
 			</li>
 		</comps>
 		<graphicData>
-			<texPath>Seeds/Oats</texPath>
+			<texPath>Seeds/RC_Oats</texPath>
 		</graphicData>
 	</ThingDef>
 	<ThingDef ParentName="SeedBase">
@@ -126,6 +138,9 @@
 				</sources>
 			</li>
 		</comps>
+		<graphicData>
+			<texPath>Seeds/RC_Barley</texPath>
+		</graphicData>
 	</ThingDef>
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_Chickpea</defName>
@@ -138,6 +153,9 @@
 				</sources>
 			</li>
 		</comps>
+		<graphicData>
+			<texPath>Seeds/RC_Chickpeas</texPath>
+		</graphicData>
 	</ThingDef>
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_Onion</defName>
@@ -151,7 +169,7 @@
 			</li>
 		</comps>
 		<graphicData>
-			<texPath>Seeds/Onion</texPath>
+			<texPath>Seeds/RC_Onion</texPath>
 		</graphicData>
 	</ThingDef>
 	<ThingDef ParentName="SeedBase">
@@ -165,6 +183,9 @@
 				</sources>
 			</li>
 		</comps>
+		<graphicData>
+			<texPath>Seeds/RC_Cabbage</texPath>
+		</graphicData>
 	</ThingDef>
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_Carrot</defName>
@@ -178,7 +199,7 @@
 			</li>
 		</comps>
 		<graphicData>
-			<texPath>Seeds/Carrot</texPath>
+			<texPath>Seeds/RC_Carrot</texPath>
 		</graphicData>
 	</ThingDef>
 	<ThingDef ParentName="SeedBase">
@@ -192,6 +213,9 @@
 				</sources>
 			</li>
 		</comps>
+		<graphicData>
+			<texPath>Seeds/RC_Beet</texPath>
+		</graphicData>
 	</ThingDef>
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_SnapPea</defName>
@@ -204,6 +228,9 @@
 				</sources>
 			</li>
 		</comps>
+		<graphicData>
+			<texPath>Seeds/RC_Peas</texPath>
+		</graphicData>
 	</ThingDef>
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_CucumberVine</defName>
@@ -216,6 +243,9 @@
 				</sources>
 			</li>
 		</comps>
+		<graphicData>
+			<texPath>Seeds/RC_Cucumber</texPath>
+		</graphicData>
 	</ThingDef>
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_SugarBeet</defName>
@@ -228,6 +258,9 @@
 				</sources>
 			</li>
 		</comps>
+		<graphicData>
+			<texPath>Seeds/RC_SugarBeet</texPath>
+		</graphicData>
 	</ThingDef>
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_CoffeeBush</defName>
@@ -241,7 +274,7 @@
 			</li>
 		</comps>
 		<graphicData>
-			<texPath>Seeds/Coffee</texPath>
+			<texPath>Seeds/RC_Coffee</texPath>
 		</graphicData>
 	</ThingDef>
 	<ThingDef ParentName="SeedBase">
@@ -256,7 +289,7 @@
 			</li>
 		</comps>
 		<graphicData>
-			<texPath>Seeds/Tea</texPath>
+			<texPath>Seeds/RC_Tea</texPath>
 		</graphicData>
 	</ThingDef>
 	<ThingDef ParentName="SeedBase">
@@ -269,6 +302,9 @@
 				</sources>
 			</li>
 		</comps>
+		<graphicData>
+			<texPath>Seeds/RC_Melon</texPath>
+		</graphicData>
 	</ThingDef>
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_CitrusTree</defName>
@@ -280,6 +316,9 @@
 				</sources>
 			</li>
 		</comps>
+		<graphicData>
+			<texPath>Seeds/RC_Orange</texPath>
+		</graphicData>
 	</ThingDef>
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_AppleTree</defName>
@@ -292,7 +331,7 @@
 			</li>
 		</comps>
 		<graphicData>
-			<texPath>Seeds/Apple</texPath>
+			<texPath>Seeds/RC_Apple</texPath>
 		</graphicData>
 	</ThingDef>
 	<ThingDef ParentName="SeedBase">
@@ -305,6 +344,9 @@
 				</sources>
 			</li>
 		</comps>
+		<graphicData>
+			<texPath>Seeds/RC_Plum</texPath>
+		</graphicData>
 	</ThingDef>
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_PeachTree</defName>
@@ -317,7 +359,7 @@
 			</li>
 		</comps>
 		<graphicData>
-			<texPath>Seeds/Peach</texPath>
+			<texPath>Seeds/RC_Peach</texPath>
 		</graphicData>
 	</ThingDef>
 	<ThingDef ParentName="SeedBase">
@@ -330,6 +372,9 @@
 				</sources>
 			</li>
 		</comps>
+		<graphicData>
+			<texPath>Seeds/RC_Fig</texPath>
+		</graphicData>
 	</ThingDef>
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_PomegranateTree</defName>
@@ -341,6 +386,9 @@
 				</sources>
 			</li>
 		</comps>
+		<graphicData>
+			<texPath>Seeds/RC_Pomegranate</texPath>
+		</graphicData>
 	</ThingDef>
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_BananaTree</defName>
@@ -353,7 +401,7 @@
 			</li>
 		</comps>
 		<graphicData>
-			<texPath>Seeds/Banana</texPath>
+			<texPath>Seeds/RC_Banana</texPath>
 		</graphicData>
 	</ThingDef>
 	<ThingDef ParentName="SeedBase">
@@ -366,6 +414,9 @@
 				</sources>
 			</li>
 		</comps>
+		<graphicData>
+			<texPath>Seeds/RC_Coconut</texPath>
+		</graphicData>
 	</ThingDef>
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_BreadfruitTree</defName>
@@ -377,6 +428,9 @@
 				</sources>
 			</li>
 		</comps>
+		<graphicData>
+			<texPath>Seeds/RC_Breadfruit</texPath>
+		</graphicData>
 	</ThingDef>
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_PecanTree</defName>
@@ -388,6 +442,9 @@
 				</sources>
 			</li>
 		</comps>
+		<graphicData>
+			<texPath>Seeds/RC_Pecan</texPath>
+		</graphicData>
 	</ThingDef>
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_CocoaTree</defName>
@@ -401,7 +458,7 @@
 			</li>
 		</comps>
 		<graphicData>
-			<texPath>Seeds/Cocoa</texPath>
+			<texPath>Seeds/RC_Cocoa</texPath>
 		</graphicData>
 	</ThingDef>
 	<ThingDef ParentName="SeedBase">
@@ -414,6 +471,9 @@
 				</sources>
 			</li>
 		</comps>
+		<graphicData>
+			<texPath>Seeds/RC_SugarMaple</texPath>
+		</graphicData>
 	</ThingDef>
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_DurianTree</defName>
@@ -425,6 +485,9 @@
 				</sources>
 			</li>
 		</comps>
+		<graphicData>
+			<texPath>Seeds/RC_Durian</texPath>
+		</graphicData>
 	</ThingDef>
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_CherryTree</defName>
@@ -436,6 +499,9 @@
 				</sources>
 			</li>
 		</comps>
+		<graphicData>
+			<texPath>Seeds/RC_Cherry</texPath>
+		</graphicData>
 	</ThingDef>
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_Sorghum</defName>
@@ -447,6 +513,9 @@
 				</sources>
 			</li>
 		</comps>
+		<graphicData>
+			<texPath>Seeds/RC_Sorghum</texPath>
+		</graphicData>
 	</ThingDef>
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_Tomato</defName>
@@ -460,7 +529,7 @@
 			</li>
 		</comps>
 		<graphicData>
-			<texPath>Seeds/Tomato</texPath>
+			<texPath>Seeds/RC_Tomato</texPath>
 		</graphicData>
 	</ThingDef>
 	<ThingDef ParentName="SeedBase">
@@ -474,6 +543,9 @@
 				</sources>
 			</li>
 		</comps>
+		<graphicData>
+			<texPath>Seeds/RC_Yam</texPath>
+		</graphicData>
 	</ThingDef>
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_AsparagusShoots</defName>
@@ -486,10 +558,13 @@
 				</sources>
 			</li>
 		</comps>
+		<graphicData>
+			<texPath>Seeds/RC_Asparagus</texPath>
+		</graphicData>
 	</ThingDef>
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_CommonMushrooms</defName>
-		<label>common mushrooms seeds</label>
+		<label>common mushrooms spores</label>
 		<comps>
 			<li Class="SeedsPleaseLite.CompProperties_Seed">
 				<sources>
@@ -500,12 +575,12 @@
 			</li>
 		</comps>
 		<graphicData>
-			<texPath>Seeds/Mushroom</texPath>
+			<texPath>Seeds/RC_Mushroom</texPath>
 		</graphicData>
 	</ThingDef>
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_Eggplant</defName>
-		<label>egg seeds</label>
+		<label>eggplant seeds</label>
 		<comps>
 			<li Class="SeedsPleaseLite.CompProperties_Seed">
 				<sources>
@@ -514,7 +589,7 @@
 			</li>
 		</comps>
 		<graphicData>
-			<texPath>Seeds/Eggplant</texPath>
+			<texPath>Seeds/RC_Eggplant</texPath>
 		</graphicData>
 	</ThingDef>
 	<ThingDef ParentName="SeedBase">
@@ -527,6 +602,9 @@
 				</sources>
 			</li>
 		</comps>
+		<graphicData>
+			<texPath>Seeds/Agave</texPath>
+		</graphicData>
 	</ThingDef>
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_PumpkinVine</defName>
@@ -539,7 +617,7 @@
 			</li>
 		</comps>
 		<graphicData>
-			<texPath>Seeds/Pumpkin</texPath>
+			<texPath>Seeds/RC_Pumpkin</texPath>
 		</graphicData>
 	</ThingDef>
 	<ThingDef ParentName="SeedBase">
@@ -553,7 +631,7 @@
 			</li>
 		</comps>
 		<graphicData>
-			<texPath>Seeds/Sugarcane</texPath>
+			<texPath>Seeds/RC_Sugarcane</texPath>
 		</graphicData>
 	</ThingDef>
 </Defs>

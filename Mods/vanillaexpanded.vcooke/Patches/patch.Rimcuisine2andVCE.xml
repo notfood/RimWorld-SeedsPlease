@@ -6,7 +6,7 @@
 				<operations>
 					<!--Change seed names-->
 					<li Class="PatchOperationReplace">
-						<xpath>/Defs/SeedsPlease.SeedDef[defName="Seed_VCEWheat"]/label</xpath>
+						<xpath>/Defs/ThingDef[defName="Seed_VCEWheat"]/label</xpath>
 						<value><label>Spelt seeds</label></value>
 					</li>
 				</operations>

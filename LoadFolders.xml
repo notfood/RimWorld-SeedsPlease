@@ -2,7 +2,7 @@
 <loadFolders>
 	<v1.3>
 		<li>Content</li>
-		<li IfModActive="ludeon.rimworld.ideology">Mods/__ludeon.rimworld.ideology</li>
+		<li IfModActive="ludeon.rimworld.ideology">Mods/ludeon.rimworld.ideology</li>
 		<li IfModActive="atlas.materialsplus.at">Mods/atlas.materialsplus.at</li>
 		<li IfModActive="biomesteam.biomesislands">Mods/biomesteam.biomesislands</li>
 		<li IfModActive="ceteam.combatextended">Mods/ceteam.combatextended</li>
@@ -67,5 +67,7 @@
 		<li IfModActive="jelly.wildcultivation">Mods/jelly.wildcultivation</li>
 		<li IfModActive="biomesteam.oasis">Mods/biomesteam.oasis</li>
 		<li IfModActive="mlie.vegetablegardenlite">Mods/mlie.vegetablegardenlite</li>
+		<li IfModActive="yoann.regrowthungrowablepatch">Mods/yoann.regrowthungrowablepatch</li>
+		<li IfModActive="oskarpotocki.vanillafactionsexpanded.core">Mods/oskarpotocki.vanillafactionsexpanded.core</li>
 	</v1.3>
 </loadFolders>
