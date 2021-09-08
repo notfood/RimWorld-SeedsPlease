@@ -2,13 +2,13 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_RG-BF_BluePine</defName>
 		<label>Blue pine seeds</label>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>RG-BF_Plant_BlueTreePine</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 		<graphicData>
 			<texPath>Seeds/BluePine</texPath>
 		</graphicData>
@@ -20,13 +20,13 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_RG-BF_OrangePine</defName>
 		<label>Orange pine seeds</label>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>RG-BF_Plant_OrangeTreePine</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 		<graphicData>
 			<texPath>Seeds/OrangePine</texPath>
 		</graphicData>
@@ -38,13 +38,13 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_RG-BF_LargePine</defName>
 		<label>Large pine seeds</label>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>RG-BF_Plant_LargeTreePine</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 		<graphicData>
 			<texPath>Seeds/LargePine</texPath>
 		</graphicData>
@@ -56,14 +56,14 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_RG-BF_Potokus</defName>
 		<label>Potokus seeds</label>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>RG-BF_Plant_Potokus</li>
 				</sources>
 				<extractable>False</extractable>
 			</li>
-		</comps>
+		</modExtensions>
 		<graphicData>
 			<texPath>Seeds/Potokus</texPath>
 		</graphicData>

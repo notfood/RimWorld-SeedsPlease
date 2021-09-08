@@ -2,13 +2,13 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_PawnmorpherChaobulb</defName>
 		<label>Chaobulb seedpod seeds</label>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>Plant_ChaoBulb_Domestic</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 		<graphicData>
 			<texPath>Seeds/Chaobulb</texPath>
 		</graphicData>

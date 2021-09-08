@@ -7,13 +7,13 @@
 		<descriptionHyperlinks>
 			<ThingDef>TSFPlant_TreeBlossom</ThingDef>
 		</descriptionHyperlinks>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>TSFPlant_TreeBlossom</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 		<graphicData>
 			<texPath>Seeds/TreeBlossom</texPath>
 		</graphicData>

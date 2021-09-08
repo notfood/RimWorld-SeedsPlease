@@ -2,13 +2,13 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_RG-D_AngelWingsCactus</defName>
 		<label>Angel wings cactus seeds</label>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>RG-D_Plant_AngelWingsCactus</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 		<graphicData>
 			<texPath>Seeds/AngelWingsCactus</texPath>
 		</graphicData>
@@ -17,13 +17,13 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_RG-D_DesertPalm</defName>
 		<label>Desert palm seeds</label>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>RG-D_Plant_DesertPalmTree</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 		<graphicData>
 			<texPath>Seeds/Palm</texPath>
 		</graphicData>

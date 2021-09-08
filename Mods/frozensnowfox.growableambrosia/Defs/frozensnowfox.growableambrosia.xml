@@ -1,15 +1,15 @@
 <Defs>
 	<ThingDef ParentName="SeedBase">
-		<defName>Seed_Ambrosia</defName>
-		<label>Ambrosia seeds</label>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<defName>Seed_GAAmbrosia</defName>
+		<label>ambrosia seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>Plant_Ambrosia</li>
 				</sources>
 				<extractable>False</extractable>
 			</li>
-		</comps>
+		</modExtensions>
 		<graphicData>
 			<texPath>Seeds/Ambrosia</texPath>
 		</graphicData>

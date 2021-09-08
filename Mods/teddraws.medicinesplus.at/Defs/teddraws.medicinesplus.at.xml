@@ -4,13 +4,13 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_CrimsonBulb</defName>
 		<label>crimson bulb seeds</label>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>PlantCrimsonBulb</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 		<graphicData>
 			<texPath>Seeds/CrimsonBulb</texPath>
 		</graphicData>
@@ -21,13 +21,13 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_ThornWeed</defName>
 		<label>thornweed seeds</label>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>PlantThornWeed</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 		<graphicData>
 			<texPath>Seeds/ThornWeed</texPath>
 		</graphicData>
@@ -38,13 +38,13 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_Peyote</defName>
 		<label>peyote seeds</label>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>PlantPeyote</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 		<graphicData>
 			<texPath>Seeds/Peyote</texPath>
 		</graphicData>
@@ -55,13 +55,13 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_Papaver</defName>
 		<label>papaver seeds</label>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>PlantPapaver</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 		<graphicData>
 			<texPath>Seeds/Papaver</texPath>
 		</graphicData>

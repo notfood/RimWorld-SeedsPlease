@@ -7,13 +7,13 @@
 		<descriptionHyperlinks>
 			<ThingDef>RRP_TreeAcacia</ThingDef>
 		</descriptionHyperlinks>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>RRP_TreeAcacia</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 		<graphicData>
 			<texPath>Seeds/TreeAcacia</texPath>
 		</graphicData>

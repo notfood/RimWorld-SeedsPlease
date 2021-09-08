@@ -5,14 +5,14 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_Vanoroot</defName>
 		<label>vanoroot seeds</label>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>Plant_Vanoroot</li>
 				</sources>
 				<extractable>False</extractable>
 			</li>
-		</comps>
+		</modExtensions>
 		<graphicData>
 			<texPath>Seeds/Vanoroot</texPath>
 		</graphicData>
@@ -27,14 +27,14 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_Slaughtermelon</defName>
 		<label>slaughtermelon seeds</label>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>Plant_Slaughtermelon</li>
 				</sources>
 				<extractable>False</extractable>
 			</li>
-		</comps>
+		</modExtensions>
 		<graphicData>
 			<texPath>Seeds/Slaughtermelon</texPath>
 		</graphicData>
@@ -49,14 +49,14 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_Pharma</defName>
 		<label>pharma seeds</label>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>Plant_Pharmatree</li>
 				</sources>
 				<extractable>False</extractable>
 			</li>
-		</comps>
+		</modExtensions>
 		<graphicData>
 			<texPath>Seeds/Pharmatree</texPath>
 		</graphicData>
@@ -71,14 +71,14 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_Meatbush</defName>
 		<label>meatbush seeds</label>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>Plant_Meatbush</li>
 				</sources>
 				<extractable>False</extractable>
 			</li>
-		</comps>
+		</modExtensions>
 		<graphicData>
 			<texPath>Seeds/Meatbush</texPath>
 		</graphicData>
@@ -93,14 +93,14 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_AmbrosiaArchotech</defName>
 		<label>archotech ambrosia seeds</label>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>Plant_AmbrosiaArchotech</li>
 				</sources>
 				<extractable>False</extractable>
 			</li>
-		</comps>
+		</modExtensions>
 		<graphicData>
 			<texPath>Seeds/Ambrosia</texPath>
 		</graphicData>

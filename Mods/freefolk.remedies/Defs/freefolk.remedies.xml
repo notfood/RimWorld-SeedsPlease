@@ -7,12 +7,12 @@
 		<descriptionHyperlinks>
 			<ThingDef>FF_Plant_PoisonIvy</ThingDef>
 		</descriptionHyperlinks>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>FF_Plant_PoisonIvy</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 	</ThingDef>
 </Defs>

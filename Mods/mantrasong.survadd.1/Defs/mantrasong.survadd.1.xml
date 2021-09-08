@@ -2,13 +2,13 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_SRV_Turnip</defName>
 		<label>Turnip seeds</label>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>SRV_PlantTurnip</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 		<graphicData>
 			<texPath>Seeds/Turnip</texPath>
 		</graphicData>
@@ -17,13 +17,13 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_SRV_Cabbage</defName>
 		<label>Cabbage seeds</label>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>SRV_PlantCabbage</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 		<graphicData>
 			<texPath>Seeds/Cabbage</texPath>
 		</graphicData>
@@ -32,13 +32,13 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_SRV_CultivatedJute</defName>
 		<label>Cultivated jute seeds</label>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>SRV_CultivatedJute</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 		<graphicData>
 			<texPath>Seeds/CultivatedJute</texPath>
 		</graphicData>

@@ -7,13 +7,13 @@
 		<descriptionHyperlinks>
 			<ThingDef>RG-AF_Plant_TreeAspenRed</ThingDef>
 		</descriptionHyperlinks>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>RG-AF_Plant_TreeAspenRed</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 		<graphicData>
      			<texPath>Seeds/RedAspen</texPath>
       		</graphicData>
@@ -27,13 +27,13 @@
 		<descriptionHyperlinks>
 			<ThingDef>RG-AF_Plant_TreeAspenYellow</ThingDef>
 		</descriptionHyperlinks>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>RG-AF_Plant_TreeAspenYellow</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 		<graphicData>
      			<texPath>Seeds/YellowAspen</texPath>
       		</graphicData>

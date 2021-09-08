@@ -7,13 +7,13 @@
 		<descriptionHyperlinks>
 			<ThingDef>BMT_Shimmershroom</ThingDef>
 		</descriptionHyperlinks>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>BMT_Shimmershroom</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 		<graphicData>
 			<texPath>Seeds/Shimmershroom</texPath>
 		</graphicData>
@@ -27,13 +27,13 @@
 		<descriptionHyperlinks>
 			<ThingDef>BMT_Glowbulb</ThingDef>
 		</descriptionHyperlinks>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>BMT_Glowbulb</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 		<graphicData>
 			<texPath>Seeds/Glowbulb</texPath>
 		</graphicData>
@@ -47,13 +47,13 @@
 		<descriptionHyperlinks>
 			<ThingDef>BMT_Greyfields</ThingDef>
 		</descriptionHyperlinks>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>BMT_Greyfields</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 		<graphicData>
 			<texPath>Seeds/Greyfields</texPath>
 		</graphicData>
@@ -67,13 +67,13 @@
 		<descriptionHyperlinks>
 			<ThingDef>BMT_RoyalBracket</ThingDef>
 		</descriptionHyperlinks>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>BMT_RoyalBracket</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 		<graphicData>
 			<texPath>Seeds/RoyalBracket</texPath>
 		</graphicData>
@@ -87,13 +87,13 @@
 		<descriptionHyperlinks>
 			<ThingDef>BMT_Gleamcap</ThingDef>
 		</descriptionHyperlinks>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>BMT_Gleamcap</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 		<graphicData>
 			<texPath>Seeds/Gleamcap</texPath>
 		</graphicData>

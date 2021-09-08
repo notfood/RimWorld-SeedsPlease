@@ -2,13 +2,13 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_Flax</defName>
 		<label>flax seeds</label>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>PlantFlax</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 		<graphicData><texPath>Seeds/Flax</texPath></graphicData>
 	</ThingDef>
 </Defs>

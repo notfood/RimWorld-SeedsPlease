@@ -2,13 +2,13 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_VCEAllspice</defName>
 		<label>Allspice seeds</label>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>VCE_Allspice</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 		<graphicData>
 			<texPath>Seeds/Allspice</texPath>
 		</graphicData>
@@ -20,13 +20,13 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_VCESugarcane</defName>
 		<label>Sugarcane seeds</label>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>VCE_Sugarcane</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 		<graphicData>
 			<texPath>Seeds/Sugarcane</texPath>
 		</graphicData>
@@ -38,13 +38,13 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_VCEWheat</defName>
 		<label>Wheat seeds</label>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>VCE_Wheat</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 		<graphicData>
 			<texPath>Seeds/Wheat</texPath>
 		</graphicData>

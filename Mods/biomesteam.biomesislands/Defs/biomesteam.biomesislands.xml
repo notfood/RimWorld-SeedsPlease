@@ -2,13 +2,13 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_BiomesIslands_Orange</defName>
 		<label>orange seeds</label>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>BiomesIslands_OrangeTree</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 		<graphicData>
 			<texPath>Seeds/OrangeTree</texPath>
 		</graphicData>
@@ -17,43 +17,43 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_BiomesIslands_Pineappleplant</defName>
 		<label>pineapple seeds</label>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>BiomesIslands_Pineappleplant</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 		<graphicData>
 			<texPath>Seeds/Pineappleplant</texPath>
 		</graphicData>
 	</ThingDef>
 	
 	<ThingDef ParentName="SeedBase">
-		<defName>Seed_Coconut</defName>
+		<defName>Seed_BICoconut</defName>
 		<label>coconut seeds</label>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>BiomesIslands_CoconutPalm</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 		<graphicData>
 			<texPath>Seeds/CoconutPalm</texPath>
 		</graphicData>
 	</ThingDef>
 	
 	<ThingDef ParentName="SeedBase">
-		<defName>Seed_Banana</defName>
+		<defName>Seed_BIBanana</defName>
 		<label>banana seeds</label>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>BiomesIslands_BananaPlant</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 		<graphicData>
 			<texPath>Seeds/BananaPlant</texPath>
 		</graphicData>
@@ -62,13 +62,13 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_DevilsClaw</defName>
 		<label>devilsclaw seeds</label>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>BiomesIslands_DevilsClawTree</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 		<graphicData>
 			<texPath>Seeds/DevilsClawTree</texPath>
 		</graphicData>
@@ -81,13 +81,13 @@
 		<descriptionHyperlinks>
 			<ThingDef>BiomesIslands_WindsweptTree</ThingDef>
 		</descriptionHyperlinks>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>BiomesIslands_WindsweptTree</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 		<graphicData>
 			<texPath>Seeds/WindsweptTree</texPath>
 		</graphicData>

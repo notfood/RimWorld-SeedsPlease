@@ -3,6 +3,9 @@ using System.Linq;
 
 namespace Verse
 {
+	/// <summary>
+	/// This is responsible for the seed extraction recipe's ability to do the "Do until X" bill type, explaining how/what to count.
+	/// </summary>
 	public class RecipeWorkerCounter_ExtractSeeds : RecipeWorkerCounter
 	{
 		public override bool CanCountProducts(Bill_Production bill)

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 	<Operation Class="PatchOperationAdd">
-		<xpath>/Defs[not(ThingDef[defName=""])]</xpath>
+		<xpath>/Defs[not(ThingDef[defName="Seed_Rose"])]</xpath>
 		<value>
 			<ThingDef ParentName="SeedBase">
 				<defName>Seed_Rose</defName>
@@ -9,13 +9,13 @@
 				<descriptionHyperlinks>
 					<ThingDef>Plant_Rose</ThingDef>
 				</descriptionHyperlinks>
-				<comps>
-					<li Class="SeedsPleaseLite.CompProperties_Seed">
+				<modExtensions>
+					<li Class="SeedsPleaseLite.Seed">
 						<sources>
 							<li>Plant_Rose</li>
 						</sources>
 					</li>
-				</comps>
+				</modExtensions>
 			</ThingDef>
 		</value>
 	</Operation>

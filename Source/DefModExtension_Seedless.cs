@@ -2,7 +2,7 @@ using Verse;
 
 namespace SeedsPleaseLite
 {
-	public class CompSeed : ThingComp
+	public class Seedless : DefModExtension
 	{
 		
 	}

@@ -7,13 +7,13 @@
 		<descriptionHyperlinks>
 			<ThingDef>PlantHumpShroom</ThingDef>
 		</descriptionHyperlinks>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>PlantHumpShroom</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 		<graphicData>
 			<texPath>Seeds/HumpShroom</texPath>
 		</graphicData>

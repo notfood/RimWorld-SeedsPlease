@@ -2,13 +2,14 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_CEBlazebulb</defName>
 		<label>Blazebulb seeds</label>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>PlantBlazebulb</li>
 				</sources>
+			<extraChance>0.33</extraChance>
 			</li>
-		</comps>
+		</modExtensions>
 		<graphicData>
 			<texPath>Seeds/Blazebulb</texPath>
 		</graphicData>

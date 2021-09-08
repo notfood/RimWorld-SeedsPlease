@@ -2,14 +2,14 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_RG-B_Volopus</defName>
 		<label>Volopus spores</label>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>RG-B_Plant_Volopus</li>
 				</sources>
 				<extractable>False</extractable>
 			</li>
-		</comps>
+		</modExtensions>
 		<graphicData>
 			<texPath>Seeds/Volopus</texPath>
 		</graphicData>
@@ -18,13 +18,13 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_RG-CB_SprucePine</defName>
 		<label>Spruce pine seeds</label>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>RG-CB_Plant_SpruceTreePine</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 		<graphicData>
 			<texPath>Seeds/SprucePine</texPath>
 		</graphicData>
@@ -33,13 +33,13 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_RG-CB_Karim</defName>
 		<label>Karim seeds</label>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>RG-CB_Plant_KarimTree</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 		<graphicData>
 			<texPath>Seeds/Karim</texPath>
 		</graphicData>

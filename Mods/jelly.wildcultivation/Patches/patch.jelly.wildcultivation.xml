@@ -4,14 +4,14 @@
 			<!-- Tall grass -->
 			<li Class="PatchOperationAdd">
 				<success>Always</success>
-				<xpath>Defs/ThingDef[defName = "SeedGlowstool"]</xpath>
+				<xpath>Defs/ThingDef[defName = "SeedGlowstool"]/modExtensions/li[@Class="SeedsPleaseLite.Seed"]</xpath>
 				<value>
 					<extractable>False</extractable>
 				</value>
 			</li>
 			<li Class="PatchOperationAdd">
 				<success>Always</success>
-				<xpath>Defs/ThingDef[defName = "SeedAgarilux"]</xpath>
+				<xpath>Defs/ThingDef[defName = "SeedAgarilux"]/modExtensions/li[@Class="SeedsPleaseLite.Seed"]</xpath>
 				<value>
 					<extractable>False</extractable>
 				</value>

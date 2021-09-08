@@ -1,14 +1,14 @@
 <Defs>
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_ForsakensRagadast</defName>
-		<label>Ragadast seeds</label>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<label>ragadast seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>PlantRagadast</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 		<graphicData>
 			<texPath>Seeds/Ragadast</texPath>
 		</graphicData>
@@ -16,61 +16,46 @@
 	
     <ThingDef ParentName="SeedBase">
 		<defName>Seed_ForsakensStikehr</defName>
-		<label>Stikehr seeds</label>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<label>stikehr seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>PlantStikehr</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 		<graphicData>
 			<texPath>Seeds/Stikehr</texPath>
 		</graphicData>
 	</ThingDef>
 	
 	<ThingDef ParentName="SeedBase">
-		<defName>Seed_ForsakensKaleidos</defName>
-		<label>Kaleidos seeds</label>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
-				<sources>
-					<li>PlantKaleidos</li>
-				</sources>
-			</li>
-		</comps>
-		<graphicData>
-			<texPath>Seeds/Kaleidos</texPath>
-		</graphicData>
-	</ThingDef>
-	
-	<ThingDef ParentName="SeedBase">
 		<defName>Seed_ForsakensUltraviolett</defName>
-		<label>Ultraviolett seeds</label>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<label>ultraviolett seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
-					<li>PlantUltraviolett</li>
+					<li>FF_PlantUltraviolett</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 		<graphicData>
 			<texPath>Seeds/Ultraviolett</texPath>
 		</graphicData>
 	</ThingDef>
 	
-    <ThingDef ParentName="SeedBase">
-		<defName>Seed_ForsakensSeptimum</defName>
-		<label>Septimum seeds</label>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_FF_Ultima</defName>
+		<label>ultima seeds</label>
+		<descriptionHyperlinks>
+			<ThingDef>FF_Ultima</ThingDef>
+		</descriptionHyperlinks>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
-					<li>Septimum</li>
+					<li>FF_Ultima</li>
 				</sources>
 			</li>
-		</comps>
-		<graphicData>
-			<texPath>Seeds/Septimum</texPath>
-		</graphicData>
+		</modExtensions>
 	</ThingDef>
 </Defs>

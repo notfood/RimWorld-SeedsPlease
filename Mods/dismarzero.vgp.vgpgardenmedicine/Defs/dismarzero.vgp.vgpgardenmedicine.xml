@@ -4,27 +4,27 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_Neutroflower</defName>
 		<label>neutroflower seeds</label>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>PlantNeutroFlower</li>
 				</sources>
 				<extractable>False</extractable>
 			</li>
-		</comps>
+		</modExtensions>
 		<graphicData><texPath>Seeds/NeutroFlower</texPath></graphicData>
 	</ThingDef>
 	
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_Tobacco</defName>
 		<label>tobacco seeds</label>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>PlantTobacco</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 		<graphicData><texPath>Seeds/Tobacco</texPath></graphicData>
 	</ThingDef>
 </Defs>

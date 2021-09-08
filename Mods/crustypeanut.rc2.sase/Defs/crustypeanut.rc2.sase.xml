@@ -2,29 +2,14 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_RC2-SASEDreamflower</defName>
 		<label>dreamflower seeds</label>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>RC2_PlantDreamflower</li>
-				</sources>
-			</li>
-		</comps>
-		<graphicData>
-			<texPath>Seeds/Dreamflower</texPath>
-		</graphicData>
-	</ThingDef>
-	
-	<ThingDef ParentName="SeedBase">
-		<defName>Seed_RC2-SASEDreamflowerHydro</defName>
-		<label>dreamflowerhydro seeds</label>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
-				<sources>
 					<li>RC2_PlantDreamflowerHydro</li>
 				</sources>
-				<extractable>False</extractable>
 			</li>
-		</comps>
+		</modExtensions>
 		<graphicData>
 			<texPath>Seeds/Dreamflower</texPath>
 		</graphicData>
@@ -33,29 +18,14 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_RC2-SASETobacco</defName>
 		<label>tobacco seeds</label>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>RC2_PlantTobacco</li>
-				</sources>
-			</li>
-		</comps>
-		<graphicData>
-			<texPath>Seeds/Tobacco</texPath>
-		</graphicData>
-	</ThingDef>
-	
-	<ThingDef ParentName="SeedBase">
-		<defName>Seed_RC2-SASETobaccoHydro</defName>
-		<label>tobaccohydro seeds</label>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
-				<sources>
 					<li>RC2_PlantTobaccoHydro</li>
 				</sources>
-				<extractable>False</extractable>
 			</li>
-		</comps>
+		</modExtensions>
 		<graphicData>
 			<texPath>Seeds/Tobacco</texPath>
 		</graphicData>
@@ -64,29 +34,14 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_RC2-SASEShrooms</defName>
 		<label>shrooms seeds</label>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>RC2_PlantShrooms</li>
-				</sources>
-			</li>
-		</comps>
-		<graphicData>
-			<texPath>Seeds/Shroom</texPath>
-		</graphicData>
-	</ThingDef>
-	
-	<ThingDef ParentName="SeedBase">
-		<defName>Seed_RC2-SASEShroomsHydro</defName>
-		<label>shroomshydro seeds</label>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
-				<sources>
 					<li>RC2_PlantShroomsHydro</li>
 				</sources>
-				<extractable>False</extractable>
 			</li>
-		</comps>
+		</modExtensions>
 		<graphicData>
 			<texPath>Seeds/Shroom</texPath>
 		</graphicData>

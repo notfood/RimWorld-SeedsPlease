@@ -2,14 +2,14 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_VFE-SChemroot</defName>
 		<label>Chemroot seeds</label>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>Plant_Chemroot</li>
 				</sources>
 				<extractable>False</extractable>
 			</li>
-		</comps>
+		</modExtensions>
 		<graphicData>
 			<texPath>Seeds/Chemroot</texPath>
 		</graphicData>

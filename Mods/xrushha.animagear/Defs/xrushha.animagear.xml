@@ -2,14 +2,14 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_AnimaGrass</defName>
 		<label>AnimaGrass seeds</label>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>Plant_DomesticatedAnimaGrass</li>
 					<li>Plant_GrassAnima</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 		<graphicData>
 			<texPath>Seeds/Animagrass</texPath>
 		</graphicData>

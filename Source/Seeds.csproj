@@ -41,13 +41,12 @@
     <Compile Include="Patches/Patch_DefGenerator.cs" />
     <Compile Include="Patches/Patch_PossiblePodContentsDefs.cs" />
     <Compile Include="Patches/Patch_YieldNow.cs" />
-    <Compile Include="CompProperties_Seed.cs" />
-    <Compile Include="CompSeed.cs" />
-    <Compile Include="CompSeedless.cs" />
+    <Compile Include="DefModExtension_Seed.cs" />
+    <Compile Include="DefModExtension_Seedless.cs" />
     <Compile Include="JobDriver_PlantSowWithSeeds.cs" />
     <Compile Include="RecipeWorkerCounter_ExtractSeeds.cs" />
     <Compile Include="ResourceBank.cs" />
-    <Compile Include="SeedsPleaseMod.cs" />
+    <Compile Include="Mod_SeedsPlease.cs" />
     <Compile Include="WorkGiver_GrowerSowWithSeeds.cs" />
     <Compile Include="WorkPlacer_OnlyOnBench.cs" />
   </ItemGroup>

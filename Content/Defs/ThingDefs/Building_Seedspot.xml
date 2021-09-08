@@ -46,6 +46,12 @@
 			<li>
 				<compClass>CompReportWorkSpeed</compClass>
 			</li>
+			<li MayRequire="oskarpotocki.vanillafactionsexpanded.core" Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+				<randomGraphics>
+					<li>SeedProcessingSpot</li>
+					<li>transparent</li>
+				</randomGraphics>
+			</li>
 		</comps>
 		<designationHotKey>Misc1</designationHotKey>
 		<placeWorkers>

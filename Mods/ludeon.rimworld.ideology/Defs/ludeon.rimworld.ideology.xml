@@ -8,14 +8,14 @@
 		<descriptionHyperlinks>
 			<ThingDef>Plant_Nutrifungus</ThingDef>
 		</descriptionHyperlinks>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>Plant_Nutrifungus</li>
 				</sources>
 				<priority>20</priority>
 			</li>
-		</comps>
+		</modExtensions>
 	</ThingDef>
 	
 	<ThingDef ParentName="SeedBase">
@@ -27,13 +27,13 @@
 		<descriptionHyperlinks>
 			<ThingDef>Plant_TreeBonsai</ThingDef>
 		</descriptionHyperlinks>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>Plant_TreeBonsai</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 	</ThingDef>
 	
 	<ThingDef ParentName="SeedBase">
@@ -45,13 +45,13 @@
 		<descriptionHyperlinks>
 			<ThingDef>Plant_Fibercorn</ThingDef>
 		</descriptionHyperlinks>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>Plant_Fibercorn</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 	</ThingDef>
 	
 	<ThingDef ParentName="SeedBase">
@@ -63,13 +63,13 @@
 		<descriptionHyperlinks>
 			<ThingDef>Plant_Timbershroom</ThingDef>
 		</descriptionHyperlinks>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>Plant_Timbershroom</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 	</ThingDef>
 	
 	<ThingDef ParentName="SeedBase">
@@ -81,14 +81,14 @@
 		<descriptionHyperlinks>
 			<ThingDef>Plant_Tinctoria</ThingDef>
 		</descriptionHyperlinks>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>Plant_Tinctoria</li>
 				</sources>
 				<harvestOverride>RawTinctoria</harvestOverride>
 				<harvestFactor>4</harvestFactor>
 			</li>
-		</comps>
+		</modExtensions>
 	</ThingDef>
 </Defs>

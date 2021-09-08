@@ -1,29 +1,29 @@
 <Defs>
 	<ThingDef ParentName="SeedBase">
-		<defName>Seed_Glowstool</defName>
+		<defName>Seed_GMGlowstool</defName>
 		<label>Glowstool spores</label>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>Glowstool</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 		<graphicData>
 			<texPath>Seeds/Glowstool</texPath>
 		</graphicData>
 	</ThingDef>  
 	
 	<ThingDef ParentName="SeedBase">
-		<defName>Seed_Agarilux</defName>
+		<defName>Seed_GMAgarilux</defName>
 		<label>Agarilux spores</label>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>Agarilux</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 		<graphicData>
 			<texPath>Seeds/Agarilux</texPath>
 		</graphicData>

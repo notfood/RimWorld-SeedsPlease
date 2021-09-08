@@ -7,13 +7,13 @@
 		<descriptionHyperlinks>
 			<ThingDef>FCP_Plant_XanderRoot</ThingDef>
 		</descriptionHyperlinks>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>FCP_Plant_XanderRoot</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 		<graphicData>
 			<texPath>Seeds/XanderRoot</texPath>
 		</graphicData>
@@ -27,13 +27,13 @@
 		<descriptionHyperlinks>
 			<ThingDef>FCP_Plant_BrocFlower</ThingDef>
 		</descriptionHyperlinks>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>FCP_Plant_BrocFlower</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 		<graphicData>
 			<texPath>Seeds/BrocFlower</texPath>
 		</graphicData>
@@ -47,13 +47,13 @@
 		<descriptionHyperlinks>
 			<ThingDef>FCP_Plant_BananaYucca</ThingDef>
 		</descriptionHyperlinks>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>FCP_Plant_BananaYucca</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 		<graphicData>
 			<texPath>Seeds/BananaYucca</texPath>
 		</graphicData>
@@ -67,13 +67,13 @@
 		<descriptionHyperlinks>
 			<ThingDef>FCP_Plant_Maize</ThingDef>
 		</descriptionHyperlinks>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>FCP_Plant_Maize</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 		<graphicData>
 			<texPath>Seeds/Maize</texPath>
 		</graphicData>
@@ -87,13 +87,13 @@
 		<descriptionHyperlinks>
 			<ThingDef>FCP_Plant_BuffaloGourds</ThingDef>
 		</descriptionHyperlinks>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>FCP_Plant_BuffaloGourds</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 		<graphicData>
 			<texPath>Seeds/BuffaloGourds</texPath>
 		</graphicData>
@@ -107,13 +107,13 @@
 		<descriptionHyperlinks>
 			<ThingDef>FCP_Plant_Tato</ThingDef>
 		</descriptionHyperlinks>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>FCP_Plant_Tato</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 		<graphicData>
 			<texPath>Seeds/Tato</texPath>
 		</graphicData>
@@ -127,13 +127,13 @@
 		<descriptionHyperlinks>
 			<ThingDef>FCP_Plant_Razorgrain</ThingDef>
 		</descriptionHyperlinks>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>FCP_Plant_Razorgrain</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 		<graphicData>
 			<texPath>Seeds/Razorgrain</texPath>
 		</graphicData>
@@ -147,13 +147,13 @@
 		<descriptionHyperlinks>
 			<ThingDef>FCP_Plant_TreeHoneyMesquite</ThingDef>
 		</descriptionHyperlinks>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>FCP_Plant_TreeHoneyMesquite</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 		<graphicData>
 			<texPath>Seeds/TreeHoneyMesquite</texPath>
 		</graphicData>
@@ -167,13 +167,13 @@
 		<descriptionHyperlinks>
 			<ThingDef>FCP_Plant_TreeMutfruit</ThingDef>
 		</descriptionHyperlinks>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>FCP_Plant_TreeMutfruit</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 		<graphicData>
 			<texPath>Seeds/TreeMutfruit</texPath>
 		</graphicData>

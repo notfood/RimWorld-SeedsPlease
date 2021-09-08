@@ -42,13 +42,13 @@
 		<descriptionHyperlinks>
 			<ThingDef>Plant_Rice</ThingDef>
 		</descriptionHyperlinks>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>Plant_Rice</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 	</ThingDef>
 	
 	<ThingDef ParentName="SeedBase">
@@ -60,14 +60,14 @@
 		<descriptionHyperlinks>
 			<ThingDef>Plant_Potato</ThingDef>
 		</descriptionHyperlinks>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>Plant_Potato</li>
 				</sources>
 				<priority>20</priority>
 			</li>
-		</comps>
+		</modExtensions>
 	</ThingDef>
 	
 	<ThingDef ParentName="SeedBase">
@@ -79,14 +79,14 @@
 		<descriptionHyperlinks>
 			<ThingDef>Plant_Corn</ThingDef>
 		</descriptionHyperlinks>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>Plant_Corn</li>
 				</sources>
 				<priority>20</priority>
 			</li>
-		</comps>
+		</modExtensions>
 	</ThingDef>
 	
 	<ThingDef ParentName="SeedBase">
@@ -98,14 +98,14 @@
 		<descriptionHyperlinks>
 			<ThingDef>Plant_Strawberry</ThingDef>
 		</descriptionHyperlinks>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>Plant_Strawberry</li>
 				</sources>
 				<priority>20</priority>
 			</li>
-		</comps>
+		</modExtensions>
 	</ThingDef>
 	
 	<ThingDef ParentName="SeedBase">
@@ -117,14 +117,14 @@
 		<descriptionHyperlinks>
 			<ThingDef>Plant_Hops</ThingDef>
 		</descriptionHyperlinks>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>Plant_Hops</li>
 				</sources>
 				<priority>20</priority>
 			</li>
-		</comps>
+		</modExtensions>
 	</ThingDef>
 	
 	<ThingDef ParentName="SeedBase">
@@ -136,14 +136,14 @@
 		<descriptionHyperlinks>
 			<ThingDef>Plant_Smokeleaf</ThingDef>
 		</descriptionHyperlinks>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>Plant_Smokeleaf</li>
 				</sources>
 				<priority>20</priority>
 			</li>
-		</comps>
+		</modExtensions>
 	</ThingDef>
 	
 	<ThingDef ParentName="SeedBase">
@@ -155,13 +155,13 @@
 		<descriptionHyperlinks>
 			<ThingDef>Plant_Psychoid</ThingDef>
 		</descriptionHyperlinks>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>Plant_Psychoid</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 	</ThingDef>
 	
 	<ThingDef ParentName="SeedBase">
@@ -173,13 +173,13 @@
 		<descriptionHyperlinks>
 			<ThingDef>Plant_TreeDrago</ThingDef>
 		</descriptionHyperlinks>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>Plant_TreeDrago</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 	</ThingDef>
 	
 	<ThingDef ParentName="SeedBase">
@@ -188,13 +188,13 @@
 		<descriptionHyperlinks>
 			<ThingDef>Plant_TreeWillow</ThingDef>
 		</descriptionHyperlinks>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>Plant_TreeWillow</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 	</ThingDef>
 	
 	<ThingDef ParentName="SeedBase">
@@ -206,13 +206,13 @@
 		<descriptionHyperlinks>
 			<ThingDef>Plant_TreeCypress</ThingDef>
 		</descriptionHyperlinks>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>Plant_TreeCypress</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 	</ThingDef>
 	
 	<ThingDef ParentName="SeedBase">
@@ -224,13 +224,13 @@
 		<descriptionHyperlinks>
 			<ThingDef>Plant_TreeMaple</ThingDef>
 		</descriptionHyperlinks>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>Plant_TreeMaple</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 	</ThingDef>
 	
 	<ThingDef ParentName="SeedBase">
@@ -242,13 +242,13 @@
 		<descriptionHyperlinks>
 			<ThingDef>Plant_TreeOak</ThingDef>
 		</descriptionHyperlinks>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>Plant_TreeOak</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 	</ThingDef>
 	
 	<ThingDef ParentName="SeedBase">
@@ -260,13 +260,13 @@
 		<descriptionHyperlinks>
 			<ThingDef>Plant_TreePoplar</ThingDef>
 		</descriptionHyperlinks>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>Plant_TreePoplar</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 	</ThingDef>
 	
 	<ThingDef ParentName="SeedBase">
@@ -278,13 +278,13 @@
 		<descriptionHyperlinks>
 			<ThingDef>Plant_TreePine</ThingDef>
 		</descriptionHyperlinks>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>Plant_TreePine</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 	</ThingDef>
 	
 	<ThingDef ParentName="SeedBase">
@@ -296,13 +296,13 @@
 		<descriptionHyperlinks>
 			<ThingDef>Plant_TreeBirch</ThingDef>
 		</descriptionHyperlinks>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>Plant_TreeBirch</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 	</ThingDef>
 	
 	<ThingDef ParentName="SeedBase">
@@ -314,13 +314,13 @@
 		<descriptionHyperlinks>
 			<ThingDef>Plant_TreeTeak</ThingDef>
 		</descriptionHyperlinks>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>Plant_TreeTeak</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 	</ThingDef>
 	
 	<ThingDef ParentName="SeedBase">
@@ -332,13 +332,13 @@
 		<descriptionHyperlinks>
 			<ThingDef>Plant_TreeCecropia</ThingDef>
 		</descriptionHyperlinks>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>Plant_TreeCecropia</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 	</ThingDef>
 	
 	<ThingDef ParentName="SeedBase">
@@ -350,13 +350,13 @@
 		<descriptionHyperlinks>
 			<ThingDef>Plant_TreePalm</ThingDef>
 		</descriptionHyperlinks>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>Plant_TreePalm</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 	</ThingDef>
 	
 	<ThingDef ParentName="SeedBase">
@@ -368,13 +368,13 @@
 		<descriptionHyperlinks>
 			<ThingDef>Plant_TreeBamboo</ThingDef>
 		</descriptionHyperlinks>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>Plant_TreeBamboo</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 	</ThingDef>
 	
 	<ThingDef ParentName="SeedBase">
@@ -386,13 +386,13 @@
 		<descriptionHyperlinks>
 			<ThingDef>Plant_SaguaroCactus</ThingDef>
 		</descriptionHyperlinks>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>Plant_SaguaroCactus</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 	</ThingDef>
 	
 	<!-- Production plants -->
@@ -409,8 +409,8 @@
 		<descriptionHyperlinks>
 			<ThingDef>Plant_Cotton</ThingDef>
 		</descriptionHyperlinks>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<harvestOverride>RawCotton</harvestOverride>
 				<sources>
 					<li>Plant_Cotton</li>
@@ -418,7 +418,7 @@
 				<extractable>True</extractable>
 				<priority>20</priority>
 			</li>
-		</comps>
+		</modExtensions>
 	</ThingDef>
 	
 	<ThingDef ParentName="SeedBase">
@@ -433,8 +433,8 @@
 		<descriptionHyperlinks>
 			<ThingDef>Plant_Devilstrand</ThingDef>
 		</descriptionHyperlinks>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<harvestOverride>RawDevilstrand</harvestOverride>
 				<sources>
 					<li>Plant_Devilstrand</li>
@@ -442,7 +442,7 @@
 				<extractable>True</extractable>
 				<priority>20</priority>
 			</li>
-		</comps>
+		</modExtensions>
 	</ThingDef>
 	
 	<ThingDef ParentName="SeedBase">
@@ -458,8 +458,8 @@
 			<ThingDef>Plant_Healroot</ThingDef>
 			<ThingDef>Plant_HealrootWild</ThingDef>
 		</descriptionHyperlinks>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<harvestFactor>5</harvestFactor>
 				<harvestOverride>RawHealroot</harvestOverride>
 				<sources>
@@ -468,7 +468,7 @@
 				</sources>
 				<priority>20</priority>
 			</li>
-		</comps>
+		</modExtensions>
 	</ThingDef>
 	
 	<ThingDef ParentName="SeedBase">
@@ -480,14 +480,14 @@
 		<descriptionHyperlinks>
 			<ThingDef>Plant_TreeCocoa</ThingDef>
 		</descriptionHyperlinks>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<harvestOverride>RawCocoaBeans</harvestOverride>
 				<sources>
 					<li>Plant_TreeCocoa</li>
 				</sources>
 				<priority>20</priority>
 			</li>
-		</comps>
+		</modExtensions>
 	</ThingDef>
 </Defs>

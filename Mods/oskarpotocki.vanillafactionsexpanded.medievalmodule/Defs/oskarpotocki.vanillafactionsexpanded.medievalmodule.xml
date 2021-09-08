@@ -2,13 +2,13 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_VFEM_Grape</defName>
 		<label>grape seeds</label>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>VFEM_Plant_Grape</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 		<graphicData><texPath>Seeds/Grape</texPath></graphicData>
 		<descriptionHyperlinks>
 			<ThingDef>VFEM_Plant_Grape</ThingDef>
@@ -20,14 +20,14 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_VFEM_HealrootTree</defName>
 		<label>healroot tree seeds</label>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>VFEM_Plant_TreeHealroot</li>
 				</sources>
 				<extractable>False</extractable>
 			</li>
-		</comps>
+		</modExtensions>
 		<graphicData><texPath>Seeds/HealrootTree</texPath></graphicData>
 		<tradeability>None</tradeability>
 		<descriptionHyperlinks>

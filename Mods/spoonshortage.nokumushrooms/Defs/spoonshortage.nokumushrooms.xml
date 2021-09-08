@@ -18,15 +18,18 @@
 			<SellPriceFactor>0.05</SellPriceFactor>
 			<Beauty>-2</Beauty>
 		</statBases>
+		<modExtensions>
+			
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>PlantNoku</li>
+				</sources>
+			</li>
+		</modExtensions>
 		<comps>
 			<li Class="CompProperties_Glower">
 				<glowRadius>1</glowRadius>
 				<glowColor>(242,66,178,0)</glowColor>
-			</li>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
-				<sources>
-					<li>PlantNoku</li>
-				</sources>
 			</li>
 		</comps>
 	</ThingDef>

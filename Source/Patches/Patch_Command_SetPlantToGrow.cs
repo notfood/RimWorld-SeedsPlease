@@ -9,7 +9,7 @@ namespace SeedsPleaseLite
         public static void Postfix(ThingDef plantDef, Map map, ref bool __result)
         {
             //This is responsible for determining which crops show up on the list when you configue a grow zone
-            if (__result && plantDef != null && plantDef.blueprintDef != null && plantDef.blueprintDef.HasComp(typeof(CompSeed)))
+            if (__result && plantDef != null && plantDef.blueprintDef != null && plantDef.blueprintDef.HasModExtension<Seed>())
             {
                 __result = map.listerThings.ThingsOfDef(plantDef.blueprintDef).Count > 0;
             }

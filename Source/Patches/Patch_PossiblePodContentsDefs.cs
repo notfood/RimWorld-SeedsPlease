@@ -16,7 +16,7 @@ namespace SeedsPleaseLite
             
             //If it fails, pick again, this time filtering out any seeds
             __result = from d in DefDatabase<ThingDef>.AllDefs
-			where d.category == ThingCategory.Item && d.tradeability.TraderCanSell() && d.equipmentType == EquipmentType.None && d.BaseMarketValue >= 1f && d.BaseMarketValue < 40f && !d.HasComp(typeof(CompHatcher)) && !d.HasComp(typeof(CompSeed))
+			where d.category == ThingCategory.Item && d.tradeability.TraderCanSell() && d.equipmentType == EquipmentType.None && d.BaseMarketValue >= 1f && d.BaseMarketValue < 40f && !d.HasComp(typeof(CompHatcher)) && !d.HasModExtension<Seed>()
 			select d;
         }
     }

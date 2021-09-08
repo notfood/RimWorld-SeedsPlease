@@ -3,17 +3,15 @@
 	<Operation Class="PatchOperationSequence">
 		<operations>
 			<li Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[defName="Plant_TreeRandom"][not(comps)]</xpath>
+				<xpath>Defs/ThingDef[defName="Plant_TreeRandom"][not(modExtensions)]</xpath>
 				<value>
-					<comps />
+					<modExtensions />
 				</value>
 			</li>
 			<li Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[defName="Plant_TreeRandom"]/comps</xpath>
+				<xpath>Defs/ThingDef[defName="Plant_TreeRandom"]/modExtensions</xpath>
 				<value>
-					<li>
-						<compClass>SeedsPleaseLite.CompSeedless</compClass>
-					</li>
+					<li Class="SeedsPleaseLite.Seedless" />
 				</value>
 			</li>
 		</operations>

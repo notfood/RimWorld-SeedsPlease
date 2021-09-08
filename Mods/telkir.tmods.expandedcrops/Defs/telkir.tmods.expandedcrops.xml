@@ -2,15 +2,15 @@
 	<!-- ExpandedCropsPlantsCultivated.xml -->
 	
 	<ThingDef ParentName="SeedBase">
-		<defName>Seed_Tomato</defName>
+		<defName>Seed_ECTomato</defName>
 		<label>tomato seeds</label>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>PlantTomato</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 		<graphicData>
 			<texPath>Seeds/Tomato</texPath>
 		</graphicData>
@@ -19,28 +19,28 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_Lettuce</defName>
 		<label>lettuce seeds</label>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>PlantLettuce</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 		<graphicData>
 			<texPath>Seeds/Lettuce</texPath>
 		</graphicData>
 	</ThingDef>
 	
 	<ThingDef ParentName="SeedBase">
-		<defName>Seed_Carrot</defName>
+		<defName>Seed_ECCarrot</defName>
 		<label>carrot seeds</label>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>PlantCarrot</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 		<graphicData>
 			<texPath>Seeds/Carrot</texPath>
 		</graphicData>

@@ -6,13 +6,13 @@
 		<descriptionHyperlinks>
 			<ThingDef>BMT_AquamelonPlant</ThingDef>
 		</descriptionHyperlinks>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>BMT_AquamelonPlant</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 		<graphicData>
 			<texPath>Seeds/AquamelonPlant</texPath>
 		</graphicData>
@@ -25,13 +25,13 @@
 		<descriptionHyperlinks>
 			<ThingDef>BMT_PrismPalm</ThingDef>
 		</descriptionHyperlinks>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>BMT_PrismPalm</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 		<graphicData>
 			<texPath>Seeds/PrismPalm</texPath>
 		</graphicData>

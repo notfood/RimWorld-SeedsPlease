@@ -2,176 +2,176 @@
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_ThreeSistersA</defName>
 		<label>three sisters cbs seeds</label>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>PlantThreeSistersA</li>
 				</sources>
 				<extractable>False</extractable>
 			</li>
-		</comps>
+		</modExtensions>
 	</ThingDef>
     
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_ThreeSistersB</defName>
 		<label>three sisters cbp seeds</label>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>PlantThreeSistersB</li>
 				</sources>
 				<extractable>False</extractable>
 			</li>
-		</comps>
+		</modExtensions>
 	</ThingDef>
     
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_ThreeSistersC</defName>
 		<label>three sisters cls seeds</label>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>PlantThreeSistersC</li>
 				</sources>
 				<extractable>False</extractable>
 			</li>
-		</comps>
+		</modExtensions>
 	</ThingDef>
     
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_ThreeSistersD</defName>
 		<label>three sisters clp seeds</label>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>PlantThreeSistersD</li>
 				</sources>
 				<extractable>False</extractable>
 			</li>
-		</comps>
+		</modExtensions>
 	</ThingDef>
     
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_ThreeSistersE</defName>
 		<label>three sisters bbp seeds</label>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>PlantThreeSistersE</li>
 				</sources>
 				<extractable>False</extractable>
 			</li>
-		</comps>
+		</modExtensions>
 	</ThingDef>
     
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_ThreeSistersF</defName>
 		<label>three sisters bbs seeds</label>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>PlantThreeSistersF</li>
 				</sources>
 				<extractable>False</extractable>
 			</li>
-		</comps>
+		</modExtensions>
 	</ThingDef>
     
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_ThreeSistersG</defName>
 		<label>three sisters blp seeds</label>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>PlantThreeSistersG</li>
 				</sources>
 				<extractable>False</extractable>
 			</li>
-		</comps>
+		</modExtensions>
 	</ThingDef>
     
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_ThreeSistersH</defName>
 		<label>three sisters bls seeds</label>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>PlantThreeSistersH</li>
 				</sources>
 				<extractable>False</extractable>
 			</li>
-		</comps>
+		</modExtensions>
 	</ThingDef>
     
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_Pomato</defName>
 		<label>pomato seeds</label>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>Plant_Pomato</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 	</ThingDef>
     
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_BlueCorn</defName>
 		<label>blue corn seeds</label>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>Plant_BlueCorn</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 	</ThingDef>
     
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_ABS_Orchardguild</defName>
 		<label>orchard guild abb seeds</label>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>ABS_Orchardguild</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 	</ThingDef>
     
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_ALS_Orchardguild</defName>
 		<label>orchard guild alb seeds</label>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>ALS_Orchardguild</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 	</ThingDef>
     
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_PBS_Orchardguild</defName>
 		<label>orchard guild pbb seeds</label>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>PBS_Orchardguild</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 	</ThingDef>
     
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_PLS_Orchardguild</defName>
 		<label>orchard guild plb seeds</label>
-		<comps>
-			<li Class="SeedsPleaseLite.CompProperties_Seed">
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>PLS_Orchardguild</li>
 				</sources>
 			</li>
-		</comps>
+		</modExtensions>
 	</ThingDef>
 </Defs>
