@@ -17,10 +17,18 @@ namespace SeedsPleaseLite
             public static ThingDef Seed_Psychoid;
         }
 
-         [DefOf]
+        [DefOf]
         public static class ThingCategoryDefOf
         {
             public static ThingCategoryDef SeedExtractable;
+            public static ThingCategoryDef SeedsCategory;
+            
+        }
+
+        [DefOf]
+        public static class RecipeDefOf
+        {
+            public static RecipeDef ExtractSeeds;
         }
     }
 }
