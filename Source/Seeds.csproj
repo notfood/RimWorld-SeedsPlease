@@ -40,7 +40,7 @@
     <Compile Include="Patches/Patch_Command_SetPlantToGrow.cs" />
     <Compile Include="Patches/Patch_DefGenerator.cs" />
     <Compile Include="Patches/Patch_PossiblePodContentsDefs.cs" />
-    <Compile Include="Patches/Patch_YieldNow.cs" />
+    <Compile Include="Patches/Patch_PlantCollected.cs" />
     <Compile Include="DefModExtension_Seed.cs" />
     <Compile Include="DefModExtension_Seedless.cs" />
     <Compile Include="JobDriver_PlantSowWithSeeds.cs" />
