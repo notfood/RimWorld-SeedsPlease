@@ -15,4 +15,8 @@
 			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
 		</li>
 	</modDependencies>
+	<incompatibleWith>
+		<li>notfood.SeedsPlease</li>
+		<li>dizzy.seedsplease</li>
+	</incompatibleWith>
 </ModMetaData>

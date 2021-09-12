@@ -43,6 +43,7 @@
 				<sources>
 					<li>VCE_Wheat</li>
 				</sources>
+				<priority>20</priority>
 			</li>
 		</modExtensions>
 		<graphicData>

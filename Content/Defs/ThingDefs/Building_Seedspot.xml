@@ -37,6 +37,11 @@
 				<li>Production</li>
 			</buildingTags>
 		</building>
+		<modExtensions>
+			<li MayRequire="owlchemist.perspectivebuildings" Class="Perspective.Ignore">
+				<ignore>false</ignore>
+			</li>
+		</modExtensions>
 		<comps>
 			<li Class="CompProperties_AffectedByFacilities">
 				<linkableFacilities>

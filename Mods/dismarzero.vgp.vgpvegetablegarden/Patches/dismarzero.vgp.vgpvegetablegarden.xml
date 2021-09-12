@@ -3,9 +3,9 @@
 		<operations>
 			<li Class="PatchOperationAdd">
 				<success>Always</success>
-				<xpath>/Defs[ThingDef[defName="Seed_Agave"]]/ThingDef[defName="Seed_Agave"]/modExtensions/li[@Class="SeedsPleaseLite.Seed"]/sources[li[not(text()="Plant_Agave")]]</xpath>
+				<xpath>/Defs[ThingDef[defName="Seed_Agave"]]/ThingDef[defName="Seed_Agave"]/modExtensions/li[@Class="SeedsPleaseLite.Seed"]/sources</xpath>
 				<value>
-					<li>Plant_Agave</li>
+					<li>VG_Plant_Agave</li>
 				</value>
 			</li>
 			<li Class="PatchOperationAdd">
@@ -16,42 +16,43 @@
 						<defName>Seed_Agave</defName>
 						<label>agave seeds</label>
 						<descriptionHyperlinks>
-							<ThingDef>Plant_Agave</ThingDef>
+							<ThingDef>VG_Plant_Agave</ThingDef>
 						</descriptionHyperlinks>
 						<modExtensions>
 							<li Class="SeedsPleaseLite.Seed">
 								<sources>
-									<li>Plant_Agave</li>
+									<li>VG_Plant_Agave</li>
 								</sources>
+								<extractable>False</extractable>
 							</li>
 						</modExtensions>
+						<graphicData><texPath>Seeds/Agave</texPath></graphicData>
 					</ThingDef>
 				</value>
 			</li>
 			<li Class="PatchOperationAdd">
 				<success>Always</success>
-				<xpath>/Defs[ThingDef[defName="Seed_Glowstool"]]/ThingDef[defName="Seed_Glowstool"]/modExtensions/li[@Class="SeedsPleaseLite.Seed"]/sources</xpath>
+				<xpath>/Defs[ThingDef[defName="Seed_Ambrosia"]]/ThingDef[defName="Seed_Ambrosia"]/modExtensions/li[@Class="SeedsPleaseLite.Seed"]/sources</xpath>
 				<value>
-					<li>CultivatedGlowstool</li>
+					<li>VG_PlantAmbrosia</li>
 				</value>
 			</li>
 			<li Class="PatchOperationAdd">
 				<success>Always</success>
-				<xpath>/Defs[not(ThingDef[defName="Seed_Glowstool"])]</xpath>
+				<xpath>/Defs[not(ThingDef[defName="Seed_Ambrosia"])]</xpath>
 				<value>
 					<ThingDef ParentName="SeedBase">
-						<defName>Seed_Glowstool</defName>
-						<label>glowstool seeds</label>
-						<descriptionHyperlinks>
-							<ThingDef>CultivatedGlowstool</ThingDef>
-						</descriptionHyperlinks>
+						<defName>Seed_Ambrosia</defName>
+						<label>ambrosia seeds</label>
 						<modExtensions>
 							<li Class="SeedsPleaseLite.Seed">
 								<sources>
-									<li>CultivatedGlowstool</li>
+									<li>VG_PlantAmbrosia</li>
 								</sources>
+								<extractable>False</extractable>
 							</li>
 						</modExtensions>
+						<graphicData><texPath>Seeds/Ambrosia</texPath></graphicData>
 					</ThingDef>
 				</value>
 			</li>
@@ -59,7 +60,7 @@
 				<success>Always</success>
 				<xpath>/Defs[ThingDef[defName="Seed_Agarilux"]]/ThingDef[defName="Seed_Agarilux"]/modExtensions/li[@Class="SeedsPleaseLite.Seed"]/sources</xpath>
 				<value>
-					<li>CultivatedAgarilux</li>
+					<li>VGP_Agarilux</li>
 				</value>
 			</li>
 			<li Class="PatchOperationAdd">
@@ -69,16 +70,15 @@
 					<ThingDef ParentName="SeedBase">
 						<defName>Seed_Agarilux</defName>
 						<label>agarilux seeds</label>
-						<descriptionHyperlinks>
-							<ThingDef>CultivatedAgarilux</ThingDef>
-						</descriptionHyperlinks>
 						<modExtensions>
 							<li Class="SeedsPleaseLite.Seed">
 								<sources>
-									<li>CultivatedAgarilux</li>
+									<li>VGP_Agarilux</li>
 								</sources>
+								<extractable>False</extractable>
 							</li>
 						</modExtensions>
+						<graphicData><texPath>Seeds/Agarilux</texPath></graphicData>
 					</ThingDef>
 				</value>
 			</li>

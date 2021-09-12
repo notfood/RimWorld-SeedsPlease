@@ -69,5 +69,31 @@
 		<li IfModActive="mlie.vegetablegardenlite">Mods/mlie.vegetablegardenlite</li>
 		<li IfModActive="yoann.regrowthungrowablepatch">Mods/yoann.regrowthungrowablepatch</li>
 		<li IfModActive="oskarpotocki.vanillafactionsexpanded.core">Mods/oskarpotocki.vanillafactionsexpanded.core</li>
+		<li IfModActive="mlie.advancedbiomes">Mods/mlie.advancedbiomes</li>
+		<li IfModActive="mlie.apothecary">Mods/mlie.apothecary</li>
+		<li IfModActive="mlie.aquarium">Mods/mlie.aquarium</li>
+		<li IfModActive="mlie.fermenter">Mods/mlie.fermenter</li>
+		<li IfModActive="mlie.medicalsupplements">Mods/mlie.medicalsupplements</li>
+		<li IfModActive="mlie.naturesprettysweet">Mods/mlie.naturesprettysweet</li>
+		<li IfModActive="sirmashedpotato.morrowrim.alcoholremade">Mods/sirmashedpotato.morrowrim.alcoholremade</li>
+		<li IfModActive="sirmashedpotato.morrowrim">Mods/sirmashedpotato.morrowrim</li>
+		<li IfModActive="sirmashedpotato.morrowrim.ashswamp">Mods/sirmashedpotato.morrowrim.ashswamp</li>
+		<li IfModActive="sirmashedpotato.morrowrim.bloatspore">Mods/sirmashedpotato.morrowrim.bloatspore</li>
+		<li IfModActive="sirmashedpotato.morrowrim.bloodmoon">Mods/sirmashedpotato.morrowrim.bloodmoon</li>
+		<li IfModActive="sirmashedpotato.morrowrim.moonsugarandskooma">Mods/sirmashedpotato.morrowrim.moonsugarandskooma</li>
+		<li IfModActive="sirmashedpotato.morrowrim.telvannitechnology">Mods/sirmashedpotato.morrowrim.telvannitechnology</li>
+		<li IfModActive="sirmashedpotato.morrowrim.telvannispiders">Mods/sirmashedpotato.morrowrim.telvannispiders</li>
+		<li IfModActive="dankpyon.medieval.overhaul">Mods/dankpyon.medieval.overhaul</li>
+		<li IfModActive="windowsxp.rimcuisine2drugsstandalone">Mods/windowsxp.rimcuisine2drugsstandalone</li>
+		<li IfModActive="frozensnowfox.meditationfreedom">Mods/frozensnowfox.meditationfreedom</li>
+		<li IfModActive="erin.hotdrink">Mods/erin.hotdrink</li>
+		<li IfModActive="com.rimworld.nales.expandedrims">Mods/com.rimworld.nales.expandedrims</li>
+		<li IfModActive="tidal.grainsandbrewing">Mods/tidal.grainsandbrewing</li>
+		<li IfModActive="obsidiaexpansion.core">Mods/obsidiaexpansion.core</li>
+		<li IfModActive="lordoftherims.dwarves">Mods/lordoftherims.dwarves</li>
+		<li IfModActive="lordoftherims.elves">Mods/lordoftherims.elves</li>
+		<li IfModActive="dismarzero.vgp.rimfortressdwarvenplants">Mods/dismarzero.vgp.rimfortressdwarvenplants</li>
+		<li IfModActive="prolle.glitterworld.medicine">Mods/prolle.glitterworld.medicine</li>
+		<li IfModActive="regrowth.botr.volcanicicesheet">Mods/regrowth.botr.volcanicicesheet</li>
 	</v1.3>
 </loadFolders>
