@@ -1,0 +1,61 @@
+<Defs>
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_ForsakensRagadast</defName>
+		<label>ragadast seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>PlantRagadast</li>
+				</sources>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Seeds/Ragadast</texPath>
+		</graphicData>
+	</ThingDef>
+	
+    <ThingDef ParentName="SeedBase">
+		<defName>Seed_ForsakensStikehr</defName>
+		<label>stikehr seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>PlantStikehr</li>
+				</sources>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Seeds/Stikehr</texPath>
+		</graphicData>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_ForsakensUltraviolett</defName>
+		<label>ultraviolett seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>FF_PlantUltraviolett</li>
+				</sources>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Seeds/Ultraviolett</texPath>
+		</graphicData>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_FF_Ultima</defName>
+		<label>ultima seeds</label>
+		<descriptionHyperlinks>
+			<ThingDef>FF_Ultima</ThingDef>
+		</descriptionHyperlinks>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>FF_Ultima</li>
+				</sources>
+			</li>
+		</modExtensions>
+	</ThingDef>
+</Defs>

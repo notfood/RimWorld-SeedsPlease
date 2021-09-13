@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<RecipeDef>
+		<defName>ProcessRawTinctoria</defName>
+		<label>make dye</label>
+		<description>make dye by processing the leaves of a tinctoria plant.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawTinctoria</li>
+					</thingDefs>
+				</filter>
+				<count>16</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>RawTinctoria</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Dye>4</Dye>
+		</products>
+		<workAmount>400</workAmount>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<workSkill>Cooking</workSkill>
+		<skillRequirements>
+			<Cooking>4</Cooking>
+		</skillRequirements>
+		<recipeUsers>
+			<li>FueledStove</li>
+			<li>ElectricStove</li>
+		</recipeUsers>
+	</RecipeDef>
+</Defs>

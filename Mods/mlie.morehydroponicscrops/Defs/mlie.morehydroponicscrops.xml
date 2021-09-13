@@ -1,0 +1,16 @@
+<Defs>
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_MHCCocoaBush</defName>
+		<label>Cocoa bush seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>Plant_CocoaBush</li>
+				</sources>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Seeds/CocoaBush</texPath>
+		</graphicData>
+	</ThingDef>
+</Defs>
