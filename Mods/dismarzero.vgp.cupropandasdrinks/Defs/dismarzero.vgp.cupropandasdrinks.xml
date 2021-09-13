@@ -1,0 +1,25 @@
+<Defs>
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_Frassroot</defName>
+		<label>frassroot seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>CPD_PlantFrassRoot</li>
+				</sources>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_CoffeeArabica</defName>
+		<label>arabica coffee seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>CPD_CoffeePlant</li>
+				</sources>
+			</li>
+		</modExtensions>
+	</ThingDef>
+</Defs>
