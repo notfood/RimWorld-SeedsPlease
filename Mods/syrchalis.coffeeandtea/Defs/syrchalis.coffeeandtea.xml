@@ -9,7 +9,7 @@
 				</sources>
 			</li>
 		</modExtensions>
-		<graphicData><texPath>Seeds/Coffee</texPath></graphicData>
+		<graphicData><texPath>Seeds/SYR_Coffee</texPath></graphicData>
 	</ThingDef>
 	
 	<ThingDef ParentName="SeedBase">
@@ -22,6 +22,6 @@
 				</sources>
 			</li>
 		</modExtensions>
-		<graphicData><texPath>Seeds/Tea</texPath></graphicData>
+		<graphicData><texPath>Seeds/SYR_Tea</texPath></graphicData>
 	</ThingDef>
 </Defs>

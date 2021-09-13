@@ -14,5 +14,8 @@
 				</sources>
 			</li>
 		</modExtensions>
+		<graphicData>
+			<texPath>Seeds/PoisonIvy</texPath>
+		</graphicData>
 	</ThingDef>
 </Defs>

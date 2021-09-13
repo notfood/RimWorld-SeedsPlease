@@ -13,5 +13,8 @@
 				</sources>
 			</li>
 		</modExtensions>
+		<graphicData>
+			<texPath>Seeds/TreeAnima</texPath>
+		</graphicData>
 	</ThingDef>
 </Defs>

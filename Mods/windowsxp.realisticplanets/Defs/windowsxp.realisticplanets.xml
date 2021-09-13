@@ -15,7 +15,7 @@
 			</li>
 		</modExtensions>
 		<graphicData>
-			<texPath>Seeds/TreeAcacia</texPath>
+			<texPath>Seeds/RRP_TreeAcacia</texPath>
 		</graphicData>
 	</ThingDef>
 </Defs>

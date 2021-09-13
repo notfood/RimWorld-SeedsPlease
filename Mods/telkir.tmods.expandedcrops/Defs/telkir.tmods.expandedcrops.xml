@@ -12,7 +12,7 @@
 			</li>
 		</modExtensions>
 		<graphicData>
-			<texPath>Seeds/Tomato</texPath>
+			<texPath>Seeds/ECTomato</texPath>
 		</graphicData>
 	</ThingDef>
 	
@@ -27,7 +27,7 @@
 			</li>
 		</modExtensions>
 		<graphicData>
-			<texPath>Seeds/Lettuce</texPath>
+			<texPath>Seeds/ECLettuce</texPath>
 		</graphicData>
 	</ThingDef>
 	
@@ -42,7 +42,7 @@
 			</li>
 		</modExtensions>
 		<graphicData>
-			<texPath>Seeds/Carrot</texPath>
+			<texPath>Seeds/ECCarrot</texPath>
 		</graphicData>
 	</ThingDef>
 </Defs>

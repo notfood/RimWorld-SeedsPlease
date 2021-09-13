@@ -13,5 +13,8 @@
 				</sources>
 			</li>
 		</modExtensions>
+		<graphicData>
+			<texPath>Seeds/Hellbud</texPath>
+		</graphicData>
 	</ThingDef>
 </Defs>

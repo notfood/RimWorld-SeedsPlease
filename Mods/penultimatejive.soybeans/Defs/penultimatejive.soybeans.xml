@@ -9,5 +9,8 @@
 				</sources>
 			</li>
 		</modExtensions>
+		<graphicData>
+			<texPath>Seeds/PJ_Soybean</texPath>
+		</graphicData>
 	</ThingDef>
 </Defs>

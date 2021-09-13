@@ -10,7 +10,7 @@
 			</li>
 		</modExtensions>
 		<graphicData>
-			<texPath>Seeds/Turnip</texPath>
+			<texPath>Seeds/SRV_Turnip</texPath>
 		</graphicData>
 	</ThingDef>
 	
@@ -25,7 +25,7 @@
 			</li>
 		</modExtensions>
 		<graphicData>
-			<texPath>Seeds/Cabbage</texPath>
+			<texPath>Seeds/SRV_Cabbage</texPath>
 		</graphicData>
 	</ThingDef>
 	
@@ -40,7 +40,7 @@
 			</li>
 		</modExtensions>
 		<graphicData>
-			<texPath>Seeds/CultivatedJute</texPath>
+			<texPath>Seeds/SRV_CultivatedJute</texPath>
 		</graphicData>
 	</ThingDef>
 </Defs>
