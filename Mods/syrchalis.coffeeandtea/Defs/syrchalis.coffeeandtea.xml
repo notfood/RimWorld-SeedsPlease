@@ -1,0 +1,27 @@
+<Defs>
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_SyrCoffee</defName>
+		<label>coffee seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>Plant_SyrCoffee</li>
+				</sources>
+			</li>
+		</modExtensions>
+		<graphicData><texPath>Seeds/SYR_Coffee</texPath></graphicData>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_SyrTea</defName>
+		<label>tea seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>Plant_SyrTea</li>
+				</sources>
+			</li>
+		</modExtensions>
+		<graphicData><texPath>Seeds/SYR_Tea</texPath></graphicData>
+	</ThingDef>
+</Defs>

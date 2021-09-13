@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li MayRequire="crustypeanut.rc2.core" Class="PatchOperationSequence">
+				<operations>
+					<!-- Change seed names -->
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="Seed_VCEBeet"]/label</xpath>
+						<value><label>Chiogga beet seeds</label></value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="Seed_Eggplant"]/label</xpath>
+						<value><label>Fairy tale eggplant seeds</label></value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="Seed_VCECabbage"]/label</xpath>
+						<value><label>Cauliflower seeds</label></value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="Seed_VCEOnion"]/label</xpath>
+						<value><label>White onions seeds</label></value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="Seed_VCEPumpkin"]/label</xpath>
+						<value><label>Mammoth gold pumpkin seeds</label></value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="Seed_VCETomato"]/label</xpath>
+						<value><label>Red beefsteak tomato seeds</label></value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="Seed_VCEAppleTree"]/label</xpath>
+						<value><label>Granny smith apple seeds</label></value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="Seed_VCECherryTree"]/label</xpath>
+						<value><label>Sakura tree seeds</label></value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="Seed_VCEPeachTree"]/label</xpath>
+						<value><label>Apricot tree seeds</label></value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="Seed_VCEPlumTree"]/label</xpath>
+						<value><label>Damson plum tree seeds</label></value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="Seed_VCEBananaTree"]/label</xpath>
+						<value><label>Gros michel banana tree seeds</label></value>
+					</li>
+				</operations>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

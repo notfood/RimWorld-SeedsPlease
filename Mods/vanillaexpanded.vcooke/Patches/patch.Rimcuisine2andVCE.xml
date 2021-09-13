@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li MayRequire="crustypeanut.rc2.core" Class="PatchOperationSequence">
+				<operations>
+					<!--Change seed names-->
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="Seed_VCEWheat"]/label</xpath>
+						<value><label>Spelt seeds</label></value>
+					</li>
+				</operations>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

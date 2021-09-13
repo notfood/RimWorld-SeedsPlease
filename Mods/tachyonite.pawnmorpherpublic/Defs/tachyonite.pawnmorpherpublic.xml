@@ -1,0 +1,16 @@
+<Defs>
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_PawnmorpherChaobulb</defName>
+		<label>Chaobulb seedpod seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>Plant_ChaoBulb_Domestic</li>
+				</sources>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Seeds/Chaobulb</texPath>
+		</graphicData>
+	</ThingDef> 
+</Defs>

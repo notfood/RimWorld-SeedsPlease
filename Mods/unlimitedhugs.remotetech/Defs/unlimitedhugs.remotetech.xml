@@ -1,0 +1,16 @@
+<Defs>
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_RTSparkweed</defName>
+		<label>Sparkweed seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>rxPlantSparkweed</li>
+				</sources>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Seeds/Sparkweed</texPath>
+		</graphicData>
+	</ThingDef>
+</Defs>

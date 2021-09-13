@@ -1,0 +1,332 @@
+<Defs>
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_VCEOnion</defName>
+		<label>Onion seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>VCE_Onion</li>
+				</sources>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Seeds/Onion</texPath>
+		</graphicData>
+		<descriptionHyperlinks>
+			<ThingDef>VCE_Onion</ThingDef>
+		</descriptionHyperlinks>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_VCEPumpkin</defName>
+		<label>Pumpkin seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>VCE_Pumpkin</li>
+				</sources>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Seeds/Pumpkin</texPath>
+		</graphicData>
+		<descriptionHyperlinks>
+			<ThingDef>VCE_Pumpkin</ThingDef>
+		</descriptionHyperlinks>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_VCEPepper</defName>
+		<label>Pepper seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>VCE_Pepper</li>
+				</sources>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Seeds/Pepper</texPath>
+		</graphicData>
+		<descriptionHyperlinks>
+			<ThingDef>VCE_Pepper</ThingDef>
+		</descriptionHyperlinks>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_VCEPea</defName>
+		<label>Pea seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>VCE_Peas</li>
+				</sources>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Seeds/Pea</texPath>
+		</graphicData>
+		<descriptionHyperlinks>
+			<ThingDef>VCE_Peas</ThingDef>
+		</descriptionHyperlinks>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_VCEEggplant</defName>
+		<label>Eggplant seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>VCE_Eggplant</li>
+				</sources>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Seeds/Eggplant</texPath>
+		</graphicData>
+		<descriptionHyperlinks>
+			<ThingDef>VCE_Eggplant</ThingDef>
+		</descriptionHyperlinks>
+	</ThingDef> 
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_VCECabbage</defName>
+		<label>Cabbage seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>VCE_Cabbage</li>
+				</sources>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Seeds/Cabbage</texPath>
+		</graphicData>
+		<descriptionHyperlinks>
+			<ThingDef>VCE_Cabbage</ThingDef>
+		</descriptionHyperlinks>
+	</ThingDef> 
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_VCEBeet</defName>
+		<label>Beet seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>VCE_Beet</li>
+				</sources>
+				<priority>20</priority>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Seeds/Beet</texPath>
+		</graphicData>
+		<descriptionHyperlinks>
+			<ThingDef>VCE_Beet</ThingDef>
+		</descriptionHyperlinks>
+	</ThingDef> 
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_VCETomato</defName>
+		<label>Tomato seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>VCE_Tomato</li>
+				</sources>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Seeds/Tomato</texPath>
+		</graphicData>
+		<descriptionHyperlinks>
+			<ThingDef>VCE_Tomato</ThingDef>
+		</descriptionHyperlinks>
+	</ThingDef> 
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_VCEAppleTree</defName>
+		<label>Apple seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>VCE_AppleTree</li>
+				</sources>
+				<priority>20</priority>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Seeds/Apple</texPath>
+		</graphicData>
+		<descriptionHyperlinks>
+			<ThingDef>VCE_AppleTree</ThingDef>
+		</descriptionHyperlinks>
+	</ThingDef> 
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_VCEPeachTree</defName>
+		<label>Peach seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>VCE_PeachTree</li>
+				</sources>
+				<priority>20</priority>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Seeds/Peach</texPath>
+		</graphicData>
+		<descriptionHyperlinks>
+			<ThingDef>VCE_PeachTree</ThingDef>
+		</descriptionHyperlinks>
+	</ThingDef> 
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_VCECherryTree</defName>
+		<label>Cherry seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>VCE_CherryTree</li>
+				</sources>
+				<priority>20</priority>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Seeds/Cherry</texPath>
+		</graphicData>
+		<descriptionHyperlinks>
+			<ThingDef>VCE_CherryTree</ThingDef>
+		</descriptionHyperlinks>
+	</ThingDef> 
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_VCEPlumTree</defName>
+		<label>Plum seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>VCE_PlumTree</li>
+				</sources>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Seeds/PlumTree</texPath>
+		</graphicData>
+		<descriptionHyperlinks>
+			<ThingDef>VCE_PlumTree</ThingDef>
+		</descriptionHyperlinks>
+	</ThingDef> 
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_VCEPearTree</defName>
+		<label>Pear seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>VCE_PearTree</li>
+				</sources>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Seeds/PearTree</texPath>
+		</graphicData>
+		<descriptionHyperlinks>
+			<ThingDef>VCE_PearTree</ThingDef>
+		</descriptionHyperlinks>
+	</ThingDef> 
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_VCEOpuntia</defName>
+		<label>Opuntia seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>VCE_Opuntia</li>
+				</sources>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Seeds/Opuntia</texPath>
+		</graphicData>
+		<descriptionHyperlinks>
+			<ThingDef>VCE_Opuntia</ThingDef>
+		</descriptionHyperlinks>
+	</ThingDef> 
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_VCEBearBerryBush</defName>
+		<label>Bearberry bush seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>VCE_BearBerryBush</li>
+				</sources>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Seeds/BearBerryBush</texPath>
+		</graphicData>
+		<descriptionHyperlinks>
+			<ThingDef>VCE_BearBerryBush</ThingDef>
+		</descriptionHyperlinks>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_VCEBananaTree</defName>
+		<label>Banana seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>VCE_BananaTree</li>
+				</sources>
+				<priority>20</priority>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Seeds/Banana</texPath>
+		</graphicData>
+		<descriptionHyperlinks>
+			<ThingDef>VCE_BananaTree</ThingDef>
+		</descriptionHyperlinks>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_VCEOrangeTree</defName>
+		<label>Orange seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>VCE_OrangeTree</li>
+				</sources>
+				<priority>20</priority>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Seeds/Orange</texPath>
+		</graphicData>
+		<descriptionHyperlinks>
+			<ThingDef>VCE_OrangeTree</ThingDef>
+		</descriptionHyperlinks>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_VCEAgave</defName>
+		<label>Agave seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>VCE_Agave</li>
+				</sources>
+				<extractable>False</extractable>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Seeds/Agave</texPath>
+		</graphicData>
+		<descriptionHyperlinks>
+			<ThingDef>VCE_Agave</ThingDef>
+		</descriptionHyperlinks>
+	</ThingDef>
+</Defs>

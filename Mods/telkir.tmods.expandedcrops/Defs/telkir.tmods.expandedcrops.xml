@@ -1,0 +1,48 @@
+<Defs>
+	<!-- ExpandedCropsPlantsCultivated.xml -->
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_ECTomato</defName>
+		<label>tomato seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>PlantTomato</li>
+				</sources>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Seeds/ECTomato</texPath>
+		</graphicData>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_Lettuce</defName>
+		<label>lettuce seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>PlantLettuce</li>
+				</sources>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Seeds/ECLettuce</texPath>
+		</graphicData>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_ECCarrot</defName>
+		<label>carrot seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>PlantCarrot</li>
+				</sources>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Seeds/ECCarrot</texPath>
+		</graphicData>
+	</ThingDef>
+</Defs>

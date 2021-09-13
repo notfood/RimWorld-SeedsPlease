@@ -1,0 +1,79 @@
+<Defs>
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_Ocotillo</defName>
+		<label>ocotillo seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>TKKN_TreeOcotillo</li>
+				</sources>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Seeds/TKKN_TreeOcotillo</texPath>
+		</graphicData>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_Baobab</defName>
+		<label>baobab seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>TKKN_PlantTreeBaobab</li>
+				</sources>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Seeds/TKKN_TreeBaobab</texPath>
+		</graphicData>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_Gum</defName>
+		<label>gum seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>TKKN_PlantTreeGum</li>
+				</sources>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Seeds/TKKN_TreeGum</texPath>
+		</graphicData>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_Redwood</defName>
+		<label>redwood seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>TKKN_PlantTreeRedwood</li>
+					<li>TKKN_PlantTreeRedwoodDead</li>
+					<li>TKKN_OldGrowth_PlantTreeOak</li>
+				</sources>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Seeds/TKKN_TreeRedwood</texPath>
+		</graphicData>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_Hazelnut</defName>
+		<label>hazelnut seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>TKKN_PlantTreeHazelnut</li>
+					<li>TKKN_OldGrowth_PlantTreeHazelnut</li>
+				</sources>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Seeds/TKKN_TreeHazelnut</texPath>
+		</graphicData>
+	</ThingDef>
+</Defs>
