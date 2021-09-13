@@ -1,0 +1,16 @@
+<Defs>
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_LaniusAloenius</defName>
+		<label>Aloenius seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>Plant_LaniusCactus</li>
+				</sources>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Seeds/Aloenius</texPath>
+		</graphicData>
+	</ThingDef>
+</Defs>

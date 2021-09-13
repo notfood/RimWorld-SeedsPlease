@@ -1,0 +1,87 @@
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs[ThingDef[defName="Seed_Agave"]]/ThingDef[defName="Seed_Agave"]/modExtensions/li[@Class="SeedsPleaseLite.Seed"]/sources</xpath>
+				<value>
+					<li>VG_Plant_Agave</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs[not(ThingDef[defName="Seed_Agave"])]</xpath>
+				<value>
+					<ThingDef ParentName="SeedBase">
+						<defName>Seed_Agave</defName>
+						<label>agave seeds</label>
+						<descriptionHyperlinks>
+							<ThingDef>VG_Plant_Agave</ThingDef>
+						</descriptionHyperlinks>
+						<modExtensions>
+							<li Class="SeedsPleaseLite.Seed">
+								<sources>
+									<li>VG_Plant_Agave</li>
+								</sources>
+								<extractable>False</extractable>
+							</li>
+						</modExtensions>
+						<graphicData><texPath>Seeds/Agave</texPath></graphicData>
+					</ThingDef>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs[ThingDef[defName="Seed_Ambrosia"]]/ThingDef[defName="Seed_Ambrosia"]/modExtensions/li[@Class="SeedsPleaseLite.Seed"]/sources</xpath>
+				<value>
+					<li>VG_PlantAmbrosia</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs[not(ThingDef[defName="Seed_Ambrosia"])]</xpath>
+				<value>
+					<ThingDef ParentName="SeedBase">
+						<defName>Seed_Ambrosia</defName>
+						<label>ambrosia seeds</label>
+						<modExtensions>
+							<li Class="SeedsPleaseLite.Seed">
+								<sources>
+									<li>VG_PlantAmbrosia</li>
+								</sources>
+								<extractable>False</extractable>
+							</li>
+						</modExtensions>
+						<graphicData><texPath>Seeds/Ambrosia</texPath></graphicData>
+					</ThingDef>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs[ThingDef[defName="Seed_Agarilux"]]/ThingDef[defName="Seed_Agarilux"]/modExtensions/li[@Class="SeedsPleaseLite.Seed"]/sources</xpath>
+				<value>
+					<li>VGP_Agarilux</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs[not(ThingDef[defName="Seed_Agarilux"])]</xpath>
+				<value>
+					<ThingDef ParentName="SeedBase">
+						<defName>Seed_Agarilux</defName>
+						<label>agarilux seeds</label>
+						<modExtensions>
+							<li Class="SeedsPleaseLite.Seed">
+								<sources>
+									<li>VGP_Agarilux</li>
+								</sources>
+								<extractable>False</extractable>
+							</li>
+						</modExtensions>
+						<graphicData><texPath>Seeds/Agarilux</texPath></graphicData>
+					</ThingDef>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

@@ -1,0 +1,66 @@
+<Defs>	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_Japanesemaple</defName>
+		<label>japanesemaple seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>PlantTreeJapaneseMaple</li>
+				</sources>
+			</li>
+		</modExtensions>
+		<graphicData><texPath>Seeds/JapaneseMaple</texPath></graphicData>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_Cherryblossom</defName>
+		<label>cherryblossom seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>PlantTreeCherryBlossom</li>
+				</sources>
+			</li>
+		</modExtensions>
+		<graphicData><texPath>Seeds/Blossom</texPath></graphicData>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_Camellia</defName>
+		<label>camellia seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>PlantTreeCamellia</li>
+				</sources>
+			</li>
+		</modExtensions>
+		<graphicData><texPath>Seeds/Camellia</texPath></graphicData>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_Acacia</defName>
+		<label>acacia seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>PlantTreeAcacia</li>
+				</sources>
+			</li>
+		</modExtensions>
+		<graphicData><texPath>Seeds/Acacia</texPath></graphicData>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_Redmaple</defName>
+		<label>redmaple seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>PlantTreeRedMaple</li>
+				</sources>
+			</li>
+		</modExtensions>
+		<graphicData><texPath>Seeds/RedMaple</texPath></graphicData>
+	</ThingDef>
+</Defs>
