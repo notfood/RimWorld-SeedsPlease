@@ -1,0 +1,16 @@
+<Defs>
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_RRPAcaciaTree</defName>
+		<label>Acacia tree seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>RRP_TreeAcacia</li>
+				</sources>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Seeds/AcaciaTree</texPath>
+		</graphicData>
+	</ThingDef>
+</Defs>

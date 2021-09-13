@@ -1,0 +1,320 @@
+<Defs>
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_AB_GiantSeptimum</defName>
+		<label>giantseptimum seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>AB_GiantSeptimum</li>
+				</sources>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Seeds/GiantSeptimum</texPath>
+		</graphicData>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_AB_DeadBower</defName>
+		<label>deadbower seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>AB_DeadBowerTree</li>
+				</sources>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Seeds/DeadBowerTree</texPath>
+		</graphicData>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_AB_Jungle</defName>
+		<label>jungle tree seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>AB_JungleTree</li>
+				</sources>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Seeds/JungleTree</texPath>
+		</graphicData>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_AB_SessileMechanoid</defName>
+		<label>sessile mechanoid seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>AB_SessileMechanoid</li>
+				</sources>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Seeds/SessileMechanoid</texPath>
+		</graphicData>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_AB_Glowstool</defName>
+		<label>glowstool spores</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>AB_Glowstool</li>
+				</sources>
+				<extractable>False</extractable>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Seeds/Glowstool</texPath>
+		</graphicData>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_AB_LilacBeacon</defName>
+		<label>lilac beacon spores</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>AB_LilacBeacon</li>
+				</sources>
+				<extractable>False</extractable>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Seeds/LilacBeacon</texPath>
+		</graphicData>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_AB_WitchesOyster</defName>
+		<label>witches oyster seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>AB_WitchesOyster</li>
+				</sources>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Seeds/WitchesOyster</texPath>
+		</graphicData>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_AB_AgaricusDomeCap</defName>
+		<label>agaricus domecap seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>AB_AgaricusDomeCap</li>
+				</sources>
+				<extractable>False</extractable>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Seeds/AgaricusDomeCap</texPath>
+		</graphicData>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_AB_Agarilux</defName>
+		<label>agarilux spores</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>AB_Agarilux</li>
+				</sources>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Seeds/Agarilux</texPath>
+		</graphicData>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_AB_GiantAgarilux</defName>
+		<label>giant agarilux spores</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>AB_GiantAgarilux</li>
+				</sources>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Seeds/GiantAgarilux</texPath>
+		</graphicData>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_AB_ArbuscularMycorrhiza</defName>
+		<label>arbuscular mycorrhiza seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>AB_ArbuscularMycorrhiza</li>
+				</sources>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Seeds/ArbuscularMycorrhiza</texPath>
+		</graphicData>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_AB_DribblingCap</defName>
+		<label>dribbling cap seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>AB_DribblingCap</li>
+				</sources>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Seeds/DribblingCap</texPath>
+		</graphicData>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_AB_RecurvedStropharia</defName>
+		<label>recurved stropharia seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>AB_RecurvedStropharia</li>
+				</sources>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Seeds/RecurvedStropharia</texPath>
+		</graphicData>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_AB_SlimyPholiota</defName>
+		<label>slimy pholiota spores</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>AB_SlimyPholiota</li>
+				</sources>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Seeds/SlimyPholiota</texPath>
+		</graphicData>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_AB_Slimy</defName>
+		<label>slimy spores</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>AB_SlimyTree</li>
+				</sources>
+				<extractable>False</extractable>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Seeds/SlimyTree</texPath>
+		</graphicData>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_AB_LargeSlimy</defName>
+		<label>large slimy spores</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>AB_LargeSlimyTree</li>
+				</sources>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Seeds/LargeSlimyTree</texPath>
+		</graphicData>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_AB_FanPalm</defName>
+		<label>fan palm seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>AB_FanPalm</li>
+				</sources>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Seeds/FanPalm</texPath>
+		</graphicData>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_AB_KeeningCordax</defName>
+		<label>keening cordax seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>AB_KeeningCordax</li>
+				</sources>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Seeds/KeeningCordax</texPath>
+		</graphicData>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_ABGiantStikehr</defName>
+		<label>Giant stikehr seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>AB_GiantStikehr</li>
+				</sources>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Seeds/GiantStikehr</texPath>
+		</graphicData>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_ABAlienTree</defName>
+		<label>Alien tree seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>AB_AlienTree</li>
+				</sources>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Seeds/AlienTree</texPath>
+		</graphicData>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_ABFireVineTree</defName>
+		<label>Firevine tree seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>AB_FirevineTree</li>
+				</sources>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Seeds/FireVine</texPath>
+		</graphicData>
+	</ThingDef>
+</Defs>
