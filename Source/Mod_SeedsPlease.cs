@@ -221,6 +221,9 @@ namespace SeedsPleaseLite
 				
                 //Give this plant a blueprint that equals this seed
                 sourcePlant.blueprintDef = thing;
+
+                //Apply the harvestFactor
+                sourcePlant.plant.harvestYield *= props.harvestFactor;
 				
                 //Set plant reference
                 if (props.plant == null && sourcePlant.plant.Sowable) props.plant = sourcePlant;

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{2411013D-A7DF-47B3-807D-38F2FF356714}</ProjectGuid>
@@ -12,10 +13,12 @@
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <Optimize>true</Optimize>
-    <OutputPath>..\Content\Assemblies</OutputPath>
+    <OutputPath>..\..\..\Mods\SeedsPlease Lite\Content\Assemblies</OutputPath>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <ConsolePause>false</ConsolePause>
+    <Prefer32Bit>false</Prefer32Bit>
+    <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="0Harmony, Culture=neutral, processorArchitecture=MSIL">
@@ -35,12 +38,8 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Patches/Mods/Patch_Achtung.cs" />
-    <Compile Include="Patches/Mods/Patch_DubsMintMenus.cs" />
-    <Compile Include="Patches/Patch_Command_SetPlantToGrow.cs" />
-    <Compile Include="Patches/Patch_DefGenerator.cs" />
-    <Compile Include="Patches/Patch_PossiblePodContentsDefs.cs" />
-    <Compile Include="Patches/Patch_PlantCollected.cs" />
+    <Compile Include="Patches/Mods/*.cs" />
+    <Compile Include="Patches/*" />
     <Compile Include="DefModExtension_Seed.cs" />
     <Compile Include="DefModExtension_Seedless.cs" />
     <Compile Include="JobDriver_PlantSowWithSeeds.cs" />
