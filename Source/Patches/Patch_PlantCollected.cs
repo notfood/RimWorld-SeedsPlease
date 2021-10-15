@@ -2,7 +2,6 @@ using Verse;
 using RimWorld;
 using HarmonyLib;
 using UnityEngine;
-using System.Diagnostics;
 
 namespace SeedsPleaseLite
 {
@@ -15,7 +14,7 @@ namespace SeedsPleaseLite
             if (__instance.def.blueprintDef != null && __instance.def.blueprintDef.HasModExtension<Seed>() && !__instance.def.blueprintDef.thingCategories.NullOrEmpty() && __instance.Growth >= __instance.def.plant.harvestMinGrowth)
             {
                 var seedDef = __instance.def.blueprintDef;
-                var seedDefX = seedDef.GetModExtension<Seed>();;
+                var seedDefX = seedDef.GetModExtension<Seed>();
 
                 //Roll to check if a seed is gotten
                 if (seedDefX.seedFactor > 0 && Rand.Chance(seedDefX.baseChance))

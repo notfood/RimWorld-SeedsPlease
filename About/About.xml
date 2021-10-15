@@ -19,4 +19,7 @@
 		<li>notfood.SeedsPlease</li>
 		<li>dizzy.seedsplease</li>
 	</incompatibleWith>
+	<loadAfter>
+		<li>loggercfour.stovetech2</li>
+	</loadAfter>
 </ModMetaData>

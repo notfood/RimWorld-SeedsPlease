@@ -55,24 +55,6 @@
 	</ThingDef>
 	
 	<ThingDef ParentName="SeedBase">
-		<defName>Seed_Timbershroom</defName>
-		<label>timbershroom seeds</label>
-		<graphicData>
-			<texPath>Seeds/Timbershroom</texPath>
-		</graphicData>
-		<descriptionHyperlinks>
-			<ThingDef>Plant_Timbershroom</ThingDef>
-		</descriptionHyperlinks>
-		<modExtensions>
-			<li Class="SeedsPleaseLite.Seed">
-				<sources>
-					<li>Plant_Timbershroom</li>
-				</sources>
-			</li>
-		</modExtensions>
-	</ThingDef>
-	
-	<ThingDef ParentName="SeedBase">
 		<defName>Seed_Tinctoria</defName>
 		<label>tinctoria seeds</label>
 		<graphicData>
@@ -85,6 +67,7 @@
 			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>Plant_Tinctoria</li>
+					<li MayRequire="jelly.wildcultivation">PlantWild_Tinctoria</li>
 				</sources>
 				<harvestOverride>RawTinctoria</harvestOverride>
 				<harvestFactor>4</harvestFactor>

@@ -9,6 +9,7 @@
 		<li IfModActive="crustypeanut.rc2.core">Mods/crustypeanut.rc2.core</li>
 		<li IfModActive="crustypeanut.rc2.sase">Mods/crustypeanut.rc2.sase</li>
 		<li IfModActive="dismarzero.vgp.cupropandasdrinks">Mods/dismarzero.vgp.cupropandasdrinks</li>
+		<li IfModActive="dismarzero.vgp.vgpgardendrinksuf">Mods/dismarzero.vgp.cupropandasdrinksuf</li>
 		<li IfModActive="dismarzero.vgp.vgpgardenfabrics">Mods/dismarzero.vgp.vgpgardenfabrics</li>
 		<li IfModActive="dismarzero.vgp.vgpgardengourmet">Mods/dismarzero.vgp.vgpgardengourmet</li>
 		<li IfModActive="dismarzero.vgp.vgpgardenmedicine">Mods/dismarzero.vgp.vgpgardenmedicine</li>
@@ -85,7 +86,7 @@
 		<li IfModActive="sirmashedpotato.morrowrim.telvannispiders">Mods/sirmashedpotato.morrowrim.telvannispiders</li>
 		<li IfModActive="dankpyon.medieval.overhaul">Mods/dankpyon.medieval.overhaul</li>
 		<li IfModActive="windowsxp.rimcuisine2drugsstandalone">Mods/windowsxp.rimcuisine2drugsstandalone</li>
-		<li IfModActive="frozensnowfox.meditationfreedom">Mods/frozensnowfox.meditationfreedom</li>
+		<li IfModActive="frozensnowfox.meditationfreedom,frozensnowfox.meditationfreedomnostory">Mods/frozensnowfox.meditationfreedom</li>
 		<li IfModActive="erin.hotdrink">Mods/erin.hotdrink</li>
 		<li IfModActive="com.rimworld.nales.expandedrims">Mods/com.rimworld.nales.expandedrims</li>
 		<li IfModActive="tidal.grainsandbrewing">Mods/tidal.grainsandbrewing</li>
@@ -95,5 +96,18 @@
 		<li IfModActive="dismarzero.vgp.rimfortressdwarvenplants">Mods/dismarzero.vgp.rimfortressdwarvenplants</li>
 		<li IfModActive="prolle.glitterworld.medicine">Mods/prolle.glitterworld.medicine</li>
 		<li IfModActive="regrowth.botr.volcanicicesheet">Mods/regrowth.botr.volcanicicesheet</li>
+		<li IfModActive="lordoftherims.hobbits">Mods/lordoftherims.hobbits</li>
+		<li IfModActive="sirmashedpotato.morrowrim.volcanicashlands">Mods/sirmashedpotato.morrowrim.volcanicashlands</li>
+		<li IfModActive="bowen.ultima.core">Mods/bowen.ultima.core</li>
+		<li IfModActive="solaris.furniturebase">Mods/solaris.furniturebase</li>
+		<li IfModActive="kit.braziliancrops">Mods/kit.braziliancrops</li>
+		<li IfModActive="mlie.cactaceae">Mods/mlie.cactaceae</li>
+		<li IfModActive="heis.edo.themed.expansion">Mods/heis.edo.themed.expansion</li>
+		<li IfModActive="nanonator102.farmableneutroamine">Mods/nanonator102.farmableneutroamine</li>
+		<li IfModActive="folia.race.mod">Mods/folia.race.mod</li>
+		<li IfModActive="ogliss.bishop.smokeleafindustryreborn">Mods/ogliss.bishop.smokeleafindustryreborn</li>
+		<li IfModActive="mantrasong.zengarden.1">Mods/mantrasong.zengarden.1</li>
+		<li IfModActive="syrchalis.blueberries">Mods/syrchalis.blueberries</li>
+		<li IfModActive="kyd.zucchini">Mods/kyd.zucchini</li>
 	</v1.3>
 </loadFolders>

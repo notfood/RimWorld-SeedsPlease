@@ -28,6 +28,7 @@
 		<ingestible>
 			<preferability>DesperateOnlyForHumanlikes</preferability>
 			<foodType>Plant</foodType>
+			<canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
 		</ingestible>
 	</ThingDef>
 	
@@ -46,6 +47,7 @@
 			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>Plant_Rice</li>
+					<li MayRequire="jelly.wildcultivation">PlantWildRice</li>
 				</sources>
 			</li>
 		</modExtensions>
@@ -64,6 +66,7 @@
 			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>Plant_Potato</li>
+					<li MayRequire="jelly.wildcultivation">PlantWildPotato</li>
 				</sources>
 				<priority>20</priority>
 			</li>
@@ -83,6 +86,7 @@
 			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>Plant_Corn</li>
+					<li MayRequire="jelly.wildcultivation">PlantWildCorn</li>
 				</sources>
 				<priority>20</priority>
 			</li>
@@ -121,6 +125,7 @@
 			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>Plant_Hops</li>
+					<li MayRequire="jelly.wildcultivation">PlantWildHops</li>
 				</sources>
 				<priority>20</priority>
 			</li>
@@ -140,6 +145,7 @@
 			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>Plant_Smokeleaf</li>
+					<li MayRequire="jelly.wildcultivation">PlantWildSmokeleaf</li>
 				</sources>
 				<priority>20</priority>
 			</li>
@@ -159,6 +165,7 @@
 			<li Class="SeedsPleaseLite.Seed">
 				<sources>
 					<li>Plant_Psychoid</li>
+					<li MayRequire="jelly.wildcultivation">PlantWildPsychoid</li>
 				</sources>
 			</li>
 		</modExtensions>
@@ -414,6 +421,7 @@
 				<harvestOverride>RawCotton</harvestOverride>
 				<sources>
 					<li>Plant_Cotton</li>
+					<li MayRequire="jelly.wildcultivation">PlantWildCotton</li>
 				</sources>
 				<extractable>True</extractable>
 				<priority>20</priority>
@@ -438,6 +446,7 @@
 				<harvestOverride>RawDevilstrand</harvestOverride>
 				<sources>
 					<li>Plant_Devilstrand</li>
+					<li MayRequire="jelly.wildcultivation">PlantWildDevilstrand</li>
 				</sources>
 				<extractable>True</extractable>
 				<priority>20</priority>

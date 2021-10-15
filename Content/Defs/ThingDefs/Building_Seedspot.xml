@@ -18,7 +18,7 @@
 		</statBases>
 		<scatterableOnMapGen>false</scatterableOnMapGen>
 		<useHitPoints>false</useHitPoints>
-		<designationCategory>Production</designationCategory>
+		<designationCategory>Misc</designationCategory>
 		<passability>Standable</passability>
 		<hasInteractionCell>True</hasInteractionCell>
 		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
@@ -38,8 +38,8 @@
 			</buildingTags>
 		</building>
 		<modExtensions>
-			<li MayRequire="owlchemist.perspectivebuildings" Class="Perspective.Ignore">
-				<ignore>false</ignore>
+			<li MayRequire="owlchemist.perspectivebuildings" Class="Perspective.Offsetter">
+				<ignore>False</ignore>
 			</li>
 		</modExtensions>
 		<comps>

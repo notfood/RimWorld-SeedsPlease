@@ -1,0 +1,33 @@
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/ThingDef[defName="Seed_Sugarcane"]/modExtensions/li[@Class="SeedsPleaseLite.Seed"]/sources</xpath>
+				<value>
+					<li>Plantsugarcane</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs[not(ThingDef[defName="Seed_Sugarcane"])]</xpath>
+				<value>
+					<ThingDef ParentName="SeedBase">
+						<defName>Seed_Sugarcane</defName>
+						<label>sugarcane seeds</label>
+						<descriptionHyperlinks>
+							<ThingDef>Plantsugarcane</ThingDef>
+						</descriptionHyperlinks>
+						<modExtensions>
+							<li Class="SeedsPleaseLite.Seed">
+								<sources>
+									<li>Plantsugarcane</li>
+								</sources>
+							</li>
+						</modExtensions>
+					</ThingDef>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

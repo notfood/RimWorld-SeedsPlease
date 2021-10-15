@@ -45,44 +45,44 @@
 	
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_Jadeleaf</defName>
-	<label>jadeleaf seeds</label>
-	<modExtensions>
-		<li Class="SeedsPleaseLite.Seed">
-			<sources>
-				<li>PlantJadeLeaf</li>
-			</sources>
-			<extractable>False</extractable>
-		</li>
-	</modExtensions>
-	<graphicData><texPath>Seeds/JadeLeaf</texPath></graphicData>
-</ThingDef>
-
-<ThingDef ParentName="SeedBase">
-	<defName>Seed_Silverleaf</defName>
-	<label>silverleaf seeds</label>
-	<modExtensions>
-		<li Class="SeedsPleaseLite.Seed">
-			<sources>
-				<li>PlantSilverLeaf</li>
-			</sources>
-			<extractable>False</extractable>
-		</li>
-	</modExtensions>
-	<graphicData><texPath>Seeds/SilverLeaf</texPath></graphicData>
-</ThingDef>
-
-<ThingDef ParentName="SeedBase">
-	<defName>Seed_Uraniumleaf</defName>
-	<label>uraniumleaf seeds</label>
-	<modExtensions>
-		<li Class="SeedsPleaseLite.Seed">
-			<sources>
-				<li>PlantUraniumLeaf</li>
-			</sources>
-			<extractable>False</extractable>
-		</li>
-	</modExtensions>
-	<graphicData><texPath>Seeds/UraniumLeaf</texPath></graphicData>
-</ThingDef>
-
+		<label>jadeleaf seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>PlantJadeLeaf</li>
+				</sources>
+				<extractable>False</extractable>
+			</li>
+		</modExtensions>
+		<graphicData><texPath>Seeds/JadeLeaf</texPath></graphicData>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_Silverleaf</defName>
+		<label>silverleaf seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>PlantSilverLeaf</li>
+					<li MayRequire="bowen.ultima.core">Plant_Silverleaf</li>
+				</sources>
+				<extractable>False</extractable>
+			</li>
+		</modExtensions>
+		<graphicData><texPath>Seeds/SilverLeaf</texPath></graphicData>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_Uraniumleaf</defName>
+		<label>uraniumleaf seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>PlantUraniumLeaf</li>
+				</sources>
+				<extractable>False</extractable>
+			</li>
+		</modExtensions>
+		<graphicData><texPath>Seeds/UraniumLeaf</texPath></graphicData>
+	</ThingDef>
 </Defs>

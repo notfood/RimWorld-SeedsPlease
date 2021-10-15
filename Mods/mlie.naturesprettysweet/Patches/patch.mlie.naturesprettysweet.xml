@@ -1,19 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Patch>	
-	<Operation Class="PatchOperationSequence">
-		<operations>
-			<li Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[defName="TKKN_PlantTreeRedwoodDead"][not(modExtensions)]</xpath>
-				<value>
-					<modExtensions />
-				</value>
-			</li>
-			<li Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[defName="TKKN_PlantTreeRedwoodDead"]/modExtensions</xpath>
-				<value>
-					<li Class="SeedsPleaseLite.Seedless" />
-				</value>
-			</li>
-		</operations>
+<Patch>
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/ThingDef[defName="TKKN_PlantTreeRedwoodDead"]</xpath>
+		<value>
+			<li Class="SeedsPleaseLite.Seedless" />
+		</value>
 	</Operation>
-</Patch>
+</Patch> 

@@ -96,6 +96,22 @@
 					<li>ButcherSpot</li>
 				</value>
 			</li>
+			
+			<!-- Add related buildings -->
+			<li Class="PatchOperationAdd">
+				
+				<xpath>Defs/ThingDef[label[contains(text(), "stove")] and building and building/isMealSource]/building[not(relatedBuildCommands)]</xpath>
+				<value>
+					<relatedBuildCommands />
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				
+				<xpath>Defs/ThingDef[label[contains(text(), "stove")] and building and building/isMealSource]/building/relatedBuildCommands</xpath>
+				<value>
+					<li>SeedExtractionSpot</li>
+				</value>
+			</li>
 		</operations>
 	</Operation>
 </Patch> 

@@ -46,6 +46,7 @@
 				<sources>
 					<li>PlantTomato</li>
 				</sources>
+				<priority>15</priority>
 			</li>
 		</modExtensions>
 		<graphicData><texPath>Seeds/Tomato</texPath></graphicData>
@@ -59,6 +60,7 @@
 				<sources>
 					<li>PlantCarrot</li>
 				</sources>
+				<priority>15</priority>
 			</li>
 		</modExtensions>
 		<graphicData><texPath>Seeds/Carrot</texPath></graphicData>
