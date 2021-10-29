@@ -1,0 +1,191 @@
+<Defs>	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_Chesto</defName>
+		<label>chesto seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>Plant_Chesto</li>
+				</sources>
+			</li>
+		</modExtensions>
+		<graphicData><texPath>Seeds/Chesto</texPath></graphicData>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_Persim</defName>
+		<label>persim seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>Plant_Persim</li>
+				</sources>
+			</li>
+		</modExtensions>
+		<graphicData><texPath>Seeds/Persim</texPath></graphicData>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_Hondew</defName>
+		<label>hondew seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>Plant_Hondew</li>
+				</sources>
+			</li>
+		</modExtensions>
+		<graphicData><texPath>Seeds/Hondew</texPath></graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_Passho</defName>
+		<label>passho seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>Plant_Passho</li>
+				</sources>
+			</li>
+		</modExtensions>
+		<graphicData><texPath>Seeds/Passho</texPath></graphicData>
+	</ThingDef>
+	
+	
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_Qualot</defName>
+		<label>qualot seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>Plant_Qualot</li>
+				</sources>
+				<priority>15</priority>
+			</li>
+		</modExtensions>
+		<graphicData><texPath>Seeds/Qualot</texPath></graphicData>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_bluk</defName>
+		<label>bluk seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>Plant_Bluk</li>
+				</sources>
+				<priority>15</priority>
+			</li>
+		</modExtensions>
+		<graphicData><texPath>Seeds/Bluk</texPath></graphicData>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_Kelpsy</defName>
+		<label>kelpsy seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>Plant_Kelpsy</li>
+				</sources>
+			</li>
+		</modExtensions>
+		<graphicData><texPath>Seeds/Kelpsy</texPath></graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_Haban</defName>
+		<label>haban seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>Plant_Haban</li>
+				</sources>
+			</li>
+		</modExtensions>
+		<graphicData><texPath>Seeds/Haban</texPath></graphicData>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_Rabuta</defName>
+		<label>rabuta seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>Plant_Rabuta</li>
+				</sources>
+			</li>
+		</modExtensions>
+		<graphicData><texPath>Seeds/Rabuta</texPath></graphicData>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_Kasib</defName>
+		<label>kasib seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>Plant_Kasib</li>
+				</sources>
+			</li>
+		</modExtensions>
+		<graphicData><texPath>Seeds/Kasib</texPath></graphicData>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_Spelon</defName>
+		<label>Spelon seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>Plant_Spelon</li>
+				</sources>
+			</li>
+		</modExtensions>
+		<graphicData><texPath>Seeds/Spelon</texPath></graphicData>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_Nomel</defName>
+		<label>nomel seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>Plant_Nomel</li>
+				</sources>
+			</li>
+		</modExtensions>
+		<graphicData><texPath>Seeds/Nomel</texPath></graphicData>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_Yache</defName>
+		<label>yache seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>Plant_Yache</li>
+				</sources>
+			</li>
+		</modExtensions>
+		<graphicData><texPath>Seeds/Yache</texPath></graphicData>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_Salac</defName>
+		<label>salac seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>Plant_Salac</li>
+				</sources>
+			</li>
+		</modExtensions>
+		<graphicData><texPath>Seeds/Salac</texPath></graphicData>
+	</ThingDef>
+	
+	
+	
+</Defs>
+

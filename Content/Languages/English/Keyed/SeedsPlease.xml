@@ -1,10 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <HarvestMultiplier>Multiplier for yield</HarvestMultiplier>
-  <SeedMultiplier>Multiplier for seeds</SeedMultiplier>
-  <SeedBaseChance>Chance of seeds</SeedBaseChance>
-  <SeedExtraChance>Chance of extra seeds</SeedExtraChance>
-  <GrowDays>Growth period</GrowDays>
-
+	<HarvestMultiplier>Multiplier for yield</HarvestMultiplier>
+	<SeedMultiplier>Multiplier for seeds</SeedMultiplier>
+	<SeedBaseChance>Chance of seeds</SeedBaseChance>
+	<SeedExtraChance>Chance of extra seeds</SeedExtraChance>
+	<GrowDays>Growth period</GrowDays>
+	<SPL.BillHelp>(Clear the filter first and then select a seed before selecting this bill type.)</SPL.BillHelp>
+	
+	<SPL.RequiresRestart>The following settings require a game restart:</SPL.RequiresRestart>
+	<SPL.MarketValueModifier>Market value modifier (Mod default: {0}, Min: {1}, Max: {2}): </SPL.MarketValueModifier>
+	<SPL.MarketValueModifierDesc>The market value of seeds is multiplied by this value. Reduce this if you want cheaper seeds to buy.</SPL.MarketValueModifierDesc>
+	
+	<SPL.SeedExtractionModifier>Seed extraction modifier (Mod default: {0}, Min: {1}, Max: {2}): </SPL.SeedExtractionModifier>
+	<SPL.SeedExtractionModifierDesc>The amount of seeds extracted from produce is multiplied by this value. Most extractions are {0} by default.</SPL.SeedExtractionModifierDesc>
+	
+	<SPL.SeedFactorModifier>Seed factor modifier (Mod default: {0}, Min: {1}, Max: {2}): </SPL.SeedFactorModifier>
+	<SPL.SeedFactorModifierDesc>The number of seeds a plant will normally yield is multiplied by this value. Most plants drop {0} seed by default, with a bonus roll for more.</SPL.SeedFactorModifierDesc>
 </LanguageData>

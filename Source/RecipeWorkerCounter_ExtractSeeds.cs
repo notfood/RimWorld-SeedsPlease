@@ -10,8 +10,18 @@ namespace Verse
 	{
 		public override bool CanCountProducts(Bill_Production bill)
 		{
-			if (bill.ingredientFilter.AllowedThingDefs.Count<ThingDef>() != 1) return false;
+			if (bill.ingredientFilter.AllowedThingDefs.Count<ThingDef>() != 1)
+			{
+				LongEventHandler.QueueLongEvent(() => HelperMessage(), "SeedsPleaseLite.HelperMessage", false, null);
+				return false;
+			}
             return true;
+		}
+
+		void HelperMessage()
+		{
+			Messages.Clear();
+			Messages.Message("SPL.BillHelp".Translate(), MessageTypeDefOf.RejectInput, false);
 		}
 
 		public override int CountProducts(Bill_Production bill)

@@ -1,0 +1,31 @@
+<Defs>
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_Plant_USTangleroot</defName>
+		<label>tangleroot seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>Plant_USTangleroot</li>
+				</sources>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Seeds/USTangleroot</texPath>
+		</graphicData>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_Plant_USStinkroot</defName>
+		<label>stinkroot seeds</label>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>Plant_USStinkroot</li>
+				</sources>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Seeds/USStinkroot</texPath>
+		</graphicData>
+	</ThingDef>
+</Defs>

@@ -6,8 +6,8 @@ namespace SeedsPleaseLite
 {
     public static class ResourceBank
     {
-        public static readonly List<string> knownPrefixes = new List<string>() {
-            "VG_Plant", "VGP_", "RC2_", "RC_Plant", "TKKN_Plant", "TKKN_", "TM_", "Plant_", "WildPlant", "Wild", "Plant", "tree", "Tree"
+        public static readonly string[] knownPrefixes = new string[] {
+            "VG_Plant", "VGP_", "RC2_", "RC_Plant", "TKKN_Plant", "TKKN_", "TM_", "Ogre_AdvHyd_", "Plant_", "WildPlant", "Wild", "Plant", "tree", "Tree"
         };
 
         [DefOf]

@@ -23,7 +23,7 @@ namespace SeedsPleaseLite
                     int count = (Rand.Chance(seedDefX.extraChance)) ? 2 : 1;
 
                     Thing newSeeds = ThingMaker.MakeThing(seedDef, null);
-                    newSeeds.stackCount = Mathf.RoundToInt(seedDefX.seedFactor * count);
+                    newSeeds.stackCount = Mathf.RoundToInt(seedDefX.seedFactor * count * SeedsPleaseLite.ModSettings_SeedsPleaseLite.seedFactorModifier);
 
                     GenPlace.TryPlaceThing (newSeeds, by.Position, by.Map, ThingPlaceMode.Near);
 

@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 using System.Linq;
-using HarmonyLib;
+using System;
 using RimWorld;
 using Verse;
 using UnityEngine;
@@ -59,6 +59,9 @@ namespace SeedsPleaseLite
 			
             //Adjust value based on skill need
             value *= Mathf.Lerp(0.8f, 1.6f, thingDef.plant.sowMinSkill / 20f);
+
+            //Factor in user preference
+            value *= SeedsPleaseLite.ModSettings_SeedsPleaseLite.marketValueModifier;
 			
             //Cap value
             if (value > 25f) value = 24.99f;
@@ -79,6 +82,11 @@ namespace SeedsPleaseLite
         static void AddMissingSeed(StringBuilder report, ThingDef thingDef)
         {
             string name = thingDef.defName;
+            if (name.NullOrEmpty())
+            {
+                Log.Warning("[Seeds Please: Lite] Tried to generate a seed for an invalid definition. Skipping...");
+                return;
+            }
             foreach (string prefix in ResourceBank.knownPrefixes)
             {
                 name = name.Replace(prefix, "");
@@ -177,7 +185,7 @@ namespace SeedsPleaseLite
                     if (thisProduce.butcherProducts == null) {
                         thisProduce.butcherProducts = new List<ThingDefCountClass>();;
                     }
-                    var seedToAdd = new ThingDefCountClass(seed,seedComp.extractionValue);
+                    var seedToAdd = new ThingDefCountClass(seed, (int)Math.Round(seedComp.extractionValue * SeedsPleaseLite.ModSettings_SeedsPleaseLite.extractionModifier));
 
                     //Make the produce drop this seed when processed
                     if (thisProduce.butcherProducts.Count == 0){

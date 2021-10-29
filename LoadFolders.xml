@@ -109,5 +109,14 @@
 		<li IfModActive="mantrasong.zengarden.1">Mods/mantrasong.zengarden.1</li>
 		<li IfModActive="syrchalis.blueberries">Mods/syrchalis.blueberries</li>
 		<li IfModActive="kyd.zucchini">Mods/kyd.zucchini</li>
+		<li IfModActive="syrchalis.thrumkin">Mods/syrchalis.thrumkin</li>
+		<li IfModActive="syrchalis.harpy">Mods/syrchalis.harpy</li>
+		<li IfModActive="velcroboy333.fw">Mods/velcroboy333.fw</li>
+		<li IfModActive="ssulunge.kijinrace2">Mods/ssulunge.kijinrace2</li>
+		<li IfModActive="biomesteam.biomescore">Mods/biomesteam.biomescore</li>
+		<li IfModActive="sera.apinialienrace">Mods/sera.apinialienrace</li>
+		<li IfModActive="wildpokemon.velcroboy333">Mods/wildpokemon.velcroboy333</li>
+		<li IfModActive="mlie.socialsupplements">Mods/mlie.socialsupplements</li>
+		<li IfModActive="mlie.utilitysupplements">Mods/mlie.utilitysupplements</li>
 	</v1.3>
 </loadFolders>
