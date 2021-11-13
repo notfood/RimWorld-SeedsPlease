@@ -19,7 +19,12 @@
 	<ThingDef ParentName="OrganicProductBaseSeeds">
 		<defName>RawCotton</defName>
 		<label>raw cotton</label>
-		<description>Raw Cotton from a Cotton Bush. Woven into Cloth at a Plant Processing Bench.</description>
+		<description>Raw Cotton from a cotton bush, which can be woven into cloth at a tailoring bench.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Plant_Cotton</ThingDef>
+			<ThingDef>HandTailoringBench</ThingDef>
+			<ThingDef>ElectricTailoringBench</ThingDef>
+		</descriptionHyperlinks>
 		<graphicData>
 			<texPath>Things/Item/Resource/RawCotton</texPath>
 		</graphicData>
@@ -34,7 +39,12 @@
 	<ThingDef ParentName="OrganicProductBaseSeeds">
 		<defName>RawDevilstrand</defName>
 		<label>raw devilstrand</label>
-		<description>Raw Devilstrand from a Devilstrand Mushroom. Woven into Devilstrand Cloth at a Plant Processing Bench.</description>
+		<description>Raw Devilstrand from a devilstrand mushroom. It can be processed into devilstrand cloth a tailoring bench.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Plant_Devilstrand</ThingDef>
+			<ThingDef>HandTailoringBench</ThingDef>
+			<ThingDef>ElectricTailoringBench</ThingDef>
+		</descriptionHyperlinks>
 		<graphicData>
 			<texPath>Things/Item/Resource/RawDevilstrand</texPath>
 		</graphicData>
@@ -49,7 +59,12 @@
 	<ThingDef ParentName="OrganicProductBaseSeeds">
 		<defName>RawHealroot</defName>
 		<label>raw healroot</label>
-		<description>Raw Healroot from a Healroot bush. Processed into Herbal Medicine at a Plant Processing Bench.</description>
+		<description>Raw Healroot from a healroot bush. It can be processed into herbal medicine drug lab or crafting spot.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Plant_Healroot</ThingDef>
+			<ThingDef>CraftingSpot</ThingDef>
+			<ThingDef>DrugLab</ThingDef>
+		</descriptionHyperlinks>
 		<graphicData>
 			<texPath>Things/Item/Resource/RawHealroot</texPath>
 		</graphicData>
@@ -75,7 +90,12 @@
 	<ThingDef ParentName="OrganicProductBaseSeeds">
 		<defName>RawCocoaBeans</defName>
 		<label>cocoa beans</label>
-		<description>Raw cocoa beans to cook into chocolate.</description>
+		<description>Raw cocoa beans to cook into chocolate at a stove.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Plant_TreeCocoa</ThingDef>
+			<ThingDef>FueledStove</ThingDef>
+			<ThingDef>ElectricStove</ThingDef>
+		</descriptionHyperlinks>
 		<graphicData>
 			<texPath>Things/Item/Resource/RawCocoa</texPath>
 		</graphicData>

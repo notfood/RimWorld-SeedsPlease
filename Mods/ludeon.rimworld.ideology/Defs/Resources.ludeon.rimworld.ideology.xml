@@ -3,7 +3,12 @@
 	<ThingDef ParentName="OrganicProductBaseSeeds">
 		<defName>RawTinctoria</defName>
 		<label>tinctoria leaves</label>
-		<description>Unprocessed leaves of a Tinctoria plant.</description>
+		<description>Raw leaves from a tinctoria plant, which can be boiled at a stoved to process into dye.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Plant_Tinctoria</ThingDef>
+			<ThingDef>FueledStove</ThingDef>
+			<ThingDef>ElectricStove</ThingDef>
+		</descriptionHyperlinks>
 		<graphicData>
 			<texPath>Things/Item/Resource/RawTinctoria</texPath>
 		</graphicData>

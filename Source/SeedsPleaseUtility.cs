@@ -14,14 +14,12 @@ namespace SeedsPleaseLite
 {
     public static class SeedsPleaseUtility
     {
-		//Normal follows the default rules on if a plant has an extractable seed or not. True and false override the results.
-        public enum extractable { Normal, True, False }
         public static void Setup()
         {
             //Resolve references, which validates the seeds are configured right and also sets their market value
-            DefDatabase<ThingDef>.AllDefs.Where(x => x.HasModExtension<Seed>()).ToList().ForEach(y => ResolveReferences(y));            
+            DefDatabase<ThingDef>.AllDefsListForReading.ForEach(x => { if (x.HasModExtension<Seed>()) ResolveReferences(x) ;});
 
-            var report = new System.Text.StringBuilder();
+            StringBuilder report = new System.Text.StringBuilder();
             if (AddMissingSeeds(report))
             {
                 ResourceCounter.ResetDefs();
@@ -71,16 +69,28 @@ namespace SeedsPleaseLite
 
         static bool AddMissingSeeds(StringBuilder report)
 		 {
-            // Filter the database. The thing must be a plant, missing a blueprintDef (the seed assigned), be sowable, have a harvested thing, and not have the seedless comp
-            var dd = DefDatabase<ThingDef>.AllDefs.Where(x => x.plant != null && x.blueprintDef == null && x.plant.Sowable && x.plant.harvestedThingDef != null && !x.HasModExtension<Seedless>()).ToList();
-            foreach (var thingDef in dd) {
-                AddMissingSeed(report, thingDef);
-			}
-            return (dd.Count() > 0) ? true : false;
+            bool flag = false;
+            DefDatabase<ThingDef>.AllDefs.ToList().ForEach(x =>
+            {
+                if
+                (
+                    x.plant != null && 
+                    x.blueprintDef == null && 
+                    x.plant.Sowable && 
+                    x.plant.harvestedThingDef != null && 
+                    !x.HasModExtension<Seedless>()
+                )
+                {
+                    AddMissingSeed(report, x);
+                    flag = true;
+                }
+            });
+            return flag;
 		}
 		
         static void AddMissingSeed(StringBuilder report, ThingDef thingDef)
         {
+            Log.Message("aaaaaaaaaaaaa");
             string name = thingDef.defName;
             if (name.NullOrEmpty())
             {
@@ -95,7 +105,7 @@ namespace SeedsPleaseLite
 			
             report.Append("\n<!-- SeedsPlease :: " + thingDef.defName + "(" + (thingDef.modContentPack.IsCoreMod ? "Patched" : thingDef.modContentPack.PackageId) + ")");
 			
-            var seed = DefDatabase<ThingDef>.GetNamedSilentFail("Seed_" + name);
+            ThingDef seed = DefDatabase<ThingDef>.GetNamed("Seed_" + name, false);
 
             if (seed == null)
             {
@@ -163,32 +173,34 @@ namespace SeedsPleaseLite
 
         static void AddButchery()
         {
-            var defDatabase = DefDatabase<ThingDef>.AllDefs.Where(x => x.HasModExtension<Seed>() && x.GetModExtension<Seed>().extractable != extractable.False).ToList();
-            var se = SeedExtractable;
+            var defDatabase = DefDatabase<ThingDef>.AllDefsListForReading.Where(x => x.HasModExtension<Seed>() && x.GetModExtension<Seed>().extractable != Seed.Extractable.False);
+            ThingCategoryDef se = SeedExtractable; //alias the category into shorthand
 
             //Iterate through the seed database
-            foreach (var seed in defDatabase)
+            foreach (ThingDef seed in defDatabase)
             {
-                var seedComp = seed.GetModExtension<Seed>();
+                Seed seedComp = seed.GetModExtension<Seed>();
                 //Iterate through the sources within each seed
                 foreach (ThingDef source in seedComp.sources)
                 {
                     if (source.plant.harvestedThingDef == null) continue;
 
-                    var thisProduce = DefDatabase<ThingDef>.GetNamed(source.plant.harvestedThingDef.defName);
+                    ThingDef thisProduce = DefDatabase<ThingDef>.GetNamed(source.plant.harvestedThingDef.defName);
                     if (thisProduce == null) continue;
 
                     //We don't add butchery things to non-produce harvests like wood.
-                    if (thisProduce.IsIngestible == false && seedComp.extractable != extractable.True) continue;
+                    if (thisProduce.IsIngestible == false && seedComp.extractable != Seed.Extractable.True) continue;
 
                     //Add butchery product values. Butchering this produce renders this seed
-                    if (thisProduce.butcherProducts == null) {
+                    if (thisProduce.butcherProducts == null)
+                    {
                         thisProduce.butcherProducts = new List<ThingDefCountClass>();;
                     }
-                    var seedToAdd = new ThingDefCountClass(seed, (int)Math.Round(seedComp.extractionValue * SeedsPleaseLite.ModSettings_SeedsPleaseLite.extractionModifier));
+                    ThingDefCountClass seedToAdd = new ThingDefCountClass(seed, (int)Math.Round(seedComp.extractionValue * SeedsPleaseLite.ModSettings_SeedsPleaseLite.extractionModifier));
 
                     //Make the produce drop this seed when processed
-                    if (thisProduce.butcherProducts.Count == 0){
+                    if (thisProduce.butcherProducts.Count == 0)
+                    {
                         thisProduce.butcherProducts.Add(seedToAdd);
                     }
 
@@ -200,15 +212,17 @@ namespace SeedsPleaseLite
 
                         //Compare priorioty to determine winner
                         if (priorityNew > priorityCurrent) thisProduce.butcherProducts[0] = seedToAdd;
-                        else if (priorityNew == priorityCurrent) Log.Warning("Warning: the seed " + seed.defName + " wants to be extracted from "
+                        else if (priorityNew == priorityCurrent) Log.Warning("[Seeds Please: Lite] The seed " + seed.defName + " wants to be extracted from "
                      + thisProduce.defName + " but this produce already contains seeds for " + thisProduce.butcherProducts[0].thingDef.defName + 
                      ". This will need to be resolved manually, please report.");
                     }
 
                     //Add category
-                    if (!thisProduce.thingCategories.Contains(se)) {
+                    if (!thisProduce.thingCategories.Contains(se))
+                    {
                         thisProduce.thingCategories.Add(se);
-                        if (!se.childThingDefs.Contains(thisProduce)) {
+                        if (!se.childThingDefs.Contains(thisProduce))
+                        {
                             se.childThingDefs.Add(thisProduce);
                         }
                     }
@@ -221,7 +235,7 @@ namespace SeedsPleaseLite
         static void ResolveReferences (ThingDef thing)
         {
             thing.ResolveReferences();
-            var props = thing.GetModExtension<Seed>();
+            Seed props = thing.GetModExtension<Seed>();
 
             //Check the seed's sources
             foreach (var sourcePlant in props.sources)
@@ -243,8 +257,9 @@ namespace SeedsPleaseLite
                 if (props.plant == null && sourcePlant.plant.Sowable) props.plant = sourcePlant;
 			}
 			
-            if (props.plant == null) {
-                Log.Warning("SeedsPlease :: " + thing.defName + " has no sowable plant.");
+            if (props.plant == null)
+            {
+                Log.Warning("[Seeds Please: Lite]" + thing.defName + " has no sowable plant.");
                 return;
 			}
 			
@@ -257,10 +272,6 @@ namespace SeedsPleaseLite
 			
             //Set the market value
             if (thing.BaseMarketValue <= 0f && props.harvestOverride != null) thing.BaseMarketValue = AssignMarketValueFromHarvest(props.plant);
-			
-			#if DEBUG
-				Log.Message ($"{plant} {harvest?.BaseMarketValue} => {BaseMarketValue}");
-			#endif
 		}
     }
 }

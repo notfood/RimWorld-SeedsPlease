@@ -1,7 +1,8 @@
 using RimWorld;
+using Verse;
 using System.Linq;
 
-namespace Verse
+namespace SeedsPleaseLite
 {
 	/// <summary>
 	/// This is responsible for the seed extraction recipe's ability to do the "Do until X" bill type, explaining how/what to count.
@@ -12,7 +13,7 @@ namespace Verse
 		{
 			if (bill.ingredientFilter.AllowedThingDefs.Count<ThingDef>() != 1)
 			{
-				LongEventHandler.QueueLongEvent(() => HelperMessage(), "SeedsPleaseLite.HelperMessage", false, null);
+				LongEventHandler.QueueLongEvent(() => HelperMessage(), null, false, null);
 				return false;
 			}
             return true;

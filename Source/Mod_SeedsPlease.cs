@@ -11,7 +11,7 @@ namespace SeedsPleaseLite
         {
             new Harmony(this.Content.PackageIdPlayerFacing).PatchAll();
             base.GetSettings<ModSettings_SeedsPleaseLite>();
-            LongEventHandler.QueueLongEvent(() => SeedsPleaseUtility.Setup(), "SeedsPleaseLite.Setup", false, null);
+            LongEventHandler.QueueLongEvent(() => SeedsPleaseUtility.Setup(), null, false, null);
         }
 
         public override void DoSettingsWindowContents(Rect inRect)
@@ -20,14 +20,16 @@ namespace SeedsPleaseLite
 			options.Begin(inRect);
             options.Label("SPL.RequiresRestart".Translate());
             options.GapLine();
-			options.Label("SPL.MarketValueModifier".Translate("100%", "20%", "500%") + marketValueModifier.ToStringPercent(), -1f, "SPL.MarketValueModifierDesc".Translate());
+			options.Label("SPL.Settings.MarketValueModifier".Translate("100%", "20%", "500%") + marketValueModifier.ToStringPercent(), -1f, "SPL.Settings.MarketValueModifier.Desc".Translate());
 			marketValueModifier = options.Slider(marketValueModifier, 0.2f, 5f);
 
-            options.Label("SPL.SeedExtractionModifier".Translate("100%", "20%", "500%") + extractionModifier.ToStringPercent(), -1f, "SPL.SeedExtractionModifierDesc".Translate("4"));
+            options.Label("SPL.Settings.SeedExtractionModifier".Translate("100%", "20%", "500%") + extractionModifier.ToStringPercent(), -1f, "SPL.Settings.SeedExtractionModifier.Desc".Translate("4"));
 			extractionModifier = options.Slider(extractionModifier, 0.2f, 5f);
 
-            options.Label("SPL.SeedFactorModifier".Translate("100%", "20%", "500%") + seedFactorModifier.ToStringPercent(), -1f, "SPL.SeedFactorModifierDesc".Translate("1"));
+            options.Label("SPL.Settings.SeedFactorModifier".Translate("100%", "20%", "500%") + seedFactorModifier.ToStringPercent(), -1f, "SPL.Settings.SeedFactorModifier.Desc".Translate("1"));
 			seedFactorModifier = options.Slider(seedFactorModifier, 0.2f, 5f);
+
+			options.CheckboxLabeled("SPL.Settings.NoUselessSeeds".Translate(), ref noUselessSeeds, "SPL.Settings.NoUselessSeeds.Desc".Translate());
 			
 			options.End();
 			base.DoSettingsWindowContents(inRect);
@@ -51,6 +53,7 @@ namespace SeedsPleaseLite
 			Scribe_Values.Look<float>(ref marketValueModifier, "marketValueModifier", 1f, false);
             Scribe_Values.Look<float>(ref extractionModifier, "extractionModifier", 1f, false);
             Scribe_Values.Look<float>(ref seedFactorModifier, "seedFactorModifier", 1f, false);
+			Scribe_Values.Look<bool>(ref noUselessSeeds, "noUselessSeeds", true, false);
 			
 			base.ExposeData();
 		}
@@ -58,5 +61,6 @@ namespace SeedsPleaseLite
 		public static float marketValueModifier = 1f;
         public static float extractionModifier = 1f;
         public static float seedFactorModifier = 1f;
+		public static bool noUselessSeeds = true;
 	}
 }

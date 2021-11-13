@@ -118,5 +118,6 @@
 		<li IfModActive="wildpokemon.velcroboy333">Mods/wildpokemon.velcroboy333</li>
 		<li IfModActive="mlie.socialsupplements">Mods/mlie.socialsupplements</li>
 		<li IfModActive="mlie.utilitysupplements">Mods/mlie.utilitysupplements</li>
+		<li IfModActive="mlie.jecstobaccoandcigarettes">Mods/mlie.jecstobaccoandcigarettes</li>
 	</v1.3>
 </loadFolders>

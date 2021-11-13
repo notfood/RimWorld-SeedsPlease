@@ -8,12 +8,15 @@
 	<SPL.BillHelp>(Clear the filter first and then select a seed before selecting this bill type.)</SPL.BillHelp>
 	
 	<SPL.RequiresRestart>The following settings require a game restart:</SPL.RequiresRestart>
-	<SPL.MarketValueModifier>Market value modifier (Mod default: {0}, Min: {1}, Max: {2}): </SPL.MarketValueModifier>
-	<SPL.MarketValueModifierDesc>The market value of seeds is multiplied by this value. Reduce this if you want cheaper seeds to buy.</SPL.MarketValueModifierDesc>
+	<SPL.Settings.MarketValueModifier>Market value modifier (Mod default: {0}, Min: {1}, Max: {2}): </SPL.Settings.MarketValueModifier>
+	<SPL.Settings.MarketValueModifier.Desc>The market value of seeds is multiplied by this value. Reduce this if you want cheaper seeds to buy.</SPL.Settings.MarketValueModifier.Desc>
 	
-	<SPL.SeedExtractionModifier>Seed extraction modifier (Mod default: {0}, Min: {1}, Max: {2}): </SPL.SeedExtractionModifier>
-	<SPL.SeedExtractionModifierDesc>The amount of seeds extracted from produce is multiplied by this value. Most extractions are {0} by default.</SPL.SeedExtractionModifierDesc>
+	<SPL.Settings.SeedExtractionModifier>Seed extraction modifier (Mod default: {0}, Min: {1}, Max: {2}): </SPL.Settings.SeedExtractionModifier>
+	<SPL.Settings.SeedExtractionModifier.Desc>The amount of seeds extracted from produce is multiplied by this value. Most extractions are {0} by default.</SPL.Settings.SeedExtractionModifier.Desc>
 	
-	<SPL.SeedFactorModifier>Seed factor modifier (Mod default: {0}, Min: {1}, Max: {2}): </SPL.SeedFactorModifier>
-	<SPL.SeedFactorModifierDesc>The number of seeds a plant will normally yield is multiplied by this value. Most plants drop {0} seed by default, with a bonus roll for more.</SPL.SeedFactorModifierDesc>
+	<SPL.Settings.SeedFactorModifier>Seed factor modifier (Mod default: {0}, Min: {1}, Max: {2}): </SPL.Settings.SeedFactorModifier>
+	<SPL.Settings.SeedFactorModifier.Desc>The number of seeds a plant will normally yield is multiplied by this value. Most plants drop {0} seed by default, with a bonus roll for more.</SPL.Settings.SeedFactorModifier.Desc>
+	
+	<SPL.Settings.NoUselessSeeds>No useless seeds for sale</SPL.Settings.NoUselessSeeds>
+	<SPL.Settings.NoUselessSeeds.Desc>If enabled, traders will not sell seeds that are unable to grow within any map that you own.</SPL.Settings.NoUselessSeeds.Desc>
 </LanguageData>

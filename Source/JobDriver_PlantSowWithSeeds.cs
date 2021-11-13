@@ -31,7 +31,7 @@ namespace SeedsPleaseLite
             Scribe_Values.Look (ref sowWorkDone, "sowWorkDone", 0f, false);
         }
 
-        protected override IEnumerable<Toil> MakeNewToils ()
+        public override IEnumerable<Toil> MakeNewToils ()
         {
             this.FailOnDespawnedNullOrForbidden (targetCellIndex);
 
