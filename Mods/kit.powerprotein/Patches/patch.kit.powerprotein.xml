@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 	<Operation Class="PatchOperationAddModExtension">
-		<xpath>Defs/ThingDef[defName="SyntheticPlant"]</xpath>
+		<xpath>Defs/ThingDef[defName="SyntheticPlant" or 
+			defName="KIT_SyntheticChicken" or 
+			defName="KIT_SyntheticBeef" or 
+			defName="KIT_SyntheticMuffalo" or 
+			defName="KIT_SyntheticHuman" or 
+			defName="KIT_SyntheticEgg" or 
+			defName="KIT_SyntheticMilk"]</xpath>
 		<value>
 			<li Class="SeedsPleaseLite.Seedless" />
 		</value>

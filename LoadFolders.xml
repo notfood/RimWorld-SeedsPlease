@@ -119,5 +119,8 @@
 		<li IfModActive="mlie.socialsupplements">Mods/mlie.socialsupplements</li>
 		<li IfModActive="mlie.utilitysupplements">Mods/mlie.utilitysupplements</li>
 		<li IfModActive="mlie.jecstobaccoandcigarettes">Mods/mlie.jecstobaccoandcigarettes</li>
+		<li IfModActive="dandman.grothingthings">Mods/dandman.grothingthings</li>
+		<li IfModActive="super.kenshicuisine">Mods/super.kenshicuisine</li>
+		<li IfModActive="safe.job.world">Mods/safe.job.world</li>
 	</v1.3>
 </loadFolders>

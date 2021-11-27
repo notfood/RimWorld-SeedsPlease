@@ -5,7 +5,6 @@
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>Tailor</effectWorking>
 		<soundWorking>Recipe_Tailor</soundWorking>
-		<requiredGiverWorkType>Tailoring</requiredGiverWorkType>
 		<workSkill>Crafting</workSkill>
 		<workAmount>800</workAmount>
 	</RecipeDef>
@@ -17,7 +16,6 @@
 		<jobString>Extracting seeds.</jobString>
 		<workSpeedStat>CookSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
-		<requiredGiverWorkType>Cooking</requiredGiverWorkType>
 		<workSkill>Cooking</workSkill>
 		<workAmount>500</workAmount>
 		<recipeUsers>
@@ -137,8 +135,8 @@
 			<Crafting>4</Crafting>
 		</skillRequirements>
 		<jobString>Processing herbs.</jobString>
-		<requiredGiverWorkType>Crafting</requiredGiverWorkType>
 		<workAmount>400</workAmount>
+		<workSkill>Intellectual</workSkill>
 		<recipeUsers>
 			<li>CraftingSpot</li>
 			<li>DrugLab</li>
@@ -171,8 +169,8 @@
 			<Crafting>4</Crafting>
 		</skillRequirements>
 		<jobString>Processing herbs.</jobString>
-		<requiredGiverWorkType>Crafting</requiredGiverWorkType>
 		<workAmount>1600</workAmount>
+		<workSkill>Intellectual</workSkill>
 		<recipeUsers>
 			<li>DrugLab</li>
 		</recipeUsers>
