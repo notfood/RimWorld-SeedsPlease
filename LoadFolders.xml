@@ -122,5 +122,7 @@
 		<li IfModActive="dandman.grothingthings">Mods/dandman.grothingthings</li>
 		<li IfModActive="super.kenshicuisine">Mods/super.kenshicuisine</li>
 		<li IfModActive="safe.job.world">Mods/safe.job.world</li>
+		<li IfModActive="barsimmon.originalbyvagabond.fantasygoblins">Mods/barsimmon.originalbyvagabond.fantasygoblins</li>
+		<li IfModActive="dajian.chiteaditional.expanded">Mods/dajian.chiteaditional.expanded</li>
 	</v1.3>
 </loadFolders>

@@ -37,7 +37,7 @@ namespace SeedsPleaseLite
 
             yield return Toils_Reserve.Reserve (targetCellIndex, 1);
 
-            var reserveSeeds = ReserveSeedsIfWillPlantWholeStack ();
+            Toil reserveSeeds = ReserveSeedsIfWillPlantWholeStack ();
             yield return reserveSeeds;
 
             yield return Toils_Goto.GotoThing (seedsTargetIndex, PathEndMode.ClosestTouch)
@@ -49,7 +49,7 @@ namespace SeedsPleaseLite
 
             Toils_Haul.CheckForGetOpportunityDuplicate (reserveSeeds, seedsTargetIndex, TargetIndex.None, false, null);
 
-            var toil = Toils_Goto.GotoCell (targetCellIndex, PathEndMode.Touch);
+            Toil toil = Toils_Goto.GotoCell (targetCellIndex, PathEndMode.Touch);
             yield return toil;
             yield return SowSeedToil ();
             yield return Toils_Reserve.Release (targetCellIndex);

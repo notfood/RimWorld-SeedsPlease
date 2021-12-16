@@ -7,13 +7,13 @@ using System.Collections.Generic;
 
 namespace SeedsPleaseLite
 {
+    //This patch controls the dropping of seeds upon harvest
     [HarmonyPatch(typeof(Plant), nameof(Plant.PlantCollected))]
 	public class Patch_PlantCollected
 	{
         public static void Prefix(ref Plant __instance, Pawn by)
         {
-            //Method name check at the end there isn't great. Hopefully just a temp solution until something better can be thought up
-            if (__instance.def.blueprintDef != null && __instance.def.blueprintDef.HasModExtension<Seed>() && !__instance.def.blueprintDef.thingCategories.NullOrEmpty() && __instance.Growth >= __instance.def.plant.harvestMinGrowth)
+            if ((__instance.def.blueprintDef?.HasModExtension<Seed>() ?? false) && !__instance.def.blueprintDef.thingCategories.NullOrEmpty() && __instance.Growth >= __instance.def.plant.harvestMinGrowth)
             {
                 ThingDef seedDef = __instance.def.blueprintDef;
                 Seed seedDefX = seedDef.GetModExtension<Seed>();
@@ -35,19 +35,20 @@ namespace SeedsPleaseLite
 	    }
     }
 
+    //This is responsible for determining which crops show up on the list when you configue a grow zone
     [HarmonyPatch (typeof(Command_SetPlantToGrow), nameof(Command_SetPlantToGrow.IsPlantAvailable))]
-    static class Patch_Command_SetPlantToGrow
+    static class Patch_IsPlantAvailable
     {
         public static void Postfix(ThingDef plantDef, Map map, ref bool __result)
         {
-            //This is responsible for determining which crops show up on the list when you configue a grow zone
-            if (__result && plantDef != null && plantDef.blueprintDef != null && plantDef.blueprintDef.HasModExtension<Seed>())
+            if (__result && (plantDef?.blueprintDef?.HasModExtension<Seed>() ?? false))
             {
                 __result = map.listerThings.ThingsOfDef(plantDef.blueprintDef).Count > 0;
             }
         }
     }
 
+    //This patches the random resource drop pod event to reduce odds of it being seeds since seeds can overwhelm the loot table
     [HarmonyPatch(typeof(ThingSetMaker_ResourcePod), nameof(ThingSetMaker_ResourcePod.PossiblePodContentsDefs))]
     static class Patch_PossiblePodContentsDefs
     {
@@ -73,6 +74,7 @@ namespace SeedsPleaseLite
         }
     }
 
+    //This patchs traders to adjust their stock generation so they won't try to sell seeds you can't even grow
     [HarmonyPatch(typeof(StockGenerator_Tag), nameof(StockGenerator_Tag.GenerateThings))]
     static class Patch_GenerateThings
     {
@@ -80,17 +82,21 @@ namespace SeedsPleaseLite
         {
             if (SeedsPleaseLite.ModSettings_SeedsPleaseLite.noUselessSeeds) 
             {
+                //Get a list of wild plants that grow in player's map(s)
                 List<ThingDef> wildBiomePlants = new List<ThingDef>();
                 foreach (Map map in Current.Game.Maps)
                 {
                     if (map.IsPlayerHome) map.Biome.wildPlants.ForEach(x => wildBiomePlants.Add(x.plant));
                 }
                 
+                //Get a list of seeds that are sensitive to biome restrictions
                 var seeds = DefDatabase<ThingDef>.AllDefsListForReading.Where
                 (x => 
                     x.HasModExtension<Seed>() && 
                     x.GetModExtension<Seed>().sources.Any(y => y.plant.mustBeWildToSow && y.plant.purpose != PlantPurpose.Beauty)
                 );
+
+                //Of those seeds, determine which ones are useless and add them to the excluded defs list
                 foreach (ThingDef seed in seeds)
                 {
                     

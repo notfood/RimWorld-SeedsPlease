@@ -48,7 +48,7 @@ namespace SeedsPleaseLite
 
         static void Postfix(ThingDef plantDef, Map map, ref bool __result)
         {
-            Patch_Command_SetPlantToGrow.Postfix(plantDef, map, ref __result);
+            Patch_IsPlantAvailable.Postfix(plantDef, map, ref __result);
         }
     }
 }

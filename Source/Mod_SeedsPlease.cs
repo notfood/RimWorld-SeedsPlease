@@ -58,9 +58,7 @@ namespace SeedsPleaseLite
 			base.ExposeData();
 		}
 
-		public static float marketValueModifier = 1f;
-        public static float extractionModifier = 1f;
-        public static float seedFactorModifier = 1f;
+		public static float marketValueModifier = 1f, extractionModifier = 1f, seedFactorModifier = 1f;
 		public static bool noUselessSeeds = true;
 	}
 }

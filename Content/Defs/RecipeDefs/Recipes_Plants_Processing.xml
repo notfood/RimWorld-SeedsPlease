@@ -37,9 +37,9 @@
 			</categories>
 		</fixedIngredientFilter>
 		<defaultIngredientFilter>
-			<categories>
+			<disallowedCategories>
 				<li>SeedExtractable</li>
-			</categories>
+			</disallowedCategories>
 		</defaultIngredientFilter>
 		<specialProducts>
 			<li>Butchery</li>

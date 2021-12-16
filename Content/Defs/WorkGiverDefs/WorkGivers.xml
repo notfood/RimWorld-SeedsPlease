@@ -15,4 +15,21 @@
 		</requiredCapacities>
 		<prioritizeSustains>true</prioritizeSustains>
 	</WorkGiverDef>
+	
+	<WorkGiverDef>
+		<defName>ProcessSeeds</defName>
+		<label>process seeds</label>
+		<giverClass>WorkGiver_DoBill</giverClass>
+		<workType>Cooking</workType>
+		<priorityInType>85</priorityInType>
+		<fixedBillGiverDefs>
+			<li>SeedExtractionSpot</li>
+		</fixedBillGiverDefs>
+		<verb>process</verb>
+		<gerund>processing at</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+		<prioritizeSustains>true</prioritizeSustains>
+	</WorkGiverDef>
 </Defs>
