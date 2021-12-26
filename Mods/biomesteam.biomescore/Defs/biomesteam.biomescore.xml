@@ -1,7 +1,7 @@
 <Defs>
 	<ThingDef ParentName="SeedBase">
-		<defName>Seed_BiomesIslands_CoconutPalm</defName>
-		<label>coconut palm seeds</label>
+		<defName>Seed_BICoconut</defName>
+		<label>coconut seeds</label>
 		<modExtensions>
 			<li Class="SeedsPleaseLite.Seed">
 				<sources>
@@ -13,5 +13,4 @@
 			<texPath>Seeds/CoconutPalm</texPath>
 		</graphicData>
 	</ThingDef>
-	
 </Defs>

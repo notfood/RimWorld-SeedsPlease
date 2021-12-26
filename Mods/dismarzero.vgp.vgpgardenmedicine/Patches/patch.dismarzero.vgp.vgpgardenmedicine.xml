@@ -1,9 +1,39 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-	<Operation Class="PatchOperationAddModExtension">
-		<xpath>Defs/ThingDef[defName="PlantDandelionPatch"]</xpath>
-		<value>
-			<li Class="SeedsPleaseLite.Seedless" />
-		</value>
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationAddModExtension">
+				<xpath>Defs/ThingDef[defName="PlantDandelionPatch"]</xpath>
+				<value>
+					<li Class="SeedsPleaseLite.Seedless" />
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs[ThingDef[defName="Seed_Ambrosia"]]/ThingDef[defName="Seed_Ambrosia"]/modExtensions/li[@Class="SeedsPleaseLite.Seed"]/sources</xpath>
+				<value>
+					<li>VG_PlantAmbrosia</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs[not(ThingDef[defName="Seed_Ambrosia"])]</xpath>
+				<value>
+					<ThingDef ParentName="SeedBase">
+						<defName>Seed_Ambrosia</defName>
+						<label>ambrosia seeds</label>
+						<modExtensions>
+							<li Class="SeedsPleaseLite.Seed">
+								<sources>
+									<li>VG_PlantAmbrosia</li>
+								</sources>
+								<extractable>False</extractable>
+							</li>
+						</modExtensions>
+						<graphicData><texPath>Seeds/Ambrosia</texPath></graphicData>
+					</ThingDef>
+				</value>
+			</li>
+		</operations>
 	</Operation>
-</Patch> 
+</Patch>

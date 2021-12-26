@@ -24,12 +24,12 @@
 		<tradeTags>
 			<li>Seeds</li>
 		</tradeTags>
-		<comps />
 		<ingestible>
 			<preferability>DesperateOnlyForHumanlikes</preferability>
 			<foodType>Plant</foodType>
 			<canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
 		</ingestible>
+		<stackLimit>500</stackLimit>
 	</ThingDef>
 	
 	<!-- Food plants -->

@@ -30,6 +30,7 @@ namespace SeedsPleaseLite
 			seedFactorModifier = options.Slider(seedFactorModifier, 0.2f, 5f);
 
 			options.CheckboxLabeled("SPL.Settings.NoUselessSeeds".Translate(), ref noUselessSeeds, "SPL.Settings.NoUselessSeeds.Desc".Translate());
+			options.CheckboxLabeled("SPL.Settings.ClearSnow".Translate(), ref clearSnow, "SPL.Settings.ClearSnow.Desc".Translate());
 			
 			options.End();
 			base.DoSettingsWindowContents(inRect);
@@ -54,11 +55,12 @@ namespace SeedsPleaseLite
             Scribe_Values.Look<float>(ref extractionModifier, "extractionModifier", 1f, false);
             Scribe_Values.Look<float>(ref seedFactorModifier, "seedFactorModifier", 1f, false);
 			Scribe_Values.Look<bool>(ref noUselessSeeds, "noUselessSeeds", true, false);
+			Scribe_Values.Look<bool>(ref clearSnow, "clearSnow", false, false);
 			
 			base.ExposeData();
 		}
 
 		public static float marketValueModifier = 1f, extractionModifier = 1f, seedFactorModifier = 1f;
-		public static bool noUselessSeeds = true;
+		public static bool noUselessSeeds = true, clearSnow;
 	}
 }

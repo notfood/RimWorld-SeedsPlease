@@ -124,5 +124,7 @@
 		<li IfModActive="safe.job.world">Mods/safe.job.world</li>
 		<li IfModActive="barsimmon.originalbyvagabond.fantasygoblins">Mods/barsimmon.originalbyvagabond.fantasygoblins</li>
 		<li IfModActive="dajian.chiteaditional.expanded">Mods/dajian.chiteaditional.expanded</li>
+		<li IfModActive="dianawinters.orassans">Mods/dianawinters.orassans</li>
+		<li IfModActive="aspwil.humanplants">Mods/aspwil.humanplants</li>
 	</v1.3>
 </loadFolders>

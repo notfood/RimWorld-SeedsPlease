@@ -20,15 +20,26 @@ namespace SeedsPleaseLite
             {
                 Map map = pawn.Map;
 
-                // Clear the area
+                // Prepare the field
                 foreach (IntVec3 cell in c.GetZone(map)?.cells ?? Enumerable.Empty<IntVec3>())
                 {
+                    //Clear plants
                     foreach (Thing thing in map.thingGrid.ThingsListAtFast(cell))
                     {
-                        if (thing.def != job.plantDefToSow && thing.def.BlocksPlanting(true) && pawn.CanReserve(thing) && !thing.IsForbidden(pawn))
+                        if (thing.def != job.plantDefToSow && pawn.CanReserve(thing) && !thing.IsForbidden(pawn))
                         {
                             if (thing.def.category == ThingCategory.Plant) return new Job(JobDefOf.CutPlant, thing);
-                            if (thing.def.EverHaulable) return HaulAIUtility.HaulAsideJobFor(pawn, thing);
+                            if (thing.def.EverHaulable && thing.def.BlocksPlanting(true)) return HaulAIUtility.HaulAsideJobFor(pawn, thing);
+                        }
+                    }
+                    //Check if snow needs clearing
+                    if (ModSettings_SeedsPleaseLite.clearSnow && !PlantUtility.SnowAllowsPlanting(cell, map))
+                    {
+                        Job clearSnowJob = JobMaker.MakeJob(JobDefOf.ClearSnow, cell);
+                        if (clearSnowJob.MakeDriver(pawn).TryMakePreToilReservations(false))
+                        {
+                            pawn.ClearReservationsForJob(clearSnowJob);
+                            return clearSnowJob;
                         }
                     }
                 }

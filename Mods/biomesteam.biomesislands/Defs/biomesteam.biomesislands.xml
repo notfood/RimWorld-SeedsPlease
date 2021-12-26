@@ -30,21 +30,6 @@
 	</ThingDef>
 	
 	<ThingDef ParentName="SeedBase">
-		<defName>Seed_BICoconut</defName>
-		<label>coconut seeds</label>
-		<modExtensions>
-			<li Class="SeedsPleaseLite.Seed">
-				<sources>
-					<li>BiomesIslands_CoconutPalm</li>
-				</sources>
-			</li>
-		</modExtensions>
-		<graphicData>
-			<texPath>Seeds/CoconutPalm</texPath>
-		</graphicData>
-	</ThingDef>
-	
-	<ThingDef ParentName="SeedBase">
 		<defName>Seed_BIBanana</defName>
 		<label>banana seeds</label>
 		<modExtensions>

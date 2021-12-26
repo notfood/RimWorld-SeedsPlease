@@ -16,12 +16,6 @@ namespace SeedsPleaseLite
         }
 
         [DefOf]
-        public static class ThingDefOf
-        {
-            public static ThingDef Seed_Psychoid;
-        }
-
-        [DefOf]
         public static class ThingCategoryDefOf
         {
             public static ThingCategoryDef SeedExtractable;

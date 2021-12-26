@@ -63,6 +63,9 @@
 		<descriptionHyperlinks>
 			<ThingDef>Plant_Tinctoria</ThingDef>
 		</descriptionHyperlinks>
+		<statBases>
+			<MarketValue>4.25</MarketValue>
+		</statBases>
 		<modExtensions>
 			<li Class="SeedsPleaseLite.Seed">
 				<sources>

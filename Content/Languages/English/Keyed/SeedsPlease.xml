@@ -19,4 +19,7 @@
 	
 	<SPL.Settings.NoUselessSeeds>No useless seeds for sale</SPL.Settings.NoUselessSeeds>
 	<SPL.Settings.NoUselessSeeds.Desc>If enabled, traders will not sell seeds that are unable to grow within any map that you own.</SPL.Settings.NoUselessSeeds.Desc>
+	
+	<SPL.Settings.ClearSnow>Clear snow before sowing</SPL.Settings.ClearSnow>
+	<SPL.Settings.ClearSnow.Desc>If enabled, pawns will clear any snow greater than 20% deep before sowing. This feature is optional and exists more for aesthetics and realism purposes.</SPL.Settings.ClearSnow.Desc>
 </LanguageData>
