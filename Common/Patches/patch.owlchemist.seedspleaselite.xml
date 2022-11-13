@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Patch>
 	<Operation Class="PatchOperationSequence">
-        <success>Always</success>
-        <operations>
+		<success>Always</success>
+		<operations>
 			<!-- Comms console for traders -->
-            <li Class="PatchOperationAdd">
+			<li Class="PatchOperationAdd">
 				<success>Always</success>
-                <xpath>/Defs/FactionDef[@Name="OutlanderFactionBase" or @Name="TribeBase"]/caravanTraderKinds</xpath>
-                <value>
-                    <li>Caravan_GreenHouseTrader</li>
+				<xpath>/Defs/FactionDef[@Name="OutlanderFactionBase" or @Name="TribeBase"]/caravanTraderKinds</xpath>
+				<value>
+					<li>Caravan_GreenHouseTrader</li>
 				</value>
 			</li>
 			<!-- Wild heatroot patch -->
@@ -19,10 +19,10 @@
 					<harvestedThingDef>RawHealroot</harvestedThingDef>
 				</value>
 			</li>
-			<!-- Caravan traders -->
+			<!-- Add seeds to any traders that sell plant-related, resource, or genetic (modified seeds exist!) goods -->
 			<li Class="PatchOperationAdd">
 				<success>Always</success>
-				<xpath>Defs/TraderKindDef[defName = "Caravan_Neolithic_BulkGoods" or defName = "Caravan_Outlander_BulkGoods" or defName = "Visitor_Neolithic_Standard" or defName = "Visitor_Outlander_Standard"]/stockGenerators</xpath>
+				<xpath>Defs/TraderKindDef/stockGenerators[li/categoryDef="ResourcesRaw" or li/categoryDef="FoodRaw" or li/thingDef="WoodLog" or li/thingDef="Pemmican" or li/thingDef="Kibble" or li/thingDef="Hay" or li/thingDef="Dye" or li/thingDef="Cloth" or li/thingDef="Genepack" or li/thingDef="MedicineHerbal" or li/thingDef="Beer" or li/thingDef="MealSurvivalPack" or li/thingDef="VFEI_DroneGenome" or li/thingDef="VFEM_Wine"]</xpath>
 				<value>
 					<li Class="StockGenerator_Tag">
 						<tradeTag>Seeds</tradeTag>
@@ -37,6 +37,7 @@
 					</li>
 				</value>
 			</li>
+			<!-- This patch will be applied in addition to the generic seed-patch above this one -->
 			<li Class="PatchOperationAdd">
 				<success>Always</success>
 				<xpath>Defs/TraderKindDef[defName = "Orbital_BulkGoods"]/stockGenerators</xpath>
@@ -44,8 +45,8 @@
 					<li Class="StockGenerator_Tag">
 						<tradeTag>Seeds</tradeTag>
 						<thingDefCountRange>
-							<min>5</min>
-							<max>7</max>
+							<min>2</min>
+							<max>4</max>
 						</thingDefCountRange>
 						<countRange>
 							<min>9</min>
@@ -82,17 +83,17 @@
 					<li>ButcherSpot</li>
 				</value>
 			</li>
-			
+
 			<!-- Add related buildings -->
 			<li Class="PatchOperationAdd">
-				
+
 				<xpath>Defs/ThingDef[label[contains(text(), "stove")] and building and building/isMealSource]/building[not(relatedBuildCommands)]</xpath>
 				<value>
 					<relatedBuildCommands />
 				</value>
 			</li>
 			<li Class="PatchOperationAdd">
-				
+
 				<xpath>Defs/ThingDef[label[contains(text(), "stove")] and building and building/isMealSource]/building/relatedBuildCommands</xpath>
 				<value>
 					<li>SeedExtractionSpot</li>
