@@ -200,7 +200,8 @@ namespace SeedsPleaseLite
                 SeedsCategory.childThingDefs.Add(seed);
 
                 //Short hash
-                ShortHashGiver.GiveShortHash(seed, typeof(ThingDef));
+                HashSet<ushort> takenHashes = ShortHashGiver.takenHashesPerDeftype[typeof(ThingDef)];
+                ShortHashGiver.GiveShortHash(seed, typeof(ThingDef), takenHashes);
 				
                 //Add the seed to the database and let it resolve its links with other defs
                 DefDatabase<ThingDef>.Add(seed);
@@ -258,6 +259,9 @@ namespace SeedsPleaseLite
                     + thisProduce.defName + " but this produce already contains seeds for " + thisProduce.butcherProducts[0].thingDef.defName + 
                     ". This will need to be resolved manually, please report.");
                 }
+
+                //Don't allow null lists
+                if (thisProduce.thingCategories == null) thisProduce.thingCategories = new List<ThingCategoryDef>();
 
                 //Add category
                 if (!thisProduce.thingCategories.Contains(se))

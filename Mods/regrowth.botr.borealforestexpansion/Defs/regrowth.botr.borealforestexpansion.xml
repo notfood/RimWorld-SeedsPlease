@@ -5,7 +5,7 @@
 		<modExtensions>
 			<li Class="SeedsPleaseLite.Seed">
 				<sources>
-					<li>RG-BF_Plant_BlueTreePine</li>
+					<li>RG_Plant_BlueTreePine</li>
 				</sources>
 			</li>
 		</modExtensions>
@@ -13,7 +13,7 @@
 			<texPath>Seeds/BluePine</texPath>
 		</graphicData>
 		<descriptionHyperlinks>
-			<ThingDef>RG-BF_Plant_BlueTreePine</ThingDef>
+			<ThingDef>RG_Plant_BlueTreePine</ThingDef>
 		</descriptionHyperlinks>
 	</ThingDef>
 	
@@ -23,7 +23,7 @@
 		<modExtensions>
 			<li Class="SeedsPleaseLite.Seed">
 				<sources>
-					<li>RG-BF_Plant_OrangeTreePine</li>
+					<li>RG_Plant_OrangeTreePine</li>
 				</sources>
 			</li>
 		</modExtensions>
@@ -31,7 +31,7 @@
 			<texPath>Seeds/OrangePine</texPath>
 		</graphicData>
 		<descriptionHyperlinks>
-			<ThingDef>RG-BF_Plant_OrangeTreePine</ThingDef>
+			<ThingDef>RG_Plant_OrangeTreePine</ThingDef>
 		</descriptionHyperlinks>
 	</ThingDef>
 	
@@ -41,7 +41,7 @@
 		<modExtensions>
 			<li Class="SeedsPleaseLite.Seed">
 				<sources>
-					<li>RG-BF_Plant_LargeTreePine</li>
+					<li>RG_Plant_LargeTreePine</li>
 				</sources>
 			</li>
 		</modExtensions>
@@ -49,7 +49,7 @@
 			<texPath>Seeds/LargePine</texPath>
 		</graphicData>
 		<descriptionHyperlinks>
-			<ThingDef>RG-BF_Plant_LargeTreePine</ThingDef>
+			<ThingDef>RG_Plant_LargeTreePine</ThingDef>
 		</descriptionHyperlinks>
 	</ThingDef> 
 	
@@ -59,7 +59,7 @@
 		<modExtensions>
 			<li Class="SeedsPleaseLite.Seed">
 				<sources>
-					<li>RG-BF_Plant_Potokus</li>
+					<li>RG_Plant_Potokus</li>
 				</sources>
 				<extractable>False</extractable>
 			</li>
@@ -68,7 +68,7 @@
 			<texPath>Seeds/Potokus</texPath>
 		</graphicData>
 		<descriptionHyperlinks>
-			<ThingDef>RG-BF_Plant_Potokus</ThingDef>
+			<ThingDef>RG_Plant_Potokus</ThingDef>
 		</descriptionHyperlinks>
-	</ThingDef> 
+	</ThingDef>
 </Defs>

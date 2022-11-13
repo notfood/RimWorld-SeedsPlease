@@ -61,7 +61,10 @@ namespace SeedsPleaseLite
                     if (pawn.Faction == null) return;
                     Thing thing = job.GetTarget (seedsTargetIndex).Thing;
                     if (pawn.carryTracker.CarriedThing == thing) return;
-                    if (job.count >= thing.stackCount) pawn.Reserve(thing, job, 1);
+                    if (job.count >= thing.stackCount) 
+                    {
+                        if (!pawn.Reserve(thing, job, 1, -1, null, false)) return;
+                    }
                 },
                 defaultCompleteMode = ToilCompleteMode.Instant,
                 atomicWithPrevious = true

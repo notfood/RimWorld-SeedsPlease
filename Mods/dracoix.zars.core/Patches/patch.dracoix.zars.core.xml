@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+			<li Class="PatchOperationAddModExtension">
+				<xpath>Defs/ThingDef[defName="ZARS_HarvestPatch_Plant_Haygrass" or defName="ZARS_HarvestPot_Plant_Haygrass" or defName="ZARS_HarvestPot_Plant_Hay"]</xpath>
+				<value>
+					<li Class="SeedsPleaseLite.Seedless" />
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch> 

@@ -1,0 +1,20 @@
+<Patch>
+	<Operation Class="VFECore.PatchOperationToggableSequence">
+		<enabled>False</enabled>
+		<mods>
+			<li>Core</li>
+		</mods>
+		<label>Sowable grass:</label>
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="Plant_Grass"]/plant</xpath>
+				<value>
+					<sowWork>200</sowWork>
+					<sowTags>
+						<li>Ground</li>
+					</sowTags>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

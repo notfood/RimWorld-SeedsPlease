@@ -1,22 +1,11 @@
-<Defs>
-	<ThingDef ParentName="SeedBase">
-		<defName>Seed_RG-D_AngelWingsCactus</defName>
-		<label>Angel wings cactus seeds</label>
-		<modExtensions>
-			<li Class="SeedsPleaseLite.Seed">
-				<sources>
-					<li>RG-D_Plant_AngelWingsCactus</li>
-				</sources>
-			</li>
-		</modExtensions>
-		<graphicData>
-			<texPath>Seeds/AngelWingsCactus</texPath>
-		</graphicData>
-	</ThingDef>
-	
+<Defs>	
+	<!-- SeedsPlease :: RG-D_Plant_DesertPalmTree(regrowth.botr.desertexpansion)Inserted to Seed_RG-D_DesertPalm-->
 	<ThingDef ParentName="SeedBase">
 		<defName>Seed_RG-D_DesertPalm</defName>
 		<label>Desert palm seeds</label>
+		<descriptionHyperlinks>
+			<ThingDef>RG-D_Plant_DesertPalmTree</ThingDef>
+		</descriptionHyperlinks>
 		<modExtensions>
 			<li Class="SeedsPleaseLite.Seed">
 				<sources>
@@ -24,8 +13,5 @@
 				</sources>
 			</li>
 		</modExtensions>
-		<graphicData>
-			<texPath>Seeds/Palm</texPath>
-		</graphicData>
 	</ThingDef>
 </Defs>

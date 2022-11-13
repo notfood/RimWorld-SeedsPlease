@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<RecipeDef Abstract="True" Name="ProcessRaw">
+		<jobString>Processing fabrics.</jobString>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>Tailor</effectWorking>
+		<soundWorking>Recipe_Tailor</soundWorking>
+		<workSkill>Crafting</workSkill>
+		<workAmount>800</workAmount>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>ExtractSeeds</defName>
+		<label>extract seeds</label>
+		<description>Extract seeds from produce.</description>
+		<jobString>Extracting seeds.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<workSkill>Cooking</workSkill>
+		<workAmount>500</workAmount>
+		<recipeUsers>
+			<li>SeedExtractionSpot</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SeedExtractable</li>
+					</categories>
+				</filter>
+				<count>8</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SeedExtractable</li>
+			</categories>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<disallowedCategories>
+				<li>SeedExtractable</li>
+			</disallowedCategories>
+		</defaultIngredientFilter>
+		<specialProducts>
+			<li>Butchery</li>
+		</specialProducts>
+		<workerCounterClass>SeedsPleaseLite.RecipeWorkerCounter_ExtractSeeds</workerCounterClass>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="ProcessRaw">
+		<defName>ProcessRawCotton</defName>
+		<label>weave cotton cloth</label>
+		<description>Weave Raw Cotton into Cloth.</description>
+		<descriptionHyperlinks>
+			<ThingDef>RawCotton</ThingDef>
+			<ThingDef>Cloth</ThingDef>
+		</descriptionHyperlinks>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawCotton</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>RawCotton</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Cloth>20</Cloth>
+		</products>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
+		<recipeUsers>
+			<li>HandTailoringBench</li>
+			<li>ElectricTailoringBench</li>
+		</recipeUsers>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="ProcessRaw">
+		<defName>ProcessRawDevilstrand</defName>
+		<label>weave devilstrand cloth</label>
+		<description>Weave Raw Devilstrand into Cloth.</description>
+		<descriptionHyperlinks>
+			<ThingDef>RawDevilstrand</ThingDef>
+			<ThingDef>DevilstrandCloth</ThingDef>
+		</descriptionHyperlinks>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawDevilstrand</li>
+					</thingDefs>
+				</filter>
+				<count>12</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>RawDevilstrand</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<DevilstrandCloth>12</DevilstrandCloth>
+		</products>
+		<skillRequirements>
+			<Crafting>8</Crafting>
+		</skillRequirements>
+		<recipeUsers>
+			<li>HandTailoringBench</li>
+			<li>ElectricTailoringBench</li>
+		</recipeUsers>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="ProcessRaw">
+		<defName>ProcessRawHealroot</defName>
+		<label>make herbal medicine</label>
+		<description>Process Raw Healroot into Herbal Medicine.</description>
+		<descriptionHyperlinks>
+			<ThingDef>RawHealroot</ThingDef>
+			<ThingDef>MedicineHerbal</ThingDef>
+		</descriptionHyperlinks>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawHealroot</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>RawHealroot</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<MedicineHerbal>1</MedicineHerbal>
+		</products>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
+		<jobString>Processing herbs.</jobString>
+		<workAmount>400</workAmount>
+		<workSkill>Intellectual</workSkill>
+		<recipeUsers>
+			<li>CraftingSpot</li>
+			<li>DrugLab</li>
+		</recipeUsers>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="ProcessRaw">
+		<defName>ProcessRawHealrootBulk</defName>
+		<label>make herbal medicine x4</label>
+		<description>Process Raw Healroot into Herbal Medicine.</description>
+		<descriptionHyperlinks>
+			<ThingDef>RawHealroot</ThingDef>
+			<ThingDef>MedicineHerbal</ThingDef>
+		</descriptionHyperlinks>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawHealroot</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>RawHealroot</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<MedicineHerbal>4</MedicineHerbal>
+		</products>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
+		<jobString>Processing herbs.</jobString>
+		<workAmount>1600</workAmount>
+		<workSkill>Intellectual</workSkill>
+		<recipeUsers>
+			<li>DrugLab</li>
+		</recipeUsers>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>ProcessRawCocoa</defName>
+		<label>make chocolate</label>
+		<description>Cocoa Beans grinded with sweeteners and cooked into Chocolate.</description>
+		<descriptionHyperlinks>
+			<ThingDef>RawCocoaBeans</ThingDef>
+			<ThingDef>Chocolate</ThingDef>
+		</descriptionHyperlinks>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawCocoaBeans</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>RawCocoaBeans</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Chocolate>10</Chocolate>
+		</products>
+		<workAmount>400</workAmount>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<workSkill>Cooking</workSkill>
+		<skillRequirements>
+			<Cooking>4</Cooking>
+		</skillRequirements>
+		<recipeUsers>
+			<li>FueledStove</li>
+			<li>ElectricStove</li>
+		</recipeUsers>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>ProcessRawTinctoria</defName>
+		<label>make dye</label>
+		<description>make dye by processing the leaves of a tinctoria plant.</description>
+		<descriptionHyperlinks>
+			<ThingDef>RawTinctoria</ThingDef>
+			<ThingDef>Dye</ThingDef>
+		</descriptionHyperlinks>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawTinctoria</li>
+					</thingDefs>
+				</filter>
+				<count>16</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>RawTinctoria</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Dye>4</Dye>
+		</products>
+		<workAmount>400</workAmount>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<workSkill>Cooking</workSkill>
+		<skillRequirements>
+			<Cooking>4</Cooking>
+		</skillRequirements>
+		<recipeUsers>
+			<li>FueledStove</li>
+			<li>ElectricStove</li>
+		</recipeUsers>
+	</RecipeDef>
+</Defs>

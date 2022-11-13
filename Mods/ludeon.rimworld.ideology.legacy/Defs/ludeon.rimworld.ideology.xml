@@ -53,4 +53,28 @@
 			</li>
 		</modExtensions>
 	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_Tinctoria</defName>
+		<label>tinctoria seeds</label>
+		<graphicData>
+			<texPath>Seeds/Tinctoria</texPath>
+		</graphicData>
+		<descriptionHyperlinks>
+			<ThingDef>Plant_Tinctoria</ThingDef>
+		</descriptionHyperlinks>
+		<statBases>
+			<MarketValue>4.25</MarketValue>
+		</statBases>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>Plant_Tinctoria</li>
+					<li MayRequire="jelly.wildcultivation">PlantWild_Tinctoria</li>
+				</sources>
+				<harvestOverride>RawTinctoria</harvestOverride>
+				<harvestFactor>4</harvestFactor>
+			</li>
+		</modExtensions>
+	</ThingDef>
 </Defs>

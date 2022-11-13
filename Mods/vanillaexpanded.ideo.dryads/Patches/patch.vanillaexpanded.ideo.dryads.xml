@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+			<li Class="PatchOperationAddModExtension">
+				<xpath>Defs/ThingDef[defName="VDE_AmbrosiaPalm"]</xpath>
+				<value>
+					<li Class="SeedsPleaseLite.Seedless" />
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch> 
