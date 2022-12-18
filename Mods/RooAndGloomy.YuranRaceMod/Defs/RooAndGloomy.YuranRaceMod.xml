@@ -1,0 +1,20 @@
+<Defs>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_YR_Big</defName>
+		<label>Yuran cherry tree seed</label>
+		<descriptionHyperlinks>
+			<ThingDef>YR_Plant_BigTree</ThingDef>
+		</descriptionHyperlinks>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>YR_Plant_BigTree</li>
+				</sources>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Seeds/TreeMaple</texPath>
+		</graphicData>
+	</ThingDef>
+</Defs>

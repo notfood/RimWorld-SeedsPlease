@@ -1,0 +1,20 @@
+<Defs>
+		
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_SPBD_Ivy</defName>
+		<label>Ivy seed</label>
+		<descriptionHyperlinks>
+			<ThingDef>SPBD_Ivy</ThingDef>
+		</descriptionHyperlinks>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>SPBD_Ivy</li>
+				</sources>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Seeds/Hops</texPath>
+		</graphicData>
+	</ThingDef>
+</Defs>

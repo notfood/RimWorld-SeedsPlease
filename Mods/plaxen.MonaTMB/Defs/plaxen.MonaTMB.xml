@@ -1,0 +1,38 @@
+<Defs>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_Mugwort</defName>
+		<label>Mugwort seed</label>
+		<descriptionHyperlinks>
+			<ThingDef>Plant_Mugwort</ThingDef>
+		</descriptionHyperlinks>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>Plant_Mugwort</li>
+				</sources>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Seeds/Agave</texPath>
+		</graphicData>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_Dallae</defName>
+		<label>Dallae seed</label>
+		<descriptionHyperlinks>
+			<ThingDef>Plant_Dallae</ThingDef>
+		</descriptionHyperlinks>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>Plant_Dallae</li>
+				</sources>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Seeds/Corn</texPath>
+		</graphicData>
+	</ThingDef>
+</Defs>

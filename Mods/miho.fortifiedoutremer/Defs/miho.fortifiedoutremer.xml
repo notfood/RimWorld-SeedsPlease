@@ -1,0 +1,39 @@
+<Defs>
+
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_PosFlower</defName>
+		<label>Posflower seed</label>
+		<descriptionHyperlinks>
+			<ThingDef>Plant_PosFlower</ThingDef>
+		</descriptionHyperlinks>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>Plant_PosFlower</li>
+				</sources>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Seeds/Seeds</texPath>
+		</graphicData>
+	</ThingDef>
+	
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_Ebony_Silk</defName>
+		<label>Ebony silk seed</label>
+		<descriptionHyperlinks>
+			<ThingDef>Plant_Ebony_Silk</ThingDef>
+		</descriptionHyperlinks>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>Plant_Ebony_Silk</li>
+				</sources>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Seeds/TreeCecropia</texPath>
+		</graphicData>
+	</ThingDef>
+	
+</Defs>
